@@ -1,0 +1,192 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 49 - PCs and Peripherals/A+
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+42.5 hours Lecture
+76.5 hours Lab
+
+4 Unit(s)
+
+This is an introductory course in computer hardware, operating systems and connectivity. The course
+prepares students to take the CompTIA A+ exams. The focus of this course is to develop an
+understanding of personal computing devices, including terminology, safety, assembly, operating
+system installation, configuration, optimization, security, and industry best practices.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Define terminology, concepts, and functions of end-user Information Technology (IT) systems.
+B. Identify, describe, install, upgrade and configure system components including: System board,
+power supply, Central Processing Unit (CPU), Random Access Memory (RAM), secondary
+storage devices, Graphics Processing Unit (GPU) according to established industry procedure.
+C. Install, configure, upgrade, and maintain desktop operating systems and mobile devices
+following established industry procedures.
+D. Analyze, diagnose, and repair system hardware and software malfunctions to successful
+resolution.
+E. Compare the functions and configure the Basic Input/Output System (BIOS) and Unified
+Extensible Firmware Interface (UEFI).
+F. Implement a variety of preventative maintenance practices for securing and optimizing end-user
+systems.
+G. Identify network models, hardware, protocols, diagnostic procedures, and tools for managing
+and troubleshooting connectivity.
+H. Identify a variety of notebooks, portable and peripheral devices, and describe the repair
+strategies specific to each.
+I. Summarize the basics of client side virtualization and cloud concepts.
+J. Formulate and implement a backup policy to ensure data recovery.
+K. Demonstrate ethical, professional behavior and communications skills including listening,
+tact/discretion, and cultural awareness when communicating with customers and colleagues.
+L. Given a scenario, perform installation, configuration and troubleshooting of print and imaging
+devices.
+M. Identify common features and functionality of Mac OS X, Linux and mobile operating system
+platforms.
+N. Identify common security threats and vulnerabilities and deploy best practices within a given
+scenario.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. First Look at Computer Parts and Tools
+2. Working Inside Desktop Computers and Laptops
+
+Hours
+2.00
+2.00
+
+3. All About Motherboards
+4. Supporting Processors and Upgrading Memory
+5. Supporting the Power System and Troubleshooting Computers
+6. Supporting Hard Drives and Other Storage Devices
+7. Survey of Windows Features and Support Tools
+8. Installing Windows
+9. Supporting I/O Devices
+10. Maintaining Windows
+11. Optimizing Windows
+12. Supporting Customers, Securing and Troubleshooting Windows
+13. Troubleshooting Windows Startup
+14. Connecting to and Setting up a Network
+15. Supporting Network Hardware
+16. Supporting Mobile Operating Systems
+17. Windows Resources on a Network
+18. Security Strategies
+19. Supporting Printers and Customizing a System
+20. Virtualization, Linux, and Mac OS X
+Total Hours
+
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.50
+2.00
+2.00
+2.00
+3.00
+2.00
+2.50
+2.00
+2.50
+42.50
+
+Lab
+Topics
+1. First Look at Computer Parts and Tools
+2. Working Inside Desktop Computers and Laptops
+3. All About Motherboards
+4. Supporting Processors and Upgrading Memory
+5. Supporting the Power System and Troubleshooting Computers
+6. Supporting Hard Drives and Other Storage Devices
+7. Survey of Windows Features and Support Tools
+8. Installing Windows
+9. Supporting I/O Devices
+10. Maintaining Windows
+11. Optimizing Windows
+12. Supporting Customers and Troubleshooting Windows
+13. Troubleshooting Windows Startup
+14. Connecting to and Setting up a Network
+15. Supporting Network Hardware
+16. Supporting Mobile Operating Systems
+17. Windows Resources on a Network
+18. Security Strategies
+19. Supporting Printers and Customizing a System
+20. Virtualization, Linux, and Mac OS X
+Total Hours
+
+Hours
+4.00
+3.00
+4.00
+4.00
+4.00
+4.00
+4.50
+6.00
+3.00
+3.00
+3.00
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+3.00
+3.00
+4.00
+76.50
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Demonstrations
+D. Multimedia Presentations
+E. Laboratory Experiments
+F. Lab Activities
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Homework
+C. Lab Projects
+D. Practical Evaluations
+E. Essays and research papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the procedure for installing an operating system on a new hard drive. Create a
+checklist form of the requirements for that installation. Include all of the configuration
+information. Be prepared to demonstrate the procedure and required steps in class on your
+lab computer.
+2. Read the knowledge base (KB) article on upgrading to windows 10. Be prepared to
+explain in class the ramifications of that upgrade
+B. Writing Assignments
+1. Complete a one page report on the wireless access points (WAP) lab. In your report, be
+sure to address security issues associated with WAPs, including the types of encryption
+available.
+2. Given a hypothetical office scenario, create a 5 page business proposal to purchase,
+implement and install the office infrastructure best suited to the business. It should
+include: a cover letter, detailed equipment list, custom built PCs, software, monitors,
+network hardware infrastructure, and topology (map), security, backup plan and a detailed
+invoice.
+C. Out-of-Class Assignments
+1. Visit a local retailer of IT products. Survey the types and variety of devices being sold, and
+speak with a salesperson. Pay particular attention to the level of knowledge of the
+salesperson you speak with. Be prepared to present what you learn in class.
+2. Research the various types of IT careers available locally. Find out what the average pay
+scale is and what additional skills or education/certifications are required to advance in
+that career. Be prepared to present your findings to the class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Andrews, J. A+ Guide to IT Technical Support. 9th Edition. Cengage, 2017.
+Materials Other Than Textbooks:
+A. Portable storage device
+
+Created/Revised by: Linda Fischer
+
+Created/Revised by: Linda Fischer
+Date: 03/07/2016
+
+

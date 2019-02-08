@@ -1,0 +1,231 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+PSC 12 - Concepts in Physical Science
+Prerequisite(s): MATH 108 or Math Level IV
+Recommended Prep: Reading Level IV; English Level IV
+Transfer Status: CSU/UC
+51 hours Lecture
+51 hours Lab
+
+4 Unit(s)
+
+This course is an investigation of basic principles of physics and chemistry including matter, physical
+and chemical properties, energy, motion, light, atomic structure, bonding, solutions and chemical
+reactions. The inter-dependence of chemistry and physics will be emphasized. This course is intended
+for non-science majors. (C-ID PHYS 140).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the states of matter and associate phase changes.
+B. Classify matter as elements, compounds, mixtures and describe properties of each.
+C. Describe basic atomic structure including the fundamental particles and electron energy levels.
+D. Explain the history and structure of the periodic table.
+E. Explain and describe different ways atoms combine to form compounds.
+F. Describe the motion of objects as related through the concepts of position, displacement, speed,
+velocity and acceleration.
+G. Use Newton’s Laws to predict and explain the motion of an object.
+H. Discuss the type of energy present in a system and use conservation of energy to solve
+problems.
+I. Explain the requirements for a complete circuit in terms of a model of electric charge.
+J. Describe color perception based on the wave nature of light and its interactions.
+K. Understand fundamentals of taking and recording measurements including measuring length,
+area, volume, mass, density, significant figures, converting between units and scientific notation.
+(Lab)
+L. Practical applications to both the chemistry and physics lecture objectives. (Lab)
+M. Drawing conclusions between data and results including constructing graphs and identifying
+relationships. (Lab)
+N. Utilize scientific methodologies solving a problem.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Measurement and Fundamental Properties
+• Fundamentals of measuring length, area, volume and mass
+• Density of materials
+• The Scientific Method
+2. Structure of Matter
+
+Hours
+3.00
+
+11.00
+
+2. Structure of Matter
+• Atomic theory and basic atomic structure including the relationships
+between sub-atomic particles
+• Periodic Table of Elements and periodic trends to atomic structure
+• Characteristics of the atomic, ionic, and molecular classes of matter
+• Phases of matter (solids, liquids, and gases) and the connections between
+the properties using a particle model
+• Classification of matter--elements, substances, compounds, mixtures
+• Basic characteristics of solutions, including acids and bases, and their
+relationship to the pH scale
+3. Matter and its Changes
+• Phases of matter and associated phase changes
+• Chemical and physical changes, and classifying chemical and physical
+properties of matter
+• Basic principles of chemical bonding and chemical reactivity
+• Energy changes during chemical reactions
+4. Motion, Forces and Energy
+• Motion of objects as related through the concepts of position,
+displacement, speed, velocity, and acceleration
+• Interpretation of distance vs. time and speed vs. time graphs
+• The relationship between a net force and the motion of an object
+• Explain how action and reaction forces are related to each other
+• Basic forces in the universe including electrostatic, gravitational and
+magnetic
+• Forms of energy including solar, chemical, magnetic, electric, nuclear, and
+thermal
+• The relationship between net force, work, and kinetic energy
+• Conservation of energy, and how energy is transformed from one form to
+another
+• The nature of heat (thermal energy) and heat transfer (conductive,
+convective, radiant) and their relationship to temperature and temperature
+measurement
+5. Electricity and Magnetism
+• Electric charge and how charge is transferred from one object to another
+• Models of electric current, voltage, resistance and their interrelationships
+• The construction and operation of simple electrical circuits and the
+difference between series and parallel combinations of resistors
+6. Waves and Light
+• Longitudinal and transverse waves
+• Properties of sound
+• Doppler effect and Interference
+• Electromagnetic radiation (light), the electromagnetic spectrum and
+sources of light
+• Relationship between wavelength (or frequency) and color
+• Color perception
+• Reflection and refraction of waves
+Total Hours
+
+11.00
+
+9.00
+
+14.00
+
+7.00
+
+7.00
+
+51.00
+
+Lab
+Topics
+1. Measurement and Fundamental Properties
+
+Hours
+6.00
+
+1. Measurement and Fundamental Properties
+• Fundamentals of measuring length, area, volume and mass
+• Density of materials
+• The Scientific Method
+2. Structure of Matter
+• Atomic theory and basic atomic structure including the relationships
+between sub-atomic particles
+• Periodic Table of Elements and periodic trends to atomic structure
+• Characteristics of the atomic, ionic, and molecular classes of matter
+• Phases of matter (solids, liquids, and gases) and the connections between
+the properties using a particle model
+• Classification of matter--elements, substances, compounds, mixtures
+• Basic characteristics of solutions, including acids and bases, and their
+relationship to the pH scale
+3. Matter and its Changes
+• Phases of matter and associated phase changes
+• Chemical and physical changes, and classifying chemical and physical
+properties of matter
+• Basic principles of chemical bonding and chemical reactivity
+• Energy changes during chemical reactions
+4. Motion, Forces and Energy
+• Motion of objects as related through the concepts of position,
+displacement, speed, velocity, and acceleration
+• Interpretation of distance vs. time and speed vs. time graphs
+• The relationship between a net force and the motion of an object
+• Explain how action and reaction forces are related to each other
+• Basic forces in the universe including electrostatic, gravitational and
+magnetic
+• Forms of energy including solar, chemical, magnetic, electric, nuclear, and
+thermal
+• The relationship between net force, work, and kinetic energy
+• Conservation of energy, and how energy is transformed from one form to
+another
+• The nature of heat (thermal energy) and heat transfer (conductive,
+convective, radiant) and their relationship to temperature and temperature
+measurement
+5. Electricity and Magnetism
+• Electric charge and how charge is transferred from one object to another
+• Models of electric current, voltage, resistance and their interrelationships
+• The construction and operation of simple electrical circuits and the
+difference between series and parallel combinations of resistors
+6. Waves and Light
+• Longitudinal and transverse waves
+• Properties of sound
+• Doppler effect and Interference
+• Electromagnetic radiation (light), the electromagnetic spectrum and
+sources of light
+• Relationship between wavelength (or frequency) and color
+• Color perception
+• Reflection and refraction of waves
+Total Hours
+
+6.00
+
+9.00
+
+9.00
+
+15.00
+
+6.00
+
+6.00
+
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+B. Lecture and Discussion
+C. Demonstrations and Visual Aids
+D. Internet Explorations
+E. Laboratory Exercises
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Research Projects
+D. Papers
+E. Oral Presentation
+F. Written Examinations
+G. Laboratory Activities and Reports
+H. Group Projects
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on thermal energy. Be prepared to explain the three types of heat transfer
+and give two examples of each on a quiz.
+2. Read the chapter on speed, velocity and acceleration and be prepared to discuss how they
+relate to one another and interpret graphs of distance vs. time and velocity vs. time on an
+exam.
+B. Writing Assignments
+1. Write a 200 word paragraph describing the differences between ionic, metallic and
+covalent bonding. Include two examples of each.
+2. Write a complete paragraph to explain the concept of conservation of energy using
+specific examples to show energy being conserved.
+C. Out-of-Class Assignments
+1. Find an article on a chemical reaction in the real world. This could be anything from a new
+industrial process, to an explosion, to acid rain. Provide a justification for the validity of
+the source and present a 5 minute overview to the class.
+2. Take a photo of one of the physics phenomena we have discussed in class, attach a 250
+word explanation of the behavior to be turned in during class time.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Hewitt, Suchocki and Hewitt. Conceptual Physical Science. 5th Edition. Pearson Addison
+Wesley Publishing, 2012.
+Materials Other Than Textbooks:
+A. Lab Handouts provided in class
+B. Simple scientific calculator
+
+Created/Revised by: Penny Lillie
+Date: 05/04/2015
+
+

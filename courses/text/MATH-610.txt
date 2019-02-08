@@ -1,0 +1,105 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 13 - Survey of Calculus
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Two years high-school algebra and Reading Level IV
+Transfer Status: CSU/UC
+68 hours Lecture
+
+4 Unit(s)
+
+Presents a study of the techniques of calculus with emphasis placed on the application of these
+concepts to business and management related problems. The applications of derivatives and integrals
+of functions including polynomials, rational, exponential and logarithmic functions are studied This
+course is offered only once each academic year. (C-ID MATH 140).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Find the derivatives of polynomial, rational, exponential, and logarithmic functions.
+B. Find the derivatives of functions involving constants, sums, differences, products, quotients, and
+the chain rule.
+C. Sketch the graph of functions using horizontal and vertical asymptotes, intercepts, and first and
+second derivatives to determine intervals where the function is increasing and decreasing,
+maximum and minimum values, intervals of concavity and points of inflection.
+D. Analyze the marginal cost, profit and revenue when given the appropriate function.
+E. Determine maxima and minima in optimization problems using the derivative.
+F. Use derivatives to find rates of change and tangent lines.
+G. Use calculus to analyze revenue, cost, and profit.
+H. Find definite and indefinite integrals by using the general integral formulas, integration by
+substitution, and other integration techniques.
+I. Use integration in business and economics applications.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Functions and their graphs, including exponential and logarithmic functions
+2. Limits and intuitive limit definition of derivative
+3. Increments, tangent lines, and rate of change
+4. Rules of differentiation including sum, product, quotient, and the chain rule
+5. Implicit differentiation
+6. Applications of differentiation such as marginal analysis, optimization, and
+curve sketching
+7. Antiderivatives, indefinite and definite integrals
+8. Multiple techniques of integration including substitution
+9. Area between curves
+10. Approximating definite integral as a sum
+11. Applications of integration in business and economics
+
+Hours
+14.00
+5.00
+4.00
+12.00
+2.00
+12.00
+5.00
+5.00
+3.00
+2.00
+4.00
+
+Total Hours
+
+68.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Daily Homework Assignments, where the student will demonstrate problem-solving skills
+D. Class Assignments and Class Response
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on limits and be able to find the limit of a function
+graphically and algebraically by using properties of limits and analytic techniques.
+2. Read the section in the textbook on antidifferentiation and be able to find the
+antiderivative of a function, evaluate indefinite integrals using basic rules of
+antidifferentiation and use initial conditions to determine an antiderivative.
+B. Writing Assignments
+1. Describe in words how to find the limit as x approaches 2 for the function 3x - 4. Assume
+you are teaching it to someone for the first time and write a detailed explanation.
+2. Describe in words the process you would go through to evaluate the indefinite integral of
+x^6 dx. Assume you are explaining it to someone in the class who is having trouble and
+write a detailed explanation.
+C. Out-of-Class Assignments
+1. Review the section in the textbook on limits and do the problems assigned by the
+instructor, show each step.
+2. Review the section in the textbook on antidifferentiation and do the problems assigned by
+the instructor, showing each step.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Bittinger, M.L., Ellenbogen, D.J. & Surgent, S.A. Calculus and Its Applications. 10th Edition.
+Addison-Wesley Pearson, 2012.
+Materials Other Than Textbooks:
+A. Scientific calculator or graphing calculator without symbolic algebra capabilities
+
+Created/Revised by: Laurie Kincheloe
+Date: 04/01/2013
+
+

@@ -1,0 +1,223 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BIOL 15 - Introduction to Microbiology
+Prerequisite(s): CHEM 110, or CHEM 1, or CHEM 51 and one year high school
+biology, or BIOL 1, or BIOL 2, or BIOL 20, or BIOL 21
+Recommended Prep: Reading Level IV; English Level IV; Math Level IV
+Transfer Status: CSU/UC
+51 hours Lecture
+102 hours Lab
+
+5 Unit(s)
+
+This course includes the study of the structure and function of viruses, bacteria, fungi and protozoa,
+with emphasis on the predominant pathogenic members of those groups. Study of basic organic
+chemistry, genetics, metabolism, microbe-host interactions, the immune response and etiological
+factors involved in disease are also included. Methods of detection, identification, isolation, culture,
+enumeration, and control of microbes are provided. Consideration is also given to applied and
+environmental microbiology, as well as biotechnology techniques. Graded only.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the structures of viruses, bacteria, fungi and protozoa and the function of these
+structures.
+B. Employ basic microbiological equipment and methods for the study, identification and
+quantification of microbes.
+C. Describe the basic metabolic pathways of microbes (energetics) and how metabolism relates to
+both the establishment of microbial infection and to the biochemical tests used in microbial
+identification.
+D. Explain the role of microbes in infectious disease, including the features of the microbes that
+contribute to the establishment of infection.
+E. Identify key microbial pathogens, how they are transmitted and the major symptoms of the
+diseases they cause.
+F. Explain how the human immune system functions to prevent and control infectious disease.
+G. Explain the central dogma of molecular biology and how mutations can lead to changes in
+protein function.
+H. Describe the modern biotechnological methods used to identify and or quantify microbes and
+microbial infections (polymerase chain reaction and enzyme-linked immunosorbent assay);
+explain the advantages and disadvantages of these methods.
+I. Perform calculations to determine unit conversions, dilution factors, microbial population size
+and generation time.
+J. Describe how microbes are controlled by use of chemical and physical means and through the
+use of antimicrobial compounds; explain the limitations of these methods.
+K. Describe the importance of microbes in key ecological processes and their role in
+bioremediation.
+L. Apply the scientific method to evaluate experiments accurately and communicate conclusions
+effectively.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+
+Hours
+
+1.
+2.
+3.
+4.
+5.
+6.
+
+Overview of Microbes; Microbial Taxonomy
+Types of microscopes
+Chemistry of Life, Microbial Nutritional Requirements
+Features of eukaryotic microbes
+Structure and function of the features of a bacterial cell
+Basic microbial metabolic processes and how these relate to the
+establishment of infection and to biochemical tests used to identify microbes
+7. DNA replication, microbial population growth and methods of detection
+and quantification of microbes.
+8. Control of microbes by chemical and physical means.
+9. Expression and regulation of the genetic code. Types of mutations and their
+effect on protein function.
+10. Features and representative life cycles of viruses
+11. Horizontal gene transfer
+12. Innate and adaptive immune systems
+13. Infection, disease and mechanisms of pathogenicity
+14. Review of key microbial pathogens and the major symptoms of the diseases
+they cause
+Total Hours
+
+2.00
+1.00
+6.00
+1.00
+6.00
+7.00
+4.00
+3.00
+6.00
+4.00
+2.00
+3.00
+3.00
+3.00
+51.00
+
+Lab
+Topics
+1. Introduction to the microbiology lab; lab safety
+2. Microbiological lab techniques
+3. Use of the microscope for viewing and measuring cells; ocular micrometer
+calibration
+4. Initial characterization of bacteria: Colony descriptions, gram stain, acid
+fast stain, capsule stain, endospore stain, determination of motility,
+common morphologies and arrangements of bacteria
+5. Effects and salt concentration and temperature on microbial growth
+6. Microbiological media: making media, composition of media,
+selective and differential media
+7. Role of microbes in bioremediation and the sustainability of life on earth
+using the nitrogen cycle as an example.
+8. Biochemical tests used to identify Gram positive cocci
+9. Biochemical tests used to identify Gram negative rods
+10. Identification of an unknown bacterium, including preparation of an
+identification flow chart from previous lab work
+11. Counting microbial populations using direct microscopy and plate counts
+12. Bacterial population growth; graphing of data and calculation of generation
+time
+13. Microbial role in wastewater treatment and water quality analysis; coliform
+and biochemical oxygen demand testing
+14. Microbial requirement for presence or absence of oxygen for growth;
+mechanisms of protection against toxic oxygen byproducts
+15. The eukaryotic microbes; fungi and protozoa
+
+Hours
+2.00
+6.00
+6.00
+10.00
+
+3.00
+6.00
+4.00
+4.00
+4.00
+6.00
+5.00
+5.00
+4.00
+4.00
+6.00
+
+15.
+16.
+17.
+18.
+19.
+
+The eukaryotic microbes; fungi and protozoa
+Identification of an unknown bacterium using PCR and gel electrophoresis
+Effects of ultraviolet light on microbial growth; DNA repair mechanisms
+Cultivation of bacteriophage; virus plaque assay
+Testing for antimicrobial resistance or sensitivity: mechanisms of action of
+commonly used antibiotics and resistance mechanisms in bacteria
+20. Laboratory tests involving immunological components: leukocyte
+differential count, ELISA test (as part of an epidemiological activity),
+agglutination
+21. Microbial Explorations: how microbes are used in cheese making and
+other microbial food products
+Total Hours
+
+6.00
+6.00
+4.00
+4.00
+6.00
+5.00
+
+2.00
+102.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Collaborative Group Work
+D. Class Activities
+E. Laboratory Experiments
+F. A minimum of two hours work outside class per course unit is expected for this course; more
+may be required for a high level of success.
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Final Examination
+D. Written Assignments
+E. Practical Evaluations
+F. Students will fulfill the writing requirement by writing 22 lab reports and pre-labs of from 50 to
+400 words each, by writing a Case Study report, and by answering essay questions on exams.
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read through the information in your text book and lab manual on 11 antibiotics and be
+prepared to answer questions on each antibiotics mechanism of activity.
+2. Read through the information provided on a biochemical test. Be prepared to present to
+the class the goal of the test and how it works including the differential and selective
+ingredients.
+B. Writing Assignments
+1. Research a case study with a partner and identify the pathogen causing the described signs
+and symptoms. Prepare a 1-2 page report justifying your conclusion; include references
+and any medical terms mentioned in the case study or your report.
+2. Read Lab 1, Aseptic Technique and Other Lab Techniques, in the Introduction to
+Microbiology Lab Manual and prepare 0.5-1 page outline of the activities you will
+perform during Lab 1.
+C. Out-of-Class Assignments
+1. Using the pathogens packet provided learn the following components of 48 different
+human pathogens; scientific name, disease(s) caused, symptoms of the disease,
+transmission and other special features and then be prepared to answer questions about
+them during in class quizzes and a cumulative final.
+
+them during in class quizzes and a cumulative final.
+2. Look at an active ingredient label for a disinfectant found in your home, workplace or
+drug store. Research the ingredient and determine its mechanism of action and be prepared
+to discuss what you have learned in lecture.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Tortora, G., Funke, B., Case, C. Microbiology: An Introduction. 11th Edition. Benjamin
+Cummings, 2012.
+B. Matiasek, M. and Yarosevich, K. Introduction To Microbiology Lab Manual. 2014 Edition.
+Butte College Press, 2014.
+Materials Other Than Textbooks:
+A. Students must provide their own scientific calculator, lab coat, disposable gloves and goggles.
+
+Created/Revised by: Michael Matiasek
+Date: 04/27/2015
+
+

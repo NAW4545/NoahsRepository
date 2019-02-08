@@ -1,0 +1,146 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 72 - Configuring Advanced Windows 2012 Server Services
+Prerequisite(s): CSCI 71 or MCSA 70-411 certification
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course is the third in a three course series in which students learn the skills and knowledge
+necessary to implement a Windows Server 2012 infrastructure. The focus of the course is on the
+mastery of Advanced Windows Server 2012 Services including advanced management and
+maintenance a Windows Server 2012 infrastructure. The course also covers fault tolerance, certificate
+services, and identity federation services. The course prepares students for Microsoft certification
+exam 70-412, Configuring Advanced Windows Server 2012 Services exam.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Configure and implement Advanced Network Services
+B. Configure and implement Advanced File Services
+C. Configure and implement Dynamic Access Control
+D. Configure and implement Network Load Balancing
+E. Configure and implement Failover Clustering
+F. Configure and implement Disaster Recovery
+G. Configure and implement Active Directory Certificate Services (AD CS)
+H. Configure and implement Active Directory Federation Services (AD FS)
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Configuring Network Load Balancing
+2. Configuring and Managing Failover Clustering
+3. Managing Virtual Machine Movement and Migration
+4. Configuring Advanced File Services and Implementing Dynamic Access
+Control
+5. Configuring and Optimizing Storage, Managing Backups and Recovering
+Servers
+6. Configuring Site-Level Fault Tolerance
+7. Implementing Advanced Dynamic Host Control Protocol (DHCP), and
+Advanced Domain Name Services (DNS) Solutions
+8. Deploying and Managing Internet Protocol Address Management (IPAM)
+9. Configuring a Domain and Forests, Trusts, and Sites
+10. Managing Active Directory and System Volume (SYSVOL) Replication
+11. Implementing Active Directory Federation Services
+12. Installing, Configuring and Managing Active Directory Certificate and
+
+Hours
+2.00
+2.00
+2.00
+2.00
+5.00
+2.00
+3.00
+2.00
+5.00
+2.00
+3.00
+4.00
+
+12. Installing, Configuring and Managing Active Directory Certificate and
+Rights Management Services
+Total Hours
+
+4.00
+34.00
+
+Lab
+Topics
+1. Configuring Network Load Balancing
+2. Configuring and Managing Failover Clustering
+3. Managing Virtual Machine Movement and Migration
+4. Configuring Advanced File Services and Implementing Dynamic Access
+Control
+5. Configuring and Optimizing Storage, Managing Backups and Recovering
+Servers
+6. Configuring Site-Level Fault Tolerance
+7. Implementing Advanced DHCP, and Advanced DNS Solutions
+8. Deploying and Managing IPAM
+9. Configuring a Domain and Forests, Trusts, and Sites
+10. Managing Active Directory and SYSVOL Replication
+11. Implementing Active Directory Federation Services
+12. Installing, Configuring and Managing Active Directory Certificate and
+Rights Management Services
+Total Hours
+
+Hours
+2.00
+4.00
+3.00
+4.00
+8.00
+3.00
+6.00
+2.00
+7.00
+3.00
+2.00
+7.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Demonstrations
+D. Multimedia Presentations
+E. Practical Exercises
+V. METHODS OF EVALUATION
+A. Lab Projects
+B. Written Assignments
+C. Written Examinations
+D. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the procedure for implementing a disaster recovery scheme. Using the handout
+provided by the instructor, create a disaster recovery scheme and summarize the back up,
+recovery, and access methods. Be prepared to demonstrate the procedure and steps in class
+on your server.
+2. Read a TechNet whitepaper on iSCSI. Consider the implications of a compromised iSCSI
+host. What are the security ramifications and liability issues? Prepare to discuss in class.
+B. Writing Assignments
+1. List the steps required to install an Enterprise Certificate Authority (CA) and write a 1-2
+
+page summary of backup and recovery procedures for an Enterprise CA.
+2. Using a hypothetical enterprise provided by your instructor, prepare a 1-page outline of a
+procedure to implement fault tolerance and redundancy for the enterprise. Your outline
+must include your reasoning (2-3 sentences per step) behind each step in the procedure.
+C. Out-of-Class Assignments
+1. Visit the website of VeriSign or another Certificate Authority (CA). Take notes on the
+services provided and be prepared to discuss what you learned in class.
+2. Research best practices for Active Directory (AD) replication across large geographical
+areas. Consider the influence of environmental factors (such as weather), network
+infrastructure limitations, and geopolitical issues. Be prepared to present your findings to
+the class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Microsoft Official Academic Course. 70-412 Configuring Advanced Windows Server 2012R2
+Services. Wiley, 2014.
+
+Created/Revised by: Linda Fischer
+Date: 02/22/2016
+
+

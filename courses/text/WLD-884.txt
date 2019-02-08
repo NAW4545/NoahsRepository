@@ -1,0 +1,147 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+WLD 30 - Heavy Plate Welding
+Prerequisite(s): WLD 22, WLD 24, WLD 25, WLD 26, WLD 40, WLD 50, WLD
+154 and NCCER Level II Welding Qualification
+Co-requisite(s): WLD 28, WLD 32, WLD 34, WLD 36, WLD 42, WLD 56, WLD
+156
+Recommended Prep: Reading Level III; English Level II; Math Level II
+Transfer Status: CSU
+17 hours Lecture
+102 hours Lab
+
+3 Unit(s)
+
+This course includes the shielded metal arc welding (SMAW) processes and the flux cored arc
+welding (FCAW) Process, in the flat, horizontal, vertical and overhead positions on heavy plate (3/4”
+to 3” thick). It will also include safety procedures, electrode identification, joint fit-up and alignment,
+base metal preparation, weld quality, and beads, with focus on theory and practice.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Operate the SMAW units to weld in the flat, horizontal, vertical, and overhead positions.
+B. Operate the FCAW units to weld in the flat, horizontal, vertical, and overhead positions.
+C. Operate the SMAW and FCAW units demonstrating the skill needed to weld heavy plate.
+D. Demonstrate proper base metal and bead qualification procedures per requirements set by the
+American Welding Society (AWS).
+E. Identify and use the AWS classification of electrodes in selecting the correct electrode for the
+job.
+F. Master the skills needed to pass certification on heavy plate as per the requirements set by the
+AWS.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction and safety
+2. Joint preparation of heavy plate for the SMAW process
+3. Preheating of heavy plate weldments
+4. Distortion control
+5. Application of filler material
+6. Interpass heat and control
+7. Interpass testing techniques
+8. Joint preparation of heavy plate for the FCAW process
+9. Cover passes for heavy weldments
+10. Repair of weld failures
+11. Weld defects and causes
+12. D 1.1 AWS structural code
+
+Hours
+2.00
+1.00
+2.00
+1.00
+2.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+
+13. Weld testing procedures of heavy plate
+14. Visual inspection
+Total Hours
+
+1.00
+1.00
+17.00
+Lab
+
+Topics
+1. Introduction and safety
+2. Joint preparation of heavy plate for the SMAW process
+3. Preheating of heavy plate weldments
+4. Distortion control
+5. Application of filler material
+6. Interpass heat and control
+7. Interpass testing techniques
+8. Joint preparation of heavy plate for the FCAW process
+9. Cover passes for heavy weldments
+10. Repair of weld failures
+11. Weld defects and causes
+12. D 1.1 AWS structural code
+13. Weld testing procedures of heavy plate
+14. Visual inspection
+Total Hours
+
+Hours
+2.00
+6.00
+12.00
+6.00
+12.00
+8.00
+8.00
+10.00
+6.00
+7.00
+7.00
+6.00
+6.00
+6.00
+102.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Multimedia Presentations
+G. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Lab Projects
+E. Lab Mid-term Project
+F. Lab Final Project
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read module 2 and be prepared to discuss in class.
+2. Read assigned AWS journal article and be prepared to discuss in class.
+B. Writing Assignments
+1. Write an essay explaining how the assigned AWS article can be implemented into the
+process and how it relates to the class.
+
+2. Describe an order of operations for welding a single vee open groove (SVOG) with
+backing with the FCAW process.
+C. Out-of-Class Assignments
+1. Research the proper process for setting up FCAW equipment using manufactures
+publication.
+2. Answer review questions for module 6.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. National Center for Construction Education and Research (NCCER) . Welding Level Three. 4th
+Edition. Pearson Education INC, 2010.
+B. National Center for Construction Education and Research (NCCER). Welding Level Two. 4th
+Edition. Pearson Education INC, 2010.
+Materials Other Than Textbooks:
+A. All tools listed in the Butte College Welding Technology Program Guide.
+
+Created/Revised by: Donald Robinson
+Date: 04/18/2011
+
+

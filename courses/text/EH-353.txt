@@ -1,0 +1,108 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+EH 74 - Irrigation System Design
+Prerequisite(s): NONE
+Recommended Prep: Reading Level III; English Level III; Math Level III
+Transfer Status: CSU
+51 hours Lecture
+
+3 Unit(s)
+
+This course is a study of the design of irrigation and drainage systems. Emphasis will be placed on
+pipe sizing, friction loss calculations, pressure requirements, pumping stations, points of connection
+and backflow prevention devices. The students will learn mathematic equations/calculations used for
+proper design and installation.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Design irrigation and drainage systems for landscapes and agriculture.
+B. Read and analyze irrigation plans, and ascertain the overall quality of those plans.
+C. Locate and interpret reference data for hydraulics, pumping systems, pipe sizing, friction losses
+and equipment use specifications.
+D. Complete a set of working drawings for an irrigation and drainage system.
+E. Relate Cross Connection Codes for the State of California to clients and employees and specify
+the proper Backflow Prevention Device for each application.
+F. Interpret the latest State of California code requirements for landscape and agriculture irrigators.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction-Why Irrigation and Drainage Is Necessary
+2. Site Information-Gathering and Recording Process
+3. Water Supplies-Points of Connection, Quantity and Quality
+4. Hydraulics-Friction Losses, Feet of Head, GPM (Gallons Per Minute) Flow
+and Pipe Sizing
+5. Cross-Connection Control and the Need for Backflow Prevention
+6. Pumping Systems-Remotes and Boosters
+7. Head Layout, Piping and Circuit Zoning
+8. Irrigation System Drafting and Plot Plans
+9. Special Systems
+10. Control Systems
+11. Drainage Needs and Design
+12. Specification Writing
+13. Plan Details
+Total Hours
+
+Hours
+2.00
+3.00
+6.00
+6.00
+3.00
+3.00
+6.00
+6.00
+6.00
+3.00
+3.00
+2.00
+2.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Guest Speakers
+D. Field Trips
+E. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+F. Discussion
+G. Problem-Solving Sessions
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Portfolios
+D. Projects
+E. Final Examination
+F. Written Assignments
+G. Short papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on recording site information in order to understand the necessary tools
+to use and information to be gathered on the first site visit. Be prepared to discuss in class.
+2. Read the chapter on basic hydraulics to better understand how hydraulics affect an
+irrigation system. Be prepared to discuss in class.
+B. Writing Assignments
+1. Write a specifications/materials legend for an irrigation plan.
+2. Write an irrigation schedule for a plan that you have drawn, considering
+evapotranspiration replacement during the window of operation.
+C. Out-of-Class Assignments
+1. Interview a landscape/irrigation contractor about their experience in the trade and whether
+or not that individual designs the systems they build. Present your findings to the class.
+2. Examine irrigation systems in your neighborhood during and after operation to discern
+overall effectiveness of the systems observed then report back to the class about what you
+have seen.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Hunter Industries. Irrigation System Design. 5th Edition. Hunter Technical Services, 2012.
+B. Rainbird Sales, Inc. Landscape Irrigation Design Manual. 2013 Edition. Rainbird, 2013.
+C. Rainbird Sales, Inc. Low Volume Landscape Irrigation Design Manual. 2012 Edition.
+Landscape Drip Division, 2012.
+Materials Other Than Textbooks:
+A. Student Materials: 1. Drafting equipment (as needed) 2. Three-hole binder 3. Calculator
+(scientific notation recommended)
+
+Created/Revised by: Jared Wilmarth
+Date: 02/23/2015
+
+

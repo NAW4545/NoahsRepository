@@ -1,0 +1,164 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+WLD 55 - Power Generation and Petroleum Chemical Pipe & Tube Welding
+5 Unit(s)
+Prerequisite(s): WLD 22, WLD 24, WLD 25, WLD 26, WLD 28, WLD 30, WLD 32,
+WLD 34, WLD 36, WLD 40, WLD 42 and WLD 50, WLD 56 and NCCER Level III
+Welding Qualification
+Co-requisite(s): WLD 158
+Recommended Prep: Reading Level IV; English Level III; Math Level III
+Transfer Status: CSU
+17 hours Lecture
+204 hours Lab
+This course teaches shielded metal arc welding (SMAW), gas metal arc welding (GMAW), flux core
+arc welding (FCAW), gas tungsten arc welding (GTAW), oxyacetylene welding (OAW), and
+oxy-fuel cutting (OFC)processes on several piping systems. A variety of materials and configurations
+on sub-critical pipe welding to include pressure and power systems, cross-country transmission, water
+transmission and pipeline welding will be studied. Special attention and performance to the American
+Petroleum Institute (API) 1104 and American Society of Mechanical Engineers (ASME) Section IX
+code specifications for certification will be practiced. Intense training in pipe fitting, measurements,
+marking and layout tools used in the pipe welding industry will be stressed. Techniques of layout,
+cutting, fitting, and welding of various pipe joint designs will be performed.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Correctly utilize the tools used in pipe layout and fitting.
+B. Layout various pipe joint designs.
+C. Cut, prepare, and weld various pipe joint designs.
+D. Layout and cut eccentric and concentric reducers.
+E. Apply qualification procedures of the API and ASME for certification.
+F. Follow procedures using the OAW, SMAW, GMAW, FCAW, and GTAW welding processees
+meeting API and ASME specifications for qualification of welding procedures and the welder
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction and safety
+2. Definitions (terms used in the pipe trade)
+3. Basic trade math
+4. Measurements
+5. Applications of welded pipe, tube and joint preparation
+6. Tools used in industry
+7. Standards and tests for welded pipe and tube
+8. Pipe and tube test positions
+9. Welder and weld procedure qualifications
+10. API and ASME welding codes for qualifying tests
+11. Pipe and fitting layouts
+
+Hours
+0.50
+0.50
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+
+12. Cutting and welding of large diameter pipe
+13. Welding the root, hot pass, fill passes, and cover passes
+14. Welding thin wall pipe
+15. Welding in the 2G position
+16. Welding in the 5G position
+17. Welding in the 6G and complicated 6GR position
+18. Pipe welding defects
+Total Hours
+
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+17.00
+
+Lab
+Topics
+1. Introduction and safety
+2. Definitions (terms used in the pipe trade)
+3. Basic trade math
+4. Measurements
+5. Applications of welded pipe, tube and joint preparation
+6. Tools used in industry
+7. Standards and tests for welded pipe and tube
+8. Pipe and tube test positions
+9. Welder and weld procedure qualifications
+10. API and ASME welding codes for qualifying tests
+11. Pipe and fitting layouts
+12. Cutting and welding of large diameter pipe
+13. Welding the root, hot pass, fill passes, and cover passes
+14. Welding thin wall pipe
+15. Welding in the 2G position
+16. Welding in the 5G position
+17. Welding in the 6G and complicated 6GR position
+18. Pipe welding defects
+Total Hours
+
+Hours
+15.00
+1.00
+10.00
+4.00
+20.00
+4.00
+10.00
+20.00
+10.00
+10.00
+15.00
+20.00
+10.00
+15.00
+5.00
+15.00
+10.00
+10.00
+204.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Guest Speakers
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Discussion
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Lab Projects
+
+D. Lab Projects
+E. Lab Mid-term Project
+F. Lab Final Project
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read assigned AWS journal article and be prepared to discuss in class.
+2. Read module 1 and be prepared to discuss in class.
+B. Writing Assignments
+1. Write an essay explaining how the above United Association article can be implemented
+into the process and how it relates to the class.
+2. Describe an order of operations for laying out a branch assembly.
+C. Out-of-Class Assignments
+1. Research the proper process for setting up OAW equipment using manufactures
+publication.
+2. Answer review questions for module 3.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. National Center for Construction Education and Research (NCCER). Welding Level Three
+Advanced. 4th Edition. Pearson Education, 2010.
+B. Frankland, T. The Pipe Fitter's and Pipe Welder's Handbook. GLENCOE - McGraw-Hill, 1984.
+C. Frankland, T. Pipe Template Layout. GLENCOE - Macmillan/McGraw-Hill, 1967.
+D. Turns, Tube Inc. Pipe Fitter's Manual. Tube Turns Inc., 1989.
+Materials Other Than Textbooks:
+A. All tools listed in the Butte College Welding Technology Program Guide.
+
+Created/Revised by: Donald Robinson
+Date: 04/18/2011
+
+

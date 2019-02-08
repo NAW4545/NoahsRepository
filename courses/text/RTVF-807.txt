@@ -1,0 +1,130 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+RTVF 30 - Digital Audio Production
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course serves as an introduction to the theory and practice of audio production for radio,
+television, film and digital recording applications. Students will learn the fundamentals of sound
+design and aesthetics, microphone use, and digital recording equipment. Students gain hands on
+experience recording, editing, mixing and mastering audio. Upon completion, students will have basic
+knowledge of applied audio concepts, production workflow, equipment functions, and audio editing
+software.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Understand basic physics of sound terminology; the sound wave, frequency/pitch,
+amplitude/loudness, phase, and timbre.
+B. Comprehend acoustics; microphone classification, placement and use; theory and practical use
+of consoles, computers and software; analog/digital recording and storage devices; patching;
+editing; time code; signal processors; loudspeakers.
+C. Perform complex audio production techniques.
+D. Describe audio production software interface.
+E. Demonstrate refined techniques for audio production using Pro Tools or other appropriate audio
+software.
+F. Understand audio used in studio and on-location production for radio, television and film.
+G. Create sound effects and original sound clips for dynamic media.
+H. Collect, create, analyze, and evaluate digital audio clips.
+I. Understand audio processes for voice recording, multimedia production, sound design.
+J. Outline the basic process for digitizing audio clips.
+K. Complete applied projects to assess the student’s knowledge of recording, editing, mixing, and
+balancing.
+L. Evaluate and conduct both destructive and nondestructive waveform editing procedures.
+M. Explore the emotional and physical perception of music, voice and sound and the aesthetics of
+audio mixing.
+N. Demonstrate appropriate workplace behavior in a studio setting.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. An overview of the process of pre-production, production and
+post-production in digital audio, multi-track linear and nonlinear editing
+2. Digital input and output options
+3. Signal processing
+4. Recording techniques (repair and restoration in the mix)
+
+Hours
+6.00
+5.00
+5.00
+4.00
+
+5. Techniques in music, sound effects and ambient sound
+6. Soundtrack manipulation and exploration of the audio toolkit in appropriate
+editing software
+7. Processes for integrating audio in digital media projects and cross platform
+editing
+Total Hours
+
+5.00
+6.00
+3.00
+34.00
+
+Lab
+Topics
+1. Produce linear and nonlinear editing for digital audio projects
+2. Perform multiple recording techniques (repair and restoration in the mix)
+3. Produce music using ambient effects and sound
+4. Manipulate audio using appropriate editing software
+5. Process audio in digital media projects using cross-platform editing
+Total Hours
+
+Hours
+12.00
+8.00
+10.00
+12.00
+9.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Group Discussions
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Reading Assignments
+G. Multimedia Presentations
+H. Individual and Group Projects
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Projects
+C. Class participation
+D. Written Assignments
+E. Mid-term and final examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. From a list of popular press publications provided by the instructor, read an article about a
+new technology that is changing the audio recording industry. Post a summary of at least
+200 words to the class online discussion board.
+2. Read about microphone transducers in the textbook. In class, be prepared to compare and
+contrast the different microphone transducer types.
+B. Writing Assignments
+1. You are the audio engineer at a small coffee house. Write 500 words describing what
+microphone types you would use as sound reinforcement for an acoustic guitar and a
+vocalist. Describe the rationale for your choices.
+2. Given a list of recordings, listen to an analog and a digital recording. Write 500 words
+comparing and contrasting the audio quality of the two recordings.
+C. Out-of-Class Assignments
+
+1. From a concert list provided by the instructor, attend a musical performance then describe
+in at least 200 words, the audio quality in the class online discussion board. What was
+done well, what could be improved?
+2. Based on information presented in the class text, write a 300 word minimum review of the
+acoustics of an indoor public place like a restaurant.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Alten, Stanley A. Audio in Media. 5th Edition. Belmont, CA: Wadsworth Publishing, Co., 2013.
+B. Ford, Meg. Radio Production. CreateSpace Independent Publishing Platform, 2013.
+
+Created/Revised by: Mark Hall
+Date: 10/19/2015
+
+

@@ -1,0 +1,131 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BUS 18 - Database Design
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+51 hours Lecture
+51 hours Lab
+
+4 Unit(s)
+
+This course is a study of fundamental database design principles and techniques, including data
+modeling with Entity-Relationship Diagrams (ERD) and the normalization process. Topics include the
+relational data model, managing data using Structured Query Language (SQL), database management
+system (DBMS) architecture and operation, and database security mechanisms. Students will apply
+core concepts and techniques to practical business scenarios.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Identify and describe the characteristics of the relational data model in the context of modern
+relational DBMS.
+B. Design a database using ERD and apply the normalization process to ensure proper organization
+of data.
+C. Use SQL to manage data in a relational DBMS.
+D. Analyze the architecture and functionality of a modern relational DBMS.
+E. Analyze and compare the capabilities of various commercial DBMS products for large- and
+small-scale databases.
+F. Identify and describe the responsibilities of a database administrator, including system security,
+database integrity, system maintenance and operation, and performance evaluation.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction to DBMS
+2. Relational Data Model (Terminology, Characteristics, Operations)
+3. Database Design: Entity-Relationship Approach
+4. Normalization Procedures
+5. Logical Schema (Entities, Relationships, Attributes, Keys, Implementation
+of Relationships)
+6. SQL
+7. DBMS Architecture and Operation
+8. Database Project Implementation
+9. Relational Operations; Database Views
+10. Database Administration Issues; Responsibilities of the Datbase
+Administrator (DBA)
+Total Hours
+
+Hours
+3.00
+3.00
+6.00
+3.00
+6.00
+12.00
+3.00
+9.00
+3.00
+3.00
+51.00
+
+Lab
+Topics
+1. Relational Data Model (Terminology, Characteristics, Operations)
+2. Database Design: Entity-Relationship Approach
+3. Normalization Procedures
+4. Logical Schema (Entities, Relationships, Attributes, Keys, Implementation
+of Relationships)
+5. SQL
+6. Design Standards and Flaws
+7. Database Project Implementation
+8. Relational Operations; Database Views
+Total Hours
+
+Hours
+3.00
+3.00
+3.00
+3.00
+18.00
+3.00
+15.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Discussion
+D. Demonstrations
+E. Reading Assignments
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Research Projects
+D. Class participation
+E. Lab Projects
+F. Written Assignments
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the "Database Design Guidelines" section of your book and come to class prepared
+to discuss the guidelines pertaining to primary keys and attributes.
+2. Read the "Quick Start" section of the "SQL*Plus User's Guide and Reference," and be
+prepared to demonstrate for the instructor your ability to launch the SQL*Plus
+command-line client and connect to a specific database.
+B. Writing Assignments
+1. List and briefly describe each of the six fundamental rules for building a relational
+database. Print and submit your work to the instructor at the next class meeting.
+2. Write a short (1-2 pages) paper to present a comprehensive description of the execution of
+an SQL command. Your description should include the client, server, and network
+activities associated with the execution of an SQL command.
+C. Out-of-Class Assignments
+1. Do research on the Internet to identify a minimum of three applications that can be used to
+create Entity-Relationship Diagrams. Submit a brief analysis of the three applications you
+select, including the vendor, advantages, disadvantages, and pricing/licensing.
+
+2. Create and submit to the instructor an ERD and attribute listing (please identify all
+primary keys) for the hypothetical retail store database design problem provided in class
+by the instructor.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Lees, S., Mensching, J., & Tidwell, A.. Database Management: The Foundation of Management
+Information Systems. 19th Edition. Knowledge Transfer Systems, 2011.
+Materials Other Than Textbooks:
+A. Online reference materials as assigned by the instructor.
+
+Created/Revised by: Donna Weaver
+Date: 04/30/2012
+
+

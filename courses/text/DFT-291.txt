@@ -1,0 +1,101 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+DFT 16 - Print Reading For Industry and Manufacturing
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III; Math Level III
+Transfer Status: CSU
+51 hours Lecture
+
+3 Unit(s)
+
+This course introduces students to drawings, symbols and standards used in manufacturing and
+industrial applications. Topics include line types, views, dimensions, symbols, sketching, geometric
+dimensioning and tolerancing, version and revision systems and specialty drawings by manufacturing
+process. Manufacturing prints, drawings and specifications from both manufacturing and industrial
+applications will be used in the course.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Interpret and describe the technical information provided on industrial drawings.
+B. Interpret and apply the function of the "alphabet of lines" to freehand sketching and lettering
+and demonstrate proper techniques.
+C. Determine part dimensions and tolerances according to American National Standards Institute
+(ANSI) standards including geometric dimensioning and tolerancing.
+D. Read and interpret appropriate measurement units and symbols to working drawings and
+specifications.
+E. Interpret and describe dimensions and features of working drawings using supplementary views
+including sectional, breakout and auxiliary views.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Freehand Sketching Techniques
+2. Measurement Methods and Units of Measure
+3. Lines and Lettering
+4. Multiview Drawings and Projections
+5. Dimensions and Notes
+6. Fasteners and Springs
+7. Welding and Fabrication Drawings
+8. Auxiliary, Breakout and Sectional View Drawings
+9. Geometric Dimensioning and Tolerancing
+10. Cams, Gears and Bearings
+11. Working Drawings
+12. Pictorial Drawings and Technical Illustrations
+Total Hours
+
+Hours
+4.00
+3.00
+3.00
+5.00
+4.00
+4.00
+5.00
+5.00
+6.00
+3.00
+6.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Please read the unit on Multiview Drawings. Be prepared for lecture and review on the
+chapter at next class.
+2. Please read the unit on Geometric Dimensioning and Tolerancing. Be prepared to discuss
+at next class.
+B. Writing Assignments
+1. Please complete the review questions from the unit on Geometric Dimensioning and
+Tolerancing. Submit completed review questions to the instructor when complete.
+2. Complete Review Activities on Geometric Dimensioning and Tolerancing. Answer
+templates are located in the handout. Please submit completed work to instructor when
+complete.
+C. Out-of-Class Assignments
+1. Outside of class, please complete the Bonus Exercise for the manufactured object
+including dimensions and material specification. Submit answers to instructor when
+complete.
+2. Outside of class and after reading Chapter on Multiview drawings please describe in your
+own words the differences between first angle and third angle projection. Summarize in a
+paragraph and turn in at next class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Brown, W.C. and Brown, R.K.. Print Reading for Industry. Goodheart-Willcox Company Inc.,
+2011.
+
+Created/Revised by: John Dahlgren
+Date: 04/16/2012
+
+

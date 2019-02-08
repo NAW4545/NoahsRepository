@@ -1,0 +1,156 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+ENGR 17 - Electrical Circuits and Devices
+Prerequisite(s): PHYS 42, MATH 40 (or concurrent enrollment)
+Recommended Prep: NONE
+Transfer Status: CSU/UC
+51 hours Lecture
+51 hours Lab
+
+4 Unit(s)
+
+An introduction to the analysis, construction and measurement of electrical circuits. Use of analytical
+techniques based on the application of circuit laws and network theorems. Basic use of electrical test
+and measurement instruments including multimeters, oscilloscopes, power supplies, and function
+generators. Use of circuit simulation software. Interpretation of measured and simulated data based on
+principles of circuit analysis for Direct Current (DC), analysis, transient, and sinusoidal steady-state
+Alternating Current (AC) conditions containing resistors, capacitors, inductors, dependent sources,
+operational amplifiers and /or switches. Elementary circuit design. Practical considerations such as
+component value tolerance and non-ideal aspects of laboratory instruments. Construction and
+measurement of basic operational amplifier circuits. Natural and forced responses of first and second
+order RLC circuits; the use of phasors; AC power calculations; power transfer; and energy concepts.
+(C-ID ENGR 260/260L).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Analyze DC circuits to find current, voltage, resistance, power, and/or energy.
+B. Draw and label circuit diagrams and show thorough mathematical solutions.
+C. Apply different circuit analysis techniques and demonstrate a process for selecting an
+appropriate technique for a given problem.
+D. Solve circuits containing two or more Op Amps.
+E. Find the transient response and complete response for RC, RL, and RLC circuits involving DC
+sources.
+F. Solve AC circuits by using Phasors.
+G. Calculate average and complex power for AC circuits.
+H. Access and use the most basic functions of electrical test and measurement equipment including
+oscilloscopes, multimeters, function generators and power supplies. (Lab)
+I. Read circuit schematics and construct linear circuits using resistors, capacitors, inductors,
+and/or op amps. (Lab)
+J. Measure resistance, DC and AC voltages, current, and power, and experimentally verify the
+results for a variety of electrical circuits. (Lab)
+K. Test circuits, analyze data and compare measured performance to theory and simulation. (Lab)
+L. Use a circuit simulation program (PSPICE, MultiSIM) and other computer applications
+(MATLAB, MS Excel) to predict or describe circuit behavior. (Lab)
+M. Troubleshoot and repair simple electric circuits. (Lab)
+N. Record and document results of lab work using text and graphs. (Lab)
+O. Work effectively in groups by sharing responsibilities and collaborating on findings. (Lab)
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+
+Hours
+
+1. Ohm’s Law
+2. Electrical Power and Energy
+3. Kirchhoff’s Laws
+4. Equivalent Circuits
+5. Voltage and Current Division
+6. Dependent Sources
+7. Nodal and Mesh Analysis
+8. Thevenin and Norton Equivalent Circuits
+9. Superposition
+10. Operational Amplifiers and Analysis using Ideal Models
+11. Voltage gain and current limitations of non-ideal op amp circuits
+12. Transient and Complete response of RC, RL, and RLC Circuits
+13. Sinusoidal steady-state analysis including phasors, complex impedance, and
+power factor
+14. Frequency response of first and second order AC circuits
+15. AC Power including power transfer and power factor correction
+Total Hours
+
+3.00
+3.00
+3.00
+4.00
+3.00
+3.00
+3.00
+4.00
+3.00
+4.00
+3.00
+3.00
+6.00
+3.00
+3.00
+51.00
+
+Lab
+Topics
+1. Test and measurement equipments: Use of each item for specific purposes.
+2. Circuit construction techniques for laboratory use (“breadboarding”)
+3. Component identification and labeling; nominal and measured values;
+limitations on voltage, current, power dissipation
+4. Verifying lecture concepts: Kirchoff's Current Law (KCL); Kirchoff's
+Voltage Law (KVL); Ohm’s Law; Voltage and Current Division; Power
+dissipation; Series and Parallel Circuits; Equivalent circuits; Thevenin
+equivalent circuit; and Superposition
+5. Operational Amplifiers and the practical voltage and current limits on the
+output of these devices
+6. Step response of RL, RC, and RLC circuits
+7. Frequency response of RL, RC, and RLC circuits (including resonance)
+8. Laboratory Safety
+Total Hours
+
+Hours
+6.00
+6.00
+6.00
+12.00
+
+6.00
+6.00
+6.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Class Activities
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+
+C. Research Projects
+D. Homework
+E. Lab Projects
+F. Laboratory Reports
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on equivalent circuits and be able to discuss derivations in class.
+2. Read the oscilloscope owners manual and be prepared to discuss and apply information to
+analysis of results in class.
+B. Writing Assignments
+1. In a 3 page paper explain the physical principles and characteristics of common circuit
+elements including resistors, inductors, capacitors, transistors and diodes.
+2. In a 3 page paper concisely and accurately describe source bench laboratory activities
+including goals, process and results.
+C. Out-of-Class Assignments
+1. Research operating specs for elements online and be prepared to discuss effects on circuits
+in class.
+2. Research the circuitry for a cappuccino machine and write a 2 page summary including
+diagram.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Nilsson, J. & Riedel, S. Electric Circuits. 10th Edition. Prentice Hall, 2014.
+B. Thomas, R.E., Rosa, A.J., Toussaint, G.J. The Analysis and Design of Linear Circuits. 7th
+Edition. Wiley, 2012.
+
+Created/Revised by: Francesco Madaro
+Date: 03/02/2015
+
+

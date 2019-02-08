@@ -1,0 +1,109 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 31A - Calculus with MAPLE
+Prerequisite(s): MATH 30
+Co-requisite(s): MATH 31
+Recommended Prep: Reading Level IV
+Transfer Status: CSU/UC
+9 hours Lecture
+18 hours Lab
+
+1 Unit(s)
+
+This course introduces a student to the MAPLE Symbolic Math Package. This computer program will
+be used in a variety of situations, including problem solving, calculus investigations, and “real life”
+calculus problems. Mathematical concepts from Math 30 and Math 31 will be used.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Understand MAPLE input and output as it relates to expressions, functions, equations, and
+calculus concepts.
+B. Use MAPLE to solve applied calculus problems.
+C. Use discovery learning to reinforce ideas presented in second semester calculus.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction to Computer Configuration
+2. Introduction to MAPLE
+3. MAPLE Expressions - Equations with expressions, differentiation of
+expressions, integration of expressions, and reading output using expressions
+4. MAPLE Functions - Equations with functions, derivatives of functions,
+integration of functions, and reading function output
+Total Hours
+
+Hours
+0.50
+0.50
+4.00
+4.00
+9.00
+
+Lab
+Topics
+1. Introduction to expressions, input and output
+2. Equations with expressions and applications
+3. Derivatives, integrals, and applications
+4. Series and sequences
+5. Taylor series with MAPLE
+6. Using MAPLE "Help" to learn both mathematics and MAPLE commands
+7. Functions with MAPLE
+8. Applications using Math 31 topics
+9. Parametric equations with MAPLE
+
+Hours
+1.00
+1.00
+2.00
+2.00
+1.00
+1.00
+1.00
+2.00
+1.00
+
+10. Polar equations with MAPLE
+11. Conic sections
+12. Major project Math 31 topic using MAPLE
+Total Hours
+
+1.00
+1.00
+4.00
+18.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Hands-on activities
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Projects
+C. Written Examinations
+D. Class Assignments and Class Response
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read section in the textbook on functions and be able to write the code for various
+functions.
+2. Read the section in the textbook on parametric equations and be able to write several
+parametric equations in MAPLE code and graph.
+B. Writing Assignments
+1. Describe in words the difference between a MAPLE function and expression and explain
+when you would use an expression or a function.
+2. Describe in words the process of changing a polar equation into a parametric equation.
+C. Out-of-Class Assignments
+1. Review the section in the textbook on functions and complete the two assignments on this
+topic.
+2. Review the section on step-functions in your textbook and complete the assigned
+problems on this topic.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Materials Other Than Textbooks:
+A. Workbook on MAPLE developed by Richard Campbell in 2005.
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

@@ -1,0 +1,151 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+WLD 24 - Shielded Metal Arc Welding (Stick Electrode)
+Prerequisite(s): WLD 21 and NCCER Level I Welding Qualification
+Co-requisite(s): WLD 22, WLD 25, WLD 26, WLD 40, WLD 154
+Recommended Prep: Reading Level III; English Level II; Math Level II
+Transfer Status: CSU
+34 hours Lecture
+306 hours Lab
+
+8 Unit(s)
+
+This course includes pre-employment training for welding technicians. Emphasis on developing
+manipulative proficiency in the use of shielded metal arc welding (SMAW), gas metal arc welding
+(GMAW), and flux core arc welding (FCAW), in the flat, horizontal, vertical, and overhead positions.
+These welding processes will be applied to light and heavy gauge plate steel for light construction.
+Part of the Level Two welder qualification for American Welding Society (AWS).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Practice safety skills, theory and practices used in the SMAW, GMAW and FCAW processes.
+B. Demonstrate the proper use and set up of the SMAW, GMAW and FCAW processes.
+C. Demonstrate the proper welding processes of bead pads, tees, and groove weld details per
+qualification procedures set by the AWS.
+D. Demonstrate proper joint fit-up and alignment.
+E. Demonstrate proper base metal, beads and fillet welds qualification procedures per requirements
+set by the AWS.
+F. Identify and use the American Welding Society (AWS) classification of electrodes in selecting
+the correct filler materials for the job.
+G. Classify carbon steel electrodes and wires by using manufactures manuals and welding with
+them.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction and safety
+2. Set up and operation of SMAW equipment
+3. Basic joint and weld and base metal preparation
+4. Five tools a welder controls, workmanship and worker habits
+5. Reading welding detail drawings
+6. Positions of welding plate
+7. Introduction to welding symbols
+8. Carbon steel electrodes and wires classification
+9. Weld defects
+10. Welder inspection and testing
+11. Physical characteristics and mechanical properties of metals
+
+Hours
+2.00
+2.00
+4.00
+2.00
+2.00
+4.00
+2.00
+4.00
+3.00
+2.00
+2.00
+
+12. Set up and operation of GMAW equipment
+13. Set up and operation of FCAW equipment
+14. Preheating and post heating of metals
+Total Hours
+
+2.00
+1.50
+1.50
+34.00
+
+Lab
+Topics
+1. Introduction and safety
+2. Set up and operation of SMAW equipment
+3. Basic joint and weld and base metal preparation
+4. Five tools a welder controls, workmanship and worker habits
+5. Reading welding detail drawings
+6. Positions of welding plate
+7. Introduction to welding symbols
+8. Carbon steel electrodes and wires classification
+9. Weld defects
+10. Welder inspection and testing
+11. Physical characteristics and mechanical properties of metals
+12. Set up and operation of GMAW equipment
+13. Set up and operation of FCAW equipment
+14. Preheating and post heating of metals
+Total Hours
+
+Hours
+5.00
+30.00
+75.00
+45.00
+14.00
+25.00
+25.00
+10.00
+20.00
+11.00
+10.00
+12.50
+12.50
+11.00
+306.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Multimedia Presentations
+G. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Lab Projects
+E. Lab Mid-term Project
+F. Lab Final Project
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read module 3 and be prepared to discuss in class.
+2. Read assigned AWS Journal article and be prepared to discuss in class.
+B. Writing Assignments
+1. Describe an order of operations for SMAW setup of an SVOG welding joint.
+
+1. Describe an order of operations for SMAW setup of an SVOG welding joint.
+2. Write an essay explaining how the assigned AWS article can be implemented into the
+process
+and how it relates to the class.
+C. Out-of-Class Assignments
+1. Research the proper process for setting up FCAW equipment using manufactures
+publication.
+2. Research the proper process for setting up FCAW equipment using manufactures
+publication.
+3. Answer review questions for module 4.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. National Center for Construction Education and Research (NCCER) . Welding Level Two. 4th
+Edition. Pearson Education INC, 2010.
+B. National Center for Construction Education and Research (NCCER) . Welding Level One. 4th
+Edition. Pearson Education INC, 2010.
+Materials Other Than Textbooks:
+A. All tools listed in the Butte College Welding Technology Program Guide.
+
+Created/Revised by: Donald Robinson
+Date: 04/18/2011
+
+

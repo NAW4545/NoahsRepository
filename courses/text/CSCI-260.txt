@@ -1,0 +1,186 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 31 - Web Development I
+Prerequisite(s): CSCI 4 (or concurrent enrollment)
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course is an introduction to web development using HyperText Markup Language Version 5
+(HTML5), Cascading Style Sheets Level 3 (CSS3), JavaScript, and jQuery. Students will learn to
+design and build standards-compliant front-end/client-side web applications using HTML5, CSS3,
+JavaScript, and jQuery.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Design a basic web page using appropriate HyperText Markup Language Version 5 (HTML5)
+structural and semantic markup.
+B. Apply Cascading Style Sheets Level 3 (CSS3) styles to control the look and formatting of a web
+page.
+C. Write JavaScript code to interact with the Document Object Model (DOM) of an HTML5 web
+page.
+D. Create simple effects and respond to events in web pages using jQuery.
+E. Explain how HTML5 and CSS3 are used to achieve the separation of structure from
+presentation in a web page.
+F. Use the appropriate tools to ensure that a web page meets accessibility requirements.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. HTML5 - document structure
+2. HTML5 - text
+3. HTML5 - lists
+4. HTML5 - links and images
+5. HTML5 - tables
+6. HTML5 - forms
+7. HTML5 - semantic markup
+8. HTML5 - validation
+9. CSS3 - syntax, selectors, properties, values
+10. CSS3 - internal versus external
+11. CSS3 - color
+12. CSS3 - text
+13. CSS3 - box model
+14. CSS3 - lists and tables
+15. CSS3 - layout
+
+Hours
+1.00
+2.00
+1.00
+1.00
+1.00
+2.00
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+2.00
+1.00
+2.00
+
+16. CSS3 - frameworks
+17. CSS3 - validation
+18. JavaScript - syntax
+19. JavaScript - testing and debugging
+20. jQuery - events
+21. jQuery - effects
+22. jQuery - using plugins
+23. Search Engine Optimization (SEO), web hosting, File Transfer Protocol
+(FTP)
+Total Hours
+
+2.00
+1.00
+3.00
+1.00
+2.00
+2.00
+2.00
+2.00
+34.00
+
+Lab
+Topics
+1. HTML5 - document structure
+2. HTML5 - text
+3. HTML5 - lists
+4. HTML5 - links and images
+5. HTML5 - tables
+6. HTML5 - forms
+7. HTML5 - semantic markup
+8. HTML5 - validation
+9. CSS3 - syntax, selectors, properties, values
+10. CSS3 - internal versus externa
+11. CSS3 - color
+12. CSS3 - text
+13. CSS3 - box model
+14. CSS3 - lists and tables
+15. CSS3 - layout
+16. CSS3 - frameworks
+17. CSS3 - validation
+18. JavaScript - syntax
+19. JavaScript - testing and debugging
+20. jQuery - events
+21. jQuery - effects
+22. jQuery - using plugins
+23. Search Engine Optimization (SEO), web hosting, File Transfer Protocol (FTP)
+Total Hours
+
+Hours
+1.50
+3.00
+1.50
+1.50
+1.50
+3.00
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+3.00
+1.50
+3.00
+3.00
+1.50
+4.50
+1.50
+3.00
+3.00
+3.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Demonstrations
+
+D. Demonstrations
+E. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Projects
+C. Class participation
+D. Mid-term and final examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter in your book on CSS3 layouts. Using the list of CSS3 frameworks
+provided by the instructor, compare and contrast the layouts supplied with each
+framework. Be prepared to discuss your findings in class.
+2. Read the article on HTML5 semantic markup supplied by the instructor. Be prepared to
+solve a series of semantic markup problems in class.
+B. Writing Assignments
+1. Research the accessibility requirements in the Rehabilitation Act of 1973, Section 508,
+paying particular attention to requirements that are applicable to web developers. Write a
+one-page summary of the key requirements and associated HTML5 markup.
+2. Write a short essay (minimum 250 words) in response to the instructor's presentation on
+"Old School Web Development." In your opinion, what were the worst practices of web
+development in the past?
+C. Out-of-Class Assignments
+1. Interview a web designer using the questionnaire provided by the instructor. Prepare a
+short (maximum five minutes) multimedia presentation to share what you learn with the
+class.
+2. Design and build a website for a hypothetical small business, selected from the list
+provided by the instructor. Submit your validated HTML5 and CSS3 files to the
+instructor.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Duckett, Jon. HTML and CSS: Design and Build Websites. 1st Edition. Wiley, 2011.
+B. Duckett, Jon. JavaScript & JQuery: Interactive Front-End Web Development. 1st Edition.
+Wiley, 2014.
+C. Niederst Robbins, Jennifer. Learning Web Design: A Beginner's Guide to HTML, CSS,
+JavaScript, and Web Graphics. 4th Edition. O'Reilly Media, 2012.
+
+Created/Revised by: John Trolinger
+Date: 03/07/2016
+
+

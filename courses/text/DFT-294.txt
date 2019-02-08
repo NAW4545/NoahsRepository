@@ -1,0 +1,130 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+DFT 46 - Building Information Modeling II - Advanced Applications
+Prerequisite(s): DFT 45
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this computer-based Building Information Modeling (BIM) course, students who have already
+completed the learning objectives of DFT-45 Building Information Modeling I will be introduced to
+advanced techniques and concepts of BIM for architectural design applications. Topics will include
+design options, phasing of design, work sets, site, area analysis, creating in-place and advanced
+families, massing, and rendering. Students will complete a large scale project with activities spanning
+the entire course including project phases, project management, material costing and extensive
+modeling in 3D.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Interpret plans and specifications provided by instructor to create an as-built model of a light
+commercial building or a complex multi-story residence in preparation for revisions and new
+design to given parameters.
+B. Create a project with several design options using Building Information Modeling (BIM)
+application
+C. Initiate design phases in as-built and proposed design change with separate configurations within
+a single project BIM file.
+D. Create an electronic shared work environment containing BIM application worksets to manage
+project sharing of details, model and specification data.
+E. Create simple and complex parametric families in a BIM application and using the BIM
+application to apply architectural massing techniques that apply to the project design.
+F. Add a topographic surface and other site components to the BIM model and create area
+schedules for analysis purposes.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. BIM application and Revit use review
+2. Introduction to Design Options in Architectural BIM application
+3. Project phasing in as-built documentation and new design development
+4. Introduction to electronically shared work environment using BIM
+application in worksets
+5. Project site planning and area analysis
+6. Introduction and use of the BIM application Family Editor
+7. Project studies and use of BIM application for massing
+8. Project rendering, presentation development and project specification
+completion
+
+Hours
+2.00
+4.00
+2.00
+4.00
+4.00
+8.00
+2.00
+8.00
+
+Total Hours
+
+34.00
+Lab
+
+Topics
+1. BIM application and Revit use review
+2. Introduction to Design Options in Architectural BIM application
+3. Use of project phasing in as-built documentation and new design
+development
+4. Introduce and use of electronically shared work environments using BIM
+application in worksets
+5. Project site planning techniques and project area analysis
+6. Introduction and use of the BIM application Family Editor
+7. Project studies and use of BIM application for massing
+8. Project rendering, presentation development and project specification
+completion
+Total Hours
+
+Hours
+3.00
+4.00
+3.00
+4.00
+6.00
+13.00
+4.00
+14.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Projects
+C. Homework
+D. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Please read the chapter on Creating Custom Templates and be prepared to work on the
+practice exercises at the next class.
+2. Please read the bid documents for the Boise Cascade project and with your team, be
+prepared to discuss at the start of next class.
+B. Writing Assignments
+1. Complete the review questions on creating custom templates and submit answers to
+instructor at end of class.
+2. After reading about project time management and completing the assigned tasks from the
+study guide, please complete the review questions. Submit answers to instructor when
+complete.
+C. Out-of-Class Assignments
+1. Out of class, go to Autodesk Seek and research office wall partition system families and
+be prepared to report results at next class.
+2. After the completing the estimates in class today, your homework is to prepare a basic
+
+project schedule of tasks to complete the initial model. Summarize tasks and prepare to
+discuss your estimates in groups at next class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Ascent - Center for Technical Knowledge. Revit Architecture BIM Management. Schroff
+Development Corporation, 2011.
+
+Created/Revised by: John Dahlgren
+Date: 04/16/2012
+
+

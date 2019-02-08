@@ -1,0 +1,143 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+PHO 20 - Photoshop for Photographers
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course is an introduction to Adobe Photoshop for digital photograph editing, color correction,
+and formatting. Students will learn to manipulate color and black-and-white images, layers, special
+effects, photo restoration/colorizing, and filters to prepare images for print and web distribution.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. name and appropriately use the basic tools in the Photoshop menu to manipulate digital images.
+B. explain and properly apply layering techniques to photographs.
+C. select and apply proper enhancement processes and procedures to photographs to create
+professional quality images.
+D. use proper Photoshop tools to prepare photographic images for print and web distribution.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+The Adobe Photoshop Menu
+2.
+Integrating Adobe Lightroom
+3.
+Basic Photo Corrections
+4.
+Working with Selection Tools
+5.
+Using and Applying Layers
+6.
+Correcting/Enhancing Photographs
+7.
+Working with Masks and Channels
+8.
+Using Smart Filters
+9.
+Preparing Files for Printing
+10. Preparing Files for the Web
+Total Hours
+
+Hours
+2.00
+2.00
+3.00
+4.00
+5.00
+5.00
+5.00
+3.00
+3.00
+2.00
+34.00
+Lab
+
+Topics
+1.
+The Adobe Photoshop Menu
+2.
+Integrating Adobe Lightroom
+3.
+Basic Photo Corrections
+4.
+Working with Selection Tools
+5.
+Using and Applying Layers
+6.
+Correcting/Enhancing Photographs
+
+Hours
+1.00
+1.00
+5.00
+5.00
+10.00
+10.00
+
+7.
+Working with Masks and Channels
+8.
+Using Smart Filters
+9.
+Preparing Files for Printing
+10.
+Preparing Files for the Web
+Total Hours
+
+10.00
+4.00
+3.00
+2.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Guest Speakers
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Problem-Solving Sessions
+F. Reading Assignments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Portfolios
+C. Projects
+D. Practical Evaluations
+E. Mid-term and final examinations
+F. Essays and research papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read chapters from the class textbook assigned by the instructor about photographers who
+are Adobe Photoshop specialists. Be prepared to discuss your findings in class.
+2. Read a magazine article supplied by the instructor on Adobe Photoshop techniques.
+Demonstrate one of these techniques to the class.
+B. Writing Assignments
+1. Using on-line articles supplied by the instructor, write a one page paper detailing how
+photographers use Adobe Photoshop to enhance photographs and improve digital
+workflow.
+2. Based on web links provided by the instructor, write a one page paper detailing how
+Adobe Photoshop has changed the work habits of photographers.
+C. Out-of-Class Assignments
+1. Based on internet tutorials provided by the instructor, select and use an Adobe Photoshop
+technique to alter an image. Be prepared to defend in class your choice and its application
+to achieve your desired effect.
+2. Research and be prepared to discuss in class the requirements and benefits of the Adobe
+Certified Expert Photoshop Certificate.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Adobe Creative Team. Adobe Photoshop CS6 Classroom in a Book. 1st Edition. Adobe Press,
+2013.
+B. Evening, M.. Adobe Photoshop CS6 for Photographers: A professional image editor's guide to
+the creative use of Photoshop for the Macintosh and PC. 1st Edition. Focal Press, 2012.
+
+Created/Revised by: Mark Hall
+Date: 02/23/2015
+
+

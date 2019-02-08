@@ -1,0 +1,186 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+PHYS 21 - College Physics I
+Prerequisite(s): MATH 20 or high school trigonometry
+Recommended Prep: NONE
+Transfer Status: CSU/UC
+51 hours Lecture
+51 hours Lab
+
+4 Unit(s)
+
+This course is intended for students not majoring in physics or engineering but needing a one-year
+course in physics as a requirement for their major program. The course is part of a two-semester
+sequence whose contents may be offered in other sequences or combinations at articulated
+institutions. Topics include kinematics, dynamics, work and energy, momentum, fluids and simple
+harmonic motion. (C-ID PHYS 105). Graded only.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Predict the future trajectory of an object in two dimension with uniform acceleration.
+B. Analyze a physical situation with multiple constant forces acting on a point mass using
+Newtonian mechanics.
+C. Analyze a physical situation using concept of work and energy.
+D. Analyze static and dynamic extended systems using the concepts of torque and angular
+acceleration.
+E. Analyze real-world experimental data, including appropriate use of units and significant figures.
+(Lab)
+F. Relate the results of experimental data to the physical concepts discussed in the lecture portion
+of the class. (Lab)
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Vectors and Scalars
+2.
+Newton's Laws
+3.
+Statics and Dynamics
+4.
+Translational Kinematics
+5.
+Rotational Kinematics
+6.
+Work and Energy
+7.
+Momentum
+8.
+Gravitation
+9.
+Simple Harmonic Motion
+10.
+Fluids
+11.
+Laws of Thermodynamics
+12.
+Heat Engines
+13.
+Kinetic Theory
+14.
+Entropy
+
+Hours
+3.00
+6.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+
+15.
+Vibrations and Waves
+16.
+Sound
+Total Hours
+
+3.00
+3.00
+51.00
+Lab
+
+Topics
+1.
+Scatter Pattern
+2.
+Freefall
+3.
+Projectile Motion
+4.
+Collisions
+5.
+Static Equilibrium
+6.
+Circular Motion
+7.
+Ballistic Pendulum
+8.
+Moment of Inertia
+9.
+Young's Modulus
+10.
+Kepler's Laws of Planetary Motion
+11.
+Static and Dynamic Fluids
+12.
+Gas Laws
+13.
+Specific Heat of a Solid
+14.
+Solar Energy
+15.
+Vibrating Systems (Air Track)
+16.
+Vibrating Columns and Strings
+Total Hours
+
+Hours
+3.00
+3.00
+3.00
+6.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Problem-Solving Sessions
+F. Reading Assignments
+G. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Homework
+C. Lab Projects
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section on Newton's first law in the text and be prepared to participate in
+conceptual questioning.
+2. Read through the worked example where the cat is thrown off the high rise building on
+Mars. Be prepared to do a similar problem on a quiz.
+B. Writing Assignments
+
+1. Write up a proposed lab procedure for determining the acceleration due to gravity near the
+earth.
+2. Write a critique of a problem you solved that turned out to be wrong. Explain your mistake
+and how to solve it correctly.
+C. Out-of-Class Assignments
+1. Find an example "in the wild" of a clear demonstration of the doppler effect and be
+prepared to explain to the class.
+2. Measure the time it takes for an ice cube to melt in water. Note the important features of
+the "experiment" and construct a hypothesis regarding the law of heat flow.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Young, H., Adams, P., Chastain, R. College Physics. 10th Edition. Sears and Zemansky, 2016.
+B. Young, H. College Physics. 9th Edition. Sears and Zemansky, 2011.
+Materials Other Than Textbooks:
+A. Eggert S. and Trento J., Physics 21 Lab manual, purchased at the bookstore
+B. Scientific Calculator
+C. Online Homework
+
+Created/Revised by: Robert White
+Date: 04/20/2015
+
+

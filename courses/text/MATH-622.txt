@@ -1,0 +1,94 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 110 - Geometry
+Prerequisite(s): MATH 108 or Math Level IV
+Recommended Prep: Reading Level IV
+Transfer Status: NT
+51 hours Lecture
+
+3 Unit(s)
+
+This course covers selected topics in geometry. The topics include congruence, similarity, parallelism,
+proofs, constructions, the perimeter, area and volume of geometric figures, and an introduction to right
+triangle trigonometry.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Demonstrate geometric reasoning skills and constructing skills, including the use of geometric
+tools such as rulers, protractors and compasses.
+B. Calculate measurements of angles, lengths, areas and volumes of a variety of geometric figures
+in one, two and three dimensions.
+C. Demonstrate proficiency in using geometric definitions, postulates, and theorems in proving
+properties related to parallel lines, triangle congruency and similarity, quadrilaterals and circles.
+D. Demonstrate proficiency in understanding and implementing theorems, basic algebra, geometric
+rules, formulas and procedures in solving a variety of geometric problems.
+E. Use geometry and its applications for everyday mathematical problems.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Geometric Shapes and Measurement
+2.
+Perimeter, Area and Volume
+3.
+Reasoning and Triangle Congruence
+4.
+Parallel Lines and Quadrilaterals
+5.
+Similarity
+6.
+Circles
+7.
+Coordinate Geometry
+Total Hours
+
+Hours
+6.00
+7.00
+8.00
+7.00
+8.00
+7.00
+8.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on Proving Lines Parallel and be able to use all the
+methods discussed in formal geometric proofs regarding parallel lines.
+2. Read the section in the textbook on Congruent Triangles and be able to use multiple
+methods for proving triangles congruent.
+B. Writing Assignments
+1. Write one or two sentences explaining how to find corresponding angles when two
+parallel lines are cut by a transversal.
+2. Describe in words how you know that two triangles are congruent.
+C. Out-of-Class Assignments
+1. Review the section on Proving Lines Parallel and solve the problems assigned by the
+instructor, showing each step.
+2. Review the section in the textbook on Congruent Triangles and solve the problems
+assigned by the instructor, showing each step.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Alexander, D.C., Koeberlein, G.M. Elementary Geometry For College Students. 5th Edition.
+Brooks/Cole Cengage Learning, 2011.
+Materials Other Than Textbooks:
+A. Scientific calculator
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

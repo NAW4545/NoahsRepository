@@ -1,0 +1,88 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 6 - Automotive Electrical Systems Lecture
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 7
+Recommended Prep: AUT 1
+Transfer Status: CSU
+35 hours Lecture
+
+2 Unit(s)
+
+This course introduces the theory, operation, and repair in the areas of electrical/electronics systems.
+Battery function and diagnosis including hybrid vehicle battery function and charging are covered.
+Topics also include vehicle lighting systems, starting and charging systems, and the electrical
+accessories that function in a modern vehicle.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the theory and operation of the systems and components related to batteries.
+B. Describe the theory and operation of car starting systems.
+C. Describe the purpose of car charging systems.
+D. Describe the theory and operation of the systems, sub systems, and components in the areas of
+automotive lighting systems.
+E. Differentiate multiplex classes and Controller Area Network (CAN) communication systems.
+F. Describe the theory and operation of automobile's electrical accessories.
+G. Explain the purpose and function of supplemental restraint system.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Types of batteries
+2. Starting systems
+3. Charging systems
+4. Electrical lighting systems
+5. Vehicle communication networks and multiplex systems principles
+6. Electrical accessories, audio, power windows and navigation systems
+7. Passive seat belts systems and Supplemental restraint systems theory and
+operation
+Total Hours
+
+Hours
+5.00
+5.00
+5.00
+5.00
+5.00
+5.00
+5.00
+35.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Problem-Solving Sessions
+
+F. Reading Assignments
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Homework
+C. Class participation
+D. Final Examination
+E. Class Discussion
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the VAT-40 instructions in your text and be prepared to discuss discuss battery
+testing procedures in class.
+2. Read the chapter on supplemental restraint systems and be prepared to discuss safety
+precautions in class.
+B. Writing Assignments
+1. Complete the charging systems section in your key notes book.
+2. Write a one page summary on your reading of air bag handling.
+C. Out-of-Class Assignments
+1. Perform the 17 self-study modules assigned by American Honda. Your instructor will
+confirm that you have completed the required modules.
+2. Complete the homework on starting systems and pass the associated test with a score of
+70% or better.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Hollembeak, B. Automotive Electricity & Electronics. 6th Edition. Cengage, 2015.
+
+Created/Revised by: Doug Conrad
+Date: 11/02/2015
+
+

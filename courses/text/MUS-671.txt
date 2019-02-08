@@ -1,0 +1,159 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MUS 53 - Introduction to Recording Software Applications
+Prerequisite(s): MUS 51
+Recommended Prep: NONE
+Transfer Status: CSU
+25.5 hours Lecture
+76.5 hours Lab
+
+3 Unit(s)
+
+This course is an introduction to audio recording software applications, such as Apple Logic Pro and
+Avid Pro Tools, as well as other industry standard recording softwares. Students will learn to record,
+edit, mix, and export audio recordings in these software applications.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Utilize modern recording software applications, including Apple Logic Pro and Avid Pro Tools
+to compose, record and edit audio.
+B. Record digital compositions with Musical Instrument Digital Interface (MIDI).
+C. Arrange and mix audio and MIDI.
+D. Program drums in recording software.
+E. Manipulate tempo and timing of audio files.
+F. Plan and complete recording projects of 3-5 minutes utilizing audio recording software.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Audio interfaces, pre-amps, mixers and hardware
+2. Introduction to digital editing
+3. Recording and editing MIDI events
+4. Basics of drum programming
+5. Tempo and digital audio editing
+6. Music arranging
+7. Preparing for the audio mix
+8. Audio mixing
+9. Automation, and digital audio editing
+10. Setting up a home studio
+11. Tracking, mixing and exporting audio projects
+12. Using loops, software instruments and MIDI
+13. Integrating live instruments
+Total Hours
+
+Hours
+1.50
+1.50
+2.00
+3.00
+1.50
+1.50
+1.50
+2.00
+2.50
+1.00
+2.50
+2.50
+2.50
+25.50
+
+Lab
+Topics
+1. Make music with Logic now
+
+Hours
+1.50
+
+2. Recording audio
+3. Editing audio
+4. Recording with MIDI devices
+5. Recording and editing MIDI events
+6. Programming drums
+7. Manipulating tempo
+8. Arranging and preparing for the mix
+9. Mixing
+10. Automating the mix and using controller surfaces
+11. Scoring movies
+12. Trouble shooting and optimization
+13. Recording projects
+14. Review projects, methods and information learned in class
+15. Getting to know Pro Tools
+16. Creating your first session
+17. Making your first audio recording
+18. Importing media into your session
+19. Making your first MIDI recording
+20. Selecting and Navigation, basic editing techniques
+21. Basic mixing techniques, finishing your work
+22. Hands on: Project introduction and setup
+23. Music hands on project
+24. Post hands on project
+Total Hours
+
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+1.50
+30.00
+4.50
+2.00
+2.00
+2.00
+2.00
+2.00
+4.00
+4.00
+2.00
+2.00
+2.00
+76.50
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Multimedia Presentations
+G. Lab
+V. METHODS OF EVALUATION
+A. Projects
+B. Class participation
+C. Practical Evaluations
+D. Exams
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read Chapter 1 of the Logic Pro training book, complete the chapter 1 lesson from
+accompanying DVD, and turn in the finished chapter 1 lesson.
+2. Read the article provided by the instructor on making drum beats, and be prepared to
+
+compose a drum beat in class.
+B. Writing Assignments
+1. Research electronic music genres, and write a 3 page paper describing the rhythmic,
+harmonic and textural elements of 3 major genres.
+2. Write a 3 page paper describing the function of the main pieces of gear used in a project
+studio. Items should include an audio interface, MIDI controller, computer software,
+pre-amps, and microphones.
+C. Out-of-Class Assignments
+1. Research and study various digital audio workstations (DAW) that are standard in the
+industry. Discuss which are most used in professional studios and why on the Blackboard
+discussion board.
+2. Attend a concert and report to the class the elements of the live sound set-up, including
+microphone placement, Audio consoles used, and critique the overall sound.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Cook, Frank D. Pro Tools 101, an Introduction to Pro Tools 10. Cengage Learning, 2012.
+B. Nahmani, David. Apple Pro Training Series: Logic Pro 9 and Logic Express 9. Peachpit Press,
+2012.
+
+Created/Revised by: David Elke
+Date: 03/04/2013
+
+

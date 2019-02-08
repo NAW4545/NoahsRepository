@@ -1,0 +1,147 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MUS 51 - Computer Literacy for Musicians
+Prerequisite(s): NONE
+Recommended Prep: Reading Level III; English Level II
+Transfer Status: CSU
+17 hours Lecture
+34 hours Lab
+
+1.5 Unit(s)
+
+This course is a study of the operation of computers and basic practices for their use in music
+composition. Emphasis is placed on computer music applications including sequencing, notation, and
+sound design. The course focuses on entry-level details in system and music file management, music
+recording and creation, and the practical software applications used in the music field.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Demonstrate knowledge and uses of the Macintosh operating system.
+B. Create, store and share basic music application documents.
+C. Create and send email documents with music file and other attachments.
+D. Manage file systems and sound libraries.
+E. Create a podcast, movie score and other multi-media projects.
+F. Compose, mix and export original music compositions.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction, handout syllabus, orientation, discuss course, software
+applications, and text resources.
+2. Introduction to the Macintosh operating system.
+3. How to configure Macintosh operating system, and create network share file
+structure for music applications.
+4. How to install audio recording software and sound libraries.
+5. Managing user accounts, including student user accounts on the network.
+6. Managing user home folders and their applications to music creation.
+7. Sound library and audio file system management.
+8. Recording project data management and backup.
+9. Recording music in GarageBand.
+10. Scoring a movie and arranging loops.
+11. Creating an iPhone ringtone.
+12. Mixing music and effects.
+13. Composition of an original music project.
+14. Sharing your finished projects.
+Total Hours
+Lab
+
+Hours
+1.00
+1.50
+1.00
+1.00
+1.50
+1.00
+1.50
+1.50
+1.00
+1.00
+1.00
+1.00
+2.00
+1.00
+17.00
+
+Lab
+Topics
+1. Configure Macintosh operating system and create network share file
+structure for saving music compositions.
+2. Explore audio recording and composition software, user accounts and file
+systems.
+3. Explore file system structure and data backup methods needed for large
+audio recording projects.
+4. Recording music in GarageBand, including choosing a template,
+identifying regions and tracks, using metronome and recording guitar.
+5. Scoring a movie and arranging loops, including working with the browser,
+loops, and advanced arranging techniques.
+6. Creating an iPhone ringtone, including recording software instruments,
+editing voice track, merging instruments, and sending a ringtone to itunes.
+7. Mixing Music and Effects. Create a basic mix, using volume and pan and
+effects.
+8. Creating podcasts. Importing a project, working with artwork and markers,
+editing regions, adding a URL, and exporting final podcast.
+9. Sharing finished projects. Export a movie, podcast and song to itunes, CD
+and the Internet.
+10. Composition of an original music project. Export final project to hard
+drive, CD and the Internet.
+Total Hours
+
+Hours
+1.50
+1.50
+1.50
+3.50
+3.00
+3.00
+3.00
+3.00
+3.00
+11.00
+34.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Reading Assignments
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Projects
+D. Homework
+E. Lab Projects
+F. Written Assignments
+G. Essays and research papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read Chapter 1 in GarageBand book. Answer questions about topics covered in those
+chapters on the quiz. Review the topics in class discussion.
+2. Read Chapter 4 in GarageBand book. Answer questions about topics covered in those
+
+chapters on the quiz. Review the topics in class discussion.
+B. Writing Assignments
+1. Attend a live concert and write a concert report detailing the production elements of the
+show. Include instrumentation of the band, equipment used for miking and live sound.
+2. Write a three page research paper on the history of electronic music. Give details on the
+development of synthesizers, midi, and computer recording applications.
+C. Out-of-Class Assignments
+1. Attend a live concert and take notes on the integration of digital mixing consoles,
+sequencers and miking techniques used.
+2. Research a major electronic music composer for TV, film or video games. Study the
+methods and softwares used in these compositions, and apply these methods to your own
+compositions.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Plummer, Mary and Scoppettuolo, Dion. Apple Training Series: iLife 11. 1st Edition. Peachpit
+Press, 2010.
+Materials Other Than Textbooks:
+A. Journal, handouts, and online resources for music application software and related articles
+
+Created/Revised by: David Elke
+Date: 03/26/2012
+
+

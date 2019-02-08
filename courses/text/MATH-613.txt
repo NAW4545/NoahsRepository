@@ -1,0 +1,105 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 26 - College Algebra
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Two years high school algebra and Reading Level IV
+Transfer Status: CSU/UC
+68 hours Lecture
+
+4 Unit(s)
+
+This course covers advanced algebra concepts beyond the scope of Intermediate Algebra. The topics
+include algebraic simplifying, conics, theory and solution of equations and inequalities, systems of
+equations, linear functions, exponential and logarithmic functions, polynomial and rational functions,
+binomial expansion and partial fractions. The course is specifically designed for preparation for first
+semester Calculus (MATH 30).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Demonstrate proficiency solving polynomial, rational, radical, logarithmic, and exponential
+equations, and polynomial inequalities.
+B. Demonstrate proficiency performing the four basic operations on real and complex numbers,
+polynomials, functions, rational expressions, and radical expressions.
+C. Graph linear, quadratic, polynomial, and rational equations, and the conics, showing all
+asymptotes when appropriate and applying polynomial theory when necessary.
+D. Expand binomials using the Binomial Expansion Formula and perform partial fraction
+decomposition.
+E. Solve a variety of linear and non-linear systems of equations.
+F. Solve applications using linear and quadratic equations, conic sections, and logarithms.
+G. Demonstrate proficiency factoring polynomials into irreducible form.
+H. Demonstrate proficiency evaluating, graphing, and finding the domain, range and inverse of a
+wide variety of functions including, but not limited to, exponential, logarithmic, and piece-wise
+functions.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Expressions
+- Including binomial expansion and partial fractions
+2. Graphing Equations
+- Including lines and conics
+3. Functions
+4. Solving Equations
+5. Logarithms and Exponents
+6. Systems of Equations
+7. Polynomials
+- Including finding zeros and graphing
+Total Hours
+
+Hours
+12.00
+12.00
+10.00
+10.00
+10.00
+5.00
+9.00
+68.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving
+skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on Transformations and be able to graph functions whose
+equations can be derived by transforming one of the six basic functions: y = x, y =|x|, y =
+x^2, y = x^3, y = sqrt(x), and y = 1/x.
+2. Read the section in the textbook on Partial Fraction Decomposition and be able to break
+down a rational expression into a sum of simpler rational expressions that have either
+constant numerators, or numerators that are linear expressions of the form Ax + B.
+B. Writing Assignments
+1. Explain the procedure to follow for identifying holes and asymptotes of the graph of a
+rational function. Be sure to discuss how to tell if a zero of the denominator of a rational
+function - call it C - is the x-coordinate of a hole, or if the equation x = C is the equation
+of a vertical asymptote. Assume you are explaining this to a group of students hearing this
+for the first time and write a detailed explanation.
+2. Given a polynomial function of degree n, explain the procedure to follow for finding its
+zeros. Be sure to discuss the relationship between the zeros and the x-intercepts of the
+function, as well as how to tell if the graph of the function crosses the x-axis or simply
+touches it. Further, explain how the Leading Coefficient Test can be used to describe the
+behavior of the function as x approaches infinity from both the left and the right.
+C. Out-of-Class Assignments
+1. Review the section on Transformations and do the problems assigned by the instructor,
+showing your work.
+2. Review the section on Parabolas and do the problems assigned by the instructor, show all
+your work.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Cabral, T. College Algebra. 1st Edition. Butte College, 2008.
+Materials Other Than Textbooks:
+A. Scientific calculator or graphing calculator without symbolic algebra capabilities
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

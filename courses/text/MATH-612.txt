@@ -1,0 +1,110 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 20 - Trigonometry
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Two years of high school algebra and Reading Level IV
+Transfer Status: CSU
+51 hours Lecture
+
+3 Unit(s)
+
+This course covers the theory and applications of trigonometry. The topics include definitions of
+circular and right triangle trigonometric functions, graphs, identities, equations, solutions of right and
+oblique triangles, vectors, polar coordinates, and complex numbers.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Recall the three definitions for the six trigonometric functions and state their values for angles
+which are multiples of 30 and 45 degrees and their equivalent in radians.
+B. Apply the definitions of the six trigonometric functions, the Pythagorean Theorem, the Law of
+Sines, and the Law of Cosines to solve any given triangle.
+C. Prove a variety of trigonometric identities by applying knowledge of the basic identities,
+definitions, algebraic manipulation of rational expressions, and polynomial factoring.
+D. Solve trigonometric applications, using triangles, circles, and vectors.
+E. Graph the six trigonometric functions and their transformations.
+F. Solve trigonometric equations by applying inverse trigonometric functions and algebraic
+reasoning.
+G. Apply identity formulas involving the sum and difference of angles and double- and half-angles.
+H. Convert between polar and rectangular forms of coordinates and equations and graph these in
+the polar plane, and use vectors to represent the trigonometric form of complex numbers in the
+complex plane.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Defining Trigonometric Functions
+2.
+Right Triangle Trigonometry
+3.
+Radian Measure
+4.
+Graphing and Inverse Functions
+5.
+Identities and Formulas
+6.
+Equations
+7.
+Oblique Triangles and Vectors
+8.
+Complex Numbers
+Total Hours
+
+Hours
+5.00
+7.00
+6.00
+8.00
+8.00
+6.00
+8.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving
+skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on Solving Right Triangles and be able to use Sine,
+Cosine, and Tangent to find the missing sides and angles of a right triangle when one acute
+angle and a side is given, or when two sides are given.
+2. Read the section in the textbook on Graphing Trigonometric Functions and be able to
+graph one cycle of the Sine, Cosine, Tangen, Cosecant, Secant, and Cotangent functions.
+Where applicable, be able to identify the period, amplitude, and phase shift of each
+function from the graph.
+B. Writing Assignments
+1. Graph examples of the Sine, Cosine, Tangent, Cosecant, Secant, and Cotangent functions.
+Where applicable, identify the period, amplitude, and phase shift of each function from the
+graph. Conversely, starting with a graph, describe the steps one must follow to find an
+equation that matches the graph. Assume you are explaining this to a group of students
+hearing this for the first time and write a detailed explanation.
+2. Explain the relationship between Definition 1 of Trigonometic Functions which utilizes
+the rectangular coordinate system and a circle, and Definition 2, which uses a right
+triangle only. Compare and contrast the advantages and disadvantages of the two
+definitions.
+C. Out-of-Class Assignments
+1. Review section on Right Triangle Trigonometry and do the problems assigned by the
+instructor, showing all work.
+2. Review the section on Finding a Trigonometric Equation from its Graph and do the
+problems assigned by the instructor, showing all steps.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. McKeague,C.P. Trigonometry. 6th Edition. Thomson - Brooks/Cole, 2008.
+Materials Other Than Textbooks:
+A. Scientific calculator or graphing calculator without symbolic algebra capabilities
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

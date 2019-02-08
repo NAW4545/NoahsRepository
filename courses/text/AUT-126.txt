@@ -1,0 +1,123 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 53 - Automatic Transmissions/Transaxles Lab
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 52
+Recommended Prep: AUT 1
+Transfer Status: CSU
+150 hours Lab
+
+3 Unit(s)
+
+This course enhances skills in diagnosing, testing, and repair procedures of automotive
+transmissions/transaxles, drive lines and axles. Shop practice includes diagnostics, testing, and
+repairing of each system.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Identify the different types of automatic transmissions and transaxles found in today's cars and
+trucks.
+B. Correctly identify the procedure then perform a fluid level check on various automatic
+transmissions.
+C. Disassemble and reassemble an transmission/transaxle using special tools and jigs.
+D. Understand and describe the operating characteristics of the mechanical and hydraulic systems
+found in an automatic transmission/transaxle.
+E. Service an automatic transmission by replacing the filter and doing a fluid exchange using
+current industry practices.
+F. Use a scan tool and pressure gauges to measure hydraulic pressures and access transmission
+related Diagnostic Trouble Codes (DTC's).
+G. Interpret pressure readings and scan tool data to determine the root cause of transmission
+failures.
+H. Remove and install, using industry standard tools and practices, an automatic
+transmission/transaxle.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Transmission identification using Mitchell or All Data and a Vehicle
+Identification Number (VIN).
+2. Transmission fluid level check procedures.
+3. Transmission tear down.
+4. Transmission power flow through different planetary components.
+5. Transmission holding clutches and hydraulic operation.
+6. Transmission turning clutches and hydraulic operation.
+7. Transmission one way clutch operation.
+8. Transmission pump types and pressure regulation.
+9. Valvebody and valve movement during shifts.
+10. Transmission reassembly.
+
+Hours
+5.00
+10.00
+10.00
+30.00
+4.00
+4.00
+3.00
+10.00
+10.00
+10.00
+
+11.
+12.
+13.
+14.
+15.
+
+On car transmission pressure testing using scan tools and pressure gauges.
+Using a scan tool to retrieve transmission related DTC's.
+Using a scan tool to record transmission related data.
+Using a scan tool to interpret adaptive values.
+Using scan tools and pressure gauges to diagnose transmission related
+concerns.
+16. Torque converter operation and transmission/transaxle removal and
+installation.
+Total Hours
+
+6.00
+6.00
+6.00
+6.00
+15.00
+15.00
+150.00
+
+IV. METHODS OF INSTRUCTION
+A. Collaborative Group Work
+B. Class Activities
+C. Discussion
+D. Demonstrations
+E. Problem-Solving Sessions
+F. Multimedia Presentations
+G. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Demonstration
+B. Class participation
+C. Lab Projects
+D. Final Examination
+E. Written Assignments
+F. Performance Examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Using the supplied technical manual for the transmission used in lab, interpret the valve
+sequencing for up-shifts from first to fourth.
+2. Using Mitchell or All Data, look up the fluid level check procedure for an assigned
+vehicle.
+B. Writing Assignments
+1. In your work book, provide a detailed description of the process for flushing the cooler
+after removing a transmission.
+2. After completing the required transmission services, write a story to industry standards
+and make sure it includes the 3 C's.
+C. Out-of-Class Assignments
+1. Not applicable.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Jack Erjavec. Today's Technician: Automatic Transmissions and Transaxles Set. 6th Edition.
+Cengage Learning, 2015.
+Materials Other Than Textbooks:
+A. Closed toe leather work shoes with slip resistant soles
+
+Created/Revised by: Robert Holt
+Date: 11/02/2015
+
+

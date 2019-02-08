@@ -1,0 +1,159 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CHEM 22 - Organic Chemistry II
+Prerequisite(s): CHEM 21
+Recommended Prep: NONE
+Transfer Status: CSU/UC
+51 hours Lecture
+102 hours Lab
+
+5 Unit(s)
+
+This is the second course in a year-long study of organic chemistry designed for students majoring in
+chemistry and related science disciplines. The physical properties, reactions and reaction mechanisms
+of conjugated systems, aromatic compounds, carbonyl compounds (aldehydes, ketones, carboxylic
+acids and their derivatives), amines and biomolecules are studied. Laboratory work includes advanced
+techniques in reaction conditions, product separation, purification and spectroscopy. (C-ID CHEM
+160S) (C-ID CHEM 160S = CHEM 21 and CHEM 22). Graded only.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Demonstrate a conceptual understanding of the fundamental principles of modern organic
+chemistry.
+B. Use appropriate vocabulary to describe processes and to name compounds with various
+functional groups.
+C. Demonstrate analytical and problem solving skills in predicting the structure of the products for
+an organic reaction.
+D. Demonstrate skills toward designing multi-step syntheses of organic compounds.
+E. Demonstrate laboratory skills and employ standard laboratory techniques towards the synthesis,
+purification and analysis of organic compounds.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Review of Infrared and Nuclear Magnetic Resonance (NMR) Spectroscopy
+2. Conjugated Systems
+3. Aromatic Compounds
+4. Electrophilic Aromatic Substitution Reactions
+5. Carboxylic Acids and Phenols
+6. Organometallic Reactions
+7. Aldehydes and Ketones
+8. Carboxylic Acid Derivatives
+9. Enols and Enolates
+10. Amines
+11. Carbohydrates
+12. Amino Acids and Proteins
+13. Lipids and Nucleic Acids
+Total Hours
+
+Hours
+2.00
+4.00
+3.50
+5.50
+2.00
+3.50
+4.50
+5.50
+6.50
+3.00
+4.50
+4.00
+2.50
+51.00
+
+Lab
+Topics
+1. Laboratory Exercises to review NMR Spectroscopy
+2. Laboratory Exercises Involving Multi-Step Syntheses
+3. Solid State IR Spectroscopy
+4. Column Chromatography
+5. Microscale Techniques
+6. Inert Atmosphere Reaction Techniques
+7. Mass Spectrometry
+8. Diels Alder Reaction: Synthesis, Purification and Spectroscopic Analysis
+9. Hydroboration Reaction: Synthesis, Purification and Spectroscopic
+Analysis
+10. Electrophilic Aromatic Substitution Reaction: Synthesis, Purification and
+Spectroscopic Analysis
+11. Grignard Reaction: Synthesis, Purification and Spectroscopic Analysis
+12. Acetal Formation Reaction: Synthesis, Purification and Spectroscopic
+Analysis
+13. Rearrangement Reaction: Synthesis, Purification and Spectroscopic
+Analysis
+14. Lactonization Reaction: Synthesis, Purification and Spectroscopic Analysis
+15. Fischer Esterification Reaction: Synthesis, Purification and Spectroscopic
+Analysis
+16. Aldol Condensation Reaction: Synthesis, Purification and Spectroscopic
+Analysis
+17. Stereoselective Reduction Reaction: Synthesis, Purification and
+Spectroscopic Analysis
+18. Biodiesel Reaction: Synthesis and Spectroscopic Analysis
+Total Hours
+
+Hours
+6.00
+6.00
+3.00
+3.00
+3.00
+9.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+102.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Demonstrations
+C. Laboratory Experiments
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+unit of credit.
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Written Examinations
+C. Laboratory reports and notebooks
+D. Laboratory Exam
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section on organometallic reactions in the textbook and be prepared to solve
+
+synthetic and retrosynthetic problems in class and on exams.
+2. Read the section on pH dependent forms of amino acids and be prepared to draw all
+protonation forms and decide what the predominant form is at a given pH on exams.
+B. Writing Assignments
+1. For the Hydroboration experiment, create a properly formatted 1-page typed lab report
+that includes a title, date, introduction, detailed procedure in third person passive voice,
+formal entries for IR, NMR and MS data, and a conclusion. This report will be graded
+along with your lab report.
+2. Write a paragraph on an exam that explains why the hydrolysis of an ester is much more
+favorable in basic conditions than in acidic conditions. Include appropriate structures with
+your answer.
+C. Out-of-Class Assignments
+1. Complete the 1-page pre-lab assignment for the Diels Alder experiment. You will be
+asked to predict the major product of the reaction, complete a data table with relevant
+physical constants, and calculate the theoretical yield.
+2. In order to prepare for the exam, complete the 14-page homework assignment on
+electrophilic aromatic substitution reactions.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Smith, J.G. Organic Chemistry. 4th Edition. McGraw-Hill, New York, 2013.
+B. Pavia, D.L. A Microscale Approach to Organic Laboratory Techniques. 5th Edition. Cengage
+Learning, 2012.
+C. Nichols, L.M. CHEM 22 Laboratory Manual. Current Edition. Butte College (publisher), 2014.
+Materials Other Than Textbooks:
+A. Laboratory Notebook with non-removable pages
+
+Created/Revised by: Lisa Nichols
+Date: 04/20/2015
+
+

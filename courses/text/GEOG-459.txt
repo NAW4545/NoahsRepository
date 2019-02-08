@@ -1,0 +1,193 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+GEOG 20 - Introduction to Geographic Information Systems
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+Study of Geographic Information Systems (GIS) science and its applications to spatial data
+management. Identification and acquisition of GIS data. Assessment of vector and raster systems,
+scale, resolution, map projection, coordinate systems, georeferencing and Global Positioning Systems
+(GPS). Spatial analysis and modeling with GIS. Explores how GIS solves spatial problems, such as
+those in natural resources, earth and life sciences, environmental planning, local government, business,
+transportation and other fields. (C-ID GEOG 155).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Define Geographic Information Systems (GIS).
+B. Identify and evaluate GIS data sources and the importance of metadata.
+C. Demonstrate the process of converting analogue data to digital data for use in a GIS
+D. Identify, compare and contrast vector and raster GIS.
+E. Evaluate the capabilities of various GIS software programs.
+F. Apply cartographic principles of scale, resolution, projection and data management to a problem
+of a geographic nature.
+G. Apply spatial analysis functions on a GIS to solve a Geospatial problem.
+H. Plan, evaluate and execute a GIS project: Identify a problem of a geospatial nature; outline a
+strategy to solve the problem; locate relevant data sources; design and evaluate a plan to acquire
+the relevant data sources; incorporate data sources into a Geographic Information System and
+execute strategy to solve a geospatial problem; apply principles of spatial analysis; and present
+results (Lab activity).
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Fundamental Concepts in Geographic Information Systems
+a. Definition of GIS
+b. Vector and raster systems
+c. Scale and resolution
+d. Map projections and coordinate systems
+e. Applications of GIS
+f. Basics of cartographic design
+2. GIS Data Sources
+
+Hours
+4.00
+
+6.00
+
+2. GIS Data Sources
+a. Identify sources of GIS data
+b. Metadata
+c. Georeferencing and Global Positioning Systems (GPS)
+d. Converting digital data to a uniform projection and scale
+e. Vector-to-raster and raster-to-vector data conversions, error propagation
+3. Designing and Implementing a GIS
+a. User needs assessment
+b. Database design and management
+c. Fundamentals of data storage
+d. Database management
+e. Input of data with GPS
+f. Digitizing, scanning, editing and output
+4. Spatial Analysis
+a. Map algebra
+b. Buffering
+c. Interpolation and surface analysis
+d. Network analysis
+e. Applications in decision-making
+f. Modeling
+Total Hours
+
+6.00
+
+12.00
+
+12.00
+
+34.00
+
+Lab
+Topics
+1. Exploring ArcMap
+2. Exploring ArcCatalog
+3. Symbolizing features and rasters
+4. Classifying features and rasters
+5. Labeling features
+6. Querying data
+7. Joining and relating tables
+8. Selecting features by location
+9. Preparing data for analysis
+10. Analyzing spatial data
+11. Projecting data in ArcMap
+12. Building geodatabases
+13. Creating features
+14. Editing features and attributes
+15. Geocoding addresses
+16. Making maps from templates
+17. Making maps for presentation
+18. Plan, evaluate and execute a GIS project
+19. Identify a problem of a geospatial nature
+20. Outline a strategy to solve the problem
+21. Locate relevant data sources
+22. Design and evaluate a plan to acquire the relevant data source
+
+Hours
+1.50
+1.50
+3.00
+3.00
+2.00
+2.50
+1.00
+3.00
+3.00
+3.00
+1.00
+1.50
+1.50
+3.00
+2.50
+2.00
+2.00
+1.75
+1.75
+1.75
+1.75
+1.75
+
+23. Incorporate data sources into a Geographic Information System and
+execute strategy to solve a geospatial problem
+24. Apply principles of spatial analysis
+25. Present results
+Total Hours
+
+1.75
+1.75
+1.75
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Collaborative Group Work
+D. Class Activities
+E. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+F. Reading Assignments
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Demonstration
+C. Homework
+D. Lab Projects
+E. Written Assignments
+F. Written Examinations
+G. Performance Examinations
+H. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter "Exploring ArcMap(Getting to Know ArcGIS)," and be prepared to
+discuss the importance of choosing the correct symbology and various sources of feature
+classes.
+2. Read the journal article found in Module 3: GIS-Based Generalization and Multiple
+Representation of Spatial Data, and be prepared to discuss the importance of
+generalization of symbology as a cartographic tool.
+B. Writing Assignments
+1. Write a 500 word review of the journal article, "GIS-based simulation of land use
+change," provided by the instructor.
+2. Write a 750 word research paper concerning the applications of mobile GIS, including the
+implications of this technological advancement.
+C. Out-of-Class Assignments
+1. Find ten examples of cartographic symbology from maps found on the internet,
+representing the evolution of cartographic symbology over time. Prepare a 500 word paper
+discussing those changes and include examples of your selection. You may find a large
+collection of historic and contemporary maps at:
+http://www.davidrumsey.com/
+2. Write a 1,000 word research report comparing the various GIS software programs
+available, including open-source freeware. Prepare a scientific poster using Powerpoint (or
+similar program) presenting your results orally in class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+
+Textbooks:
+A. Ormsby, T., Napoleon, E., Burke, R., Groessl, C., Bowden, L. Getting to Know ArcGIS. 2nd
+Edition. ESRI, 2010.
+B. Bolstad, P. GIS Fundamentals. 4th Edition. Eider Press, 2012.
+C. Law, M. Collins, A. Getting to Know ArcGIS. 4th Edition. ESRI, 2015.
+
+Created/Revised by: Randy Cousineau
+Date: 11/16/2015
+
+

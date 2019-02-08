@@ -1,0 +1,119 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 31 - Engine Performance and Emission Controls Lab
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 30
+Recommended Prep: AUT 1
+Transfer Status: CSU
+255 hours Lab
+
+5 Unit(s)
+
+In this course, students will develop and demonstrate the hands-on skills needed to diagnose and repair
+the ignition, fuel, engine management, and emission control systems used in today's vehicles. The
+student will also perform various emission control inspections (Smog Check) and perform diagnosis
+and repair of Smog Check failures, as per California Bureau of Automotive Repair (BAR) standards.
+This instruction will help prepare the student to take the California State Smog Check Inspector and
+Repair Technician Licensing Exams.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Diagnose and repair various vehicle ignition system problems, using industry-approved tools
+and techniques.
+B. Diagnose and repair various fuel system problems, using industry- approved tools and
+techniques.
+C. Diagnose and repair various computer-controlled engine management system problems, using
+industry-approved tools and techniques.
+D. Diagnose and repair various emission control system problems, using industry-approved tools
+and techniques.
+E. Demonstrate how to perform the three types of emission control system inspections (Smog
+Check) according to California BAR standards.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Testing and repair of conventional and electronic automotive ignition
+systems.
+2. Testing and repair of various types of automotive fuel systems, to include
+throttle body injection, multi-port fuel injection, and direct injection.
+3. Testing and repair of various types of computer-controlled engine
+management systems, to include speed-density and mass airflow types. This
+section will also include working with On-Board Diagnostics 2nd
+Generation (OBDII) and Controller Area Network (CAN) type systems.
+4. Hands-on practice, performing emission control inspections (Smog Check)
+while adhering to California BAR standard. Practice will include the three
+current types of inspections: Two-Speed Idle (TSI), Acceleration
+Simulation Mode (ASM), and OBD Inspection System (OIS). Students will
+also perform diagnosis of Smog Check failures.
+5. Testing and repair of various emission control sytems, to include Positive
+
+Hours
+50.00
+50.00
+50.00
+
+55.00
+
+50.00
+
+5. Testing and repair of various emission control sytems, to include Positive
+Crankcase Ventilation (PCV), Evaporative Emission Control (EVAP),
+Exhaust Gas Recirculation (EGR), Air Injection Reactor (AIR), and
+catalytic converters.
+Total Hours
+
+50.00
+
+255.00
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Collaborative Group Work
+C. Problem-Solving Sessions
+D. Reading Assignments
+E. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Class participation
+B. Lab Projects
+C. Final Examination
+D. Performance Examinations
+E. Practical Evaluations
+F. Laboratory evaluation will be by observation and the number of completed jobs which are
+documented by job sheets and a hands-on performance lab final.
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on "Electronic Fuel Injection" in the Engine Performance Shop Manual.
+After studying this material, be prepared to demonstrate an injector balance test and a fuel
+pressure test.
+2. Read the chapter on "Emission Control System Diagnosis and Service" in the Engine
+Performance Shop Manual. After studying this material, be prepared to demonstrate how
+to test a catalytic converter and an exhaust gas recirculation (EGR) system.
+B. Writing Assignments
+1. Perform a Smog Check Inspection in the lab. Complete a customer repair order following
+the standards set forth by the California BAR.
+2. In the AUT31 Lab Worksheets Book, complete the "OBDII Lab Worksheet". The final
+requirement of this worksheet is to look up the OBDII Drive Cycle Enable Criteria, for the
+vehicle that you are working on. Describe, in writing, the difficulties that you might have
+in completing the drive cycle, such as traffic conditions, terrain, vehicle conditions, time
+required, etc. This writing assignment must be at least 100 words.
+C. Out-of-Class Assignments
+1. Go to an automotive repair facility of your choice (dealership, independent shop, or chain
+store) to observe the shop operations including the flow of repair orders, the parts ordering
+process, the technicians at work, etc. Post a blog of at least 300 words, describe your
+experiences at this facility. Read and comment on at least one other blog.
+2. Pick a day when the BAR Smog Check Referee is working at the B.C. Skyway Center,
+and observe the work being performed. Post a blog of at least 300 words, comparing and
+contrasting the Referee to a Smog Check Station. Read and comment on at least one other
+blog.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Pickerell, Ken. Today's Technician Automotive Engine Performance Classroom & Shop
+
+Manuals . 6th Edition. Delmar Cengage Learning, 2014.
+Materials Other Than Textbooks:
+A. Safety glasses
+
+Created/Revised by: Bradley Dressen
+Date: 02/22/2016
+
+

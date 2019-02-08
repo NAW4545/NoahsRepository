@@ -1,0 +1,125 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BCIS 47 - Desktop Publishing
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III
+Transfer Status: CSU
+34 hours Lecture
+25.5 hours Lab
+
+2.5 Unit(s)
+
+In this course, students will examine the design principles and elements applied when creating printed
+documents and use desktop publishing software to create high-quality printed business publications
+such as newsletters, brochures, and flyers.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Define desktop publishing and identify the software used to create printed business publications;
+B. Identify the goals of both document design and page design;
+C. Identify the design principles and design elements to be considered when planning and creating
+business publications;
+D. Describe the purpose and function of graphics, color, and typography principles in document
+and page design and use both effectively when creating business publications;
+E. Describe the features and functions of a current page layout software and apply these to create
+business publications;
+F. Describe the features and functions of a current photo editing software and apply these to
+modify and enhance photos to be placed in business publications; and
+G. Plan, create, design, and print business publications applying design principles and elements,
+typography principles, color, and images.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Desktop Publishing
+2. Goals of Document and Page Design
+3. Design Principles of Document and Page Design
+4. Design Elements of Document and Page Design
+5. Purpose and Function of Graphics, Color, and typography principles in
+Document Design
+6. Features and Functions of Page Layout Software including creating
+textboxes, formatting text and paragraphs, creating objects, placing and
+transforming graphics, using Master Pages and Layers, adding interactivity,
+and exporting documents
+7. Features and Functions of Photo Editing Software including selecting pixels,
+altering pixels, using Layers, improving images, and creating special effects
+Total Hours
+
+Hours
+1.50
+1.50
+3.00
+1.50
+3.00
+13.00
+
+10.50
+34.00
+
+Lab
+Topics
+1. Features and Functions of Page Layout Software including creating
+textboxes, formatting text, creating objects, placing and transforming
+graphics, using Master Pages and Layers, adding interactivity, and exporting
+documents
+2. Features and Functions of Photo Editing Software including selecting pixels,
+altering pixels, using Layers, improving images, and creating special effects
+3. Integrated Desktop Publishing Projects
+Total Hours
+
+Hours
+10.00
+
+10.00
+5.50
+25.50
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Class Activities
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Projects
+C. Class participation
+D. Written Assignments
+E. Class Discussion
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on the principles of document design, answer the questions at the end of
+the chapter, and be prepared to discuss these principles in the next class session.
+2. Read the chapter on the goals of document design, answer the questions at the end of the
+chapter, and be prepared to discuss these goals in the next class session.
+B. Writing Assignments
+1. After selecting a theme for a marketing brochure, compose one to two paragraphs to
+include on the inside cover of your brochure that describes the service your company
+provides to potential clients. Please type and submit this to instructor for editing and
+approval.
+2. After selecting a theme for your four-page newsletter, write six different theme-oriented
+articles that are approximately 350 words in length. Each article should be typed in a word
+processing document and submitted to the instructor for editing and approval to include in
+the newsletter.
+C. Out-of-Class Assignments
+1. Using the Internet, research "page layout software." Create a document that lists three
+different page layout softwares and include a description of each software's features and
+cost. Be prepared to discuss and share your findings in class.
+2. Analyze the business publications provided by the instructor and determine where the
+principles of design have been applied. In a paper, explain how these principles have been
+applied and how they improve the appearance and readability of the document or could be
+improved upon.
+
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Fisher, A.. Adobe InDesign CS6 Illustrated with Online Creative Cloud Updates . 1st Edition.
+CENGAGE Learning, 2012.
+B. Botello, C.. Adobe® Photoshop® CS6: Illustrated. 1st Edition. CENGAGE Learning, 2012.
+C. Williams, R.. The Non-Designer's Design Book: Design and Typographic Principles for the
+Visual Novice . 3rd Edition. Peachpit Press, 2008.
+
+Created/Revised by: Sandra Sloan
+Date: 11/17/2014
+
+

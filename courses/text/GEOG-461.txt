@@ -1,0 +1,138 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+GEOG 22 - Remote Sensing and Spatial Analysis
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course covers Geographic Information Systems (GIS) for investigating geographic patterns,
+relationships and connections. Spatial analysis methods are employed for both raster and vector data.
+Emphasis is on problem-solving and decision making using GIS. Models and scripts for automating
+GIS processes are also undertaken. In addition, remote sensing fundamentals as they apply to mapping
+the Earth’s surface will be covered. Image enhancement, classification and quantitative techniques are
+explored with attention to integration with GIS datasets. Application of remote sensing for land cover
+change, vegetation classification, and environmental quality are explored.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Distinguish between conventional statistical analyses to spatial analysis.
+B. Identify and use basic sampling methods used in GIS.
+C. Compare and interpret geographically referenced data.
+D. Analyze problems associated with acquisition and accuracy of data used in spatial analysis.
+E. Examine the problems associated with statistical analysis and quantification of spatial features.
+F. Analyze and manipulate geographically referenced data, and apply spatial analysis in the
+decision making process.
+G. Identify the principles of remote sensing and digital image processing.
+H. Identify the applications of remote sensing and GIS to solve real world problems.
+I. Apply experience in the use of image processing and GIS software.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Brief overview of GIS
+2. Spatial Data
+3. Quantifications of Spatial Features
+4. Single-layer operations
+5. Multi-layer Operations
+6. Analysis of Point Features
+7. Network Analysis
+8. Spatial Modeling
+9. Surface Analysis
+10. Grid Analysis
+11. Spatial Analysis in Decision Making
+12. Principles of aerial photography and satellite remote sensing
+
+Hours
+1.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+
+Total Hours
+
+34.00
+Lab
+
+Topics
+1. Fundamental Spatial Analysis
+2. Point Pattern Analysis
+3. Line Data Analysis
+4. Network Analysis
+5. Surface Analysis
+6. 3-D Analysis
+7. Remote Sensing Learning
+8. Remote Sensing Principles
+9. Remote Sensing Interpretation and Use
+Total Hours
+
+Hours
+3.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Group Discussions
+D. Class Activities
+E. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Research Projects
+D. Homework
+E. Lab Projects
+F. Essays and research papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read Module One, Enhancing Images, and prepare to discuss the different procedures to
+improve the visual appearance of an image, allowing for easier interpretation.
+2. Read an article, choosing a popular or peer reviewed publication, from your particular
+field of interest that deals with the use of GIS spatial analysis within that discipline.
+Prepare an oral presentation for in class discussion based upon the use.
+B. Writing Assignments
+1. Write a 500 word response focusing on the history of GIS use in water resources to the
+following article: Use of Geographic Information Systems (GIS) in Water Resources: A
+Review.
+2. Write a 750 word critique investigating the potential of GIS as powerful evidence-based
+practice tools for early problem detection and solving, from the article: Towards
+evidence-based, GIS-driven national spatial health information infrastructure and
+surveillance services in the United Kingdom.
+C. Out-of-Class Assignments
+
+1. Prepare a poster that outlines your final project and include the flow diagram as created in
+Model Builder in ArcGIS. A Powerpoint poster template is available on Blackboard.
+2. Complete one of the three ESRI Virtual Campus courses: Creating and Integrating Data
+for Natural Resource Applications, Performing Spatial Interpolation Using ArcGIS,
+Distance Analysis Using ArcGIS, and present your certificate of completion for
+assignment credit.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Keranen, K., Kolvoord, R. Making Spatial Decisions Using GIS and Remote Sensing: A
+Workbook . 1st Edition. ESRI Press, 2013.
+
+Created/Revised by: Randy Cousineau
+Date: 11/16/2015
+
+

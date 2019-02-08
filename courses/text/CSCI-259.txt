@@ -1,0 +1,127 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 26 - Linux 2, System Administration
+Prerequisite(s): CSCI 25
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this course students learn how to perform basic administration of a multiuser Linux system. Topics
+include the selection of distributions, file and package management, user and group administration, the
+boot process and service initialization, and intermediate shell skills. Students will install, configure,
+and administer users, hardware, and software on a modern Linux distribution.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Select, install, and manage software on a modern Linux distribution.
+B. Create and manage user accounts and groups including setting permissions and establishing disk
+quotas.
+C. Manage the boot process, runlevels, and user-level processes and administer essential system
+services on a Linux system.
+D. Configure a shell and create shell scripts to automate administration tasks.
+E. Monitor and manage hardware devices on a Linux system.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Command-line interface (CLI) and fundamental utilities
+2. Selecting a distribution
+3. System installation and package management
+4. Managing users and groups
+5. Managing essential system services
+6. Monitoring and managing hardware
+7. Shell scripting
+8. Booting and runlevels
+9. Display and window managers, desktop environments
+Total Hours
+
+Hours
+4.00
+2.00
+6.00
+6.00
+4.00
+4.00
+6.00
+1.00
+1.00
+34.00
+
+Lab
+Topics
+1. Command-line interface (CLI) and fundamental utilities
+2. Selecting a distribution
+3. System installation and package management
+4. Managing users and groups
+
+Hours
+6.00
+3.00
+9.00
+9.00
+
+5. Managing essential system services
+6. Monitoring and managing hardware
+7. Shell scripting
+8. Booting and runlevels
+9. Display and window managers, desktop environments
+Total Hours
+
+6.00
+6.00
+9.00
+1.50
+1.50
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Group Discussions
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Demonstrations
+E. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Homework
+C. Lab Projects
+D. Mid-term and final examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on regular expressions in your text, and work through the practice
+problems provided by the instructor. Be prepared to solve a variety of regex problems in
+class using simple characters, anchors, quantifiers, ranges, and metacharacters.
+2. Read the section in your text on configuring USB devices. Be prepared to discuss the
+"lsusb" utility, including its options, and demonstrate its use in class.
+B. Writing Assignments
+1. Prepare a 2-3 page draft of a computer security policy for a small business of 15-20
+employees with 15-20 workstations networked with a Linux server. Be sure to discuss user
+and group permissions, password policy, system services, and a software maintenance
+schedule and routine.
+2. Use the vi editor to prepare a 1-2 page "vi tutorial" that would be suitable for introducing a
+new user to the vi editor. Your tutorial should include a brief history and discussion of the
+purpose of vi, and description of the 3-4 vi commands that you consider most critical.
+C. Out-of-Class Assignments
+1. You have been given the task of recommending a bootable/live distribution of Linux for a
+company that wants to audit their network for intrusions. Using the database of
+distributions at www.linux.com, select a distribution and write a short paragraph to explain
+your choice. Be prepared to present your solution in class.
+2. Use a variety of online job search databases (such as UnixAdminSearch.com) to identify
+career opportunities for Linux system administrators in California and the United States.
+As you do your research, take notes about your experience with these job search databases
+-- what are the pros/cons of each? Be prepared to discuss your findings in class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Smith, Roderick W. LPIC-1: Linux Professional Institute Certification Study Guide: (Exams
+101 and 102). 4th Edition. Sybex, 2015.
+
+B. Nemeth, Evi, Snyder, Garth, et al. UNIX and Linux System Administration Handbook. 4th
+Edition. Prentice Hall, 2010.
+
+Created/Revised by: John Trolinger
+Date: 03/07/2016
+
+

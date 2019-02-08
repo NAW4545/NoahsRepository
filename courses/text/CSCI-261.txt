@@ -1,0 +1,128 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 32 - Web Development II
+Prerequisite(s): CSCI 31
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this course students learn to develop applications for the World Wide Web. Topics include the
+fundamentals of web server platforms, programming languages for web development, using databases
+to persist information for a web application, and web application frameworks. Students will design,
+implement, and deploy a complete web application using a current programming language, database
+technology, and web server.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Design and implement a complete web application using a current programming language,
+database technology, and web server platform.
+B. Deploy and maintain a complete web application on a web server.
+C. Identify, compare, and contrast the main features of the programming languages and database
+technologies that are most commonly used by web developers.
+D. Evaluate web application frameworks in terms of their underlying technologies, architecture,
+and suitability for use in different web applications.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Programming languages for web development
+2. Databases for web applications
+3. Designing a database for a web application
+4. Creating a database for a web application
+5. Programming a web application
+6. Securing a web application
+7. Deploying and maintaining a web application
+8. Web application frameworks
+Total Hours
+
+Hours
+2.00
+4.00
+4.00
+4.00
+12.00
+2.00
+2.00
+4.00
+34.00
+
+Lab
+Topics
+1. Programming languages for web development
+2. Databases for web applications
+3. Designing a database for a web application
+4. Creating a database for a web application
+5. Programming a web application
+
+Hours
+3.00
+6.00
+6.00
+6.00
+18.00
+
+5. Programming a web application
+6. Securing a web application
+7. Deploying and maintaining a web application
+8. Web application frameworks
+Total Hours
+
+18.00
+3.00
+3.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Demonstrations
+E. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Projects
+C. Class participation
+D. Mid-term and final examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the article on cross-site scripting (XSS) provided by the instructor. Pay particular
+attention to the source(s) of XSS vulnerabilities and solutions for this problem. Be
+prepared to discuss XSS problems with respect to your web application in class.
+2. Select and read a minimum of two articles on use cases and web design provided by the
+instructor. Make a list of the use cases you believe will be the most common in your web
+application and be prepared to share your list in class.
+B. Writing Assignments
+1. Based on the small business scenario provided by the instructor, prepare a 1-2 page
+proposal for a web application for the small business. Your proposal should include the
+technologies you will use and rationale for each.
+2. Using the programming language, sample data set, and database schema assigned by the
+instructor, write the functions needed to (1) validate a set of POST data, (2) prepare a SQL
+statement to insert the data into the database, and (3) execute an SQL query to complete
+the insert.
+C. Out-of-Class Assignments
+1. Research a minimum of three web application frameworks, each written in a different
+programming language. Prepare a 5-10 minute multimedia presentation to compare and
+contrast the main features of the frameworks you select. Be prepared to present what you
+have learned to the class.
+2. Prepare regular expressions that can be used to identify and validate phone numbers and
+email addresses in your web application. Test your regular expressions on the data set
+provided by the instructor. Be prepared to present your regular expressions in class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Welling, Luke, Thomson, Laura. PHP and MySQL Web Development. 5th Edition.
+Addison-Wesley Professional, 2016.
+B. Hartl, Michael. Ruby on Rails Tutorial: Learn Web Development with Rails. 3rd Edition.
+
+Addison-Wesley Professional, 2015.
+C. Delamater, Mary. Murach's ASP.NET 4.5 Web Programming with C# 2012. 5th Edition. Mike
+Murach & Associates, 2013.
+
+Created/Revised by: John Trolinger
+Date: 03/07/2016
+
+

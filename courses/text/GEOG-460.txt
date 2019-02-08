@@ -1,0 +1,146 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+GEOG 21 - GIS Data Capture
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course covers design and implementation of geographic databases for Geographic Information
+Systems (GIS) data capture and management. Included are essential concepts and practices of
+relational database management systems, with specific application to GIS. Data is captured using
+Global Positioning Systems (GPS) and mobile GIS methods. GIS digitizing and editing are also
+covered.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Identify the sources of existing spatial data and manipulate that data to one's needs.
+B. Evaluate the quality and reliability of existing GIS data.
+C. Convert digital and hard copy GIS data to needed formats.
+D. Choose and apply appropriate projections and scales for given GIS data sets.
+E. Access appropriate GIS data sets from the Internet.
+F. Capture and manipulate data using GPS.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Introduction and Overview
+2.
+Data: The heart of GIS
+3.
+Creating Digital Spatial Data
+4.
+Acquiring Existing Digital Data
+5.
+Accessing Spatial Data Sources
+6.
+Converting Data
+7.
+Scanning Hardcopy Data
+8.
+Tabular Databases
+9.
+Using GPS Data
+10. Managing Spatial Data
+Total Hours
+
+Hours
+2.00
+3.50
+3.50
+4.00
+4.00
+3.00
+4.00
+3.00
+4.00
+3.00
+34.00
+Lab
+
+Topics
+1.
+Discovering data sources
+2.
+Creating data sources
+3.
+Finding existing data
+
+Hours
+3.00
+6.00
+6.00
+
+4.
+Manage and manipulate data
+5.
+Use of various types of data sets
+6.
+Converting data sets
+7.
+What to do with hard copy data
+8.
+Collect data using GPS
+9.
+Making non-spatial, spatial
+Total Hours
+
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Class Activities
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Problem-Solving Sessions
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Papers
+D. Oral Presentation
+E. Demonstration
+F. Homework
+G. Lab Projects
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter "Representing Spatial Objects," and prepare to discuss how the geometry
+of a collected objects are displayed, how network and topology models are represented,
+and how recent initiatives are standardized.
+2. Read an article, from a popular or peer reviewed publication, about the current status of
+geo-data acquisition, particularly focusing on the use of mobile devices and digital video.
+Prepare an oral presentation for in class discussion.
+B. Writing Assignments
+1. Write a 750 word paper on the particular importance of projection and scale as it
+associated with the scope of a particular mapping project.
+2. Write a 500 word critique on the article: Free and Open Source Software for GIS
+Education, as it relates to government and industrial use of open source GIS software and
+other GIS products such as ESRI's ArcView.
+C. Out-of-Class Assignments
+1. Complete one of the three ESRI Virtual Campus courses: Working with Coordinate
+Systems in ArcGIS, Basics of Map Projection, Using Lidar Data, Exploring Spatial
+Patterns in Your Data, and present your certificate of completion for assignment credit.
+2. Visit a public or private agency and observe the GIS application process, and present an
+oral report concerning their workflow of a GIS project.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Decker, Drew. GIS Data Sources. 1st Edition. John Wiley & Sons, 2001.
+
+B. Yeh, A., Shi, W., Leung, Y. Advances in Spatial Data Handling and GIS. 1st Edition. Springer
+Berlin Heidelberg, 2014.
+
+Created/Revised by: Randy Cousineau
+Date: 11/16/2015
+
+

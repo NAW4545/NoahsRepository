@@ -1,0 +1,153 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 65 - Microsoft SQL Database Administration
+Prerequisite(s): CSCI 49
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course prepares students to take the Microsoft Technology Associate (MTA) certification exam
+for Microsoft Structured Query Language (SQL) Server. Students learn to install and configure a
+database, create fields, tables, and objects, manipulate data, and administer and troubleshoot a
+Microsoft SQL Server database. Topics include server instances, server components, security, backup
+and recovery, performance and availability.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Install and configure Microsoft SQL Server and related services.
+B. Configure and manage Microsoft SQL Server instances.
+C. Create and manage Microsoft SQL Server databases.
+D. Create and manage a variety of database indexes.
+E. Manage Microsoft SQL Server security including logins, server roles, database roles, and
+permissions on server instances, databases, schema, and objects.
+F. Manage data on a Microsoft SQL Server using data partitions and data compression.
+G. Identify and address Microsoft SQL Server service problems including concurrency issues and
+job execution errors.
+H. Plan for and manage backup and recovery operations for a Microsoft SQL Server database.
+I. Optimize and troubleshoot Microsoft SQL Server Database system activities including cache
+hits, connections, locks, memory allocation, Online Transaction Processing (OLTP),
+recompilation, and transactional throughput.
+J. Optimize hardware resource usage including the Central Processing Unit (CPU), disk
+Input/Output (I/O), and memory.
+K. Identify, differentiate, and utilize data definition language (DDL) and data manipulation
+language (DML).
+L. Differentiate and analyze advanced SQL configurations for High Availability (HA) and Disaster
+Recovery (DR) and Replication. Including clustering, mirroring, AlwaysOn Availability, Merge
+and transactional replication.
+M. Evaluate cloud integration with Azure.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Database design fundamentals
+2. Microsoft SQL Server installation and configuration
+3. Microsoft SQL Server instances
+4. Microsoft SQL Server database management and configuration
+
+Hours
+2.00
+4.00
+4.00
+4.00
+
+5. Logins, roles, and permissions
+6. Data partitions and data compression
+7. Database indexes
+8. Monitoring and troubleshooting SQL Server
+9. Disaster recovery
+10. Optimizing Microsoft SQL Server performance
+11. Implementing high availability
+12. Security best practices
+Total Hours
+
+5.00
+2.00
+2.00
+3.00
+2.00
+3.00
+2.00
+1.00
+34.00
+
+Lab
+Topics
+1. Database design fundamentals
+2. Microsoft SQL Server installation and configuration
+3. Microsoft SQL Server instances
+4. Microsoft SQL Server database management and configuration
+5. Logins, roles, and permissions
+6. Data partitions and data compression
+7. Database indexes
+8. Monitoring and troubleshooting Microsoft SQL Server
+9. Disaster recovery
+10. Optimizing Microsoft SQL Server performance
+11. Implementing high availability
+12. Security best practices
+Total Hours
+
+Hours
+3.00
+6.00
+6.00
+6.00
+7.50
+3.00
+3.00
+4.50
+3.00
+4.50
+3.00
+1.50
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Demonstrations
+D. Multimedia Presentations
+E. Practical Exercises
+V. METHODS OF EVALUATION
+A. Lab Projects
+B. Written Assignments
+C. Written Examinations
+D. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the Microsoft white paper, "Application and Multi-Server Management," available
+at Microsoft TechNet online. Be prepared to discuss the major features of SQL Server
+Management Studio in class.
+2. Read the chapter in your book that describes server and database roles. Write a brief
+
+description of each of the following: server roles, fixed database roles, user-defined
+database roles. Be prepared to discuss these roles in class.
+B. Writing Assignments
+1. Write a one page summary of the various tools and techniques available to identify and
+troubleshoot service-related issues, concurrency issues, and login and connectivity issues
+on a SQL Server.
+2. Review the SQL Server documentation for the installation and configuration of SQL
+Server. Write a detailed 3 page procedure that can be used to guide the upgrade and
+automated installation of SQL Server.
+C. Out-of-Class Assignments
+1. Go to a local bookstore and identify and assess the books available to help Information
+Technology (IT) professionals prepare for the Microsoft SQL Server certification exams.
+Be prepared to share any recommendations you have for your classmates for exam
+preparation supplemental materials.
+2. Attend the Pragmatic Works webinar, "SQL Server Distributed Replay." Using what you
+learn in the webinar, write a 1 page assessment of expected impacts of the hardware and
+operating system upgrades proposed in the scenario provided by the instructor.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Jorgensen, A., Ball, B., Wort, S., LoForte, R., Knight, B. Professional Microsoft SQL Server
+2014 Administration. 1st Edition. Wiley, 2014.
+B. Microsoft Official Academic Course. MTA 98-364: Database Fundamentals. 1st Edition. Wiley,
+2012.
+
+Created/Revised by: Linda Fischer
+Date: 03/07/2016
+
+

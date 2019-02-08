@@ -1,0 +1,85 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 7 - Automotive Electrical Systems Lab
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 6
+Recommended Prep: AUT 1
+Transfer Status: CSU
+105 hours Lab
+
+2 Unit(s)
+
+In this course students will develop and demonstrate the hands-on skills needed to repair automotive
+electrical/electronics systems. Topics include verification, diagnosis and repair of vehicle charging and
+starting systems, lighting systems, and electrical accessories, including hybrid vehicles.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Diagnose and repair to industry standards, vehicle systems related to batteries.
+B. Diagnose and repair vehicle systems area of starting systems.
+C. Diagnose and repair vehicle charging systems.
+D. Diagnose and repair vehicle lighting and signaling systems.
+E. Diagnose and repair vehicle multiplex communication networks.
+F. Diagnose and repair vehicle electrical accessories.
+G. Diagnose and repair passive restraint and supplemental restraint systems.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Testing and service of conventional, maintenance free, hybrid, and
+recombination automotive batteries.
+2. Diagnosis of starter motor condition through use of industry recognised
+methods and tools.
+3. Performing charging system output, voltage drop and regulator tests.
+4. Diagnosis and repair of lighting circuit malfunctions.
+5. Diagnosis of Controller Area Network (CAN) bus system.
+6. Identification of the causes of malfunctioning accessory systems related to
+horn, wipers and door windows.
+7. Replacing an air bag and clock spring according to service information
+standards.
+Total Hours
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Collaborative Group Work
+C. Discussion
+D. Problem-Solving Sessions
+
+Hours
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+105.00
+
+E. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Demonstration
+B. Lab Projects
+C. Final Examination
+D. Performance Examinations
+E. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read safety precautions for air bag removal then demonstrate the procedure to remove an
+air bag.
+2. Read lab assigned instructions on safe battery handling. Be prepared to replace an
+automobile battery in class.
+B. Writing Assignments
+1. Measure voltage drops in a charging or starting system. Complete a written report on the
+findings and any recommendations.
+2. Conclude an air bag system diagnosis. Communicate the findings for customer review on
+a repair order.
+C. Out-of-Class Assignments
+1. Not applicable
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Hollembeak, B. Automotive Electricity & Electronics. 6th Edition. Cengage, 2015.
+
+Created/Revised by: Doug Conrad
+Date: 11/02/2015
+
+

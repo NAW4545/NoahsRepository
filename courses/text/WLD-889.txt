@@ -1,0 +1,213 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+WLD 42 - Introduction to Welding Inspection
+Prerequisite(s): WLD 22, WLD 24, WLD 25, WLD 26, WLD 40, WLD 50, WLD
+154 and NCCER Level II Welding Qualification
+Co-requisite(s): WLD 28, WLD 30, WLD 32, WLD 34, WLD 36, WLD 56, WLD
+156
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+
+2 Unit(s)
+
+This course instructs on the qualifications and knowledge requirements of a Certified Welding
+Inspector (CWI). Methods of testing, various procedures, and techniques of inspection. familiarize
+students with the basic concepts of destructive and nondestructive evaluation processes. Emphasis of
+record keeping methods used by the American Welding Society (AWS), American Society of
+Mechanical Engineers (ASME), American Petroleum Institute (API), and American National
+Standards Institute (ANSI).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Apply testing symbols to weldments according various welding standards.
+B. Apply codes to weldments that are currently used in the welding industry.
+C. Describe the role of a CWI in fabrication and the qualification of a welder.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction and safety
+2. Application and scope
+3. Definitions
+
+Hours
+1.00
+0.50
+1.50
+
+a. Definitions of welding terms
+b. Master chart of welding, allied processes & thermal cutting
+4. Symbols
+
+2.00
+
+a. Nondestructive testing symbols
+b. Basic testing symbols
+5. Ethical and essential requirements for a CWI
+
+2.00
+
+a. Ethical requirements
+b. Essential requirements
+c. Knowledge of testing methods
+d. Welding experience
+6. Welding inspection operations
+
+2.00
+
+6. Welding inspection operations
+
+2.00
+
+a. Knowledge of drawings, specifications, manufacturing instructions
+b. Welding procedure and welder qualifications
+c. Application of welding and allied procedures
+7. Quality assurance
+
+1.00
+
+a. Organization requirements
+b. Welding procedures and qualification records
+8. Welding metallurgy
+
+3.00
+
+a. Mild carbon steel
+b. Hydrogen and steel
+c. Low alloy steels
+d. Austenitic stainless steel
+e. Laminations and lamellar tearing
+9. Preheating and postweld heat treating
+
+1.00
+
+a. Preheating
+b. Postweld heat treating
+10. Weld and weld-related discontinuities
+
+3.00
+
+a. Dimensional discontinuities
+b. Weldment and related discontinuities
+c. Mechanical and chemical weld metal
+d. Glossary of weld discontinuities
+11. Welding procedure specifications
+
+2.00
+
+a. Description and important details
+b. Examples of welding procedure specifications
+12. Qualification of welding procedure specifications
+
+1.00
+
+a. Description
+13. Qualification of welders and welding operations
+
+1.50
+
+a. Performance qualification requirements
+b. The test specimen
+c. Testing of qualification welds
+d. Qualification records
+e. Standardization of tests
+f. Retests
+14. Selection of samples of welding tests
+
+1.00
+
+a. Procedural sampling methods
+b. Control charts for attributes
+15. Destructive testing of welds
+
+1.50
+
+15. Destructive testing of welds
+
+1.50
+
+a. Chemical tests
+b. Corrosion tests
+c. Metallographic tests
+d. Hardness stress
+e. Mechanical tests
+f. Standard tension test
+g. Tests of welded joints
+h. Notched-bar impact tests
+16. Proof and leak tests
+
+1.00
+
+a. Proof tests
+b. Leak tests
+17. Nondestructive testing
+
+3.00
+
+a. Inspection by visual testing
+b. Inspection by radiographic testing
+c. Ultrasonic testing of welds and weld related materials
+d. Magnetic particle testing
+e. Penetrant testing
+f. Eddy current (electromagnetic) testing
+g. Acoustic emission testing
+h. Ferrite testing
+i. Nondestructive testing procedures
+18. Qualification of nondestructive testing personnel
+19. Codes and standards
+20. Metric practice
+
+2.00
+3.00
+1.00
+
+a. The SI system
+b. Units
+c. Commonly used metric conversions
+Total Hours
+
+34.00
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Discussion
+D. Demonstrations
+E. Multimedia Presentations
+F. Student application
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Assignments
+
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read chapter 1 and be prepared to discuss in class.
+2. Read assigned AWS journal article and be prepared to discuss in class.
+B. Writing Assignments
+1. Describe an order of operations for the assigned destructive testing (DT) method of an
+SVOG pipe welding joint.
+2. Write an essay explaining how the assigned AWS article can be implemented into the
+process and how it relates to the class.
+C. Out-of-Class Assignments
+1. Define assigned vocabulary words and also explain how to prevent these weld defects
+from occurring.
+2. Research the proper process for setting up nondestructive testing (NDT) equipment using
+an AWS publication.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. AWS Committee on Methods of Inspection. Welding Inspection. 3 Edition. -, 2000.
+B. National Center for Construction Education and Research (NCCER). Welding Level Three. 4th
+Edition. Pearson Education INC, 2010.
+C. National Center for Construction Education and Research (NCCER). Welding Level Two. 4th
+Edition. Pearson Education INC, 2010.
+Materials Other Than Textbooks:
+A. All tools listed in the Butte College Welding Technology Program Guide.
+
+Created/Revised by: Donald Robinson
+Date: 04/18/2011
+
+

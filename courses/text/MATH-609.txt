@@ -1,0 +1,101 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 12 - Mathematics for Business Decisions (Finite Mathematics)
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Reading Level IV
+Transfer Status: CSU/UC
+51 hours Lecture
+
+3 Unit(s)
+
+Linear functions, systems of linear equations and inequalities, matrices, linear programming,
+mathematics of finance, sets and Venn diagrams, combinatorial techniques and an introduction to
+probability. Applications in business, economics and social sciences. (C-ID MATH 130).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Apply linear and exponential graphs and functions.
+B. Write a system of linear equations to solve applied problems.
+C. Solve a system of linear equations using Gauss-Jordan elimination and interpret the result.
+D. Find the inverse of a square matrix and use the inverse to solve a system of linear equations.
+E. Solve linear programming problems in at least three variables.
+F. Find unions, intersections and complements of sets and use Venn diagrams to solve problems.
+G. Apply basic combinatorial principles to enumeration problems.
+H. Determine the probability of a specified event.
+I. Find the conditional probability of an event.
+J. Solve applied problems in finance including simple and compound interest, future and present
+value, annuities, sinking funds, and amortization.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Linear equations and functions
+2. Exponential and logarithmic functions and their applications
+3. Applications of linear functions to economics such as cost, revenue and
+profit functions, supply and demand equations, break-even point, and free
+market equilibrium
+4. Systems of linear equations
+5. Matrices including matrix algebra, Gauss-Jordan elimination and
+reduced-row echelon form, inverse matrices, and applications
+6. Linear programming
+7. Math of finance including simple and compound interest, future and present
+value, annuities, sinking funds, and amortization
+8. Set theory including DeMorgan’s Laws and Venn diagrams
+9. Probability and combinatorics including permutations and combinations;
+finding the probability of an event given the probabilities of the simple
+events in a sample space; conditional probability
+Total Hours
+
+Hours
+2.00
+3.00
+8.00
+
+3.00
+8.00
+8.00
+8.00
+3.00
+8.00
+
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on Solution of Linear System by the Gauss-Jordan
+Method and be able to use it to solve a system of linear equations.
+2. Read the section in the textbook on Sets and be able to demonstrate the operations on a set
+using a Venn diagram.
+B. Writing Assignments
+1. Explain in words how to set up a system of equations to use the Gauss-Jordan Method and
+the process involved when using this method.
+2. Describe in words how to interpret complement, intersection, and union of sets. Use Venn
+diagrams in your explanation and assume you are explaining it to someone in the class
+who is having trouble.
+C. Out-of-Class Assignments
+1. Review the section in the textbook on Solution of Linear System by the Gauss-Jordan
+Method and solve the problems assigned by the instructor, showing all work.
+2. Review the section in the textbook on Counting Elements in a Subset Using a Venn
+Diagram and solve the problems assigned by the instructor, showing all work.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Rolf, H.L. Finite Mathematics. 7th Edition. Thomson Brooks/Cole, 2007.
+Materials Other Than Textbooks:
+A. Graphing calculator without symbolic algebra capabilities
+
+Created/Revised by: Laurie Kincheloe
+Date: 04/01/2013
+
+

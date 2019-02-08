@@ -1,0 +1,109 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+ENGR 1 - Introduction to Engineering
+Prerequisite(s): NONE
+Recommended Prep: Reading Level III
+Transfer Status: CSU/UC
+34 hours Lecture
+
+2 Unit(s)
+
+The course explores the branches of engineering, the functions of an engineer, and the industries in
+which engineers work. Explains the engineering education pathways and explores effective strategies
+for students to reach their full academic potential. Presents an introduction to the methods and tools of
+engineering problem solving and design including the interface of the engineer with society and
+engineering ethics. Develops communication skills pertinent to the engineering profession.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the role of engineers in society and classify the different engineering branches, the
+functions of an engineer, and industries in which they work.
+B. Identify and describe academic pathways to bachelor’s degrees.
+C. Develop and apply effective strategies to succeed academically.
+D. Explain engineering ethical principles and standards.
+E. Demonstrate knowledge of effective practices for writing technical engineering documents and
+making oral presentations.
+F. Analyze engineering problems using the engineering design process.
+G. Demonstrate teamwork skills in working on an engineering design team.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Role of engineers in society and comparison of engineering, science and
+technology
+2. Professional Licensing and engineering profession – branches, functions,
+industries, careers, job outlook
+3. Professionalism and ethics
+4. Learning Skills in Engineering education: academic success, curriculum,
+pathways, preparation for upper division coursework
+5. Written and oral communication skills related to engineering
+6. Branches of Engineering
+7. Engineering Statistics: salaries, work environment, life-work balance
+8. Exposure to modern engineering tools and practices
+9. Basic systems used in most every machine such as sensors, pneumatics,
+hydraulics, bearings, bushings, gears, belts and pulleys, clutches and brakes,
+and framing materials. AC and DC motor control, simple electrical circuits,
+machine controllers, programming, testing and analysis of results
+10. Introduction to design process
+11. Exposure to real world engineer through field trips and or guest speakers
+
+Hours
+2.00
+3.00
+2.00
+3.00
+2.00
+4.00
+2.00
+3.00
+4.00
+
+4.00
+5.00
+
+Total Hours
+
+34.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Guest Speakers
+C. Collaborative Group Work
+D. Field Trips
+E. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+F. Problem-Solving Sessions
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Oral Presentation
+C. Projects
+D. Homework
+E. Final Examination
+F. Class Discussion
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on the code of ethics for Engineers and be prepared to discuss specific
+cases in which Engineers make decisions based on their professional ethical code.
+2. Read the chapter on team work and be prepared to discuss the 4-steps method that guides
+the decision process during an engineering project.
+B. Writing Assignments
+1. Write two pages to respond to the following questions. What kind of Engineer would you
+like to become? Why? Search on websites such as www.glassdoor.com and
+http://www.nspe.org and find out about salary, work-life balance and locations for your
+chosen engineering career.
+2. Based on the 4-steps method, write about the different possibilities to address the problem
+assigned with your project. Address all of the different options and the steps you took to
+pick a specific option to complete the project.
+C. Out-of-Class Assignments
+1. Use a spreadsheet to design a GANTT project timeline for the assigned project.
+2. Complete an education plan that includes every class along with its prerequisites, laid out
+by semester for a degree in engineering.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Stephan, E. A., Park, W. J. Thinking Like an Engineer: An Active Learning Approach. 3rd
+Edition. Pearson, 2014.
+
+Created/Revised by: Francesco Madaro
+Date: 04/06/2015
+
+

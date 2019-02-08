@@ -1,0 +1,90 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 11 - Nature of Mathematics
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Reading Level IV
+Transfer Status: CSU
+51 hours Lecture
+
+3 Unit(s)
+
+This course is a survey of mathematical concepts in a variety of areas. The topics include probability,
+statistics, set theory, measurement, geometry, and business finance.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Perform set operations such as intersection, union, complement, difference, and Cartesian
+product.
+B. Solve applied problems using sets.
+C. Apply dimensional analysis in converting to and from the metric system and in solving
+measurement problems.
+D. Implement a variety of formulas in determining perimeter, area, and volume of geometric
+shapes.
+E. Solve applied problems using the Pythagorean Theorem.
+F. Solve applied simple and compound interest problems.
+G. Acquire skills in comparing fixed and open-ended installment loans.
+H. Implement the rules of probability in solving applied problems.
+I. Create graphical displays of data using histograms, frequency polygons, and stem-and-leaf plots.
+J. Generate, summarize, and interpret statistical data.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Sets and Counting
+2. Probability
+3. Statistics
+4. The Metric System and Dimensional Analysis
+5. Geometry
+6. Consumer Mathematics
+Total Hours
+
+Hours
+8.00
+9.00
+9.00
+6.00
+10.00
+9.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on Application of Sets and be able to explain how to use
+Venn Diagrams to solve a problem.
+2. Read the section in the textbook on Perimeter and Area and be able to explain the
+difference in the perimeter and area of a two-dimensional geometric figure.
+B. Writing Assignments
+1. Explain in words what it means to gain compound interest on an investment and describe
+how the compound interest is computed.
+2. Explain in words what a binomial experiment is and how to use the Binomial Probability
+Formula to find the probability that none of four people selected at random has blue eyes,
+given the probability of an individual having blue eyes is 0.4.
+C. Out-of-Class Assignments
+1. Review the section in the textbook on Polygons and do the problems assigned by the
+instructor showing all work.
+2. Review the section in the textbook on Binomial Probability Formula and do the problems
+assigned by the instructor showing all work.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Angel A.R., Abbott, C.D., & Runde, D.C. A Survey of Mathematics with Applications. 8th
+Edition. Pearson, 2009.
+Materials Other Than Textbooks:
+A. Scientific calculator
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

@@ -1,0 +1,180 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+WLD 28 - Mig and Tig Arc Welding
+Prerequisite(s): WLD 22, WLD 24, WLD 25, WLD 26, WLD 40, WLD 50, WLD
+154 and NCCER Level II Welding Qualification
+Co-requisite(s): WLD 30, WLD 32, WLD 34, WLD 36, WLD 42, WLD 56, WLD
+156
+Recommended Prep: Reading Level III; English Level II; Math Level II
+Transfer Status: CSU
+17 hours Lecture
+102 hours Lab
+
+3 Unit(s)
+
+This course includes the gas metal arc welding (GMAW)/metal inert gas (MIG), gas tungsten arc
+welding (GTAW)/tungsten inert gas (TIG) and flux cored arc welding (FCAW) processes, in the flat,
+vertical, horizontal, and overhead positions. It will also include safety procedures, electrode
+identification, joint fit-up and alignment, base metal preparation, weld quality, and beads, with a focus
+on theory and practice.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Operate the GMAW units to weld in the flat, horizontal, vertical, and overhead positions.
+B. Operate the FCAW units to weld in the flat, horizontal, vertical, and overhead positions.
+C. Operate the GTAW units to weld in the flat, horizontal, vertical, and overhead positions.
+D. Operate the GMAW, FCAW, and GTAW processes, demonstrating the skill needed for
+certification.
+E. Demonstrate proper base metal and bead qualification procedures per requirements set by the
+American Welding Society (AWS).
+F. Identify and use the AWS classification of electrodes, wires, and rod when selecting the correct
+electrode for the job.
+G. Master the skills needed to pass certification as per the requirements set by the AWS.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction and safety
+2. Introduction to GMAW
+3. Constant voltage characteristics
+4. Shielding gases (including gas mixtures)
+5. Filler wire classifications
+6. Operating variables
+7. Weld defects
+8. Fillet welds and groove welds
+9. MIG welding of aluminum
+10. MIG welding of stainless steel
+11. Flux core wire welding processes (FCAW)
+
+Hours
+2.00
+1.00
+0.50
+0.50
+0.50
+0.50
+0.50
+1.00
+0.50
+0.50
+1.00
+
+11. Flux core wire welding processes (FCAW)
+12. Introduction to GTAW
+13. GTAW welding of various metals and shielding gases
+14. Establishing the arc and forming a weld pool
+15. Process Characteristics
+16. Relationship of rod angle to plate and torch angle to plate
+17. GTAW of Aluminum
+18. GTAW of Carbon and Low Alloy Steels
+19. GTAW of Stainless Steel
+20. GTAW of Dissimilar Metals
+Total Hours
+
+1.00
+1.50
+1.00
+1.00
+0.50
+0.50
+1.00
+1.00
+1.00
+1.00
+17.00
+
+Lab
+Topics
+1. Introduction and safety
+2. Introduction to GMAW
+3. Constant voltage characteristics
+4. Shielding gases (including gas mixtures)
+5. Filler wire classifications
+6. Operating variables
+7. Weld defects
+8. Fillet welds and groove welds
+9. MIG welding of aluminum
+10. MIG welding of stainless steel
+11. FCAW process
+12. Introduction to GTAW
+13. GTAW welding of various metals and shielding gases
+14. Establishing and arc and forming a weld pool
+15. Process Characteristics
+16. Relationship of rod angle to plate and torch angle to plate
+17. GTAW of Aluminum
+18. GTAW of Carbon and Low Alloy Steels
+19. GTAW of Stainless Steel
+20. GTAW of Dissimilar Metals
+Total Hours
+
+Hours
+1.50
+1.50
+3.00
+3.00
+3.00
+3.00
+3.00
+6.00
+3.00
+3.00
+12.00
+12.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+6.00
+102.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Multimedia Presentations
+
+G. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Homework
+D. Lab Projects
+E. Lab Final Project
+F. Lab Mid-term Project
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read assigned AWS journal article and be prepared to discuss in class.
+2. Read chapter 1 of the GTAW handbook and be prepared to discuss in class.
+B. Writing Assignments
+1. Write an essay explaining how the assigned AWS article can be implemented into the
+process and how it relates to the class.
+2. Describe an order of operations for GTAW equipment setup.
+C. Out-of-Class Assignments
+1. Answer review questions for chapter 5.
+2. Research the proper process for setting up GMAW equipment using manufactures
+publication.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. William H. Minnick. Gas Tungsten Arc Welding Handbook. The Goodheart-Wilcox Company,
+Inc., 2000.
+B. William H. Minnick. Gas Metal Arc Welding Handbook. The Goodheart-Wilcox Company,
+Inc., 2000.
+C. William H. Minnick. Flux Core Arc Welding Handbook. The Goodheart-Wilcox Company,
+Inc., 2000.
+D. National Center for Construction Education and Research (NCCER). Welding Level Two. 4th
+Edition. Pearson Education INC, 2010.
+E. National Center for Construction Education and Research (NCCER). Welding Level Three. 4th
+Edition. Pearson Education INC, 2010.
+Materials Other Than Textbooks:
+A. All tools listed in the Butte College Welding Technology Program Guide.
+
+Created/Revised by: Donald Robinson
+Date: 04/18/2011
+
+

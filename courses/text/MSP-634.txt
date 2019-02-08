@@ -1,0 +1,110 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MSP 12 - Two-Dimensional Animation
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course introduces students to two-dimensional animation. Topics include storyboards, drawing
+extremes and in-betweens, defining motion paths, creating illusion of depth, basic Actionscripting for
+animation, use of type in animated sequences, and other animation techniques.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. List and describe major animation techniques, and identify these techniques in real-world
+implementations.
+B. Idenfity and describe animation that is used to influence contemporary visual culture.
+C. Demonstrate an understanding of and employ animation principles and techniques to create short
+computer animations.
+D. Use animation software to produce finished animations.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction to animation software
+2. Manipulating animation tools/menus
+3. File formats, saving/converting files
+4. Movement of simple geometric shapes
+5. Storyboarding/Animation strategy
+6. Drawing extremes/in-betweens
+7. Symbols: Movie Clips, Buttons, Graphics
+8. Motion path analysis, fills and color creation
+Total Hours
+
+Hours
+4.00
+3.00
+3.00
+8.00
+4.00
+4.00
+4.00
+4.00
+34.00
+
+Lab
+Topics
+1. Introduction to animation software
+2. Manipulating animation tools/menus
+3. File formats, saving/converting files
+4. Movement of simple geometric shapes
+5. Storyboarding/Animation strategy
+6. Drawing extremes/in-betweens
+
+Hours
+6.00
+4.50
+4.50
+12.00
+6.00
+6.00
+
+7. Symbols: Movie Clips, Buttons, Graphics
+8. Motion path analysis, fills and color creation
+Total Hours
+
+6.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Group Discussions
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Lecture/Lab demonstration
+D. Hands-on practice completing assigned animation projects
+E. Presentation of professionally produced animations
+V. METHODS OF EVALUATION
+A. Homework: research animated projects on the Internet
+B. Participation in critiques of in-class projects
+C. Assigned projects and reading
+D. Identify well designed and poorly designed animated projects, write a paper describing the
+qualities of each project.
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Research an animator or animation studio on the Internet and read a profile or interview
+about the individual or company. Be prepared to share the information with the class
+through an oral report.
+2. Read an article related to the animation industry and share with the class.
+B. Writing Assignments
+1. Develop a story board and write a script that relates to the animation process.
+2. Write a one-page description of the process used to create a stop-motion animation.
+C. Out-of-Class Assignments
+1. Research new technologies and software for animation. Share with the class.
+2. Use a camera to capture still images and create a frame by frame animation implementing
+these images.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Materials Other Than Textbooks:
+A. Software instruction manual
+B. Class handouts
+C. Class tutorials
+D. Internet sites
+
+Created/Revised by: Daniel Donnelly
+Date: 02/04/2013
+
+

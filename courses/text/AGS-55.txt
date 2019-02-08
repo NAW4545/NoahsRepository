@@ -1,0 +1,262 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AGS 50 - General Soils
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III; Math Level II
+Transfer Status: CSU/UC
+51 hours Lecture
+51 hours Lab
+
+4 Unit(s)
+
+The study of soil physical, chemical and biological properties. Soil use and management including
+erosion, moisture retention, structure, cultivation, organic matter and microbiology. Laboratory topics
+include soil type, classification, soil reaction, soil fertility and physical properties of soil. (C-ID
+AG-PS 128L).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Analyze local soil quality as affected by human and natural activities.
+B. Explain local geographical features and their relationship to local soils.
+C. Evaluate parent rocks and other soil forming processes influence on local and global soils.
+D. Demonstrate the determination of the following soil physical properties: textures (two methods),
+use of texture triangle, bulk density, particle density, pore space, organic content, color, pH,
+structure, conductivity and reactivity.
+E. Demonstrate an understanding of the classification of local and global soil orders (i.e., soil
+taxonomy).
+F. Discuss and understand the importance of essential plant nutrients.
+G. Apply soil nutrient cycles to soil, plant, and soil organism relationships.
+H. Demonstrate an ability to use appropriate terminology professionally when discussing soils.
+I. Demonstrate practical soil management including soil conservation and sustainability.
+J. Analyze a soil’s microbiological activity level.
+K. Demonstrate an understanding of a soil food web.
+L. Describe the Demonstrate how to read a soil map, explain the importance of soil mapping and
+how to locate a specific site using both township/range and GIS (Geographic Information
+Systems).
+M. Demonstrate how to determine a Soil Storie Index Rating and a Natural Resources Conservation
+Service land capability class.
+N. Describe the organic breakdown cycle of a soil and the role of organisms in soil physical and
+chemical properties.
+O. Evaluate a soil’s water holding capacity, plant available water, properties and movement of
+water in soil.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. The soil around us
+
+Hours
+6.00
+
+1. The soil around us
+A. The function of soils in our ecosystem
+B. Early agrarian societies and their soil management practices, including
+significant historical events
+C. The soil as a natural body, an overview of its features and functions
+D. The scientific aspects of soil science, applied research present and future
+2. Formation of soils from parent materials
+A. Parent rocks and the influence on soil
+B Factors influencing soil formation
+C Soil formation in action
+3. Soil classification
+A. Soil orders
+B. Categories and nomenclature of soil taxonomy
+C. Soil series and textural classes
+D Storie index and land capability classes
+4. Soil physical properties
+A. Texture
+B. Structure
+C. Color
+D. pH
+E. Profile
+F. Bulk density
+G. Particle density
+H. Pore space
+I. Soil management as applied to physical properties
+5. Interpretation and use of soil maps
+A. Remote sensing tools for soil investigations
+B. Satellite imagery
+C. County soil survey reports and their utilization
+D. Geographic Information Systems (GIS
+6. Organic material and microbiology of soils
+A. Influence of organic material in the soil complex
+B. Composting
+C. Diversity of soil organisms
+D. Influence of soil microorganisms
+E. The soil environment and organisms and organic matter
+F. Soil nutrient cycles
+G. Concept of a sustainable soil system
+7. Soil moisture
+A. The hydrological cycle
+B. The soil plant atmosphere continuum
+C. Relation to texture, structure, and organic material in the soil
+D. Retention and movement in the soil
+E. Soil drainage
+F. Irrigation requirements and practices in relation to soil
+G. Water quality influence and assessment
+H. Water conservation applications
+8. Soil colloids
+
+6.00
+
+6.00
+
+6.00
+
+5.50
+
+5.50
+
+5.50
+
+5.50
+
+5.50
+
+8. Soil colloids
+A. Properties and type of colloids
+B. Genesis of soil colloids
+C. Cation exchange capacity
+D. Factors influencing the availability of micronutrient cations and anions
+E. Soil analysis
+9. Soil pH
+A. Assessment
+B. Management of acidic soils
+C. Management and reclamation of saline-alkaline soils
+D. Global soil quality as affected by human activities
+Total Hours
+
+5.50
+
+5.50
+
+51.00
+
+Lab
+Topics
+1. The soil around us
+A. The function of soils in our ecosystem
+B. Early agrarian societies and their soil management practices, including
+significant historical events
+C. The soil as a natural body, an overview of its features and functions
+D. The scientific aspects of soil science, applied research present and future
+2. Formation of soils from parent materials
+A. Parent rocks and the influence on soil
+B Factors influencing soil formation
+C Soil formation in action
+3. Soil classification
+A. Soil orders
+B. Categories and nomenclature of soil taxonomy
+C. Soil series and textural classes
+D Storie index and land capability classes
+4. Soil physical properties
+A. Texture
+B. Structure
+C. Color
+D. pH
+E. Profile
+F. Bulk density
+G. Particle density
+H. Pore space
+I. Soil management as applied to physical properties
+5. Interpretation and use of soil maps
+A. Remote sensing tools for soil investigations
+B. Satellite imagery
+C. County soil survey reports and their utilization
+D. Geographic Information Systems (GIS)
+6. Organic material and microbiology of soils
+
+Hours
+6.00
+
+6.00
+
+6.00
+
+5.50
+
+5.50
+
+5.50
+
+6. Organic material and microbiology of soils
+A. Influence of organic material in the soil complex
+B. Composting
+C. Diversity of soil organisms
+D. Influence of soil microorganisms
+E. The soil environment and organisms and organic matter
+F. Soil nutrient cycles
+G. Concept of a sustainable soil system
+7. Soil moisture
+A. The hydrological cycle
+B. The soil plant atmosphere continuum
+C. Relation to texture, structure, and organic material in the soil
+D. Retention and movement in the soil
+E. Soil drainage
+F. Irrigation requirements and practices in relation to soil
+G. Water quality influence and assessment
+H. Water conservation applications
+8. Soil colloids
+A. Properties and type of colloids
+B. Genesis of soil colloids
+C. Cation exchange capacity
+D. Factors influencing the availability of micronutrient cations and anions
+E. Soil analysis
+9. Soil pH
+A. Assessment
+B. Management of acidic soils
+C. Management and reclamation of saline-alkaline soils
+D. Global soil quality as affected by human activities
+Total Hours
+
+5.50
+
+5.50
+
+5.50
+
+5.50
+
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Field Trips
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Problem-Solving Sessions
+F. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Quizzes
+B. Homework
+C. Lab Projects
+D. Mid-term and final examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section of your text dealing with the soil forming process. Be prepared to discuss
+the five soil forming factors.
+2. Read the section of your text focusing on soil nutrient cycles. Be prepared to discuss
+
+nutrient cycling in soils and the relationship to plant growth and soil micro organisms.
+B. Writing Assignments
+1. Write a 5 page research paper on sustainable soil management. Identify practices than
+degrade and enhance soil productivity.
+2. Using the online soil survey, identify the soil map for the Butte College vineyard. Write a
+two page description of the soil, including profile characteristics, limiting factors, and best
+management practices.
+C. Out-of-Class Assignments
+1. Attend our field trip to the Durham area. Identify the soil forming processes responsible
+for this soil.
+2. Attend our field trip to a commercial compost facility. Describe how soil micro organisms
+breakdown organic matter and the key factors controlling this process.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Plaster, E.. Soil Science and Management. 6th Edition. Delmar, 2014.
+B. Brady, N., Weil, R.. Elements of the Nature and Properties of Soils. 10th Edition.
+Pearson/Prentice Hall, 2009.
+
+Created/Revised by: Bruce Hicks
+Date: 10/20/2014
+
+

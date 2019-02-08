@@ -1,0 +1,145 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+NR 70 - Geospatial Data Applications
+Prerequisite(s): NONE
+Recommended Prep: AB 25
+Transfer Status: CSU
+17 hours Lecture
+51 hours Lab
+
+2 Unit(s)
+
+This course is an introduction to applied Geographical Information Systems (GIS) and provides the
+knowledge and practical experience necessary to develop skills in the acquisition of Global
+Positioning System's (GPS) data and its application to (GIS) for presentation and use in precision
+agriculture, field biology/botany, natural resources and park-land management, as well as heavy
+equipment operation. No previous GIS experience is assumed.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Use various types of GPS and GIS equipment and software
+B. Acquire and store digital GPS data
+C. Locate waypoints using maps and GPS equipment
+D. Convert GPS data and digital maps from one form to another
+E. Apply appropriate projection for a given objective
+F. Map engineered grades, landmarks and boundaries
+G. Map migration corridors, and temporal home and transitional ranges of wildlife
+H. Compile information from GPS data, aerial and topographical maps to analyze and present
+spatial configurations of natural resources
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Introduction
+2.
+ArcGIS Desktop
+3.
+Getting started with maps and data
+4.
+Displaying data
+5.
+Getting information about features
+6.
+Analyzing feature relationships
+7.
+Presenting data
+8.
+Summary and Testing
+Total Hours
+
+Hours
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+3.00
+2.00
+17.00
+Lab
+
+Topics
+1.
+Introduction
+2.
+ArcGIS Desktop
+3.
+Exploring ArcMap
+
+Hours
+3.00
+3.00
+3.00
+
+4.
+GPS data acquisition and adding data to ArcMap
+5.
+Symbolizing features and rasters
+6.
+Mapping Density
+7.
+Using Dynamic Labels
+8.
+Preparing data for analysis
+9.
+Analyzing Spatial data
+10. Projecting data in ArcMap
+11. Creating Features
+12. Editing features and attributes
+13. Making maps from templates
+14. Making maps for presentations
+15. Project presentations
+Total Hours
+
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+6.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Group Discussions
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Multimedia Presentations
+F. Hands on computer based activities using GIS software and the Internet
+V. METHODS OF EVALUATION
+A. Oral Presentation
+B. Homework
+C. Performance Examinations
+D. Essays and research papers
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read a peer-reviewed journal article about the use of GIS for wildlife management. Be
+prepared to discuss in class.
+2. Read an article on using GIS in the management of a forest in California. Evaluate the
+benefits of GIS as opposed to historical methods.
+B. Writing Assignments
+1. Write a 1 – 2 page synopsis on the use of GIS in mapping of soil types in an agricultural
+field.
+2. Write a three page report on mapping vegetation types on serpentine outcroppings in
+northern California.
+C. Out-of-Class Assignments
+1. Collect GPS data points of features around your city and map them using GIS software.
+2. Using GPS data points provided by your instructor, map winter and summer home ranges,
+and migration corridors of wildlife for a final project using GIS software.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Ormsby, T.J. Getting to Know ArcGIS Desktop. 3rd Edition. ESRI Press, 2013.
+
+Created/Revised by: Ricky Wittsell
+Date: 04/07/2014
+
+

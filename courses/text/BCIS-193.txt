@@ -1,0 +1,121 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BCIS 85 - Microsoft Excel for Windows
+Prerequisite(s): BCIS 18
+Recommended Prep: Reading Level IV; English Level III; Math Level II
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course covers a recent version of Microsoft Excel for Windows for students who have an
+understanding of computers and desire comprehensive knowledge of spreadsheets. Course content
+includes creating, formatting, and maintaining worksheets; using financial formulas and functions;
+creating and modifying charts; using visual enhancements; working with templates; working with
+tables and data tools; and creating pivot charts.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Create, enhance, edit, save, open, print, and close a Microsoft Excel worksheet.
+B. Use financial formulas and functions in creating simple and complex worksheets related to a
+business environment.
+C. Demonstrate the use of a variety of chart styles; insert, move, size, and delete a chart; edit chart
+data series; and change chart design, layout, and location.
+D. Add visual interest to worksheets through the use of pictures, clipart, shapes, symbols, special
+characters, screenshots, textboxes, watermarks, and diagrams.
+E. Apply advanced features and formatting techiques, including conditional formatting, icon sets,
+data bars, color scales, custom data filtering, creating and editing pivot charts, and consolidating
+data.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Creating and Formatting a Worksheet
+2. Using Basic Formulas in a Worksheet
+3. Creating and Customizing Charts
+4. Using Advanced Formatting Techniques and Templates
+5. Sorting and Filtering Data
+6. Using Advanced Formulas and Functions
+7. Using Spreadsheet Analysis Tools
+8. Summarizing and Consolidating Data
+Total Hours
+
+Hours
+4.00
+5.00
+3.00
+4.00
+4.00
+6.00
+4.00
+4.00
+34.00
+
+Lab
+Topics
+1. Creating and Formatting a Worksheet
+
+Hours
+6.00
+
+2. Using Basic Formulas in a Worksheet
+3. Creating and Customizing Charts
+4. Using Advanced Formatting Techniques and Templates
+5. Summarizing and Consolidating Data
+6. Sorting and Filtering Data
+7. Using Advanced Formulas and Functions
+8. Using Spreadsheet Analysis Tools
+Total Hours
+
+8.00
+5.00
+6.00
+6.00
+6.00
+8.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+V. METHODS OF EVALUATION
+A. Projects
+B. Homework
+C. Class participation
+D. Written Assignments
+E. Performance Examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter about preparing worksheets and complete the chapter Projects and Skills
+Checks.
+2. Read the chapter about using formulas and complete the Skills Checks at the end of that
+chapter.
+B. Writing Assignments
+1. Write about what you have learned in class related to the Student Learning Objectives
+noted in the Course Syllabus. Provide at least one specific example of knowledge or skill
+learned for each Student Learning Objective. Be prepared to discuss this assignment in
+class.
+2. Write about your three favorite features of Microsoft Excel, including specifically what
+you like best about these features and how you will use them in the workplace or in your
+other classes. Be prepared to discuss this assignment in class.
+C. Out-of-Class Assignments
+1. Create a worksheet showing the starting salary of workers at a medical center. Use a
+VLOOKUP function to determine starting salary depending on each worker’s education
+and years of work experience.
+2. Create a worksheet using an If function to calculate a 10% bonus earned by the
+salespeople who met their sales quota for the first quarter of this year. Use an absolute cell
+reference for the bonus percentage.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Rutkosky, Nita Hewitt. Microsoft Excel 2013. 2014 Edition. Benchmark Series, Levels 1 & 2,
+EMC Paradigm, 2014.
+
+Created/Revised by: Dorene Thompson
+Date: 04/04/2016
+
+

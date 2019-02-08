@@ -1,0 +1,147 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MSP 42 - Flash Game Design
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course is an introduction to the use of Adobe Flash as a tool for designing Flash games. Topics
+include the creation of Flash game art and the application of Flash ActionScript to add interactivity.
+Students will learn to design simple games using Flash.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Discuss current events and identify opportunities in the Flash game design industry.
+B. Create and incorporate a variety of game assets into an Adobe Flash game.
+C. Use Flash ActionScript to add interactivity.
+D. Upload simple Flash games to the web.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Introduction to Flash Game Design
+2. Flash Game Design - A Survey of the Industry
+3. Flash Design Tools
+4. Flash Game Asset Design - Background Design
+5. Flash Game Asset Design - Character Player Design
+6. Flash Game Asset Design - Typography for Flash Games
+7. Flash Game Asset Design - Props and Special Effects
+8. Flash Game Interactivity - Intro to Flash Actionscript
+9. Flash Game Interactivity - Implementing Flash Game Assets
+10. Flash Game Interactivity - Player Character Movement
+11. Flash Game Interactivity - Flash Game Asset Interaction
+12. Flash Game Interactivity - Keeping Score
+13. Flash Game Interactivity - Linking Flash Library Assets
+14. Flash Game Interactivity - Final Flash Game Design
+15. The Future of Flash Gaming
+Total Hours
+
+Hours
+2.50
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+2.25
+34.00
+
+Lab
+Topics
+1. Introduction to Flash Game Design
+2. Flash Game Design - A Survey of the Industry
+
+Hours
+3.40
+3.40
+
+3. Flash Design Tools
+4. Flash Game Asset Design - Background Design
+5. Flash Game Asset Design - Character Player
+6. Flash Game Asset Design - Typography for Flash Games
+7. Flash Game Asset Design - Props and Special Effects
+8. Flash Game Interactivity - Intro to Flash Actionscript
+9. Flash Game Interactivity - Implementing Flash Game Assets
+10. Flash Game Interactivity - Player Character Movement
+11. Flash Game Interactivity - Flash Game Asset Interaction
+12. Flash Game Interactivity - Keeping Score
+13. Flash Game Interactivity - Linking Flash Library Assets
+14. Flash Game Interactivity - Final Flash Game Design
+15. The Future of Flash Gaming
+Total Hours
+
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+3.40
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Discussion
+F. Reading Assignments
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Research Projects
+D. Class participation
+E. Lab Projects
+F. Final Examination
+G. Written Assignments
+H. Class Discussion
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Future of Flash Games - Google "the future of flash games," find and read at least one
+article on the future of Flash games. Be prepared to discuss your chosen article in class.
+2. Flash Gaming Blog - Visit the Flash gaming blog at http://www.8bitrocket.com. Read one
+article about Flash games. Be prepared to discuss your article in class.
+B. Writing Assignments
+1. Research a game - Choose a web, console, or mobile game and write a one page paper
+about the game. Is the game fun? If yes, what makes the game fun? If no, what are the
+problems with the game?
+2. Casual Gaming - Identify a Flash game which could be considered a casual game. Write a
+one page paper about the game, listing and describing the features of the game?
+Specifically address the question of what demographic (i.e., sex, age, etc.)the game is
+
+targeted for.
+C. Out-of-Class Assignments
+1. Game Art Collage - Using the Photoshop template provided and the internet, assemble a
+collage of game art elements.
+2. Interactive Storybook - Now that you've developed your art assets, create a simple
+storyboard for a three (3) page interactive story.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Firebaugh, Robert. Macromedia Flash Professional 8 Game Graphics. Charles River Media,
+2007.
+B. Van der Spuy, Rex. Foundation Game Design with Flash. Apress, 2009.
+
+Created/Revised by: David Hall
+Date: 02/27/2012
+
+

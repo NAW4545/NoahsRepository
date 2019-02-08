@@ -1,0 +1,154 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+DFT 45 - Building Information Modeling I
+Prerequisite(s): NONE
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this computer-based course students will be introduced to the latest in three-dimensional (3D)
+modeling for architecture and Building Information Modeling (BIM). Topics will cover architectural
+modeling and design with BIM tools for parametric design and documentation. The focus of the course
+is on residential architecture and covers the initiation of a design, the development of a design and
+production of a presentation and sheet set for a design.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe Building Information Modeling (BIM) and the benefits of parametric associativity of
+entities, model data and related details.
+B. Navigate a BIM software application interface and manage views.
+C. Identify, create and modify different types of building elements such as walls, stairs, doors, and
+roofs.
+D. Load, place, and modify component families using a BIM application.
+E. Create callouts, detail views, drafting views, section views and 3D views.
+F. Create and set up drawing sheets, modify title blocks, control object visibility and develop
+photo-realistic (rendered) content views.
+G. Import and export content to and from various other software applications and file formats to
+BIM application.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Building Information Modeling
+2.
+Using Autodesk Revit Architecture
+3.
+Starting a Design
+4.
+Creating a Building
+5.
+Using Dimensions and Constraints
+6.
+Developing the Building Model
+7.
+Using Building Components
+8.
+Creating Schedules
+9.
+Drafting and Detailing
+10. Presenting the Building Model
+Total Hours
+
+Hours
+4.00
+4.00
+2.00
+4.00
+2.00
+6.00
+3.00
+2.00
+3.00
+4.00
+34.00
+Lab
+
+Topics
+1.
+Building Information Modeling
+2.
+Using Autodesk Revit Architecture
+3.
+Starting a Design
+4.
+Creating a Building
+5.
+Using Dimensions and Constraints
+6.
+Developing the Building Model
+7.
+Using Building Components
+8.
+Creating Schedules
+9.
+Drafting and Detailing
+10.
+Presenting the Building Model
+Total Hours
+
+Hours
+6.00
+6.00
+3.00
+8.00
+3.00
+8.00
+4.00
+3.00
+4.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Multimedia Presentations
+G. Practical exercises
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Projects
+C. Homework
+D. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Please read the handout on stairs layout and be prepared to work on the study guide at the
+next scheduled class.
+2. Please read the lesson on setting up an architectural floor plan. Be prepared to use Revit to
+complete the lesson details at the next class.
+B. Writing Assignments
+1. Please open the text to page 2-1. Using AutoCAD, please complete a layout of this floor
+plan with 5" walls throughout and doors and windows applied (use blocks from other
+projects or make quickly). I want two things: I want the layout as a DWG file with a
+Layout completed at 1/4" = 1'-0" AND I want a total time that it took you from start to
+finish added to the text box of the Submission. NOTE: There will be a demo in class to
+extract the TIME DATA.
+2. After viewing the video with the class and using the Foundation Systems Study Guide
+please complete the study guide questions and fill-ins and turn into the instructor at the
+end of the period.
+C. Out-of-Class Assignments
+1. Using your favorite search engine (Google, Yahoo, Bing, DogPile, etc.) please research
+the term "Revit families". Spend some time in at least the top 10 search results. Please
+provide me with a list of at least FIVE families that you found content for that are of
+
+provide me with a list of at least FIVE families that you found content for that are of
+interest to you.
+2. Outside of class and using Revit, please take the initial floorplan layout provided as an
+attachment and layout the floorplan using ALL of the same settings you are currently
+assigned to use for the two-story residence. Bring the initial layout back to class and be
+prepared to complete in Revit.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Stine, D.J.. Residential Design Using Autodesk Revit. Schroff Development Corporation, 2011.
+
+Created/Revised by: John Dahlgren
+Date: 04/16/2012
+
+

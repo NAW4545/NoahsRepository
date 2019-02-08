@@ -1,0 +1,91 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 7 - Formal Logic and Writing
+Prerequisite(s): ENGL 2
+Recommended Prep: Reading Level V
+Transfer Status: CSU/UC
+51 hours Lecture
+
+3 Unit(s)
+
+This course develops an understanding of the relationship of language to logic, which should lead to
+the ability to analyze, criticize, and advocate ideas and to reason inductively and deductively. Skills
+will be developed through writing as well as the formal symbolic representation of arguments.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Recognize and analyze both inductive and deductive arguments.
+B. Translate standard English arguments into symbolic form in order to evaluate their soundness
+and/or cogency.
+C. Recognize and analyze basic fallacious arguments: ad hominem and denying the antecedent.
+D. Set up and use truth tables in order to assess validity of an argument.
+E. Use conditional and indirect proofs when analyzing an argument.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Induction and Deduction
+2.
+Truth, Validity and Soundness
+3.
+Sentential Logic
+4.
+Truth Tables
+5.
+Proofs
+6.
+Fallacies
+7.
+Predicate Logic
+Total Hours
+
+Hours
+6.00
+4.00
+8.00
+4.00
+11.00
+6.00
+12.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Written essays (6000-8000 word writing requirement)
+
+D. Daily Homework Assignments, where the student will demonstrate problem-solving
+skills
+E. Class Assignments and Class Response
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the "Note on the History of Logic" in your book. Be prepared to take a short quiz on
+the material in class.
+2. Read at least six biographical vignettes of prominent logicians that are in your book. Try
+to select at least two from each period: Ancient Greek, Middle Ages, and Modern.
+B. Writing Assignments
+1. Pick an eminent logician from the many mentioned in the book and find out more about
+him/her. Write a two-page paper on why this logician appeals to you.
+2. Read the essay "Corn-pone" by Mark Twain and write a 3 to 4 page paper on whether this
+essay is still relevant in the 21st century.
+C. Out-of-Class Assignments
+1. Collect an article that is in the news and try to symbolize the contents. Letters to the editor
+are often good for this assignment.
+2. Interview a family member and find out if they ever made an important decision based
+solely on rational logic.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Hurley, P.J. A Concise Introduction to Logic. 11th Edition. Cengage Learning, 2012.
+
+Created/Revised by: Laurie Kincheloe
+Date: 09/10/2012
+
+

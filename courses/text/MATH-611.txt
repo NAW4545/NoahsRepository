@@ -1,0 +1,121 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 18 - Introduction to Statistics
+Prerequisite(s): MATH 124 or Math Level V
+Recommended Prep: Two years of high school algebra and Reading Level IV
+Transfer Status: CSU/UC
+51 hours Lecture
+
+3 Unit(s)
+
+The use of probability techniques, hypothesis testing, and predictive techniques to facilitate
+decision-making. Topics include descriptive statistics; probability and sampling distributions;
+statistical inference; correlation and linear regression; analysis of variance, chi-square and t-tests; and
+application of technology for statistical analysis including the interpretation of the relevance of the
+statistical findings. Applications using data from disciplines including business, social sciences,
+psychology, life science, health science, and education. (C-ID MATH 110).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Distinguish among different scales of measurement and their implications.
+B. Interpret data displayed in tables and graphically.
+C. Apply concepts of sample space and probability.
+D. Calculate measures of central tendency and variation for a given data set.
+E. Identify the standard methods of obtaining data and identify advantages and disadvantages of
+each.
+F. Calculate the mean and variance of a discrete distribution.
+G. Calculate probabilities using normal and student’s t-distributions.
+H. Distinguish the difference between sample and population distributions and analyze the role
+played by the Central Limit Theorem.
+I. Construct and interpret confidence intervals.
+J. Determine and interpret levels of statistical significance including p-values.
+K. Interpret the output of a technology-based statistical analysis.
+L. Identify the basic concept of hypothesis testing including Type I and II errors.
+M. Formulate hypothesis tests involving samples from one and two populations.
+N. Select the appropriate technique for testing a hypothesis and interpret the result.
+O. Use linear regression and ANOVA analysis for estimation and inference, and interpret the
+associated statistics.
+P. Use appropriate statistical techniques to analyze and interpret applications based on data from
+disciplines including business, social sciences, psychology, life science, health science, and
+education.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Summarizing data graphically and numerically
+2. Descriptive statistics: measures of central tendency, variation, relative
+position, and levels/scales of measurement
+3. Sample spaces and probability
+
+Hours
+3.00
+4.00
+4.00
+
+4. Random variables and expected value
+5. Sampling and sampling distributions
+6. Discrete distributions – Binomial
+7. Continuous distributions – Normal
+8. The Central Limit Theorem
+9. Estimation and confidence intervals
+10. Hypothesis Testing and inference, including t-tests for one and two
+populations, and Chi-square test
+11. Correlation and linear regression and analysis of variance (ANOVA)
+12. Applications using data from disciplines including business, social sciences,
+psychology, life science, health science, and education
+13. Statistical analysis using technology such as SPSS, EXCEL, Minitab, or
+graphing calculators
+Total Hours
+
+4.00
+2.00
+4.00
+5.00
+4.00
+4.00
+6.00
+4.00
+4.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook on measures of variation and be able to describe the
+range, variance, and standard deviation for a data set.
+2. Read the section in the textbook on sampling distributions and be able to describe a
+sampling distribution of sample means and state the Central Limit Theorem.
+B. Writing Assignments
+1. Write a paragraph explaining how to find a deviation of an entry in a data set and how you
+find the standard deviation for the data set.
+2. After applying the Central Limit Theorem to find the probability of a sample mean, write
+a sentence interpreting your results.
+C. Out-of-Class Assignments
+1. Review the section on measures of central tendency and solve the problems in the
+exercises assigned by the instructor.
+2. Review the section on sampling distributions and solve the problems in the exercises
+assigned by the instructor.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Larson, R. & Farber, B. Elementary Statistics. 5th Edition. Pearson, 2012.
+
+Materials Other Than Textbooks:
+A. MyMathLab, a computer web-based learning system
+B. Graphing calculator with statistical capabilities
+
+Created/Revised by: Laurie Kincheloe
+Date: 03/25/2013
+
+

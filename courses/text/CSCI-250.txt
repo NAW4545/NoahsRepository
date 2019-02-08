@@ -1,0 +1,146 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 3 - Introduction to Computer Science
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this course, students develop knowledge and skills of the fundamentals of Computer Science.
+Topics covered include number systems, computer hardware and software, computer networks,
+introductory programming and algorithms, file systems and databases, artificial intelligence and the
+theory of computation. Hardware overview covers computer memory, the control unit and Arithmetic
+Logic Unit (ALU), and computer Input/Output (I/O). Software overview covers operating systems,
+programming languages, applications, and software tools.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Identify data represented in various number bases.
+B. Identify and describe the function of the control unit, ALU, and memory, and other computer
+hardware.
+C. Identify and describe the functions of computer software including operating systems,
+programming languages, and various applications.
+D. Define basic networking and database concepts.
+E. Implement basic computer algorithms and design and implement basic applications using a
+modern computer programming language.
+F. Solve basic problems in computational theory.
+G. Identify the social, legal, and ethical issues of computer scientists and develop an understanding
+of the personal responsibilities of computer scientists.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Introduction to Computer Science
+2.
+Data Representation and Data Storage
+3.
+Data Manipulation
+4.
+Operating Systems
+5.
+Networks
+6.
+Algorithms
+7.
+Programming Languages
+8.
+Software Engineering
+9.
+Data Structures
+10. File Structures
+11. Database Structures
+
+Hours
+3.00
+2.00
+2.00
+3.00
+3.00
+4.00
+5.00
+2.00
+2.00
+2.00
+2.00
+
+12. Artificial Intelligence
+13. Theory of Computation
+Total Hours
+
+2.00
+2.00
+34.00
+Lab
+
+Topics
+1.
+Introduction to Computer Science
+2.
+Data Representation and Data Storage
+3.
+Data Manipulation
+4.
+Operating Systems
+5.
+Networks
+6.
+Algorithms
+7.
+Programming Languages
+8.
+Software Engineering
+9.
+Data Structures
+10. File Structures
+11. Database Structures
+12. Artificial Intelligence
+13. Theory of Computation
+Total Hours
+
+Hours
+3.00
+4.00
+4.00
+4.00
+4.00
+6.00
+10.00
+3.00
+3.00
+1.00
+4.00
+2.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Demonstrations
+D. Multimedia Presentations
+E. Practical Exercises
+V. METHODS OF EVALUATION
+A. Lab Projects
+B. Written Assignments
+C. Written Examinations
+D. Practical Examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+B. Writing Assignments
+C. Out-of-Class Assignments
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Dale, Nell and Lewis, John. Computer Science Illuminated. 4th Edition. Jones and Bartlett,
+2011.
+Materials Other Than Textbooks:
+A. Transportable storage such as a flash drive.
+
+Created/Revised by: John Trolinger
+Date: 05/03/2010
+
+

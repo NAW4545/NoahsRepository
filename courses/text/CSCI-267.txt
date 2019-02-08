@@ -1,0 +1,131 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+CSCI 70 - Installing and Configuring Windows Server 2012
+Prerequisite(s): CSCI 49 or CompTIA A+ certification
+Recommended Prep: Reading Level IV; English Level IV; Math Level III
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course is the first in a three course series in which students learn the skills and knowledge
+necessary to implement a Windows Server 2012R2 infrastructure. The focus of the course is on the
+initial implementation and configuration of core services including Active Directory Domain Services
+(AD DS), networking services, and Microsoft Hyper-V Server 2012R2 configuration. The course
+prepares students for Microsoft certification exam 70-410, Installing and Configuring Windows Server
+2012R2.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Install and Configure Windows Server 2012R2.
+B. Describe AD DS, manage AD objects, and automate AD administration.
+C. Configure and implement Internet Protocol version 4 (IPv4) and Internet Protocol version 6
+(IPv6).
+D. Configure and implement Dynamic Host Configuration Protocol (DHCP).
+E. Configure and implement Domain Name System (DNS).
+F. Configure and implement local storage.
+G. Share files and printers.
+H. Configure and implement Group Policy and use Group Policy Objects (GPOs) to secure
+Windows Servers.
+I. Configure and implement server virtualization using Hyper-V.
+J. Configure a Windows 2012R2 Server with security policies and advanced firewall settings.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Installing and Configuring Servers
+2. Configuring Local Storage, File, Share Access, Print and Document Services
+3. Configuring Servers for Remote Management
+4. Creating and Configuring Virtual Machine Settings, Storage and Networks
+5. Configuring IPv4 and IPv6 Addressing
+6. Deploying and Configuring the DHCP Service, DNS, and Domain
+Controllers
+7. Creating and Managing Active Directory Users, Computers, Groups and
+Organizational Units
+8. Creating Group Policy Objects and Configuring Security Policies
+9. Configuring Application Restriction Policies and Windows Firewall
+Total Hours
+
+Hours
+3.00
+4.00
+2.00
+6.00
+2.00
+5.00
+4.00
+4.00
+4.00
+34.00
+
+Lab
+Topics
+1. Installing and Configuring Servers
+2. Configuring Local Storage, File, Share Access, Print and Document Services
+3. Configuring Servers for Remote Management
+4. Creating and Configuring Virtual Machine Settings, Storage and Networks
+5. Configuring IPv4 and IPv6 Addressing
+6. Deploying and Configuring the DHCP Service, DNS, and Domain
+Controllers
+7. Creating and Managing Active Directory Users, Computers, Groups and
+Organizational Units
+8. Creating Group Policy Objects and Configuring Security Policies
+9. Configuring Application Restriction Policies and Windows Firewall
+Total Hours
+
+Hours
+5.00
+6.00
+3.00
+9.00
+3.00
+8.00
+6.00
+6.00
+5.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+C. Demonstrations
+D. Multimedia Presentations
+E. Practical Exercises
+V. METHODS OF EVALUATION
+A. Lab Projects
+B. Written Assignments
+C. Written Examinations
+D. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the procedure for implementing your Server as a Dynamic Host Configuration
+Protocol (DHCP) Server Role. Using the handout provided by the instructor, make the
+correct configurations necessary. Be prepared to demonstrate the procedure and steps in
+class on your server.
+2. Read the chapter on Configuring IPv4 and IPv6. Compare and contrast the two types of IP
+addressing and prepare to define and discuss in class.
+B. Writing Assignments
+1. Using a hypothetical office scenario provided by your instructor, determine the business
+needs and provide a proposal for providing network and server services. In a 2-page
+report, explain in detail the services provided and the justification for your choices.
+2. List the steps required to install Active Directory Domain Services, and describe in detail
+(in 2-3 paragraphs) the role AD has on Domain Name Services (DNS).
+C. Out-of-Class Assignments
+1. Interview a local Information Technology (IT) professional who has experience running a
+Microsoft Shop. Find out the biggest challenges they have encountered and how they
+overcame those challenges. Be prepared to present your findings to the class.
+
+2. Complete a practice Microsoft 70-410 certification exam. Prepare a list of the questions
+you answered incorrectly, and be prepared to discuss the challenges you faced on your
+practice exam in class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Microsoft Official Academic Course. Exam 70-410 Installing and Configuring Windows Server
+2012R2. Wiley, 2013.
+
+Created/Revised by: Linda Fischer
+Date: 03/07/2016
+
+

@@ -1,0 +1,86 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+PHYS 51 - Problem Solving Strategies for PHYS 41
+Prerequisite(s): NONE
+Co-requisite(s): PHYS 41
+Recommended Prep: NONE
+Transfer Status: CSU
+51 hours Lab
+
+1 Unit(s)
+
+This course is a supplement to PHYS 41 and is intended to enhance the students problem solving skills
+in the areas of vectors, statics, kinematics, dynamics, momentum, energy, rotational motion,
+oscillatory motion, and fluid mechanics. Pass/No Pass Only.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. reduce a physical problem to its elemental parts.
+B. identify unknown physical quantities.
+C. employ appropriate mathematical techniques to generate a solution that accurately describes the
+physical behavior.
+D. describe how the solution will change when physical parameters change.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Measurement, Dimensions & Units, Scientific Notation
+2. Displacement, Velocity & Acceleration
+3. Coordinates, Vectors, Components & Unit Vectors
+4. Projectile Motion, Circular Motion & Relative Motion
+5. Inertia, Force & Free-Body Diagrams
+6. Newton's Laws of Motion, Centripetal Force, Fundamental Forces, Friction
+& Fictitious Forces
+7. Vector Dot Product & Work-Energy Theorem
+8. Conservation of Energy
+9. Linear Momentum & Impulse
+10. Rotational Motion & Torque
+11. Vector Cross Product & Angular Momentum
+12. Stability & Elasticity
+13. Gravity, Orbital Motion & General Relativity
+14. Oscillations
+15. Fluid Statics & Fluid Dynamics
+Total Hours
+
+Hours
+3.00
+3.00
+3.00
+3.00
+3.00
+6.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+6.00
+3.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Collaborative Group Work
+B. Discussion
+C. Problem-Solving Sessions
+V. METHODS OF EVALUATION
+A. This course is offered Pass/No Pass only. Students are graded on participation as judged by the
+instructor. Participation includes: working on assigned problems, showing solutions to
+instructor, making suitable corrections, and (optional) writing solutions on board to share with
+class. Students must attend and participate in 11 of 15 sessions to earn the Pass grade.
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+B. Writing Assignments
+C. Out-of-Class Assignments
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Panunto, M.. PHYS 51 Exercises & Problems. Butte College, 2009.
+Materials Other Than Textbooks:
+A. Current text being used in PHYS 41
+B. An electronic calculator is required.
+
+Created/Revised by: Michael Panunto
+Date: 11/30/2009
+
+

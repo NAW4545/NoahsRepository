@@ -1,0 +1,116 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BCIS 70K - Adobe Acrobat Professional
+Prerequisite(s): NONE
+Recommended Prep: BCIS 28
+Transfer Status: CSU
+12.75 hours Lecture
+12.75 hours Lab
+
+1 Unit(s)
+
+This course introduces students to Adobe Acrobat software. The course includes an overview of all
+Adobe Acrobat products and their functionality. It offers instruction and application of Portable
+Document Format (PDF) creation from multiple sources, modifying existing PDF documents, and
+creating forms. Students will need access to Adobe Acrobat to successfully complete this course.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Open, navigate, and view a variety of PDF documents including forms, schematics, and written
+documents
+B. Create PDF documents from a variety of sources including Microsoft Office files, web pages,
+photos, and screen captures
+C. Save and export Adobe Acrobat files
+D. Utilize special features of Adobe Acrobat software
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Overview of Adobe Acrobat
+2. Viewing and manipulating PDF documents
+3. Creating PDF documents
+4. Special features in Adobe Acrobat
+5. Creating Forms
+Total Hours
+
+Hours
+0.75
+3.00
+3.00
+3.00
+3.00
+12.75
+
+Lab
+Topics
+1. Overview of Adobe Acrobat
+2. Viewing and manipulating PDF documents
+3. Creating PDF documents
+4. Special features in Adobe Acrobat
+5. Creating forms
+Total Hours
+
+Hours
+0.75
+3.00
+3.00
+3.00
+3.00
+12.75
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Assigned reading
+F. Problem based activities for skill development
+G. Online discussion/chat
+V. METHODS OF EVALUATION
+A. Projects
+B. Homework
+C. Class participation
+D. Written Assignments
+E. Performance Examinations
+F. Comprehension and Skill Assessments
+G. Homework Assignments
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter about saving PDF files as Microsoft Word documents, extracting PDF
+tables as Excel spreadsheets, and exporting PDF content to PowerPoint presentations. Be
+prepared to apply your knowledge in the completion of course projects.
+2. Read the chapter about converting email messages to PDF documents, converting e-mail,
+and automatic archiving. Be prepared to apply your knowledge in the completion of
+course projects.
+B. Writing Assignments
+1. Please introduce yourself to the instructor by writing a two-page introduction using
+Microsoft Word or other word processing program. You should include your major at
+Butte College, your educational and career goals, the reason for taking this course. You
+should answers to the following questions: After taking a look at the course introduction
+and expectations, what are you most looking forward to in this course? What plans have
+you made, or will you make, to ensure that you are a success in this class? Include specific
+details of your plan for course success. Do you have any concerns about this course? If so,
+what are they and how can your instructor help you address these concerns?
+Now that we have learned how to save documents as PDF files, please save your
+document as a PDF document and submit it to the instructor.
+2. Given the knowledge you have gained in this course, write a two-page report about how
+you envision using Adobe Acrobat in a professional office setting. If you have already
+done that, please share how you have used it and what purpose using Adobe Acrobat
+served for you and your employer. Please share advantages and any disadvantages you
+have experienced in creating, editing and saving documents in PDF format.
+C. Out-of-Class Assignments
+1. Convert a formatted Microsoft Word document to a PDF file using specific Word styles
+and headings as shown in Chapter 6. Save, preview, and submit the file to the instructor.
+2. Extract a PDF table as a Microsoft Excel spreadsheet by exporting a list from a PDF
+document to a new Excel file. Then open the file in Preview to view it.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+
+Textbooks:
+A. Adobe Systems, Incorporated. Classroom in a Book: the official training workbook from Adobe
+Systems. XI Edition. Adobe Press, 2013.
+
+Created/Revised by: Dorene Thompson
+Date: 03/25/2013
+
+

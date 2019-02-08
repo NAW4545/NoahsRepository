@@ -1,0 +1,148 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+DFT 12 - Beginning AutoCAD Drafting
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III; Math Level III
+Transfer Status: CSU/UC
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course introduces students to basic drafting concepts using both freehand sketching and
+AutoCAD, an industry-standard computer-aided drafting (CAD) application. It is intended for drafting
+majors, engineering majors, interior design majors and pre-architectural students. Topics include line
+and geometric shape development, freehand sketching, basic AutoCAD commands, text commands,
+file management, orthographic and pictorial projection, dimensioning, sectioning, auxiliaries, and
+architectural drawings using sketching and a two-dimensional (2D) drafting application. Document
+reproduction, printing and plotting will be introduced and practiced.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Create representative freehand sketches of objects using lines, curves and circles to create
+technical shapes using orthographic and pictorial techniques.
+B. Properly setup AutoCAD with drafting settings to create, edit and save drawing files.
+C. Draw, edit and dimension freehand sketches or technical details, using AutoCAD including the
+control of software options and creation of paper-based prints.
+D. Produce, edit and dimension orthographic projection drawings, pictorial drawings in mechanical
+and architectural applications using AutoCAD.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Sketching
+2. Starting AutoCAD
+3. Drawing Setup and Saving Drawing Files
+4. Basic Drawing Commands
+5. Cartesian Coordinate Problems
+6. Templates and Layers
+7. Dimensioning
+8. Mechanical Parts Problems
+9. Geometric Construction Problems
+10. Orthographic Construction Problems
+11. Sectional Views
+12. Auxiliary Drawings
+13. Annotation and Pictorial Drawings Applications
+14. Architectural Drawings, Layers and Scales
+Total Hours
+
+Hours
+2.00
+1.00
+1.00
+1.00
+2.00
+2.00
+3.00
+4.00
+2.00
+4.00
+2.00
+2.00
+4.00
+4.00
+34.00
+
+Lab
+Topics
+1.
+Sketching
+2.
+Drawing Setup and Saving Drawing Files
+3.
+Basic Drawing Commands
+4.
+Cartesian Coordinate Problems
+5.
+Templates and Layers
+6.
+Dimensioning
+7.
+Mechanical Parts Problems
+8.
+Geometric Construction Problems
+9.
+Orthographic Construction Problems
+10. Sectional Views
+11. Auxiliary Drawings
+12. Annotation and Pictorial Drawing applications
+13. Architectural Drawings, Layers and Scales
+Total Hours
+
+Hours
+3.00
+1.00
+1.00
+3.00
+3.00
+4.00
+6.00
+3.00
+8.00
+3.00
+4.00
+6.00
+6.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Projects
+D. Homework
+E. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Please read the section in your text about dimension applications and be prepared to
+answer questions from the reading at the next class.
+2. Please read the chapter on Section Views. Consider the question "Why are section views
+important to drafting?" and be prepared to discuss at the start of next class.
+B. Writing Assignments
+1. Complete the instructor-led exercise on drafting parameters in class, and write a brief
+summary of the parameters used to prepare your DWG file for submission.
+2. Having read the chapter on Section Views, write complete answers to the worksheet
+questions and submit to the instructor when complete.
+C. Out-of-Class Assignments
+1. Prepare a freehand sketch of the kitchen floorplan provided by the instructor and submit
+
+your sketch at the next class meeting.
+2. For extra credit, please search the acronym NIST and the term ISO and prepare
+hand-written definitions for each and turn in at the start of the next class. No late
+submissions will be accepted.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Shih, Randy H.. Principles and Practices: An Integrated Approach to Engineering Graphics.
+2011 Edition. Schroff Development Corporation, 2011.
+
+Created/Revised by: John Dahlgren
+Date: 04/16/2012
+
+

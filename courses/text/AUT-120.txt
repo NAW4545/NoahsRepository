@@ -1,0 +1,91 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 23 - Automotive Heating and Air Conditioning Lab
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 22
+Recommended Prep: AUT 1
+Transfer Status: CSU
+120 hours Lab
+
+2 Unit(s)
+
+In this course students will develop and demonstrate the hands-on skills required to diagnose, adjust,
+repair and maintain modern automotive Heating, Ventilation and Air Conditioning (HVAC) and
+engine cooling systems. Students will use modern test equipment for diagnosis. Specific skills are
+developed by the use of special tools used in servicing and repair of automotive HVAC and engine
+cooling systems.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Diagnose and repair HVAC system.
+B. Diagnose and repair complete refrigeration system component.
+C. Diagnose and repair heating, ventilation, and engine cooling systems.
+D. Diagnose and repair air conditioning operating systems and related controls.
+E. Perform refrigerant recovery and recycling procedures.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Service and maintain AC service equipment
+2. Perform multiple refrigerant leak detection methods
+3. Practice refrigerant handling safety procedures
+4. Perform ventilation system diagnostic operations
+5. Perform AC service operations using recovery machines
+6. Remove and replace operational components of the AC system
+7. Perform service operations using engine coolant testers and flush machine
+8. Pressure and performance tests on the refrigeration system
+9. Perform electrical diagnosis on AC ventilation systems
+10. Replace and repair electrical vacuum controls and systems
+Total Hours
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Collaborative Group Work
+C. Discussion
+D. Problem-Solving Sessions
+
+Hours
+10.00
+10.00
+5.00
+15.00
+25.00
+20.00
+5.00
+10.00
+10.00
+10.00
+120.00
+
+E. Multimedia Presentations
+F. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Demonstration
+C. Group Participation
+D. Class participation
+E. Lab Projects
+F. Final Examination
+G. Performance Examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the performance specifications on refrigeration systems and servicing and be
+prepared to discuss in class.
+2. Consult a repair publication before performing the evacuation and recharge procedure and
+be ready to show the instructor where you found the correct repair information or
+specifications.
+B. Writing Assignments
+1. Locate removal information of the evaporator assembly for the specific car you are
+working on and record the removal procedures in your lab workbook.
+2. Record proper procedures for engine cooling system diagnosis and be prepared to discuss
+with your lab partner and instructor.
+C. Out-of-Class Assignments
+1. Not applicable.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Halderman, J. Automotive Engines and Air Conditioning. Pearson, 2014.
+
+Created/Revised by: George Medina
+Date: 11/16/2015
+
+

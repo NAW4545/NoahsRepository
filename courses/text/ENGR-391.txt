@@ -1,0 +1,156 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+ENGR 4 - Plane Surveying II
+Prerequisite(s): ENGR 3
+Recommended Prep: NONE
+Transfer Status: CSU/UC
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+This course introduces students to civil engineering design standards, concepts and procedures related
+to transportation engineering and construction management. Topics include the standards and design
+of horizontal curves, vertical curves and earthwork related to transportation projects in addition to
+survey staking, state plane coordinates, geographic information systems and Global Positioning
+Systems (GPS) related to project surveying. The laboratory portion of the course includes the
+application of 3-dimensional graphic modeling software requiring creativity in design, development of
+construction plans, and operation of modern surveying equipment, such as total stations and GPS.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Collect and analyze survey point data (raw field data).
+B. Prepare a digital terrain model with Civil 3D software of existing surface and site conditions.
+C. Design proposed alignments in accordance with Department of transportation and local
+municipality standards.
+D. Use Civil 3D software for computing earthwork quantities, material takeoffs and cost estimates
+for projects.
+E. Produce sets of design plans and specifications for projects such as Class I bike path, residential
+cul-de-sac.
+F. Stakeout projects in field, document fieldwork and discuss proposed project alignments
+specifying vertical and horizontal curves.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1.
+Introduction
+2.
+Horizontal curves
+3.
+Vertical curves
+4.
+Earthwork and volumes
+5.
+Construction survey and staking
+6.
+Municipal street construction
+7.
+Pipeline construction
+8.
+Pipeline survey and staking
+9.
+Culvert and bridge construction
+10. Site plans for residential
+11. Building contruction surveys
+
+Hours
+2.00
+6.00
+4.00
+4.00
+6.00
+2.00
+1.00
+1.00
+1.00
+2.00
+2.00
+
+12. Building contruction.
+13. Professional Engineers Act
+Total Hours
+
+1.00
+2.00
+34.00
+Lab
+
+Topics
+1. Review terrain modeling and introduction to project
+2. Terrain model of existing grade
+3. Horizontal alignment
+4. Profile with vertical alignment
+5. Vertical curves
+6. Volume calculations
+7. Radial staking
+8. Roadway design plan
+9. Alignment staking
+10. Slope staking
+11. Municipal improvement plan: brainstorm and planning.
+12. Municipal improvement plan: field measurements and data collection
+13. Municipal improvement plan: data analysis computations
+14. Municipal improvement plan: drawings
+15. Residential site improvement plan: brainstorm and plan
+16. Residential improvement plan: computations and drawings
+Total Hours
+
+Hours
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+3.00
+6.00
+3.00
+3.00
+3.00
+3.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Collaborative Group Work
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Problem-Solving Sessions
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Projects
+C. Homework
+D. Lab Projects
+E. Final Examination
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the chapter on horizontal alignment and be prepared to discuss horizontal alignment
+methods for design and staking.
+2. Read the chapter on volumes and be prepared to discuss methods to calculate earthwork.
+B. Writing Assignments
+
+1. Setup your field-book with a 500 ft horizontal curve of radius 1600 feet starting at station
+5 + 65.12 and curving to the right.
+2. Given a digital terrain on Civil 3D software, design a horizontal curve and the plan for
+staking it, for a class I bike path according to CalTrans regulations.
+C. Out-of-Class Assignments
+1. Design a sewer storm drain and underground utilities to service residential areas.
+2. Create a digital terrain model of existing surface. Be prepraed to present your model to the
+class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Kavanagh, B. F., Mastin, T. Surveying: Principles and Applications. 9th Edition. Pearson
+Education, 2014.
+Materials Other Than Textbooks:
+A. Transportation Planning, Surveying and Graphics Lab manual, 2014. (CSU, Chico)
+
+Created/Revised by: Francesco Madaro
+Date: 02/23/2015
+
+

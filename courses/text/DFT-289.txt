@@ -1,0 +1,136 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+DFT 8 - Engineering Graphics II
+Prerequisite(s): DFT 2
+Recommended Prep: NONE
+Transfer Status: CSU
+34 hours Lecture
+51 hours Lab
+
+3 Unit(s)
+
+In this computer-based engineering graphics course students who have already completed the learning
+objectives of DFT-2: Engineering Graphics I will be introduced to the use of a solid modeling
+application for simulation of parts and assemblies using Finite Element Analysis (FEA) methodology.
+Students will model parts and assemblies and will test them using simulation and engineering
+analysis. Topics include static, frequency, thermal, vibration and drop test analysis methods. The use
+of simulation to generate engineering reports will be introduced and reports will be generated.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the role of engineering analysis in the engineering design process.
+B. Explain and demonstrate the use of finite element analysis (FEA) to perform engineering
+analyses.
+C. Set up a solid modeling application to perform engineering analysis using simulation modules.
+D. Analyze parts with static, frequency, thermal, vibration and drop test methods using a solid
+modeling application
+E. Analyze assemblies with static, frequency, thermal, vibration and drop test methods using a
+solid modeling application.
+F. Produce engineering reports formatted in standard forms and generally accepted engineering
+methods using a solid modeling application.
+G. Apply relevant areas of engineering analysis to document attributes of parts, assemblies and
+associated drawings used in design engineering processes.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Course Introduction and Assessments
+2. Introduction to Engineering Analysis and Finite Element Analysis (FEA)
+3. Animation Methods and Applications
+4. Static Analysis Methods and Applications
+5. Static and Frequency Analysis Methods and Applications
+6. Frequency Analysis Methods and Applications
+7. Contact, Static and Thermal Stress Analysis Methods and Applications
+8. Product Data Management (PDM) Methods and Applications
+9. Geometric Dimensioning and Tolerancing (GD&T) and Graphic Standards
+Application and Methods
+10. Manufacturability and Sustainability
+11. Model Development and Simulated Engineering Analysis
+
+Hours
+2.00
+3.00
+3.00
+3.00
+2.00
+3.00
+5.00
+5.00
+2.00
+3.00
+3.00
+
+Total Hours
+
+34.00
+Lab
+
+Topics
+1. Introduction to Engineering Analysis and Finite Element Analysis (FEA)
+2. Animation Methods and Applications
+3. Static Analysis Methods and Applications
+4. Static and Frequency Analysis Methods and Applications
+5. Frequency Analysis Methods and Applications
+6. Product Data Management (PDM) Methods and Applications
+7. Geometric Dimensioning and Tolerancing (GD&T) Application and Methods
+8. Manufacturability and Sustainability
+9. Model Development and Simulated Engineering Analysis
+Total Hours
+
+Hours
+4.00
+7.00
+5.00
+7.00
+6.00
+6.00
+4.00
+4.00
+8.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Demonstrations
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Projects
+D. Homework
+E. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Please read the article from Machine Design magazine (September 2011) “Engineering
+Analysis with Solids Modeling Application”. Be ready to discuss at our next scheduled
+class.
+2. Please read the Introduction to Engineering Analysis. Be prepared to discuss at our next
+scheduled class.
+B. Writing Assignments
+1. After reading the attached document called “Product Data Management (PDM)
+Applications” please summarize in your own words the scope of application of PDM to
+engineering graphics and engineering.
+2. After reading about the applications of thermal simulation please complete the questions
+on the study guide and submit to the instructor when complete.
+C. Out-of-Class Assignments
+1. Outside of class, go to YouTube on the web and search the terms "Solidworks Simulation
+with fixed points” exactly as in the quotes. Find the video entitled: "Analyzing a Frame in
+Solidworks Simulation” and watch video. Answer the following question: "How does
+
+Solidworks manage the beam elements to create a fixed point?” Submit written answers to
+instructor at next class.
+2. Please list the frequency analysis setup tasks introduced in today’s lecture outside of class
+and be prepared to review your results in groups at the next class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Kurowski, P.M.. Engineering Analysis with Solid Works Simulation. Schroff Development
+Corporation, 2011.
+
+Created/Revised by: John Dahlgren
+Date: 04/16/2012
+
+

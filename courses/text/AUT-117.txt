@@ -1,0 +1,101 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 20 - Automotive Brakes/Suspension and Steering Systems Lecture
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 21
+Recommended Prep: AUT 1
+Transfer Status: CSU
+50 hours Lecture
+
+3 Unit(s)
+
+This course introduces the theory, operation, and repair in the areas of base brake systems, anti-lock
+brake systems, and steering and suspension systems. Topics include: the application of Pascal's Law,
+disk brake systems and their related components, drum brake systems, anti-lock brake system
+operation and repair, suspension system operation and repair including electronic suspension and
+steering systems.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Describe the process used to diagnose and repair disk brake systems.
+B. Describe the process used to diagnose and repair drum brake systems.
+C. Describe the process used to diagnose and repair anti-lock brake systems.
+D. Describe the process used to diagnose and repair suspension systems.
+E. Describe the process used to diagnose and repair steering systems.
+F. Describe the process used to diagnose and repair electronic suspension/steering systems.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Brake operation, diagnosis and repair.
+2. Hydraulics as they relate to master and secondary cylinders, including
+piping, fittings and brake assist systems.
+3. Disc, drum and parking type braking systems.
+4. Electronic brake systems including anti-lock brakes, traction controls,
+stability assist, brake mitigation systems, diagnosis and repair.
+5. Steering, suspension systems, diagnosis and repair.
+6. Tires, wheels, wheel bearings, diagnosis and repair.
+7. Shock absorbers and strut dampening systems.
+8. Short-Long Arm (SLA), multi-link and MacPherson strut type suspension
+systems; industry recognised diagnosis and repair procedures.
+9. Four-wheel alignment and diagnostic alignment angles.
+10. Computer controlled suspension systems, rack and pinion steering gears
+and four-wheel steering systems; industry recognized diagnosis and repair
+procedure.
+Total Hours
+
+Hours
+5.00
+5.00
+5.00
+5.00
+5.00
+5.00
+2.00
+5.00
+8.00
+5.00
+
+50.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Demonstrations
+F. Reading Assignments
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Demonstration
+D. Class participation
+E. Final Examination
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read industry recognized procedures on proper alignment practices and be prepared to
+discuss in class.
+2. Read the assigned chapters on disc and drum brakes then complete the related test.
+B. Writing Assignments
+1. Following the lecture and discussion on steering gears, fill in the steering section of the
+key notes book.
+2. Complete the reading assignment on alignment procedures and write a one-page
+summary.
+C. Out-of-Class Assignments
+1. Complete the Mechanical Safety portion of the SP2 safety test with a score of 80% or
+better. Prior to working in lab, you must complete the following areas: Introduction, Fires,
+Slips & Falls, Power Tools, Lifts, Operating Vehicles, Jump Starting, Chemicals and the
+MSDS.
+2. Complete the 17 self-study modules assigned by American Honda. Your instructor will
+confirm that you have completed the required modules.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Schnubel, M. Automotive Steering and Suspension Systems. 6th Edition. Cengage, 2015.
+B. Pickerill, K. Automotive Brake Systems. 6th Edition. Cengage, 2015.
+
+Created/Revised by: Doug Conrad
+Date: 11/02/2015
+
+

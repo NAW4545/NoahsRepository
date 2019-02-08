@@ -1,0 +1,105 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+MATH 40 - Differential Equations
+Prerequisite(s): MATH 31
+Recommended Prep: NONE
+Transfer Status: CSU/UC
+68 hours Lecture
+
+4 Unit(s)
+
+The course is an introduction to ordinary differential equations including both quantitative and
+qualitative methods as well as applications from a variety of disciplines. Introduces the theoretical
+aspects of differential equations, including establishing when solution(s) exist, and techniques for
+obtaining solutions, including, series solutions, and singular points, Laplace transforms and linear
+systems. (C-ID MATH 240).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Create and analyze mathematical models using ordinary differential equations.
+B. Identify the type of a given differential equation and select and apply the appropriate analytical
+technique for finding the solution of first order and selected higher order ordinary differential
+equations.
+C. Apply the existence and uniqueness theorems for ordinary differential equations.
+D. Find power series solutions to ordinary differential equations.
+E. Determine the Laplace Transform and inverse Laplace Transform of functions.
+F. Solve Linear Systems of ordinary differential equations.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Solutions of ordinary differential equations
+2. First order differential equations including separable, homogeneous, exact,
+and linear
+3. Existence and uniqueness of solutions
+4. Applications of first order differential equations such as circuits, mixture
+problems, population modeling, orthogonal trajectories, and slope fields
+5. Second order and higher order linear differential equations; variation of
+parameters and undetermined coefficients
+6. Fundamental solutions, independence, Wronskian
+7. Nonhomogeneous equations
+8. Applications of higher order differential equations such as the harmonic
+oscillator and circuits
+9. Variation of parameters
+10. Laplace Transforms
+11. Series solutions
+12. Systems of Ordinary differential equations
+
+Hours
+2.00
+12.00
+2.00
+9.00
+5.00
+3.00
+3.00
+8.00
+2.00
+8.00
+8.00
+6.00
+
+Total Hours
+
+68.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Collaborative Group Work
+C. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+D. Discussion
+E. Board Work
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Class Assignments and Class Response
+D. Daily Homework Assignments, where the student will demonstrate problem-solving
+skills
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the "Illustrated Applications" in the first chapter of your book and be prepared to
+discuss your favorites in class.
+2. Read the instructor's handout on "Chaos Theory" and be prepared to discuss in class.
+B. Writing Assignments
+1. Write a short (2 - 4 pages) paper on the life of a mathematician discussed in class and be
+prepared to give a short talk about this person based on your paper.
+2. Write a short (1 - 2 pages) paper on how this class will fit into your major and give
+specific examples of ordinary differential equations that you believe you might use.
+C. Out-of-Class Assignments
+1. Interview someone who uses differential equations in their job and find out how the
+equation is used. The only restriction is that the person you interview cannot be a
+mathematics teacher.
+2. Find an application of a differential equation that is surprising to you and be prepared to
+share your find with other students in the class.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Zill, D. G. A First Course in Differential Equations with Modeling Applications. 10th Edition.
+Brooks/Cole Cengage Learning, 2012.
+Materials Other Than Textbooks:
+A. Graphing calculator
+
+Created/Revised by: Laurie Kincheloe
+Date: 04/01/2013
+
+

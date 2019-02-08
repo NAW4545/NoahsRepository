@@ -1,0 +1,108 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BCIS 51 - Records Management
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III
+Transfer Status: CSU
+51 hours Lecture
+
+3 Unit(s)
+
+This course introduces students to the increasingly complex field of records management. The class
+emphasizes the importance of effective records management for all types of documents from their
+creation or receipt, through their processing, distribution, organization, storage, and retrieval, to their
+ultimate disposition. Students will investigate the management functions necessary to operate a
+records management program effectively.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Examine and contrast the more popular methods used for records storage and retrieval including
+alphabetic, subject, and numeric.
+B. Compare the advantages and disadvantages of storage and retrieval techniques used for physical
+(paper) records, image records, and electronic media.
+C. Assess the importance of managing the entire life cycle of a record including its creation,
+distribution/use, maintenance, and disposition.
+D. Design database files to create more efficient records management systems, including the
+creation of effective forms, accession logs, record sorts, and master and relative indexes.
+E. Explore the components of an effective records and information management program including
+records audits, cost-effective records storage and labor methods, the need for records and
+information manuals, knowledge management, implementing a disaster recovery plan, and
+migration of records.
+F. Identify the criteria needed to create an effective physical records management system and select
+the storage components that most appropriately fit those standards.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. An Overview of Records Management
+2. Alphabetic Indexing Rules 1-10
+3. Electronic File Management
+4. Alphabetic Records Management, Equipment, and Procedures
+5. Storing, Retrieving, and Transferring Records
+6. Subject and Numeric Records Storage Systems
+7. Electronic and Image Records
+8. Records and Information Management Program
+Total Hours
+
+Hours
+4.00
+14.00
+5.00
+5.00
+6.00
+7.00
+5.00
+5.00
+51.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Field Experience/Internship
+C. Group Discussions
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+E. Problem-Solving Sessions
+F. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Papers
+D. Oral Presentation
+E. Projects
+F. Homework
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. In the assigned article Designing Effective Forms, read about the techniques of good
+forms creation and management, including the differences between constant data and
+variable data, and appropriate forms design methods. Create a form applying those
+techniques.
+2. Read the assigned article titled Preparing a Records Inventory for your Business. Be
+prepared to define a records inventory, discuss the importance to the records management
+function, and describe what components are included.
+B. Writing Assignments
+1. Create a document to summarize your investigation about RAID (redundant array of
+independent disks) and how it is applied to the records management function. The
+information should be presented in a format appropriate for submission to your employer.
+2. Research three links on the Internet about what safeguards businesses use to prevent
+identify theft, as well as what actions to take if company files have been compromised.
+Summarize the information you found, citing each site in proper citation format.
+C. Out-of-Class Assignments
+1. Create an Access database using the following fields and entering the correct data type: ID
+Number, Filing Segment, Key Unit, Unit, 2, Unit 3, Unit 4, and Unit 5. Enter 25 records,
+prepare a query to select only those records within the state of IL, and create a report
+showing the results.
+2. Following prescribed records management techniques, index, code, and sort 50 business
+correspondence items in proper alphabetic order, creating cross-references as needed. Be
+prepared to locate the requested files and present the information requested from each file
+within the 10-minute period allowed.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Read Smith, Judith. Records Management Projects. 9th Edition. South-Western Educational
+Publishing, 2011.
+B. Read Smith, Judith. Records Management. 9th Edition. South-Western Educational Publishing,
+2011.
+
+Created/Revised by: Connie Petlack
+Date: 12/03/2012
+
+

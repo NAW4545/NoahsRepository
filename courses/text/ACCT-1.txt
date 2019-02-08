@@ -1,0 +1,148 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+ACCT 2 - Financial Accounting
+Prerequisite(s): NONE
+Recommended Prep: ACCT 20 or BCIS 85 and Reading Level IV; English Level
+III; Math Level III or MATH 217 or concurrent enrollment
+Transfer Status: CSU/UC
+68 hours Lecture
+
+4 Unit(s)
+
+This is the study of accounting as an information system, examining why it is important and how it is
+used by investors, creditors, and others to make decisions. The course covers the accounting
+information system, including recording and reporting of business transactions with a focus on the
+accounting cycle, the application of generally accepted accounting principles, the financial statements,
+and statement analysis. Includes issues relating to asset, liability, and equity valuation, revenue and
+expense recognition, cash flow, internal controls, and ethics. (C-ID ACCT 110).
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Explain the nature and purpose of generally accepted accounting principles (GAAP) and
+International Financial Reporting Standards (IFRS). Explain and apply the components of the
+conceptual framework for financial accounting and reporting, including the qualitative
+characteristics of accounting information, the assumptions underlying accounting, the basic
+principles of financial accounting, and the constraints and limitations on accounting
+information.
+B. Define and use accounting and business terminology.
+C. Explain what a system is and how an accounting system is designed to satisfy the needs of
+specific businesses and users; summarize the purpose of journals and ledgers.
+D. Apply transaction analysis, input transactions into the accounting system, process this input, and
+prepare and interpret the four basic financial statements.
+E. Distinguish between cash basis and accrual basis accounting and their impact on the financial
+statements, including the revenue recognition and matching principles.
+F. Identify and illustrate how the principles of internal control are used to manage and control the
+firm's resources and minimize risk.
+G. Explain the content, form, and purpose of the basic financial statements (including footnotes)
+and the annual report, and how they satisfy the information needs of investors, creditors, and
+other users.
+H. Explain the nature of current assets and related issues, including the measurement and reporting
+of cash and cash equivalents, receivables and bad debts, and inventory and cost of goods sold.
+I. Explain the valuation and reporting of current liabilities, estimated liabilities and other
+contingencies.
+J. Identify and illustrate issues relating to long-term asset acquisition, use, cost allocation, and
+disposal.
+K. Distinguish between capital and revenue expenditures.
+L. Identify and illustrate issues relating to long-term liabilities, including issuance, valuation, and
+retirement of debt (including the time value of money).
+M. Identify and illustrate issues relating to stockholders' equity, including issuance, repurchase of
+capital stock, and dividends.
+N. Explain the importance of operating, investing and financing activities reported in the Statement
+of Cash Flows.
+O. Interpret company activity, profitability, liquidity and solvency through selection and
+
+O. Interpret company activity, profitability, liquidity and solvency through selection and
+application of appropriate financial analysis tools.
+P. Identify the ethical implications inherent in financial reporting and be able to apply strategies for
+addressing them.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Purposes and uses of accounting information
+2. The accounting cycle and accounting information system
+3. Cash and accrual accounting concepts
+4. Internal control and cash
+5. Financial reporting rules and disclosure, including international standards
+such as International Financial Reporting Standards (IFRS)
+6. Reporting and analyzing current assets
+7. Reporting and analyzing current liabilities
+8. Reporting and analyzing long-term assets
+9. Reporting and analyzing long-term liabilities
+10. Reporting and analyzing stockholder’s equity
+11. Measuring cash flow
+12. Financial statements and statement analysis
+13. Ethical issues
+Total Hours
+
+Hours
+5.00
+5.00
+5.00
+5.00
+5.00
+8.00
+5.00
+5.00
+5.00
+5.00
+5.00
+5.00
+5.00
+68.00
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Group Discussions
+D. Guest Speakers
+E. Class Activities
+F. Homework: Students are required to complete two hours of outside-of-class homework for each
+hour of lecture
+G. Multimedia Presentations
+H. Practice and drill on new procedures using manual and computerized methods.
+V. METHODS OF EVALUATION
+A. Exams/Tests
+B. Quizzes
+C. Projects
+D. Homework
+E. Class participation
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the Accounting For Receivables chapter and be prepared to explain the different
+methods used to account for bad debts as well as the different conventions used to
+
+methods used to account for bad debts as well as the different conventions used to
+calculate interest.
+2. Read the instructions and transactions in the accounting simulation, then complete the
+assigned practice set. Record February's transactions in the general journal, post to the
+general ledger, prepare a trial balance, journalize and post adjusting entries, and prepare an
+adjusted trial balance, accounts payable and accounts receivable schedules, and financial
+statements. Be prepared to share with the class.
+B. Writing Assignments
+1. Write an 8-10 page formal business report explaining the financial ratios, horizontal
+analysis, specific challenges and opportunities, and non-financial factors affecting each of
+the two assigned companies. Based on this analysis explain which company is a better
+investment.
+2. Read the Lenovo Group's most recent annual report and answer the following questions:
+1) who audited the company's financial statements 2) what contingent liabilities does the
+company note 3) what method does the company use to calculate the value of inventory 4)
+what risk factors does the company reference 5) what products and services does the
+company provide 6) what regions does the company operate in and what percentage of
+revenue is derived from each region.
+C. Out-of-Class Assignments
+1. Complete homework problems 7.1 to 7.4 in Excel or a similar spreadsheet program, print,
+and bring to class. Be prepared to discuss your answers and how the various interest
+conventions and methods of calculating the allowance for doubtful accounts effected your
+answers. Make sure to print the Excel formulas for problem 7.4.
+2. Complete exercises 1-13 to demonstrate competency accounting for bad debts, notes
+receivable, factoring receivables, and credit card payments. Submit the exercises via
+Blackboard.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Wild, J. Financial Accounting Fundamentals. 4th Edition. McGraw Hill, 2012.
+
+Created/Revised by: Patrick Christensen
+Date: 03/04/2013
+
+

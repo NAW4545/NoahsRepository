@@ -1,0 +1,88 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+AUT 21 - Automotive Brakes/Suspension and Steering Systems Lab
+Prerequisite(s): AUT 41 (or concurrent enrollment)
+Co-requisite(s): AUT 20
+Recommended Prep: AUT 1
+Transfer Status: CSU
+150 hours Lab
+
+3 Unit(s)
+
+In this course students will develop and demonstrate the hands-on skills needed to verify, diagnose
+and repair vehicle systems, sub systems, and components. Topics include: brake systems including
+both drum and disc brake systems, Anti-lock Brake Systems (ABS), steering and suspension systems,
+and electronic steering and suspension systems.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Diagnose and repair vehicle systems and components of disc brake systems.
+B. Diagnose and repair vehicle systems and components of drum brake systems.
+C. Diagnose and repair vehicle systems and components of anti-lock brake systems.
+D. Diagnose and repair vehicle systems and components of suspension systems.
+E. Diagnose and repair vehicle systems and components of steering systems.
+F. Diagnose and repair vehicle systems and components of electronic steering/suspension systems.
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lab
+Topics
+1. Brake rotors, drums and linings.
+2. Diagnose and repair hydraulic system components.
+3. Drum, disc and parking brake type brake systems.
+4. Electronic brake systems, including ABS, stability and traction control.
+5. Suspension systems.
+6. Wheel servicing: safe removal and reinstallation of tires, alloy wheels, steel
+wheels and wheel bearings.
+7. Shocks and struts
+8. Short arm/long arm and strut type suspensions.
+9. Alignment readings using an alignment machine: adjustment of alignment
+angle discrepancies.
+10. Rack and pinion, re-circulating ball and electronic assist steering systems.
+Total Hours
+
+Hours
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+15.00
+150.00
+
+IV. METHODS OF INSTRUCTION
+A. Instructor Demonstrations
+B. Collaborative Group Work
+C. Discussion
+D. Problem-Solving Sessions
+E. Laboratory Experiments
+V. METHODS OF EVALUATION
+A. Papers
+B. Demonstration
+C. Lab Projects
+D. Practical Evaluations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read industry recognized technical information related to hydraulic systems and rebuild a
+faulty brake caliper.
+2. Read lab assignment instructions pertaining to alignment procedures then perform a four
+way alignment on a vehicle.
+B. Writing Assignments
+1. Measure drum diameter on 6 drums and record results on a repair order with comparisons
+to specification. Create a written diagnosis on results for discussion.
+2. Conclude an ABS problem diagnosis and communicate cause and cure on a legal repair
+order for customer review.
+C. Out-of-Class Assignments
+1. Not applicable
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Schnubel, M. Automotive Steering and Suspension Systems. 6th Edition. Cengage, 2015.
+B. Pickerill, K. Automotive Brake Systems. 6th Edition. Cengage, 2015.
+
+Created/Revised by: Doug Conrad
+Date: 11/02/2015
+
+

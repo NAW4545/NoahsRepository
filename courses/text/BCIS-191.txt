@@ -1,0 +1,98 @@
+BUTTE COLLEGE
+COURSE OUTLINE
+I. CATALOG DESCRIPTION
+BCIS 81 - Microsoft Excel for Business
+Prerequisite(s): NONE
+Recommended Prep: Reading Level IV; English Level III; Math Level I
+Transfer Status: CSU
+12.75 hours Lecture
+12.75 hours Lab
+
+1 Unit(s)
+
+This course is designed for those who want to learn Microsoft Excel for Windows from the
+perspective of owning or running a business. Course content includes designing and analyzing
+worksheets and using formulas and functions with an emphasis on accounting principles.
+II. OBJECTIVES
+Upon successful completion of this course, the student will be able to:
+A. Identify and demonstrate spreadsheet planning and creation principles
+B. Examine and formulate mathematical operations and apply number formats used in accounting
+spreadsheets
+C. Analyze, interpret, and generate worksheets utilizing formulas and functions for accounting
+D. Understand and apply financial statement, depreciation, and loan amortization principles in
+designing and creating accounting worksheets
+III. COURSE CONTENT
+A. Unit Titles/Suggested Time Schedule
+Lecture
+Topics
+1. Understanding and applying worksheet creation principles
+2. Using formulas in a worksheet
+3. Formatting a worksheet
+4. Using financial functions in an accounting worksheet
+Total Hours
+
+Hours
+1.00
+4.00
+1.00
+6.75
+12.75
+
+Lab
+Topics
+1. Understanding and applying worksheet creation principles
+2. Using formulas in a worksheet
+3. Formatting a worksheet
+4. Using financial functions in an accounting worksheet
+Total Hours
+
+Hours
+1.00
+4.00
+1.00
+6.75
+12.75
+
+IV. METHODS OF INSTRUCTION
+A. Lecture
+B. Instructor Demonstrations
+C. Class Activities
+D. Homework: Students are required to complete two hours of outside-of-class homework for each
+
+hour of lecture
+E. Discussion
+F. Problem-Solving Sessions
+G. Multimedia Presentations
+V. METHODS OF EVALUATION
+A. Homework
+B. Class participation
+C. Final Examination
+D. Performance Examinations
+E. Examinations
+VI. EXAMPLES OF ASSIGNMENTS
+A. Reading Assignments
+1. Read the section in the textbook about how to create a loan amortization schedule and
+complete the case problems in Excel.
+2. Read the chapter in the textbook about inserting financial functions and complete the
+chapter questions.
+B. Writing Assignments
+1. Using the account balances provided by the instructor, prepare an income statement,
+statement of retained earnings, and balance sheet within Excel.
+2. Using the Excel file containing financial statements provided by the instructor, perform
+vertical analysis on the balance sheet showing each item in proportion to total assets.
+C. Out-of-Class Assignments
+1. Using the data file provided by the instructor, create a horizontal analysis on the income
+statement.
+2. Given the data provided in the case problem for depreciation, create a worksheet using
+straight-line depreciation.
+VII. RECOMMENDED MATERIALS OF INSTRUCTION
+Textbooks:
+A. Owen, Glenn. Excel 2013 for Accounting. 2015 Edition. Cengage Learning, 2015.
+Materials Other Than Textbooks:
+A. Accounting Practice Sets
+B. Recommended Flash Drive or other storage media
+
+Created/Revised by: Dorene Thompson
+Date: 11/17/2014
+
+
