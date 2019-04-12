@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Scraper",
+			"path": "./scraper"
+		},
+		{
+			"name": "Web",
+			"path": "./web"
+		}
+	]
+}
