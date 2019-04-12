@@ -9,7 +9,7 @@ from fpdf import FPDF
 allProgramsUrl = "http://www.butte.edu/academicprograms/"
 programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=7&program_id="
 filters = [
-	'ANTH', 'ART', 'AUTO', 'BCIS', 'CDF', 'CMST', 'DRAM', 'EH', 'ENGL', 'FN', 'GEOG', 
+	'ANTH', 'ART', 'AUTO', 'BCIS', 'CDF', 'CMST', 'DRAM', 'EH', 'ENGL', 'FN', 'GEOG',
 	'HIST', 'KIN', 'MATH', 'NSG', 'OLS', 'PHIL', 'PHO', 'PSY', 'RTVF', 'SOC', 'SPAN'
 ]
 
@@ -38,10 +38,15 @@ def getPLOs(pid):
 	page = BeautifulSoup(page, "html.parser")
 
 	# get the program name
+
+
 	pname = ''
-	pnameSection = page.find('h2', 'catalogDetails').parent.parent.next_sibling.find('td')
+	pnameSection = page.find('h2', 'catalogDetails').parent.parent.next_sibling
+	#possibly really broke or useless
 	if pnameSection != None:
-		pname = pnameSection.string
+		pnameSection = pnameSection.find('td')
+		if pnameSection != None:
+			pname = pnameSection.string
 
 	# get the list of degree programs on this page
 	programs = [d.text.strip() for d in page.find_all('td', string=re.compile('^AS Degree'))]
@@ -56,8 +61,8 @@ def getPLOs(pid):
 		print("Processing {}".format(pgm))
 		try:
 			ploTable = page.find(
-				'td', 
-				string=re.compile(pgm), 
+				'td',
+				string=re.compile(pgm),
 				attrs={'style': 'font-size:16px;font-weight:bold;'}).parent.parent.parent.parent
 
 			for nextRow in ploTable.find_next_siblings('tr'):
@@ -74,8 +79,8 @@ def getPLOs(pid):
 
 			try:
 				ploTable = page.find(
-					'td', 
-					string=re.compile(pgm), 
+					'td',
+					string=re.compile(pgm),
 					attrs={'style': 'font-size:20px;font-weight:bold;'}).parent.parent.parent.parent
 
 				for nextRow in ploTable.find_next_siblings('tr'):
@@ -105,7 +110,7 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 	for groupName, groupPLOs in sorted(allPLOs.items()):
 		if not filter or found(groupName, filterBy):
 			pdf.add_page()
-				
+
 			pdf.set_font('Arial', 'B', 20)
 			pdf.set_fill_color(211, 211, 211)
 			pdf.multi_cell(0, 12, groupName, 0, 'C', True)
@@ -132,7 +137,11 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 					pdf.cell(0, 4, '', 0, 1)
 					num += 1
 
-	pdf.output('Butte-PLOs.pdf', 'F')
+	pdfstream = pdf.output(dest='S').encode('latin-1')
+	pdffile = open('Butte-PLOs.pdf', 'wb')
+	pdffile.write(pdfstream)
+	pdffile.flush()
+	pdffile.close()
 
 def main():
 	programsPage = getPage(allProgramsUrl)
