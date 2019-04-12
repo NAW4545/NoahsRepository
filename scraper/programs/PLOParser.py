@@ -138,6 +138,7 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 					num += 1
 
 	pdfstream = pdf.output(dest='S').encode('latin-1')
+	#pdf.output(name='Butte-PLOs.pdf', dest='S').encode('latin-1')
 	pdffile = open('Butte-PLOs.pdf', 'wb')
 	pdffile.write(pdfstream)
 	pdffile.flush()
