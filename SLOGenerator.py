@@ -19,22 +19,22 @@ def writeProgramsToFile(programs, file):
 
 def main():
 
-    #progParser = P.ProgramParser(programsUrl)
-    #programs = progParser.parseToList()
-    #print(programs)
-    #writeProgramsToFile(programs, "programs.csv")
+	progParser = P.ProgramParser(programsUrl)
+	programs = progParser.parseToList()
+	print(programs)
+	writeProgramsToFile(programs, "programs.csv")
 
-	#answer = raw_input("Download course outlines (y/n)? ")
-	#if answer[0] == "y" or answer[0] == "Y":
-	#	subjectList = createSubjectList(getPage(allSubjectsUrl))
-	#	for subject in subjectList.find_all("option"):
-	#		processSubject(subject['value'])
-	#courses = processCoursePDFs()
-	#writeCoursesToFile(courses, 'courses.csv')
-	#writeCourseOutcomesToFile(courses, 'course_outcomes.csv')
+	answer = raw_input("Download course outlines (y/n)? ")
+	if answer[0] == "y" or answer[0] == "Y":
+		subjectList = createSubjectList(getPage(allSubjectsUrl))
+		for subject in subjectList.find_all("option"):
+			processSubject(subject['value'])
+	courses = processCoursePDFs()
+	writeCoursesToFile(courses, 'courses.csv')
+	writeCourseOutcomesToFile(courses, 'course_outcomes.csv')
 
-	#connectDB()
-	#closeDB()
+	connectDB()
+	closeDB()
 
-if __name__ == "__main__":
-	main()
+#if __name__ == "__main__":
+#	main()
