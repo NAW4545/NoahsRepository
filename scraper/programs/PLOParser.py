@@ -7,7 +7,7 @@ import re
 from fpdf import FPDF
 
 allProgramsUrl = "http://www.butte.edu/academicprograms/"
-programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=7&program_id="
+programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=8&program_id="
 filters = [
 	'ANTH', 'ART', 'AUTO', 'BCIS', 'CDF', 'CMST', 'DRAM', 'EH', 'ENGL', 'FN', 'GEOG',
 	'HIST', 'KIN', 'MATH', 'NSG', 'OLS', 'PHIL', 'PHO', 'PSY', 'RTVF', 'SOC', 'SPAN'
@@ -19,6 +19,23 @@ def getPage(url):
 	return BeautifulSoup(page, "html.parser")
 
 def getPrograms(programsPage):
+	""" Parse the program ids from the programs page. In the current URL structure
+		the pid is set as program_id in the query string ex.
+		http://www.butte.edu/academicprograms/program_details.php?year=8&program_id=[PID]
+		This url will return the page containing all the programs listed in the
+		department associated with the PID.
+
+		ex.
+
+		Computer science's id 714 so
+		http://www.butte.edu/academicprograms/program_details.php?year=8&program_id=714
+		is the page listing all programs in this department.
+
+		@programsPage: The HTML Parser object created from the programs page
+			like that returned from getPage().
+		@return: A list of strings representing the PIDs scraped from the page.
+			['PID1', '737', '716', '699']
+	"""
 	programs = []
 	rows = programsPage.find_all("td")
 	for row in rows:
@@ -36,23 +53,50 @@ def getPrograms(programsPage):
 	return programs
 
 def getPLOs(pid):
+	""" Parse the PLOS from an individual program page.
+		@pid: A string containing the program_id of the page to fetch.
+		@return: A tuple of the program name eg. Drafting or Computer Science
+			and a dictionary where the keys are programs and the values
+			are a list of the outcomes for the program.
+			(
+				'Program Name',
+				{'degree name': ['plo 1', 'plo 2'], 'degree name': ['plo 1', 'plo 2']}
+			)
+
+			ex.
+
+			http://www.butte.edu/academicprograms/program_details.php?year=8&program_id=716
+			is the program page for drafting so
+			getPLOs(716) ->
+				(
+					'Drafting',
+					{   'AS Degree in Drafting and CAD Technology':
+						[
+							'Describe the role of technical graphics in the engineering design process.',
+							'Produce dimensioned technical drawings using various techniques including computer-aided drafting (CAD), 3D modeling, and freehand sketching.',
+							'etc...'
+						],
+					   'Certificate of Achievement in Drafting and CAD Technology':
+						[
+							'Describe the role of technical graphics in the engineering design process and in the architectural design process.',
+							'etc...'
+						]
+					}
+				)
+	"""
 	plos = {}
 	page = urllib.request.urlopen("{}{}".format(programUrl, pid)).read()
 	page = BeautifulSoup(page, "html.parser")
 
 	# get the program name
-
-
 	pname = ''
-	pnameSection = page.find('h2', 'catalogDetails').parent.parent.next_sibling
-	#possibly really broke or useless
+	pnameSection = page.find('h2', 'catalogDetails').parent.parent.next_sibling.find('td')
 	if pnameSection != None:
-		pnameSection = pnameSection.find('td')
-		if pnameSection != None:
-			pname = pnameSection.string
+		pname = pnameSection.string
 
 	print("created bs4 object " + pname)
 	# get the list of degree programs on this page
+	# look for all lines starting with a degree type and add those lines to a list
 	programs = [d.text.strip() for d in page.find_all('td', string=re.compile('^AS Degree'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AS-T Degree'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA Degree'))]
@@ -145,7 +189,7 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 					num += 1
 
 	pdf.output('Butte-PLOs.pdf', 'F')
-	
+
 	#pdfstream = pdf.output(dest='S').encode('latin-1')
 	#pdffile = open('Butte-PLOs.pdf', 'wb')
 	#pdffile.write(pdfstream)
@@ -153,14 +197,14 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 	#pdffile.close()
 
 def main():
-	programsPage = getPage(allProgramsUrl)
-	programs = getPrograms(programsPage)
 	allPLOs = {}
 	for pid in programs:
 		pname, plos = getPLOs(pid)
+		print(pname, plos)
 		allPLOs[pname] = plos
 
-	#makePDF(allPLOs, True, filters)
+
+	# makePDF(allPLOs, True, filters)
 
 if __name__ == "__main__":
 	main()
