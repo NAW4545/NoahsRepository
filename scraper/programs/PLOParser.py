@@ -144,12 +144,13 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 					pdf.cell(0, 4, '', 0, 1)
 					num += 1
 
-	pdfstream = pdf.output(dest='S').encode('latin-1')
-	#pdf.output(name='Butte-PLOs.pdf', dest='S').encode('latin-1')
-	pdffile = open('Butte-PLOs.pdf', 'wb')
-	pdffile.write(pdfstream)
-	pdffile.flush()
-	pdffile.close()
+	pdf.output('Butte-PLOs.pdf', 'F')
+	
+	#pdfstream = pdf.output(dest='S').encode('latin-1')
+	#pdffile = open('Butte-PLOs.pdf', 'wb')
+	#pdffile.write(pdfstream)
+	#pdffile.flush()
+	#pdffile.close()
 
 def main():
 	programsPage = getPage(allProgramsUrl)
