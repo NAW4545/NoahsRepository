@@ -15,6 +15,7 @@ filters = [
 
 def getPage(url):
 	page = urllib.request.urlopen(url).read()
+	print("getting page " + url)
 	return BeautifulSoup(page, "html.parser")
 
 def getPrograms(programsPage):
@@ -30,6 +31,8 @@ def getPrograms(programsPage):
 				# index 2 is program id number
 				programs.append(pid) if pid not in programs else None
 
+	print("retrieved programs:")
+	print(programs)
 	return programs
 
 def getPLOs(pid):
@@ -48,6 +51,7 @@ def getPLOs(pid):
 		if pnameSection != None:
 			pname = pnameSection.string
 
+	print("created bs4 object " + pname)
 	# get the list of degree programs on this page
 	programs = [d.text.strip() for d in page.find_all('td', string=re.compile('^AS Degree'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AS-T Degree'))]
@@ -57,6 +61,9 @@ def getPLOs(pid):
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Noncredit Certificate'))]
 
 	# get the plos for each program
+	print("programs:")
+	print(programs)
+
 	for pgm in programs:
 		print("Processing {}".format(pgm))
 		try:
@@ -152,7 +159,7 @@ def main():
 		pname, plos = getPLOs(pid)
 		allPLOs[pname] = plos
 
-	makePDF(allPLOs, True, filters)
+	#makePDF(allPLOs, True, filters)
 
 if __name__ == "__main__":
 	main()
