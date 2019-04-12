@@ -35,7 +35,7 @@ class ProgramParser():
         """ Extract the program names and program types from the
             academic program page.
             @return: A list of tuples containing the program and type EX.
-                     [('Program Name', 'TYPE'),('Art History', 'AA-T')]
+                     [(b'Program Name', b'TYPE'),(b'Art History', b'AA-T')]
         """
         tables = self.parser.find_all("table")
         # grab the second table from the page
