@@ -7,7 +7,7 @@ import re
 from fpdf import FPDF
 
 allProgramsUrl = "http://www.butte.edu/academicprograms/"
-programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=7&program_id="
+programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=8&program_id="
 filters = [
 	'ANTH', 'ART', 'AUTO', 'BCIS', 'CDF', 'CMST', 'DRAM', 'EH', 'ENGL', 'FN', 'GEOG',
 	'HIST', 'KIN', 'MATH', 'NSG', 'OLS', 'PHIL', 'PHO', 'PSY', 'RTVF', 'SOC', 'SPAN'
@@ -145,7 +145,7 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 					num += 1
 
 	pdf.output('Butte-PLOs.pdf', 'F')
-	
+
 	#pdfstream = pdf.output(dest='S').encode('latin-1')
 	#pdffile = open('Butte-PLOs.pdf', 'wb')
 	#pdffile.write(pdfstream)
