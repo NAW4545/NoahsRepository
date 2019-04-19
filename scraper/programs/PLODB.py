@@ -27,7 +27,9 @@ class PLODB():
         self.connection.close()
 
     def insert(self, plo_data):
-        # insert a program into the database
+        """ Insert a program, it's PLOs and associated data into the database.
+            @plo_data: An object containing the plo data
+        """
 
         # attempt to insert degree type
         self.cursor.execute("INSERT IGNORE INTO degrees VALUES(0, %(deg_type)s);", plo_data)
@@ -59,6 +61,7 @@ class PLODB():
         self.connection.commit()
 
 def main():
+    # test plo data represents a single program and its PLOs
     test_plo_data = {
         'deg_type': 'AA-T',
         'department': 'Fashion',
