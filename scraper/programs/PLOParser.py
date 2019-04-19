@@ -146,11 +146,11 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 
 	pdf.output('Butte-PLOs.pdf', 'F')
 
-	#pdfstream = pdf.output(dest='S').encode('latin-1')
-	#pdffile = open('Butte-PLOs.pdf', 'wb')
-	#pdffile.write(pdfstream)
-	#pdffile.flush()
-	#pdffile.close()
+	# pdfstream = pdf.output(dest='S').encode('latin-1')
+	# pdffile = open('Butte-PLOs.pdf', 'wb')
+	# pdffile.write(pdfstream)
+	# pdffile.flush()
+	# pdffile.close()
 
 def main():
 	programsPage = getPage(allProgramsUrl)
@@ -160,7 +160,7 @@ def main():
 		pname, plos = getPLOs(pid)
 		allPLOs[pname] = plos
 
-	#makePDF(allPLOs, True, filters)
+	makePDF(allPLOs, True, filters)
 
 if __name__ == "__main__":
 	main()
