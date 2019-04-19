@@ -60,6 +60,8 @@ def getPLOs(pid):
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Certificate'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Noncredit Certificate'))]
 
+	pro
+
 	# get the plos for each program
 	print("programs:")
 	print(programs)
