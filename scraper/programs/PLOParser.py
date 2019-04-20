@@ -103,7 +103,7 @@ def getPLOs(pid):
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA-T Degree'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Certificate'))]
 	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Noncredit Certificate'))]
-
+	programs = set(programs)
 	# get the plos for each program
 	print("programs:")
 	print(programs)
@@ -197,11 +197,10 @@ def makePDF(allPLOs, filter=False, filterBy=None):
 	#pdffile.close()
 
 def main():
-	allPLOs = {}
-	for pid in programs:
-		pname, plos = getPLOs(pid)
-		print(pname, plos)
-		allPLOs[pname] = plos
+	pids = getPrograms(getPage(allProgramsUrl))
+	print(pids)
+	programs = getPLOs(pids[0])
+	print(programs)
 
 
 	# makePDF(allPLOs, True, filters)
