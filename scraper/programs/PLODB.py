@@ -15,21 +15,36 @@ import pymysql
 
 class PLODB():
     def __init__(self):
-        # connect to database
+        "Create a connection to the database."
         self.connection = pymysql.connect(host='remotemysql.com',
-                             user='WlH9s7G8vy',
-                             password='uH0YWN3msY',
-                             db='WlH9s7G8vy',
-                             cursorclass=pymysql.cursors.DictCursor)
+                                         user='WlH9s7G8vy',
+                                         password='uH0YWN3msY',
+                                         db='WlH9s7G8vy',
+                                         cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
 
     def __del__(self):
+        "Close the database connections on desctruction."
         self.connection.close()
 
     def insert(self, plo_data):
         """ Insert a program, it's PLOs and associated data into the database.
-            @plo_data: An object containing the plo data
+            @plo_data: A dictionary containing the plo data. The format should be
+                the same as that returned by PLOScraper.getPLOs()
+                {
+                    'pid': pid,
+                    'program': program (ex. AA Degree in Wallpaper Design),
+                    'plos': a list of PLOs (['plo 1', 'plo 2']),
+                    'department': department name (Computer Science, Fasion),
+                    'description': program description,
+                    'chair': department chair,
+                    'deg_type': degree code (AA, AS-T, CERT)
+                }
         """
+        # All queries use insert ignore. When a duplicate entry is found for any
+        # unique key in the database it will generate a warning and no data will
+        # be inserted. Unique keys are listed in the database ERD.
+        # This could be changed to use ON DUPLICATE KEY UPDATE to update rows with any new data.
 
         # attempt to insert degree type
         self.cursor.execute("INSERT IGNORE INTO degrees VALUES(0, %(deg_type)s);", plo_data)
