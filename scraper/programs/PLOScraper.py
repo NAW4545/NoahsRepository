@@ -54,18 +54,18 @@ class PLOScraper():
     def getPLOs(self, pid):
         """ Parse the PLOS from an individual program page.
             @pid: A string containing the program_id of the page to fetch.
-            @return: A list of dictionaries containing the data for each program
-                [
-                    {
-                        'pid': pid,
-                        'program': program (ex. AA Degree in Wallpaper Design),
-                        'plos': a list of PLOs (['plo 1', 'plo 2']),
-                        'department': department name (Computer Science, Fasion),
-                        'description': program description,
-                        'chair': department chair,
-                        'deg_type': degree code (AA, AS-T, CERT)
-                    }
-                ]
+            @return: A list of dictionaries containing the data for each program.
+                The format of the dictionary should be the same as that accepted
+                by PLODB.insert()
+                [{
+                    'pid': pid,
+                    'program': program (ex. AA Degree in Wallpaper Design),
+                    'plos': a list of PLOs (['plo 1', 'plo 2']),
+                    'department': department name (Computer Science, Fasion),
+                    'description': program description,
+                    'chair': department chair,
+                    'deg_type': degree code (AA, AS-T, CERT)
+                }]
         """
         plos = {}
         page = urllib.request.urlopen("{}{}".format(self.programUrl, pid)).read()

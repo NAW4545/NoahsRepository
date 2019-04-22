@@ -3,6 +3,9 @@ from PLOScraper import PLOScraper
 
 
 def main():
+    """ Scrape all program PLO data from the butte college website and insert
+        it into the database.
+    """
     scraper = PLOScraper()
     db = PLODB()
     # get the list of pids
