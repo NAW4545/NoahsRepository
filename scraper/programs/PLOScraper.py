@@ -12,12 +12,11 @@ class PLOScraper():
 
         self.allProgramsUrl = allProgramsUrl
         self.programUrl = programUrl
-        self.plo_data = []
 
-    def getPage(self, url):
+    def getPage(self):
         "Return a BeautifulSoup Parser object created from the url."
-        page = urllib.request.urlopen(url).read()
-        print("getting page " + url)
+        page = urllib.request.urlopen(self.allProgramsUrl).read()
+        print("getting page " + self.allProgramsUrl)
         return BeautifulSoup(page, "html.parser")
 
     def getPrograms(self):
@@ -38,6 +37,7 @@ class PLOScraper():
             @return: A list of strings representing the PIDs scraped from the page.
                 ['PID1', '737', '716', '699']
         """
+        programsPage = self.getPage()
         programs = []
         rows = programsPage.find_all("td")
         for row in rows:
@@ -175,18 +175,18 @@ class PLOScraper():
 
         if program_name.find('AA Degree in') >= 0:
             deg_type = 'AA'
-        elif program_name.find('AS-T Degree in') >= 0:
-            deg_type = 'CERT'
-        elif program_name.find('AS Degree in') >= 0:
-            deg_type = 'AS'
-        elif program_name.find('Certificate of Achievement in ') >= 0:
-            deg_type = 'CA'
-        elif program_name.find('AS-T Degree') >= 0:
-            deg_type = 'AS-T'
         elif program_name.find('AA-T Degree') >= 0:
             deg_type = 'AA-T'
+        elif program_name.find('AS-T Degree in') >= 0:
+            deg_type = 'AS-T'
+        elif program_name.find('AS Degree in') >= 0:
+            deg_type = 'AS'
+        elif program_name.find('Certificate of Achievement in') >= 0:
+            deg_type = 'CA'
         elif program_name.find('Noncredit Certificate in') >= 0:
             deg_type = 'Noncredit Certificate'
+        elif program_name.find('Certificate in') >= 0:
+            deg_type = 'CERT'
         else:
             deg_type = None
 
