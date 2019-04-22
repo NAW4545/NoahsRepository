@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 import pymysql
-# installed mysql+python connector
+# installed mysql python connector from https://dev.mysql.com/downloads/connector/python/
 # pip install pymysql
 
 # csci36@zippymail.info
