@@ -20,7 +20,9 @@ class PLOScraper():
         return BeautifulSoup(page, "html.parser")
 
     def getPrograms(self):
-        """ Parse the program ids from the programs page. In the current URL structure
+        """ Parse the program ids from the page located at self.allProgramsUrl 
+
+            In the current URL structure
             the pid is set as program_id in the query string ex.
             http://www.butte.edu/academicprograms/program_details.php?year=8&program_id=[PID]
             This url will return the page containing all the programs listed in the
@@ -32,8 +34,6 @@ class PLOScraper():
             http://www.butte.edu/academicprograms/program_details.php?year=8&program_id=714
             is the page listing all programs in this department.
 
-            @programsPage: The HTML Parser object created from the programs page
-                like that returned from getPage().
             @return: A list of strings representing the PIDs scraped from the page.
                 ['PID1', '737', '716', '699']
         """
