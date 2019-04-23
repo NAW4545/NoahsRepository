@@ -41,7 +41,6 @@ def getPrograms(programsPage):
 	for row in rows:
 		if row.find("a"):
 			link = row.find("a")
-			pname = link.string
 			pdata = link['href'].split('=')
 			if (len(pdata) == 3):
 				pid = pdata[2]
