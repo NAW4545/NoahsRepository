@@ -1,12 +1,15 @@
 #! /usr/bin/env python3
+import sys
+sys.path.append("./programs")
+
 from bs4 import BeautifulSoup
 import glob, os
 import mysql.connector
 from mysql.connector import errorcode
 import slate
 import urllib2
-
 import ProgramParser as P
+import PLOScraper
 
 DEBUG = False
 
@@ -36,6 +39,11 @@ def main():
 
 	connectDB()
 	closeDB()
+
+	scraper = PLOScraper()
+	scrapedPrograms = scraper.getPrograms()
+	for prog in scrapedPrograms:
+		plo = scraper.getPLOs(prog)
 
 #if __name__ == "__main__":
 #	main()
