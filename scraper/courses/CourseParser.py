@@ -3,31 +3,50 @@ from bs4 import BeautifulSoup
 import glob, os, sys
 from subprocess import call
 import slate
-import urllib2
+from urllib import request
 
 allSubjectsUrl = "http://www.butte.edu/departments/curriculum/course_outlines/"
 subjectUrl = "http://www.butte.edu/departments/curriculum/course_outlines/?area="
 
 def getPage(url):
-	page = urllib2.urlopen(url).read()
+	"Return a BeautifulSoup parser object from the page at @url"
+	page = request.urlopen(url).read()
 	return BeautifulSoup(page, "html.parser")
 
 def processSubject(subject):
+	""" Get the subject url corresponding to @subject
+		eg. http://www.butte.edu/departments/curriculum/course_outlines/?area=CHEM
+		@subject: An abbreviated subject code eg. CHEM, ART
+
+	"""
 	print("Processing {}".format(subject))
 	courseList = getPage("{}{}".format(subjectUrl, subject))
 	processCourses(subject, courseList)
 
 def createSubjectList(soup):
+	""" Return the first select element from a page using BeautifulSoup
+		@soup: A BeautifulSoup parser object
+		@return: The select element
+	"""
+	# In the page at allSubjectsUrl, the courses dropdown is the first select on the page
 	return soup.find("select")
 
 def downloadCORs():
+	"""
+
+	"""
 	subjectList = createSubjectList(getPage(allSubjectsUrl))
 	for subject in subjectList.find_all("option"):
 		processSubject(subject['value'])
 
 def saveCourse(subject, url):
+	""" Save a PDF file from @url to a local file.
+		@subject: The subject being saved. Used in the name of the local
+			pdf files.
+		@url: The url where the course pdf is located.
+	"""
 	next = 1
-	processPage = urllib2.urlopen(url)
+	processPage = request.urlopen(url)
 	CHUNK = 16 * 1024
 	with open("./pdf/{}-{}.pdf".format(subject, next), 'wb') as file:
 		while True:
@@ -39,6 +58,12 @@ def saveCourse(subject, url):
 	next += 1
 
 def processCourses(subject, courseList):
+	""" Find all td elements on a subject page eg http://www.butte.edu/departments/curriculum/course_outlines/?area=CHEM,
+		if the td contains an anchor, assume it is a link to the course pdf, then
+		call saveCourse to save the file.
+		@subject: An abbreviated subject code eg. CHEM, ART
+		@courseList: A BeautifulSoup object created from the subject page
+	"""
 	rows = courseList.find_all("td")
 	for row in rows:
 		if row.find("a"):
@@ -130,7 +155,7 @@ def parseCourseObjectives(file):
 	objStart = contents.find("A.")
 	contents = contents[objStart:]
 	objectives = parseObjectives(contents)
-	
+
 	f.close()
 	return objectives
 
@@ -139,7 +164,7 @@ def saveObjectives():
 		os.remove('objectives.tab')
 	except OSError:
 		pass
-		
+
 	for file in glob.glob("./text/*.txt"):
 		objectives = parseCourseObjectives(file)
 		course = parseCourseId(file).strip()
@@ -159,38 +184,41 @@ def writeCoursesToFile(courses, file):
     f.close()
 
 def main():
-	help = False
-	downloadFiles = False
-	convertPDFs = False
-	
-	args = sys.argv
-	for i in range(1, len(args)):
-		if args[i].upper()[0:1] == "H":
-			help = True
-			print("CourseParser.py [d|download] [c|convert] [o|objectives]")
-		elif args[i].upper()[0:1] == "D":
-			downloadFiles = True
-		elif args[i].upper()[0:1] == "C":
-			convertPDFs = True
-		elif args[i].upper()[0:1] == "O":
-			getObjectives = True
+	subjectList = createSubjectList(getPage(allSubjectsUrl))
+	print(subjectList)
 
-	if not help:
-		if downloadFiles == True:
-			# download CORs from Butte Curriculum website
-			downloadCORs()
-
-		if convertPDFs == True:
-			# convert PDFs to text
-			convertPDFToText()
-
-		if getObjectives == True:
-			saveObjectives()
+	# help = False
+	# downloadFiles = False
+	# convertPDFs = False
+	#
+	# args = sys.argv
+	# for i in range(1, len(args)):
+	# 	if args[i].upper()[0:1] == "H":
+	# 		help = True
+	# 		print("CourseParser.py [d|download] [c|convert] [o|objectives]")
+	# 	elif args[i].upper()[0:1] == "D":
+	# 		downloadFiles = True
+	# 	elif args[i].upper()[0:1] == "C":
+	# 		convertPDFs = True
+	# 	elif args[i].upper()[0:1] == "O":
+	# 		getObjectives = True
+	#
+	# if not help:
+	# 	if downloadFiles == True:
+	# 		# download CORs from Butte Curriculum website
+	# 		downloadCORs()
+	#
+	# 	if convertPDFs == True:
+	# 		# convert PDFs to text
+	# 		convertPDFToText()
+	#
+	# 	if getObjectives == True:
+	# 		saveObjectives()
 
 		#courses = processCoursePDFs()
 		#writeCoursesToFile(courses, 'courses.csv')
 		# parse text CORs and output all to a text file
-		# a line of the output file would look like: 
+		# a line of the output file would look like:
 		#     CSCI 4:Describe the software development life-cycle.
 		#parseCourse('./course_text/csci.txt')
 
