@@ -16,8 +16,8 @@ def getPage(url):
 def processSubject(subject):
 	""" Get the subject url corresponding to @subject
 		eg. http://www.butte.edu/departments/curriculum/course_outlines/?area=CHEM
+		Then call processCourses() to save PDFs from the page.
 		@subject: An abbreviated subject code eg. CHEM, ART
-
 	"""
 	print("Processing {}".format(subject))
 	courseList = getPage("{}{}".format(subjectUrl, subject))
@@ -32,10 +32,11 @@ def createSubjectList(soup):
 	return soup.find("select")
 
 def downloadCORs():
-	"""
-
+	""" Download the course PDFs for all subjects listed on allSubjectsUrl.
 	"""
 	subjectList = createSubjectList(getPage(allSubjectsUrl))
+	# loop through all option elements in the course dropdown
+	# the 'value' of each option is the abbreviated subject code eg. CHEM, ART
 	for subject in subjectList.find_all("option"):
 		processSubject(subject['value'])
 
@@ -86,8 +87,12 @@ def processCourseMeta(text, data):
 			break
 
 def processCoursePDF(courseFile):
+	"""
+
+	"""
     courseData = {'id': '', 'title': ''}
-    with open(courseFile) as pdf:
+	# Open the file for reading in binary mode
+    with open(courseFile, 'rb') as pdf:
         pdfDoc = slate.PDF(pdf)
         for page in range(len(pdfDoc)):
             lines = pdfDoc[page].split('\n')
@@ -98,6 +103,9 @@ def processCoursePDF(courseFile):
     return courseData
 
 def processCoursePDFs():
+	""" Call processCoursePDF() for each file in the ./pdf directory.
+		@return:
+	"""
 	allCourses = []
 	os.chdir("./pdf")
 	for file in glob.glob("*.pdf"):
@@ -107,6 +115,9 @@ def processCoursePDFs():
 	return allCourses
 
 def convertPDFToText():
+	""" Use the command line utility pdftotext to convert saved PDFs into plain
+		text.
+	"""
 	for file in glob.glob("./pdf/*.pdf"):
 		outputFile = "./text/{}.txt".format(file[6:-4])
 		print("Processing {} -> {}".format(file, outputFile))
@@ -215,12 +226,12 @@ def main():
 	# 	if getObjectives == True:
 	# 		saveObjectives()
 
-		#courses = processCoursePDFs()
-		#writeCoursesToFile(courses, 'courses.csv')
-		# parse text CORs and output all to a text file
-		# a line of the output file would look like:
-		#     CSCI 4:Describe the software development life-cycle.
-		#parseCourse('./course_text/csci.txt')
+	courses = processCoursePDFs()
+	writeCoursesToFile(courses, 'courses.csv')
+	parse text CORs and output all to a text file
+	a line of the output file would look like:
+	    CSCI 4:Describe the software development life-cycle.
+	parseCourse('./course_text/csci.txt')
 
 if __name__ == "__main__":
 	main()
