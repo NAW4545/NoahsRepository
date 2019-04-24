@@ -24,7 +24,7 @@ class PLODB():
         self.cursor = self.connection.cursor()
 
     def __del__(self):
-        "Close the database connections on desctruction."
+        "Close the database connection on destruction."
         self.connection.close()
 
     def insert(self, plo_data):
