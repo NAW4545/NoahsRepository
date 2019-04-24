@@ -87,9 +87,6 @@ def processCourseMeta(text, data):
 			break
 
 def processCoursePDF(courseFile):
-	"""
-
-	"""
     courseData = {'id': '', 'title': ''}
 	# Open the file for reading in binary mode
     with open(courseFile, 'rb') as pdf:
@@ -103,9 +100,14 @@ def processCoursePDF(courseFile):
     return courseData
 
 def processCoursePDFs():
-	""" Call processCoursePDF() for each file in the ./pdf directory.
-		@return:
-	"""
+	"Attempt to extract pdfs using slate"
+	# Obtaining course outcomes currently relies on a command line utility which
+	# may not be available in all environments.
+	# Pages seem to be split using the form feed (\x0c) in slate
+	# \x0c does not correspond with a new page in the documents, resulting in blank pages
+	# and incomplete data.
+	# pypdf2 cannot extract text from the files
+	# pdfminer.six may be an alternative
 	allCourses = []
 	os.chdir("./pdf")
 	for file in glob.glob("*.pdf"):
@@ -198,40 +200,40 @@ def main():
 	subjectList = createSubjectList(getPage(allSubjectsUrl))
 	print(subjectList)
 
-	# help = False
-	# downloadFiles = False
-	# convertPDFs = False
-	#
-	# args = sys.argv
-	# for i in range(1, len(args)):
-	# 	if args[i].upper()[0:1] == "H":
-	# 		help = True
-	# 		print("CourseParser.py [d|download] [c|convert] [o|objectives]")
-	# 	elif args[i].upper()[0:1] == "D":
-	# 		downloadFiles = True
-	# 	elif args[i].upper()[0:1] == "C":
-	# 		convertPDFs = True
-	# 	elif args[i].upper()[0:1] == "O":
-	# 		getObjectives = True
-	#
-	# if not help:
-	# 	if downloadFiles == True:
-	# 		# download CORs from Butte Curriculum website
-	# 		downloadCORs()
-	#
-	# 	if convertPDFs == True:
-	# 		# convert PDFs to text
-	# 		convertPDFToText()
-	#
-	# 	if getObjectives == True:
-	# 		saveObjectives()
+	help = False
+	downloadFiles = False
+	convertPDFs = False
 
-	courses = processCoursePDFs()
-	writeCoursesToFile(courses, 'courses.csv')
-	parse text CORs and output all to a text file
-	a line of the output file would look like:
-	    CSCI 4:Describe the software development life-cycle.
-	parseCourse('./course_text/csci.txt')
+	args = sys.argv
+	for i in range(1, len(args)):
+		if args[i].upper()[0:1] == "H":
+			help = True
+			print("CourseParser.py [d|download] [c|convert] [o|objectives]")
+		elif args[i].upper()[0:1] == "D":
+			downloadFiles = True
+		elif args[i].upper()[0:1] == "C":
+			convertPDFs = True
+		elif args[i].upper()[0:1] == "O":
+			getObjectives = True
+
+	if not help:
+		if downloadFiles == True:
+			# download CORs from Butte Curriculum website
+			downloadCORs()
+
+		if convertPDFs == True:
+			# convert PDFs to text
+			convertPDFToText()
+
+		if getObjectives == True:
+			saveObjectives()
+
+	# courses = processCoursePDFs()
+	# writeCoursesToFile(courses, 'courses.csv')
+	# parse text CORs and output all to a text file
+	# a line of the output file would look like:
+	#     CSCI 4:Describe the software development life-cycle.
+	# parseCourse('./course_text/csci.txt')
 
 if __name__ == "__main__":
 	main()
