@@ -70,6 +70,24 @@ def processCourses(subject, courseList):
 		if row.find("a"):
 			saveCourse(subject, row.find("a")['href'])
 
+# ###
+# This section attempts to use the python package slate to get text from the PDFs
+#
+# Currently, converting course outcomes from pdf relies on the pdftotext utility which
+# may not be available in all environments.
+#
+# Issues found in this section:
+#
+# Pages seem to be split using the form feed (\x0c) in slate
+# \x0c does not correspond with a new page in the documents, resulting in blank pages
+# and incomplete data.
+#
+# pypdf2 cannot extract text from the files
+#
+# pdfminer may be an alternative. It would require understanding pdf structure
+# as well as how the pdfminer source code functions, since it includes virtually
+# no documentation.
+# ###------------------------
 def splitIdTitle(text, data):
 	temp = text.split('-')
 	data['id'] = temp[0].strip()
@@ -101,13 +119,7 @@ def processCoursePDF(courseFile):
 
 def processCoursePDFs():
 	"Attempt to extract pdfs using slate"
-	# Obtaining course outcomes currently relies on a command line utility which
-	# may not be available in all environments.
-	# Pages seem to be split using the form feed (\x0c) in slate
-	# \x0c does not correspond with a new page in the documents, resulting in blank pages
-	# and incomplete data.
-	# pypdf2 cannot extract text from the files
-	# pdfminer.six may be an alternative
+
 	allCourses = []
 	os.chdir("./pdf")
 	for file in glob.glob("*.pdf"):
@@ -116,9 +128,18 @@ def processCoursePDFs():
 
 	return allCourses
 
+
+def writeCoursesToFile(courses, file):
+    f = open(file, 'w')
+    for course in courses:
+        f.write('{},{}\n'.format(course['id'], course['title']))
+    f.close()
+
+# ###------------------
+
 def convertPDFToText():
 	""" Use the command line utility pdftotext to convert saved PDFs into plain
-		text.
+		text. Save the files in the ./text directory
 	"""
 	for file in glob.glob("./pdf/*.pdf"):
 		outputFile = "./text/{}.txt".format(file[6:-4])
@@ -126,6 +147,11 @@ def convertPDFToText():
 		call(["pdftotext", file, outputFile])
 
 def parseObjectives(objectives):
+	""" Attempt to find objectives by parsing all text between the list letter
+        markers (A., B., C.)
+        @objectives: The section of text containing the objectives.
+		@return: A list of objectives ['obj', 'obj']
+    """
 	result = []
 	curObj = "A"
 	nextObj = "B"
@@ -146,19 +172,27 @@ def parseObjectives(objectives):
 	return result
 
 def parseCourseId(file):
-	f = open(file, 'r')
-	contents = f.read()
+	""" Parse the course id and title from a text file.
+        @file: The path to the file.
+        @return: The id and title ('CRS 00', 'Course Title')
+    """
+    f = open(file, 'r')
+    contents = f.read()
 
-	idStart = contents.find("I. CATALOG DESCRIPTION")
-	idEnd = contents.find("Prerequisite")
-	idAndTitle = contents[idStart:idEnd]
-	idAndTitle = idAndTitle.replace("I. CATALOG DESCRIPTION", "").split(" - ")
-	id = idAndTitle[0]
+    idStart = contents.find("I. CATALOG DESCRIPTION")
+    idEnd = contents.find("Prerequisite")
+    idAndTitle = contents[idStart:idEnd]
+    idAndTitle = idAndTitle.replace("I. CATALOG DESCRIPTION", "").split(" - ")
+    id = idAndTitle[0]
 
-	f.close()
-	return id
+    f.close()
+    return idAndTitle[0].strip(), idAndTitle[1].strip()
 
 def parseCourseObjectives(file):
+	""" Attempt to extract the course objectives from a text file.
+		@file: The path to the file to read from.
+		@return: A list of objectives ['obj', 'obj']
+	"""
 	f = open(file, 'r')
 	contents = f.read()
 
@@ -173,6 +207,9 @@ def parseCourseObjectives(file):
 	return objectives
 
 def saveObjectives():
+	""" Attempt to parse all ids and objectives from the files
+        in the ./text directory and save them to a .tab file.
+    """
 	try:
 		os.remove('objectives.tab')
 	except OSError:
@@ -180,21 +217,23 @@ def saveObjectives():
 
 	for file in glob.glob("./text/*.txt"):
 		objectives = parseCourseObjectives(file)
-		course = parseCourseId(file).strip()
+		course, title = parseCourseId(file)
 		print("File {}, id {}".format(file, course))
 		writeObjectivesToFile(course, objectives, 'objectives.tab')
 
 def writeObjectivesToFile(course, objectives, file):
+	""" Append a course's objectives to a tab separated file in the format
+
+        course id\tobjective text\n
+
+        @coure: the id of the course (CRS 15)
+        @objectives: a list of objectives ['obj', 'obj2']
+    """
 	f = open(file, 'a+')
 	for obj in objectives:
 		f.write("{}\t{}\n".format(course, obj))
 	f.close()
 
-def writeCoursesToFile(courses, file):
-    f = open(file, 'w')
-    for course in courses:
-        f.write('{},{}\n'.format(course['id'], course['title']))
-    f.close()
 
 def main():
 	subjectList = createSubjectList(getPage(allSubjectsUrl))
