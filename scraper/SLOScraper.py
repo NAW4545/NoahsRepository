@@ -1,32 +1,32 @@
 #! /usr/bin/env python3
+DEBUG = False
 
 # Add subdirectories
 import sys
 sys.path.append("./courses")
 sys.path.append("./programs")
 
-from bs4 import BeautifulSoup
-import glob, os
-import mysql.connector
-from mysql.connector import errorcode
-import slate
-import ProgramParser as P
+#from bs4 import BeautifulSoup
+#import glob, os
+#import mysql.connector
+#from mysql.connector import errorcode
+#import slate
+#import ProgramParser as P
 from PLOScraper import PLOScraper
-
-DEBUG = False
+from PLODB import PLODB
 
 programsUrl = "http://www.butte.edu/academicprograms/"
 
-def writeProgramsToFile(programs, file):
-    f = open(file, 'w')
-    for program in programs:
-        f.write('{},{}\n'.format(*program))
-    f.close()
+#def writeProgramsToFile(programs, file):
+#    f = open(file, 'w')
+#    for program in programs:
+#        f.write('{},{}\n'.format(*program))
+#    f.close()
 
 def main():
-	progParser = P.ProgramParser(programsUrl)
-	programs = progParser.parseToList()
-	writeProgramsToFile(programs, "programs.csv")
+	#progParser = P.ProgramParser(programsUrl)
+	#programs = progParser.parseToList()
+	#writeProgramsToFile(programs, "programs.csv")
 
 	#answer = raw_input("Download course outlines (y/n)? ")
 	#if answer[0] == "y" or answer[0] == "Y":
@@ -37,10 +37,10 @@ def main():
 	#writeCoursesToFile(courses, 'courses.csv')
 	#writeCourseOutcomesToFile(courses, 'course_outcomes.csv')
 
-	scraper = PLOScraper()
+	scraper = PLOScraper(); Socket = PLODB()
 	scrapedPrograms = scraper.getPrograms()
 	for prog in scrapedPrograms:
-		plo = scraper.getPLOs(prog)
+		[Socket.insert(plo) for plo in scraper.getPLOs(prog)]
 
 if __name__ == "__main__":
 	main()
