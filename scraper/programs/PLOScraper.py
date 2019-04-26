@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # TODO: Find a way to make this static/private
 rewards = [
 	re.compile('^AS Degree'), re.compile('^AA Degree'), re.compile('^AA-T Degree'),
-	re.compile('^Certificate'), re.compile('^Noncredit Certificate')
+	re.compile('^Certificate'), re.compile('^Noncredit Certificate'), re.compile('^AS-T Degree')
 ]
 
 class PLOScraper():
@@ -26,7 +26,7 @@ class PLOScraper():
         return BeautifulSoup(page, "html.parser")
 
     def getPrograms(self):
-        """ Parse the program ids from the page located at self.allProgramsUrl 
+        """ Parse the program ids from the page located at self.allProgramsUrl
 
             In the current URL structure
             the pid is set as program_id in the query string ex.
