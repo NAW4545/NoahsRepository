@@ -1,3 +1,3 @@
--# SLO Scraper
+# SLO Scraper
 
 README to be completed.

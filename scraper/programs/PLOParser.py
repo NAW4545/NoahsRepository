@@ -15,7 +15,7 @@ filters = [
 ]
 rewards = [
 	re.compile('^AS Degree'), re.compile('^AA Degree'), re.compile('^AA-T Degree'),
-	re.compile('^Certificate'), re.compile('^Noncredit Certificate')
+	re.compile('^Certificate'), re.compile('^Noncredit Certificate', re.compile('^AS-T Degree')
 ]
 
 def getPage(url):
@@ -115,12 +115,12 @@ def getPLOs(pid):
 		try:
 			#Do nothing
 			#1 + 1 == 2
-			
+
 			#ploTable = page.find(
 			#	'td',
 			#	string=re.compile(pgm),
 			#	attrs={'style': 'font-size:16px;font-weight:bold;'}).parent.parent.parent.parent
-			
+
 			### TODO: Implement LINQ page selection
 
 			ploPage = page.find(
