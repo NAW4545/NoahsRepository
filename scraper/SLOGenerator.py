@@ -10,7 +10,6 @@ import glob, os
 import mysql.connector
 from mysql.connector import errorcode
 import slate
-import urllib2
 import ProgramParser as P
 import PLOScraper
 
