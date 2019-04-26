@@ -98,8 +98,8 @@ class PLOScraper():
         programs = sorted(programs)
 
         # get the plos for each program
-        print("programs:")
-        print(programs)
+        # print("programs:")
+        # print(programs)
 
         for pgm in programs:
             print("Processing {}".format(pgm))
@@ -183,7 +183,7 @@ class PLOScraper():
             deg_type = 'AS'
         elif program_name.find('Certificate of Achievement in') >= 0:
             deg_type = 'CA'
-        elif program_name.find('Noncredit Certificate in') >= 0:
+        elif program_name.find('Noncredit Certificate') >= 0:
             deg_type = 'Noncredit Certificate'
         elif program_name.find('Certificate in') >= 0:
             deg_type = 'CERT'
