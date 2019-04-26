@@ -24,10 +24,9 @@ def writeProgramsToFile(programs, file):
     f.close()
 
 def main():
-
 	progParser = P.ProgramParser(programsUrl)
 	programs = progParser.parseToList()
-	print(programs)
+	sys.exit("Programs: " + programs)
 	writeProgramsToFile(programs, "programs.csv")
 
 	answer = raw_input("Download course outlines (y/n)? ")
@@ -47,5 +46,5 @@ def main():
 	for prog in scrapedPrograms:
 		plo = scraper.getPLOs(prog)
 
-#if __name__ == "__main__":
-#	main()
+if __name__ == "__main__":
+	main()
