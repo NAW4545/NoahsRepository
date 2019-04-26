@@ -105,7 +105,7 @@ class PLOScraper():
             try:
                 ploTable = page.find(
                     'td',
-                    string=re.compile(pgm),
+                    string=re.compile(re.escape(pgm)),
                     attrs={'style': 'font-size:16px;font-weight:bold;'}).parent.parent.parent.parent
 
                 for nextRow in ploTable.find_next_siblings('tr'):
@@ -129,7 +129,7 @@ class PLOScraper():
                 try:
                     ploTable = page.find(
                         'td',
-                        string=re.compile(pgm),
+                        string=re.compile(re.escape(pgm)),
                         attrs={'style': 'font-size:20px;font-weight:bold;'}).parent.parent.parent.parent
 
                     for nextRow in ploTable.find_next_siblings('tr'):
@@ -176,11 +176,11 @@ class PLOScraper():
             deg_type = 'AA'
         elif program_name.find('AA-T Degree') >= 0:
             deg_type = 'AA-T'
-        elif program_name.find('AS-T Degree in') >= 0:
+        elif program_name.find('AS-T Degree') >= 0:
             deg_type = 'AS-T'
-        elif program_name.find('AS Degree in') >= 0:
+        elif program_name.find('AS Degree') >= 0:
             deg_type = 'AS'
-        elif program_name.find('Certificate of Achievement in') >= 0:
+        elif program_name.find('Certificate of Achievement') >= 0:
             deg_type = 'CA'
         elif program_name.find('Noncredit Certificate') >= 0:
             deg_type = 'Noncredit Certificate'
@@ -193,7 +193,7 @@ class PLOScraper():
 
 def main():
     s = PLOScraper()
-    print(s.getPLOs('716'))
+    print(s.getPLOs('720'))
 
 if __name__ == '__main__':
     main()
