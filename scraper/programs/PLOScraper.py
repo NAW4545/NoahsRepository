@@ -22,7 +22,6 @@ class PLOScraper():
     def getPage(self):
         "Return a BeautifulSoup Parser object created from the url."
         page = urllib.request.urlopen(self.allProgramsUrl).read()
-        print("getting page " + self.allProgramsUrl)
         return BeautifulSoup(page, "html.parser")
 
     def getPrograms(self):
