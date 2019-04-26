@@ -5,7 +5,6 @@ import sys
 sys.path.append("./courses")
 sys.path.append("./programs")
 
-import libslo
 from bs4 import BeautifulSoup
 import glob, os
 import mysql.connector
