@@ -11,7 +11,7 @@ import mysql.connector
 from mysql.connector import errorcode
 import slate
 import ProgramParser as P
-import PLOScraper
+from PLOScraper import PLOScraper
 
 DEBUG = False
 
@@ -19,27 +19,23 @@ programsUrl = "http://www.butte.edu/academicprograms/"
 
 def writeProgramsToFile(programs, file):
     f = open(file, 'w')
-    for course in courses:
-        f.write('{},{}\n'.format(*course))
+    for program in programs:
+        f.write('{},{}\n'.format(*program))
     f.close()
 
 def main():
 	progParser = P.ProgramParser(programsUrl)
 	programs = progParser.parseToList()
-	sys.exit("Programs: " + programs)
 	writeProgramsToFile(programs, "programs.csv")
 
-	answer = raw_input("Download course outlines (y/n)? ")
-	if answer[0] == "y" or answer[0] == "Y":
-		subjectList = createSubjectList(getPage(allSubjectsUrl))
-		for subject in subjectList.find_all("option"):
-			processSubject(subject['value'])
-	courses = processCoursePDFs()
-	writeCoursesToFile(courses, 'courses.csv')
-	writeCourseOutcomesToFile(courses, 'course_outcomes.csv')
-
-	connectDB()
-	closeDB()
+	#answer = raw_input("Download course outlines (y/n)? ")
+	#if answer[0] == "y" or answer[0] == "Y":
+	#	subjectList = createSubjectList(getPage(allSubjectsUrl))
+	#	for subject in subjectList.find_all("option"):
+	#		processSubject(subject['value'])
+	#courses = processCoursePDFs()
+	#writeCoursesToFile(courses, 'courses.csv')
+	#writeCourseOutcomesToFile(courses, 'course_outcomes.csv')
 
 	scraper = PLOScraper()
 	scrapedPrograms = scraper.getPrograms()

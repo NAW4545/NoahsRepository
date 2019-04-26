@@ -23,11 +23,11 @@ class ProgramParser():
         """
         # program title is second field
         pTitle = row.contents[1].get_text()
-        pTitle = pTitle.encode('ascii')
+        #pTitle = pTitle.encode('ascii')
         # program type is third field
 
         pType = row.contents[2].get_text()
-        pType = pType.encode('ascii')
+        #pType = pType.encode('ascii')
 
         return (pTitle, pType)
 

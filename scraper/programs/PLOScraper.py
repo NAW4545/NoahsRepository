@@ -89,7 +89,6 @@ class PLOScraper():
         else:
             chair = ''
 
-        print("created bs4 object " + pname)
         # get the list of degree programs on this page
         # look for all lines starting with a degree type and add those lines to a list
         programs = set()
