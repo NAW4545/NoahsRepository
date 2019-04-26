@@ -5,6 +5,7 @@ from subprocess import call
 import urllib.request
 import re
 from fpdf import FPDF
+from py_linq import Enumerable
 
 allProgramsUrl = "http://www.butte.edu/academicprograms/"
 programUrl = "http://www.butte.edu/academicprograms/program_details.php?year=8&program_id="
@@ -12,10 +13,14 @@ filters = [
 	'ANTH', 'ART', 'AUTO', 'BCIS', 'CDF', 'CMST', 'DRAM', 'EH', 'ENGL', 'FN', 'GEOG',
 	'HIST', 'KIN', 'MATH', 'NSG', 'OLS', 'PHIL', 'PHO', 'PSY', 'RTVF', 'SOC', 'SPAN'
 ]
+rewards = [
+	re.compile('^AS Degree'), re.compile('^AA Degree'), re.compile('^AA-T Degree'),
+	re.compile('^Certificate'), re.compile('^Noncredit Certificate')
+]
 
 def getPage(url):
 	page = urllib.request.urlopen(url).read()
-	print("getting page " + url)
+	#print("getting page " + url)
 	return BeautifulSoup(page, "html.parser")
 
 def getPrograms(programsPage):
@@ -47,8 +52,8 @@ def getPrograms(programsPage):
 				# index 2 is program id number
 				programs.append(pid) if pid not in programs else None
 
-	print("retrieved programs:")
-	print(programs)
+	#print("retrieved programs:")
+	#print(programs)
 	return programs
 
 def getPLOs(pid):
@@ -93,39 +98,67 @@ def getPLOs(pid):
 	if pnameSection != None:
 		pname = pnameSection.string
 
-	print("created bs4 object " + pname)
+	#print("created bs4 object " + pname)
 	# get the list of degree programs on this page
-	# look for all lines starting with a degree type and add those lines to a list
-	programs = [d.text.strip() for d in page.find_all('td', string=re.compile('^AS Degree'))]
-	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AS-T Degree'))]
-	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA Degree'))]
-	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA-T Degree'))]
-	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Certificate'))]
-	programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Noncredit Certificate'))]
-	programs = set(programs)
+	programs = set()
+	for rwd in rewards:
+		rwdset = set([d.text.strip() for d in page.find_all('td', string=rwd)])
+		programs = programs.union(rwdset)
+	programs = sorted(programs)
+
 	# get the plos for each program
-	print("programs:")
-	print(programs)
+	#print("programs:")
+	#print(programs)
 
 	for pgm in programs:
 		print("Processing {}".format(pgm))
 		try:
-			ploTable = page.find(
-				'td',
-				string=re.compile(pgm),
-				attrs={'style': 'font-size:16px;font-weight:bold;'}).parent.parent.parent.parent
+			#Do nothing
+			#1 + 1 == 2
+			
+			#ploTable = page.find(
+			#	'td',
+			#	string=re.compile(pgm),
+			#	attrs={'style': 'font-size:16px;font-weight:bold;'}).parent.parent.parent.parent
+			
+			### TODO: Implement LINQ page selection
 
-			for nextRow in ploTable.find_next_siblings('tr'):
-				searchGroup = nextRow.find('td', string=re.compile('Student Learning Outcomes'))
-				if searchGroup != None:
-					ploList = searchGroup.parent.next_sibling.next_sibling.find('ul')
-					pgmPLOs = []
-					for plo in ploList.find_all('li'):
-						pgmPLOs.append(plo.text.strip())
-					plos[pgm] = pgmPLOs
+			ploPage = page.find(
+				'td',
+				string=re.compile(pgm)
+				#attrs={'style': 'font-size:16px;font-weight:bold;'}
+			)
+			ploTable = ploPage
+			while (ploTable.parent != None):
+				ploTable = ploTable.parent
+
+			print(ploPage)
+			#sys.exit(1)
+
+			#for nextRow in ploTable.find_next_siblings('tr'):
+				#searchGroup = nextRow.find('td', string=re.compile('Student Learning Outcomes'))
+				#if searchGroup != None:
+					#ploList = searchGroup.parent.next_sibling.next_sibling.find('ul')
+					#pgmPLOs = []
+					#for plo in ploList.find_all('li'):
+					#	pgmPLOs.append(plo.text.strip())
+					#plos[pgm] = pgmPLOs
 					# stop on the first one
-					break
+					#break
+		except IOError:
+			sys.exit("Exception raised: I/O Error")
+		except ValueError:
+			sys.exit("Exception raised: Value Error")
+		except ImportError:
+			sys.exit("Exception raised: Import Error")
+		except EOFError:
+			sys.exit("Exception raised: EOF Error")
+		except KeyboardInterrupt:
+			sys.exit("Exception raised: Keyboard Interrupt")
 		except:
+			import traceback
+			traceback.print_exc()
+			sys.exit("Exception raised: Generic Exception")
 
 			try:
 				ploTable = page.find(

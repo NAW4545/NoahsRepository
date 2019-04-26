@@ -3,6 +3,12 @@ import urllib.request
 import re
 from bs4 import BeautifulSoup
 
+# TODO: Find a way to make this static/private
+rewards = [
+	re.compile('^AS Degree'), re.compile('^AA Degree'), re.compile('^AA-T Degree'),
+	re.compile('^Certificate'), re.compile('^Noncredit Certificate')
+]
+
 class PLOScraper():
     """Scrape PLO and program data from the butte college website"""
 
@@ -86,15 +92,11 @@ class PLOScraper():
         print("created bs4 object " + pname)
         # get the list of degree programs on this page
         # look for all lines starting with a degree type and add those lines to a list
-        programs = [d.text.strip() for d in page.find_all('td', string=re.compile('^AS Degree'))]
-        programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AS-T Degree'))]
-        programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA Degree'))]
-        programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^AA-T Degree'))]
-        programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Certificate'))]
-        programs += [d.text.strip() for d in page.find_all('td', string=re.compile('^Noncredit Certificate'))]
-
-        # remove duplicate items
-        programs = set(programs)
+        programs = set()
+        for rwd in rewards:
+            rwdset = set([d.text.strip() for d in page.find_all('td', string=rwd)])
+            programs = programs.union(rwdset)
+        programs = sorted(programs)
 
         # get the plos for each program
         print("programs:")
