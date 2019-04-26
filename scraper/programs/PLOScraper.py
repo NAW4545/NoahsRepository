@@ -111,8 +111,8 @@ class PLOScraper():
         programs = sorted(programs)
 
         # get the plos for each program
-        print("programs:")
-        print(programs)
+        # print("programs:")
+        # print(programs)
 
         for pgm in programs:
             print("Processing {}".format(pgm))
