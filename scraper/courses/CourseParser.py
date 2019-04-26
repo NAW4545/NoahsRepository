@@ -184,9 +184,9 @@ def parseCourseId(file):
     idAndTitle = contents[idStart:idEnd]
     idAndTitle = idAndTitle.replace("I. CATALOG DESCRIPTION", "").split(" - ")
     id = idAndTitle[0]
-
+	title = idAndTitle[1]
     f.close()
-    return idAndTitle[0].strip(), idAndTitle[1].strip()
+    return id.strip(), title.strip()
 
 def parseCourseObjectives(file):
 	""" Attempt to extract the course objectives from a text file.
