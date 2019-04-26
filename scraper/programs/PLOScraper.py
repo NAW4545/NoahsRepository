@@ -3,11 +3,25 @@ import urllib.request
 import re
 from bs4 import BeautifulSoup
 
-# TODO: Find a way to make this static/private
-rewards = [
-	re.compile('^AS Degree'), re.compile('^AA Degree'), re.compile('^AA-T Degree'),
-	re.compile('^Certificate'), re.compile('^Noncredit Certificate'), re.compile('^AS-T Degree')
-]
+titles = {
+    "AS Degree",
+    "AA Degree",
+    "AA-T Degree",
+    "AS-T Degree",
+    "Certificate",
+    "Certificate of Achievement",
+    "Noncredit Certificate",
+}
+titleCode = {
+    "AA Degree":"AA",
+    "AS Degree":"AS",
+    "AA-T Degree":"AA-T",
+    "AS-T Degree":"AS-T",
+    "Certificate":"CERT",
+    "Certificate of Achievement":"CA",
+    "Noncredit Certificate":"Noncredit Certificate",
+}
+rewards = [re.compile('^%s' % title) for title in titles]
 
 class PLOScraper():
     """Scrape PLO and program data from the butte college website"""
@@ -172,23 +186,9 @@ class PLOScraper():
             @return: The abbreviated degree type
         """
 
-        if program_name.find('AA Degree in') >= 0:
-            deg_type = 'AA'
-        elif program_name.find('AA-T Degree') >= 0:
-            deg_type = 'AA-T'
-        elif program_name.find('AS-T Degree in') >= 0:
-            deg_type = 'AS-T'
-        elif program_name.find('AS Degree in') >= 0:
-            deg_type = 'AS'
-        elif program_name.find('Certificate of Achievement in') >= 0:
-            deg_type = 'CA'
-        elif program_name.find('Noncredit Certificate in') >= 0:
-            deg_type = 'Noncredit Certificate'
-        elif program_name.find('Certificate in') >= 0:
-            deg_type = 'CERT'
-        else:
-            deg_type = None
-
+        deg_type = None
+        degree = [title for title in titles if program_name.startswith(title)]
+        if len(degree) > 0: deg_type = titleCode[degree.pop()]
         return deg_type
 
 def main():
