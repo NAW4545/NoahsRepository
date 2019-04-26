@@ -46,6 +46,3 @@ def main():
 	scrapedPrograms = scraper.getPrograms()
 	for prog in scrapedPrograms:
 		plo = scraper.getPLOs(prog)
-
-#if __name__ == "__main__":
-#	main()
