@@ -192,15 +192,18 @@ class PLOScraper():
         # sorted pids ['699', '700', '701']
         pids = sorted(self.all_plo_dict.keys())
 
-        # create a list of url requests in the order of the sorted pids
-        # sorted requests ['url?program_id=699', 'url?program_id=700', 'url?program_id=701']
-        # create a list of requests to send asyncronously
-        # the hook will print the url when a response is received
-        request_list = [grequests.get(self.programUrl+pid,
-                                      hooks={'response': lambda r, *args, **kw: print(r.url)})
-                        for pid in pids]
-        # grequests.map will return responses in the same order as requests
-        response_list = grequests.map(request_list)
+        # ensure the session is closed
+        with grequests.Session() as sess:
+            # create a list of url requests in the order of the sorted pids
+            # sorted requests ['url?program_id=699', 'url?program_id=700', 'url?program_id=701']
+            # create a list of requests to send asyncronously
+            # the hook will print the url when a response is received
+            request_list = [grequests.get(self.programUrl+pid,
+                                          hooks={'response': lambda r, *args, **kw: print(r.url)},
+                                          session=sess)
+                            for pid in pids]
+            # grequests.map will return responses in the same order as requests
+            response_list = grequests.map(request_list)
 
         # scrape data from all responses
         for i in range(0, len(pids)):
