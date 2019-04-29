@@ -8,20 +8,22 @@ def main():
     """
     scraper = PLOScraper()
     db = PLODB()
-    all_programs = []
-    # get the list of pids
-    pids = scraper.getPrograms()
-    print("PIDs:", pids)
-    for pid in pids:
-        # get the program and plo data from the program page
-        plo_data = scraper.getPLOs(pid)
-        all_programs += plo_data
-        print("current programs scraped: ", len(all_programs))
-        for plo in plo_data:
-            # insert each plo into the database
-            print("inserting:", plo)
-            db.insert(plo)
-    print("total programs scraped", len(all_programs))
+    plo_data = scraper.getAllPLOs()
+    for plo in plo_data:
+        # insert each plo into the database
+        print("inserting:\n", plo)
+        db.insert(plo)
+
+
+    # # get the list of pids
+    # pids = scraper.getPrograms()
+    # # get the program and plo data from the program page
+    # for pid in pids:
+    #     plo_data = scraper.getPLOs(pid)
+    #     for plo in plo_data:
+    #         # insert each plo into the database
+    #         print("inserting:\n", plo)
+    #         db.insert(plo)
 
 if __name__ == '__main__':
     main()
