@@ -8,5 +8,8 @@
 			"name": "Web",
 			"path": "./web"
 		}
-	]
+	],
+	"settings": {
+		"editor.insertSpaces": false
+	}
 }

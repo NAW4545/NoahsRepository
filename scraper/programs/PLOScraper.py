@@ -151,7 +151,7 @@ class PLOScraper():
                  etc...]
         """
         pgm_names = []
-        for pid, pgm_list in self.all_plo_dict.items():
+        for pgm_list in self.all_plo_dict.items():
             for pgm in pgm_list:
                 pgm_names.append(pgm['program'])
         return pgm_names
@@ -223,7 +223,7 @@ class PLOScraper():
         page = BeautifulSoup(page, "html.parser")
         # get the chair from the page
         # chair is in a td formatted as <td>firstname lastname, Chair (123) 456-7890</td>
-        chairTd = page.find('td', string=re.compile('(.*?), Chair \(\d{3}\) \d{3}-'))
+        chairTd = page.find('td', string=re.compile(r'(.*?), Chair \(\d{3}\) \d{3}-'))
         chair = ''
         if chairTd != None:
             chair = chairTd.text.strip()
@@ -283,7 +283,7 @@ class PLOScraper():
                 for nextRow in ploTable.find_next_siblings('tr'):
 
                     # look for the description
-                    descSearchGroup = nextRow.find('td', string=re.compile('About the Program'))
+                    descSearchGroup = nextRow.find('td', string=re.compile(r'About the Program'))
                     # print('descSearchGroup ', descSearchGroup)
 
                     if descSearchGroup != None:
@@ -292,7 +292,7 @@ class PLOScraper():
                         plo_dict['description'] = desc
 
                     # look for the slos
-                    searchGroup = nextRow.find('td', string=re.compile('Student Learning Outcomes'))
+                    searchGroup = nextRow.find('td', string=re.compile(r'Student Learning Outcomes'))
                     # print('searchGroup ', searchGroup)
                     if searchGroup != None:
                         ploList = searchGroup.parent.next_sibling.next_sibling.find('ul')
@@ -320,7 +320,7 @@ class PLOScraper():
                 }]
         """
         pgms = []
-        for pid, pgm_list in self.all_plo_dict.items():
+        for pgm_list in self.all_plo_dict.items():
             pgms += pgm_list
         return pgms
 
@@ -396,7 +396,7 @@ class PLOScraper():
             self.all_plo_dict[pid] = [pData]
 
 def main():
-    scraper = PLOScraper()
+    #scraper = PLOScraper()
     # print(scraper.getAllPLOs())
     # print(plo_list)
 
