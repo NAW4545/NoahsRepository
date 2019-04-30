@@ -8,15 +8,12 @@ from unittest.mock import patch
 import pymysql
 from PLODB import PLODB
 from PLOScraper import PLOScraper
-import warnings
-
-
 
 class TestDatabase(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        "Scrape all programs and insert them into the test database."
+        "Scrape all programs and insert them into the test database once per run."
         self.connection = pymysql.connect(host='localhost',
                                          user='root',
                                          password='',
@@ -50,7 +47,6 @@ class TestDatabase(unittest.TestCase):
 
     def test_190_programs(self):
         "The database should have 190 programs in the programs table."
-        scrapedPrograms = self.scraper.getProgramNames()
         self.cursor.execute("SELECT COUNT(prog_name) pCount FROM programs")
         self.assertEqual(self.cursor.fetchone()['pCount'], 190)
 
