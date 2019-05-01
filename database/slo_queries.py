@@ -54,8 +54,44 @@ order by plo_assessments.plo_assess_date desc;
 # 	An assessment must be created for each outcome referenced in the form data.
 
 
+# join all data from tables
+queries.append("""
+select dep_name Department,
+	   sp_name Category,
+	   prog_name Program,
+	   deg_type Degree,
+	   pout_desc Goal,
+	   cour_code Course
+from programs
+join degrees on degrees.deg_id=programs.deg_id
+join super_programs on super_programs.sp_id=programs.sp_id
+join departments on departments.dep_id=super_programs.dep_id
+join plo_assessments on poutcomes.pout_id=plo_assessments.pout_id
+join poutcomes on poutcomes.prog_id=programs.prog_id
+join programs_courses on programs.prog_id=programs_courses.prog_id
+join courses on courses.cour_id=programs_courses.cour_id
+group by programs.prog_id
+order by prog_name;
+""")
+
+# select all program information
+queries.append("""
+select pout_desc Goal,
+	   prog_name Program,
+	   deg_type Degree,
+	   sp_name Category,
+	   dep_name Department
+from programs
+join degrees on degrees.deg_id=programs.deg_id
+join super_programs on super_programs.sp_id=programs.sp_id
+join departments on departments.dep_id=super_programs.dep_id
+join poutcomes on poutcomes.prog_id=programs.prog_id
+""")
+
+
+
 if __name__ == '__main__':
 	with open('slo_queries.sql', 'w', encoding="utf-8") as f:
-		for statement in create_slo_db:
+		for statement in queries:
 			f.write(statement+"\n")
 		f.close()

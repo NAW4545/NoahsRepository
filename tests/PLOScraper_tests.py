@@ -93,7 +93,7 @@ class TestPLOScraper(unittest.TestCase):
 
     @patch('PLOScraper.PLOScraper.getPage')
     def test_gets_data_by_pid(self, mockGetPage):
-        """getPLOs should scrape the plos, chair, program details, and description from the program page
+        """getPLOs should scrape the plos, chair, program details, courses, and description from the program page
         when given a pid."""
         mockGetPage.side_effect = self.mock_page_return
         pid = '716'
@@ -110,6 +110,106 @@ class TestPLOScraper(unittest.TestCase):
             self.assertIsInstance(pgm_dict['super_program'], str)
             self.assertTrue('pid' in pgm_dict)
             self.assertEqual(pgm_dict['pid'], pid)
+            self.assertTrue('courses' in pgm_dict)
+            self.assertIsInstance(pgm_dict['courses'], [])
+
+    @patch('PLOScraper.PLOScraper.getPage')
+    def test_comp_as(self, mockGetPage):
+        "The Computer Programming AS should have the expected data."
+        mockGetPage.side_effect = self.mock_page_return
+        self.maxDiff = 5000
+        pid = '714'
+        as_in_comp = {
+            'pid': '714',
+            'super_program': 'Computer Science',
+            'program': 'Computer Programming',
+            'plos': ['Design and implement basic software solutions using the building blocks of modern computer software systems.',
+                     'Identify, describe, and apply a variety of software engineering paradigms and process models in the development of computer software solutions.',
+                     'Design, implement, and test the functionality of relational databases.',
+                     'Design, implement, and test the functionality of computer software in a variety of computer programming languages.',
+                     'Design, implement, test, and maintain dynamic websites using client-side technologies, server-side technologies, and relational databases.',
+                     ],
+            'department': "Sustainable Technologies Computer Science & Design",
+            'description': """The Computer Programming program prepares students for entry-level positions as computer programmers and web developers. The core curriculum covers the software development life-cycle, algorithms, fundamental data structures, database design, and the design, implementation, and testing of computer programs and dynamic websites.No prerequisite skills are required for students to enroll in the program.
+The program offers courses that prepare students for entry-level positions as computer programmers and web developers.""",
+            'chair': 'Luke Sathrum, Chair (530) 895-2219',
+            'deg_type': 'AS',
+            'courses': [{'cour_code': 'CSCI 4', 'cour_name': 'Introduction to Programming Concepts and Methodologies'},
+                        {'cour_code': 'CSCI 20', 'cour_name': 'Programming and Algorithms I'},
+                        {'cour_code': 'CSCI 21', 'cour_name': 'Programming and Algorithms II'},
+                        {'cour_code': 'CSCI 25', 'cour_name': 'Linux 1, Essentials'},
+                        {'cour_code': 'CSCI 31', 'cour_name': 'Web Development I'},
+                        {'cour_code': 'CSCI 32', 'cour_name': 'Web Development II'},
+                        {'cour_code': 'BUS 18', 'cour_name': 'Database Design'},
+                        {'cour_code': 'CSCI 36', 'cour_name': 'Programming Project'}]
+        }
+        s = PLOScraper()
+        pgm_list = s.getPLOs(pid)
+        # the program should appear in the list of program data
+        # and have the expected values
+        p_names = []
+        for pgm_dict in pgm_list:
+            p_names.append((pgm_dict['program'], pgm_dict['deg_type']))
+            if pgm_dict['program'] == 'Computer Programming' and pgm_dict['deg_type'] == 'AS':
+                self.assertEqual(pgm_dict['pid'], as_in_comp['pid'])
+                self.assertEqual(pgm_dict['super_program'], as_in_comp['super_program'])
+                self.assertEqual(pgm_dict['plos'], as_in_comp['plos'])
+                self.assertEqual(pgm_dict['department'], as_in_comp['department'])
+                # remove all spaces from the descriptions to avoid spacing issues
+                self.assertEqual("".join(pgm_dict['description'].split()), "".join(as_in_comp['description'].split()))
+                self.assertEqual(pgm_dict['chair'], as_in_comp['chair'])
+                self.assertEqual(pgm_dict['deg_type'], as_in_comp['deg_type'])
+                self.assertEqual(pgm_dict['courses'], as_in_comp['courses'])
+        self.assertTrue(('Computer Programming', 'AS') in p_names)
+
+@patch('PLOScraper.PLOScraper.getPage')
+def test_comp_as(self, mockGetPage):
+    "The Computer Programming AS should have the expected data."
+    mockGetPage.side_effect = self.mock_page_return
+    self.maxDiff = 5000
+    pid = '714'
+    as_in_comp = {
+        'pid': '714',
+        'super_program': 'Computer Science',
+        'program': 'Computer Programming',
+        'plos': ['Design and implement basic software solutions using the building blocks of modern computer software systems.',
+                 'Identify, describe, and apply a variety of software engineering paradigms and process models in the development of computer software solutions.',
+                 'Design, implement, and test the functionality of relational databases.',
+                 'Design, implement, and test the functionality of computer software in a variety of computer programming languages.',
+                 'Design, implement, test, and maintain dynamic websites using client-side technologies, server-side technologies, and relational databases.',
+                 ],
+        'department': "Sustainable Technologies Computer Science & Design",
+        'description': """The Computer Programming program prepares students for entry-level positions as computer programmers and web developers. The core curriculum covers the software development life-cycle, algorithms, fundamental data structures, database design, and the design, implementation, and testing of computer programs and dynamic websites.No prerequisite skills are required for students to enroll in the program.
+The program offers courses that prepare students for entry-level positions as computer programmers and web developers.""",
+        'chair': 'Luke Sathrum, Chair (530) 895-2219',
+        'deg_type': 'AS',
+        'courses': [{'cour_code': 'CSCI 4', 'cour_name': 'Introduction to Programming Concepts and Methodologies'},
+                    {'cour_code': 'CSCI 20', 'cour_name': 'Programming and Algorithms I'},
+                    {'cour_code': 'CSCI 21', 'cour_name': 'Programming and Algorithms II'},
+                    {'cour_code': 'CSCI 25', 'cour_name': 'Linux 1, Essentials'},
+                    {'cour_code': 'CSCI 31', 'cour_name': 'Web Development I'},
+                    {'cour_code': 'CSCI 32', 'cour_name': 'Web Development II'},
+                    {'cour_code': 'BUS 18', 'cour_name': 'Database Design'},
+                    {'cour_code': 'CSCI 36', 'cour_name': 'Programming Project'}]
+    }
+    s = PLOScraper()
+    pgm_list = s.getPLOs(pid)
+    # the program should appear in the list of program data
+    # and have the expected values
+    p_names = []
+    for pgm_dict in pgm_list:
+        p_names.append((pgm_dict['program'], pgm_dict['deg_type']))
+        if pgm_dict['program'] == 'Computer Programming' and pgm_dict['deg_type'] == 'AS':
+            self.assertEqual(pgm_dict['pid'], as_in_comp['pid'])
+            self.assertEqual(pgm_dict['super_program'], as_in_comp['super_program'])
+            self.assertEqual(pgm_dict['plos'], as_in_comp['plos'])
+            self.assertEqual(pgm_dict['department'], as_in_comp['department'])
+            # remove all spaces from the descriptions to avoid spacing issues
+            self.assertEqual("".join(pgm_dict['description'].split()), "".join(as_in_comp['description'].split()))
+            self.assertEqual(pgm_dict['chair'], as_in_comp['chair'])
+            self.assertEqual(pgm_dict['deg_type'], as_in_comp['deg_type'])
+            self.assertEqual(pgm_dict['courses'], as_in_comp['courses'])
+    self.assertTrue(('Computer Programming', 'AS') in p_names)
 
     @patch('PLOScraper.grequests.map')
     def test_no_duplicate_programs(self, mockGMap):

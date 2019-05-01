@@ -11,7 +11,7 @@ import pymysql
 # Port: 3306
 
 # To set the foreign keys when inserting data, the order should be
-# degree type&department > super_program > program > poutcomes
+# degree type&department > super_program > program > poutcomes & courses
 
 class PLODB():
     def __init__(self, connection=None):
@@ -22,10 +22,10 @@ class PLODB():
             self.close_on_del = False
         else:
             self.close_on_del = True
-            self.connection = pymysql.connect(host='remotemysql.com',
-                                             user='WlH9s7G8vy',
-                                             password='uH0YWN3msY',
-                                             db='WlH9s7G8vy',
+            self.connection = pymysql.connect(host='localhost',
+                                             user='root',
+                                             password='',
+                                             db='slo_db_test',
                                              cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
 
@@ -46,7 +46,11 @@ class PLODB():
                     'department': department name (Business Education, Digital Arts and Design),
                     'description': program description,
                     'chair': department chair,
-                    'deg_type': degree code (AA, AS-T, CERT)
+                    'deg_type': degree code (AA, AS-T, CERT),
+                    'courses': a list of dictionaries containting course names and codes within the degree program
+                               [{'cour_code': 'CSCI 20',
+                                 'cour_name': 'Programming and Aphorisms I'
+                                 }]
                 }
         """
 
@@ -97,12 +101,34 @@ class PLODB():
                 (plo, plo_data['program'], plo_data['deg_type'])
             )
 
+        for c_dict in plo_data['courses']:
+            self.cursor.execute(
+                """INSERT INTO courses
+                   VALUES( 0,
+                           %(cour_code)s,
+                           %(cour_name)s,
+                           %(cour_desc)s,
+                    )
+                    ON DUPLICATE KEY UPDATE cour_id = cour_id;
+                """,
+                (c_dict)
+            )
+            # create an entry in the join table
+            self.cursor.execute(
+                """INSERT INTO courses
+                   VALUES(
+                        (SELECT cour_id FROM courses WHERE cour_code=%s),
+                        (SELECT prog_id FROM programs WHERE prog_name=%s)
+                   )
+                 """,
+                 c_dict['cour_code'], plo_data['program']
+            )
         self.connection.commit()
 
 def main():
     # test plo data represents a single program and its PLOs
 
-    db.insert(test_plo_data)
+    # db.insert(test_plo_data)
 
 if __name__ == '__main__':
     main()

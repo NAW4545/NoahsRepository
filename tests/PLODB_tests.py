@@ -29,6 +29,12 @@ class TestPLODB(unittest.TestCase):
             'plos': ['Implement a core Windows Server 2012 infrastructure in an existing enterprise environment.',
                     'Perform legal research independently and interpret, analyze and defend appellate court decisions.',
                     'Effectively interpret, integrate, synthesize and apply complex information from multiple sources.'],
+            'courses': [{'cour_code': 'CSCI 20',
+                         'cour_name': 'Programming and Algorithms I',
+                         'cour_desc': 'description '},
+                         {'cour_code': 'CSCI 11',
+                          'cour_name': 'Programming and Aphorisms I',
+                          'cour_desc': 'description 2'}]
         }
 
         # recreate new tables in the database
