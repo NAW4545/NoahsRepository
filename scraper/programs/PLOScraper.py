@@ -305,12 +305,13 @@ class PLOScraper():
                             plo_dict['plos'].append(plo.text.strip())
 
                     # look for courses in the degree program
-                    courseDiv = nextRow.find('div', class_="heading")
-                    if courseDiv is not None:
-                        cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
-                        cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
-                        course = {'cour_code': cour_code, 'cour_name': cour_name}
-                        plo_dict['courses'].append(course)
+                    courseDivs = nextRow.find_all('div', class_="heading")
+                    if courseDivs is not None:
+                        for courseDiv in courseDivs:
+                            cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+                            cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
+                            course = {'cour_code': cour_code, 'cour_name': cour_name}
+                            plo_dict['courses'].append(course)
 
                     # stop when the 2px horizontal ref separator is found
                     hRef = nextRow.find('hr')
@@ -418,45 +419,45 @@ def main():
     pp = pprint.PrettyPrinter(indent=2)
 
 
-    scraper = PLOScraper()
-    pp.pprint(scraper.getPLOs('714'))
+    # scraper = PLOScraper()
+    # pp.pprint(scraper.getPLOs('714'))
 
-    #
-    # with open('pageCache.json', 'r', encoding='utf-8') as f:
-    #     pages = json.load(f)
-    # page = BeautifulSoup(pages['programPages']['714'], "html.parser")
-    # heading = page.find(
-    #     'td',
-    #     string=re.compile("AS Degree in Computer Programming"),
-    #     attrs={'style': 'font-size:16px;font-weight:bold;'})
-    # # print(heading)
-    #
-    # t = heading.parent.parent.parent.parent
-    # # print(t)
-    #
-    #
-    # courseList = []
-    # for nextRow in t.find_next_siblings('tr'):
-    #     courseDiv = nextRow.find('div', class_="heading")
-    #     if courseDiv is not None:
-    #         #
-    #         print(nextRow)
-    #         cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
-    #         cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
-    #         course = {'cour_code': cour_code, 'cour_name': cour_name}
-    #         courseList.append(course)
-    #         # print(courseList, "<br><br><br><br>")
-    #     # stop when the horizontal ref separator is found
-    #
-    #     hRef = nextRow.find('hr')
-    #     if hRef is not None:
-    #         print(hRef, hRef.attrs)
-    #         s = re.search('height:2px', hRef.attrs['style'])
-    #         print(s)
-    #         if s is not None:
-    #             break
-    #
-    #
+
+    with open('pageCache.json', 'r', encoding='utf-8') as f:
+        pages = json.load(f)
+    page = BeautifulSoup(pages['programPages']['714'], "html.parser")
+    heading = page.find(
+        'td',
+        string=re.compile("Certificate in Microsoft Server Administration"),
+        attrs={'style': 'font-size:20px;font-weight:bold;'})
+    # print(heading)
+
+    t = heading.parent.parent.parent.parent
+    # print(t)
+
+    courseList = []
+    for nextRow in t.find_next_siblings('tr'):
+        courseDivs = nextRow.find_all('div', class_="heading")
+        if courseDivs is not []:
+            for courseDiv in courseDivs:
+                # print(nextRow)
+                cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+                cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
+                course = {'cour_code': cour_code, 'cour_name': cour_name}
+                print(course)
+                courseList.append(course)
+
+        # stop when the horizontal ref separator is found.
+        # there is no separator after the last tr in the table, currently this is not an issue.
+        hRef = nextRow.find('hr')
+        if hRef is not None:
+            # print(hRef, hRef.attrs)
+            s = re.search('height:2px', hRef.attrs['style'])
+            # print("href match ", s)
+            if s is not None:
+                break
+
+
     # pp.pprint(courseList)
 
 
