@@ -54,6 +54,12 @@ class PLODB():
                 }
         """
 
+        # This is a workaround. Having a list of dictionaries causes
+        # TypeError: sequence item 0: expected str instance, dict found
+        # for any query
+        course_list = plo_data['courses']
+        plo_data = {key:value for key, value in plo_data.items() if key is not 'courses'}
+
         # attempt to insert all fields from the plo dictionary
         # duplicate entries are ignored
 
@@ -101,13 +107,13 @@ class PLODB():
                 (plo, plo_data['program'], plo_data['deg_type'])
             )
 
-        for c_dict in plo_data['courses']:
+        for c_dict in course_list:
             self.cursor.execute(
                 """INSERT INTO courses
                    VALUES( 0,
                            %(cour_code)s,
                            %(cour_name)s,
-                           %(cour_desc)s,
+                           NULL
                     )
                     ON DUPLICATE KEY UPDATE cour_id = cour_id;
                 """,
@@ -115,20 +121,40 @@ class PLODB():
             )
             # create an entry in the join table
             self.cursor.execute(
-                """INSERT INTO courses
+                """INSERT INTO programs_courses
                    VALUES(
-                        (SELECT cour_id FROM courses WHERE cour_code=%s),
-                        (SELECT prog_id FROM programs WHERE prog_name=%s)
+                        (SELECT prog_id FROM programs
+                         JOIN degrees on programs.deg_id=degrees.deg_id
+                         WHERE prog_name=%s AND deg_type=%s),
+                        (SELECT cour_id FROM courses WHERE cour_code=%s)
                    )
+                   ON DUPLICATE KEY UPDATE cour_id = cour_id;
                  """,
-                 c_dict['cour_code'], plo_data['program']
+                 (plo_data['program'], plo_data['deg_type'], c_dict['cour_code'])
             )
         self.connection.commit()
 
 def main():
-    # test plo data represents a single program and its PLOs
+    db = PLODB()
 
-    # db.insert(test_plo_data)
+    ms_serv_cert = {
+        'deg_type': 'CERT',
+        'pid': '714',
+        'super_program': 'Computer Science',
+        'program': 'Microsoft Server Administration',
+        'plos': ['Implement a core Windows Server 2012 infrastructure in an existing enterprise environment.',
+                 'Implement, manage, maintain and provision services and infrastructure in a Windows Server 2012 environment.',
+                 'Identify labor market needs and properly prepare for the most relevant industry certification exams.',
+                 ],
+        'department': "Sustainable Technologies Computer Science & Design",
+        'description': '',
+        'chair': 'Luke Sathrum, Chair (530) 895-2219',
+        'courses': [{'cour_code': 'CSCI 70', 'cour_name': 'Installing and Configuring Windows Server 2012'},
+                    {'cour_code': 'CSCI 71', 'cour_name': 'Administering Windows Server 2012'},
+                    {'cour_code': 'CSCI 72', 'cour_name': 'Configuring Advanced Windows 2012 Server Services'}]
+    }
+    print(ms_serv_cert['deg_type'])
+    db.insert(ms_serv_cert)
 
 if __name__ == '__main__':
     main()

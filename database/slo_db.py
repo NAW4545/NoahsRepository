@@ -91,7 +91,7 @@ create_slo_db.append("""
 create_slo_db.append("""
 	CREATE TABLE courses(
 	cour_id INT AUTO_INCREMENT NOT NULL,
-	cour_code VARCHAR(50),
+	cour_code VARCHAR(50) NOT NULL,
 	cour_name VARCHAR(250),
 	cour_desc TEXT,
 	PRIMARY KEY (cour_id),

@@ -89,7 +89,7 @@ insert_test_data.append("""INSERT IGNORE INTO programs VALUES(6,
 insert_test_data.append("""INSERT IGNORE INTO programs VALUES(7,
 'AS Degree in Criminal Justice '
 ,
-'The Criminal Justice degree is designed for students who plan to earn a Bachelor\'s degree in Criminal Justice or related fields at CSU, Chico. This transfer major may also serve as the basis for students who are interested in pre-law. Visit website for details www.assist.org'
+'The Criminal Justice degree is designed for students who plan to earn a Bachelors degree in Criminal Justice or related fields at CSU, Chico. This transfer major may also serve as the basis for students who are interested in pre-law. Visit website for details www.assist.org'
 ,
 (SELECT deg_id FROM degrees WHERE deg_type='AS'),
 (SELECT sp_id FROM super_programs WHERE sp_name='Administration of Justice')
@@ -183,6 +183,76 @@ insert_test_data.append("""INSERT IGNORE INTO poutcomes VALUES(17,
   7
 );""")
 
+# insert courses
+insert_test_data.append("""
+  INSERT IGNORE INTO courses VALUES(1,
+  'cls 154',
+  'classes in learning something 1',
+  ''
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO courses VALUES(2,
+  'cls 254',
+  'classes in learning something 2',
+  ''
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO courses VALUES(3,
+  'cls 354',
+  'classes in learning something 3',
+  ''
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO courses VALUES(4,
+  'cls 4354',
+  'classes in learning something 4',
+  ''
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO courses VALUES(5,
+  'cls 553',
+  'classes in learning something 5',
+  ''
+);""")
+
+
+# join with programs
+insert_test_data.append("""
+  INSERT IGNORE INTO programs_courses VALUES(
+  1,
+  1
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO programs_courses VALUES(
+  2,
+  2
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO programs_courses VALUES(
+  3,
+  3
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO programs_courses VALUES(
+  4,
+  4
+);""")
+
+insert_test_data.append("""
+  INSERT IGNORE INTO programs_courses VALUES(
+  5,
+  5
+);""")
+
+
+
 # insert discussions
 
 
@@ -190,6 +260,6 @@ insert_test_data.append("""INSERT IGNORE INTO poutcomes VALUES(17,
 
 if __name__ == '__main__':
 	with open('slo_test_data.sql', 'w', encoding="utf-8") as f:
-		for statement in create_slo_db:
+		for statement in insert_test_data:
 			f.write(statement+"\n")
 		f.close()
