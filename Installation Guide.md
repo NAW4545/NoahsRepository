@@ -15,10 +15,3 @@ How to get SLO_scraper files:
 * ScraperMain.py
 
 To use the files please visit our <a href="User Guide.md" target="\_blank">user guide</a>.
-
-The authors for SLOScraper 1.0, in no particular order, are:
-* Isaac Vander Sluis (Project Manager)
-* Kaden Hurlimann (Testing Lead)
-* Philip Muzzall (Tech Lead)
-* Nick Leyson (Database Architect)
-* Cyrus Lopez (Software Architect)
