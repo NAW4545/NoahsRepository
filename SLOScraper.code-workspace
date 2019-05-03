@@ -1,5 +1,9 @@
 {
 	"folders": [
+        {
+            "name": "Database",
+            "path": "./database"
+        },
 		{
 			"name": "Scraper",
 			"path": "./scraper"
