@@ -8,7 +8,7 @@ Course instructor: April Browne
 
 ## Purpose
 
-The purpose of the SLOScraper 1.0 is to scrape the Butte College website's <a href="http://www.butte.edu/academicprograms/" target="_blank">list of academic programs</a> for data and store it in an authoritative database.
+The purpose of the SLOScraper 1.0 is to scrape the Butte College website's [list of academic programs](https://butte.edu/academicprograms) for data and store it in an authoritative database.
 
 For each program, we will collect:
 * The program's name
@@ -19,7 +19,7 @@ This information will then be sent to the database to be stored.
 
 ## Project Requirements
 
-Find our detailed project requirements <a href="project_reqs.pdf" target="_blank">here</a>.
+Find our detailed project requirements [here](project_reqs.pdf).
 
 ## Installation
 
