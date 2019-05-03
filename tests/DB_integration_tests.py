@@ -16,22 +16,26 @@ class TestDatabase(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         "Scrape all programs and insert them into the test database once per run."
-        self.connection = pymysql.connect(host='localhost',
-                                         user='root',
-                                         password='',
-                                         db='slo_db_test',
-                                         cursorclass=pymysql.cursors.DictCursor)
-        self.cursor = self.connection.cursor()
 
-        # recreate tables
-        for statement in slo_db.create_slo_db:
-            self.cursor.execute(statement)
-
-        # scrape all programs and insert them into the database
-        db = PLODB(self.connection)
+        print('scraping pages: ')
         self.scraper = PLOScraper()
         allPgmList = self.scraper.getAllPLOs()
+
+        self.connection = pymysql.connect(host='remotemysql.com',
+                                         user='WlH9s7G8vy',
+                                         password='uH0YWN3msY',
+                                         db='WlH9s7G8vy',
+                                         cursorclass=pymysql.cursors.DictCursor)
+        self.cursor = self.connection.cursor()
+        # scrape all programs and insert them into the database
+        db = PLODB(self.connection)
+        # recreate tables
+        for statement in slo_db.create_slo_db:
+            print('Running: ', statement)
+            self.cursor.execute(statement)
+
         for pgmDict in allPgmList:
+            print("Inserting: ", f"{pgmDict['program']}")
             db.insert(pgmDict)
 
     @classmethod
