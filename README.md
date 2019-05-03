@@ -23,7 +23,11 @@ Find our detailed project requirements [here](project_reqs.pdf).
 
 ## Installation
 
-Find our installation guide [here](#).
+Find our installation guide [here](installation%20guide.md).
+
+## Code Documentation
+
+Find our code documentation [here](#).
 
 ## Usage
 
