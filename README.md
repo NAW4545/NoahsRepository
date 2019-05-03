@@ -43,7 +43,7 @@ For detailed instructions on how to use the software, see our user guide [here](
 
 ## Authors and Acknowledgments
 
-The contributors for SLOScraper 1.0, in no particular order, are:
+The authors for SLOScraper 1.0, in no particular order, are:
 * Isaac Vander Sluis (Project Manager)
 * Kaden Hurlimann (Testing Lead)
 * Philip Muzzall (Tech Lead)
@@ -51,6 +51,8 @@ The contributors for SLOScraper 1.0, in no particular order, are:
 * Cyrus Lopez (Software Architect)
 
 The starting code was written and given to us by Boyd Trolinger.
+
+Our instructor April Browne helped us apply development methodologies and best practices to this project.
 
 ## Roadmap
 
