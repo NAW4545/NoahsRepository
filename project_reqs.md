@@ -35,6 +35,7 @@ There are no current plans to implement a user interface.
 A command line interface may be used for development purposes. The interface will prompt the user to type a command from a list of possible commands, then carry out an action based on the input, and display a message to the user based on the result. Possible commands may include
 *	downloading the academic programs and storing them
 *	outputting a document with a selection of the stored data
+
 This requirement is met if
 1. The interface displays without errors.
 2. When the user types a command, the action is either carried out successfully or an appropriate error message is printed.
