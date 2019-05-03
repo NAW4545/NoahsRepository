@@ -1,7 +1,12 @@
 #! /usr/bin/env python3
 DEBUG = False
 
+#install pips
+from os import system, name
+system('pip install -r requirements.txt')
+print("************PIPS INSTALLED**********")
 # Add subdirectories
+
 import sys
 sys.path.append("./courses")
 sys.path.append("./programs")

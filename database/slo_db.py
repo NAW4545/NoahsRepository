@@ -1,4 +1,6 @@
 create_slo_db = []
+create_slo_db.append("DROP TABLE IF EXISTS programs_courses;")
+create_slo_db.append("DROP TABLE IF EXISTS courses;")
 create_slo_db.append("DROP TABLE IF EXISTS plo_assessments;")
 create_slo_db.append("DROP TABLE IF EXISTS discussions;")
 create_slo_db.append("DROP TABLE IF EXISTS poutcomes;")
@@ -78,12 +80,31 @@ create_slo_db.append("""
 
 create_slo_db.append("""
 	CREATE TABLE plo_assessments(
-	pout_id INT NOT NULL,
+	pout_id INT AUTO_INCREMENT NOT NULL,
 	discussion_id INT NOT NULL,
 	plo_assess_date DATE NOT NULL,
 	PRIMARY KEY (pout_id, discussion_id),
 	FOREIGN KEY (pout_id) REFERENCES poutcomes (pout_id),
 	FOREIGN KEY (discussion_id) REFERENCES discussions (discussion_id)
+);""")
+
+create_slo_db.append("""
+	CREATE TABLE courses(
+	cour_id INT AUTO_INCREMENT NOT NULL,
+	cour_code VARCHAR(50) NOT NULL,
+	cour_name VARCHAR(250),
+	cour_desc TEXT,
+	PRIMARY KEY (cour_id),
+	UNIQUE KEY (cour_code)
+);""")
+
+create_slo_db.append("""
+	CREATE TABLE programs_courses(
+	prog_id INT NOT NULL,
+	cour_id INT NOT NULL,
+	PRIMARY KEY (prog_id, cour_id),
+	FOREIGN KEY (prog_id) REFERENCES programs (prog_id),
+	FOREIGN KEY (cour_id) REFERENCES courses (cour_id)
 );""")
 
 if __name__ == '__main__':

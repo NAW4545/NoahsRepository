@@ -52,7 +52,9 @@ class PLOScraper():
                            'department': department name (Business Education, Digital Arts and Design),
                            'description': program description,
                            'chair': department chair,
-                           'deg_type': degree code (AA, AS-T, CERT)
+                           'deg_type': degree code (AA, AS-T, CERT),
+                           'courses': a list of dictionaries containting course names and codes
+                                      [{'cour_code': 'CSCI 20', 'cour_name': 'Programming and Algorithms I'}]
                        },
                        {'program': 'program name2', 'deg_type': 'AS', 'department': 'dep'},
                        etc..
@@ -151,7 +153,7 @@ class PLOScraper():
                  etc...]
         """
         pgm_names = []
-        for pgm_list in self.all_plo_dict.items():
+        for pid, pgm_list in self.all_plo_dict.items():
             for pgm in pgm_list:
                 pgm_names.append(pgm['program'])
         return pgm_names
@@ -170,7 +172,9 @@ class PLOScraper():
                     'department': department name (Business Education, Digital Arts and Design),
                     'description': program description,
                     'chair': department chair,
-                    'deg_type': degree code (AA, AS-T, CERT)
+                    'deg_type': degree code (AA, AS-T, CERT),
+                    'courses': a list of dictionaries containting course names and codes within the degree program
+                               [{'cour_code': 'CSCI 20', 'cour_name': 'Programming and Algorithms I'}]
                 }]
         """
         page = self.getPage("{}{}".format(self.programUrl, pid))
@@ -243,6 +247,7 @@ class PLOScraper():
             # set initial values for description and plos
             plo_dict['description'] = ''
             plo_dict['plos'] = []
+            plo_dict['courses'] = []
 
             # set the regex pattern to match the heading contents
             # --
@@ -299,11 +304,24 @@ class PLOScraper():
                         for plo in ploList.find_all('li'):
                             plo_dict['plos'].append(plo.text.strip())
 
-                        # print("scraped: ")
-                        # print(plo_dict)
+                    # look for courses in the degree program
+                    courseDivs = nextRow.find_all('div', class_="heading")
+                    if courseDivs is not None:
+                        for courseDiv in courseDivs:
+                            cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+                            cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
+                            course = {'cour_code': cour_code, 'cour_name': cour_name}
+                            plo_dict['courses'].append(course)
 
-                        # stop on the first one
-                        break
+                    # stop when the 2px horizontal ref separator is found
+                    hRef = nextRow.find('hr')
+                    if hRef is not None:
+                        # print(hRef, hRef.attrs)
+                        s = re.search('height:2px', hRef.attrs['style'])
+                        # print(s)
+                        if s is not None:
+                            break
+
 
     def getPLOList(self):
         """ Return a list of all programs in self.all_plo_dict
@@ -313,6 +331,7 @@ class PLOScraper():
                     'super_program': listed under 'Program Details' (Multimedia Studies Program, Computer Science),
                     'program': program (ex. Wallpaper Design),
                     'plos': a list of PLOs (['plo 1', 'plo 2']),
+                    'courses': a list of course dictionaries ([{'cour_code': 'code', cour_name: 'name'}])
                     'department': department name (Business Education, Digital Arts and Design),
                     'description': program description,
                     'chair': department chair,
@@ -320,7 +339,7 @@ class PLOScraper():
                 }]
         """
         pgms = []
-        for pgm_list in self.all_plo_dict.items():
+        for pid, pgm_list in self.all_plo_dict.items():
             pgms += pgm_list
         return pgms
 
@@ -396,15 +415,59 @@ class PLOScraper():
             self.all_plo_dict[pid] = [pData]
 
 def main():
-    #scraper = PLOScraper()
-    # print(scraper.getAllPLOs())
-    # print(plo_list)
+    import pprint
+    pp = pprint.PrettyPrinter(indent=2)
+
+
+    # scraper = PLOScraper()
+    # pp.pprint(scraper.getPLOs('714'))
+
 
     with open('pageCache.json', 'r', encoding='utf-8') as f:
         pages = json.load(f)
-    page = BeautifulSoup(pages['allProgramPage'], "html.parser")
-    tables = page.find_all("table")
-    print(tables)
+    page = BeautifulSoup(pages['programPages']['714'], "html.parser")
+    heading = page.find(
+        'td',
+        string=re.compile("Certificate in Microsoft Server Administration"),
+        attrs={'style': 'font-size:20px;font-weight:bold;'})
+    # print(heading)
+
+    t = heading.parent.parent.parent.parent
+    # print(t)
+
+    courseList = []
+    for nextRow in t.find_next_siblings('tr'):
+        courseDivs = nextRow.find_all('div', class_="heading")
+        if courseDivs is not []:
+            for courseDiv in courseDivs:
+                # print(nextRow)
+                cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+                cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
+                course = {'cour_code': cour_code, 'cour_name': cour_name}
+                print(course)
+                courseList.append(course)
+
+        # stop when the horizontal ref separator is found.
+        # there is no separator after the last tr in the table, currently this is not an issue.
+        hRef = nextRow.find('hr')
+        if hRef is not None:
+            # print(hRef, hRef.attrs)
+            s = re.search('height:2px', hRef.attrs['style'])
+            # print("href match ", s)
+            if s is not None:
+                break
+
+
+    # pp.pprint(courseList)
+
+
+    # tables = page.find("table", attrs={'bordercolor': 'red'})
+    # print(tables)
+    # trs = tables.find('td', attrs={'width': '15%'})
+    # get table border red
+    # get sibling div heading
+
+
 
 if __name__ == '__main__':
     main()
