@@ -153,7 +153,7 @@ class PLOScraper():
                  etc...]
         """
         pgm_names = []
-        for pgm_list in self.all_plo_dict.items():
+        for pid, pgm_list in self.all_plo_dict.items():
             for pgm in pgm_list:
                 pgm_names.append(pgm['program'])
         return pgm_names
@@ -339,7 +339,7 @@ class PLOScraper():
                 }]
         """
         pgms = []
-        for pgm_list in self.all_plo_dict.items():
+        for pid, pgm_list in self.all_plo_dict.items():
             pgms += pgm_list
         return pgms
 
