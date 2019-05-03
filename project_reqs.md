@@ -52,7 +52,7 @@ This requirement is met if the program is able to access the butte college websi
 
 ## 4. System Features
 ### Web Scraping for Student Learning Objectives (Priority: 5)
-1. SLOScraper's primary function is to scrape the student catalog for Program Learning Objectives (PLOs). This will be accomplished with Python, using Beautiful Soup to help scrape the PLOs from the web page.
+1. SLOScraper's primary function is to scrape the student catalog for Program Learning Objectives (PLOs). This will be accomplished with Python, using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to help scrape the PLOs from the web page.
 2. SLOScraper should accept a URL on the command line pointing to the academic program catalog to scrape; alternatively the URL may be hard-coded if the website is not expected to change within a few years time (at which point this program may have been replaced entirely).
 3. Functional requirements include basic networking support and HTML parsing support.
 ### Database Storage (Priority: 4)
