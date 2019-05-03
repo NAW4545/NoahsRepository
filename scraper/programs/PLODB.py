@@ -12,29 +12,40 @@ import pymysql
 
 # Tables that should comprise the database
 tables = [
-	"PROGRAMS_COURSES",
-	"COURSES",
-	"COUTCOMES",
-	"PROGRAMS",
-	"POUTCOMES",
-	"PLO_ASSESSMENTS",
-	"DISCUSSIONS",
-	"DEGREES",
-	"SUPER_PROGRAMS",
-	"DEPARTMENTS"
+	"programs_courses",
+	"courses",
+	"coutcomes",
+	"programs",
+	"poutcomes",
+	"plo_assessments",
+	"discussions",
+	"degrees",
+	"super_programs",
+	"departments"
 ]
 
 tableDescriptions = {
-	"PROGRAMS_COURSES": "`PROGRAMS_COURSES` ( `COUR_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Course ID' , `PROG_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Program ID' , PRIMARY KEY (`COUR_ID`, `PROG_ID`)) ENGINE = InnoDB COMMENT = 'Programs and Courses (Composite entity)'",
-	"COURSES": "`COURSES` ( `COUR_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Course ID' , `COUR_NAME` VARCHAR(250) NOT NULL COMMENT 'Course name' , `COUR_DESC` LONGTEXT NOT NULL COMMENT 'Course description' , PRIMARY KEY (`COUR_ID`)) ENGINE = InnoDB COMMENT = 'Courses'",
-	"COUTCOMES": "`COUTCOMES` ( `COUT_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Course outcome ID' , `COUT_DESC` TEXT NOT NULL COMMENT 'Course outcome description' , `COUR_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Course ID' , PRIMARY KEY (`COUT_ID`)) ENGINE = InnoDB COMMENT = 'Course outcomes'",
-	"PROGRAMS": "`PROGRAMS` ( `PROG_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Program ID' , `PROG_NAME` VARCHAR(250) NOT NULL COMMENT 'Program name' , `PROG_DESC` TEXT NOT NULL COMMENT 'Program description' , `DEG_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Degree ID' , `SP_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Super program ID' , PRIMARY KEY (`PROG_ID`), UNIQUE (`PROG_NAME`)) ENGINE = InnoDB COMMENT = 'Programs'",
-	"POUTCOMES": "`POUTCOMES` ( `POUT_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Program outcome ID' , `POUT_DESC` TEXT NOT NULL COMMENT 'Program outcome description' , `PROG_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Program ID' , PRIMARY KEY (`POUT_ID`)) ENGINE = InnoDB COMMENT = 'Program outcomes'",
-	"PLO_ASSESSMENTS": "`PLO_ASSESSMENTS` ( `POUT_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Program outcome ID' , `DISCUSSION_ID` BIGINT UNSIGNED NOT NULL COMMENT 'Discussion ID' , `PLO_ASSESS_DATE` DATE NOT NULL COMMENT 'PLO assessment date' , PRIMARY KEY (`POUT_ID`, `DISCUSSION_ID`)) ENGINE = InnoDB COMMENT = 'Program learning outcome assessments'"
+	"programs_courses": "`programs_courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`COUR_ID`, `PROG_ID`)) ENGINE = InnoDB",
+	"courses": "`courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `COUR_NAME` VARCHAR(250) NOT NULL , `COUR_DESC` LONGTEXT NULL , PRIMARY KEY (`COUR_ID`)) ENGINE = InnoDB",
+	"coutcomes": "`coutcomes` ( `COUT_ID` BIGINT UNSIGNED NOT NULL , `COUT_DESC` TEXT NOT NULL , `COUR_ID` BIGINT UNSIGNED NULL , PRIMARY KEY (`COUT_ID`)) ENGINE = InnoDB",
+	"programs": "`programs` ( `PROG_ID` BIGINT UNSIGNED NOT NULL , `PROG_NAME` VARCHAR(250) NOT NULL , `PROG_DESC` TEXT NULL , `DEG_ID` BIGINT UNSIGNED NOT NULL , `SP_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`PROG_ID`), UNIQUE (`PROG_NAME`)) ENGINE = InnoDB",
+	"poutcomes": "`poutcomes` ( `POUT_ID` BIGINT UNSIGNED NOT NULL , `POUT_DESC` TEXT NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`POUT_ID`)) ENGINE = InnoDB",
+	"plo_assessments": "`plo_assessments` ( `POUT_ID` BIGINT UNSIGNED NOT NULL , `DISCUSSION_ID` BIGINT UNSIGNED NOT NULL , `PLO_ASSESS_DATE` DATE NOT NULL , PRIMARY KEY (`POUT_ID`, `DISCUSSION_ID`)) ENGINE = InnoDB",
+	"discussions": "`discussions` ( `DISCUSSION_ID` BIGINT UNSIGNED NOT NULL , `DISCUSSION_COMPLETED_BY` VARCHAR(100) NOT NULL , `DISCUSSION_ALSO_PRESENT` TEXT NULL DEFAULT NULL , `DISCUSSION_LOOKING_BACK` TEXT NULL DEFAULT NULL , `DISCUSSION_FINDINGS` TEXT NULL DEFAULT NULL , `DISCUSSION_COURSES_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_PROGRAMS_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_GELOS_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_STRATEGIES` TEXT NULL DEFAULT NULL , `DISCUSSION_RESOURCES` TEXT NULL DEFAULT NULL , `DISCUSSION_COMMENTS` TEXT NULL DEFAULT NULL , `DISCUSSION_DATE` DATE NOT NULL , PRIMARY KEY (`DISCUSSION_ID`)) ENGINE = InnoDB",
+	"degrees": "`degrees` ( `DEG_ID` BIGINT UNSIGNED NOT NULL , `DEG_TYPE` VARCHAR(250) NOT NULL , PRIMARY KEY (`DEG_ID`), UNIQUE (`DEG_TYPE`)) ENGINE = InnoDB",
+	"super_programs": "`super_programs` ( `SP_ID` BIGINT UNSIGNED NOT NULL , `SP_NAME` VARCHAR(250) NOT NULL , `DEP_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`SP_ID`), UNIQUE (`SP_NAME`)) ENGINE = InnoDB",
+	"departments": "`departments` ( `DEP_ID` BIGINT UNSIGNED NOT NULL , `DEP_NAME` VARCHAR(250) NOT NULL , `DEP_CHAIR` VARCHAR(100) NOT NULL , PRIMARY KEY (`DEP_ID`), UNIQUE (`DEP_NAME`)) ENGINE = InnoDB"
 }
 
 tableAlterations = {
-	"ALTER TABLE `COUTCOMES` ADD CONSTRAINT `Course ID` FOREIGN KEY (`COUR_ID`) REFERENCES `COURSES`(`COUR_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT;"
+	"ALTER TABLE `programs_courses` ADD CONSTRAINT `courses` FOREIGN KEY (`COUR_ID`) REFERENCES `courses`(`COUR_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `programs_courses` ADD CONSTRAINT `programs` FOREIGN KEY (`PROG_ID`) REFERENCES `programs`(`PROG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `coutcomes` ADD CONSTRAINT `Course ID` FOREIGN KEY (`COUR_ID`) REFERENCES `courses`(`COUR_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `programs` ADD CONSTRAINT `Degree ID` FOREIGN KEY (`DEG_ID`) REFERENCES `degrees`(`DEG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `programs` ADD CONSTRAINT `Super Program ID` FOREIGN KEY (`SP_ID`) REFERENCES `super_programs`(`SP_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `poutcomes` ADD CONSTRAINT `Program ID` FOREIGN KEY (`PROG_ID`) REFERENCES `programs`(`PROG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+	"ALTER TABLE `plo_assessments` ADD CONSTRAINT `Program outcome ID` FOREIGN KEY (`POUT_ID`) REFERENCES `poutcomes`(`POUT_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT;",
+	"ALTER TABLE `plo_assessments` ADD CONSTRAINT `Discussion ID` FOREIGN KEY (`DISCUSSION_ID`) REFERENCES `discussions`(`DISCUSSION_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
 }
 
 # To set the foreign keys when inserting data, the order should be
@@ -56,12 +67,18 @@ class PLODB():
 											 cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
 
-		# Clear out database and rebuild table structure
 		cursor = self.cursor
+		cursor.execute("SET autocommit = OFF;")
+
+		# Clear out database and rebuild table structure
+		cursor.execute("START TRANSACTION;")
 		for table in tables:
-			cursor.execute('DROP TABLE IF EXISTS %s CASCADE' % table)
+			cursor.execute('DROP TABLE IF EXISTS %s CASCADE;' % table)
 			if tableDescriptions.__contains__(table):
-				cursor.execute('CREATE TABLE %s' % tableDescriptions[table])
+				cursor.execute('CREATE TABLE %s;' % tableDescriptions[table])
+		for alteration in tableAlterations:
+				cursor.execute(alteration)
+		cursor.execute("COMMIT;")
 
 	def __del__(self):
 		"Close the database connection on destruction."
