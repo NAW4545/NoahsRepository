@@ -19,7 +19,7 @@ This information will then be sent to the database to be stored.
 
 ## Project Requirements
 
-Find out detailed project requirements [here](https://github.com/Mechami/slo_scraper/blob/master/project_reqs.pdf).
+Find our detailed project requirements [here](https://github.com/Mechami/slo_scraper/blob/master/project_reqs.pdf).
 
 ## Installation
 
