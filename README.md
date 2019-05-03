@@ -19,7 +19,7 @@ This information will then be sent to the database to be stored.
 
 ## Project Requirements
 
-Find our detailed project requirements [here](project_reqs.pdf).
+Find our detailed project requirements [here](project_reqs.md).
 
 ## Installation
 
