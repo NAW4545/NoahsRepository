@@ -20,7 +20,6 @@ class TestDatabase(unittest.TestCase):
         print('scraping pages: ')
         self.scraper = PLOScraper()
         allPgmList = self.scraper.getAllPLOs()
-
         self.connection = pymysql.connect(host='remotemysql.com',
                                          user='WlH9s7G8vy',
                                          password='uH0YWN3msY',
@@ -35,7 +34,7 @@ class TestDatabase(unittest.TestCase):
             self.cursor.execute(statement)
 
         for pgmDict in allPgmList:
-            print("Inserting: ", f"{pgmDict['program']}")
+            print("Inserting: ", pgmDict['program'])
             db.insert(pgmDict)
 
     @classmethod
