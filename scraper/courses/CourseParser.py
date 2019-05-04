@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env -S python3 -B -OO -q
 from bs4 import BeautifulSoup
 import glob, os, sys
 from subprocess import call

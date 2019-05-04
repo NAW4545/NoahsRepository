@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env -S python3 -B -OO -q
 import pymysql
 # installed mysql python connector from https://dev.mysql.com/downloads/connector/python/
 # pip install pymysql
@@ -26,7 +26,7 @@ tables = [
 
 tableDescriptions = {
     "programs_courses": "`programs_courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`COUR_ID`, `PROG_ID`)) ENGINE = InnoDB",
-    "courses": "`courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `COUR_NAME` VARCHAR(250) NOT NULL , `COUR_DESC` LONGTEXT NULL , PRIMARY KEY (`COUR_ID`)) ENGINE = InnoDB",
+    "courses": "`courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `COUR_CODE` VARCHAR(50) NOT NULL , `COUR_NAME` VARCHAR(250) NOT NULL , `COUR_DESC` LONGTEXT NULL , PRIMARY KEY (`COUR_ID`), UNIQUE (`COUR_CODE`)) ENGINE = InnoDB",
     "coutcomes": "`coutcomes` ( `COUT_ID` BIGINT UNSIGNED NOT NULL , `COUT_DESC` TEXT NOT NULL , `COUR_ID` BIGINT UNSIGNED NULL , PRIMARY KEY (`COUT_ID`)) ENGINE = InnoDB",
     "programs": "`programs` ( `PROG_ID` BIGINT UNSIGNED NOT NULL , `PROG_NAME` VARCHAR(250) NOT NULL , `PROG_DESC` TEXT NULL , `DEG_ID` BIGINT UNSIGNED NOT NULL , `SP_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`PROG_ID`), UNIQUE (`PROG_NAME`)) ENGINE = InnoDB",
     "poutcomes": "`poutcomes` ( `POUT_ID` BIGINT UNSIGNED NOT NULL , `POUT_DESC` TEXT NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`POUT_ID`)) ENGINE = InnoDB",
@@ -66,6 +66,7 @@ class PLODB():
                                              db='WlH9s7G8vy',
                                              cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
+        return
 
         cursor = self.cursor
         #cursor.execute("SET autocommit = OFF;")

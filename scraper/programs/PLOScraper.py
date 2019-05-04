@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env  -S python3 -B -OO -q
 import urllib.request
 import re
 import grequests
