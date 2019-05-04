@@ -309,6 +309,7 @@ class PLOScraper():
                     if courseDivs is not None:
                         for courseDiv in courseDivs:
                             cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+                            cour_code = cour_code[3:] if cour_code.startswith('or ') else cour_code
                             cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
                             course = {'cour_code': cour_code, 'cour_name': cour_name}
                             plo_dict['courses'].append(course)
@@ -419,7 +420,7 @@ def main():
     pp = pprint.PrettyPrinter(indent=2)
 
 
-    # scraper = PLOScraper()
+    scraper = PLOScraper()
     # pp.pprint(scraper.getPLOs('714'))
 
 
@@ -432,30 +433,31 @@ def main():
         attrs={'style': 'font-size:20px;font-weight:bold;'})
     # print(heading)
 
-    t = heading.parent.parent.parent.parent
-    # print(t)
-
-    courseList = []
-    for nextRow in t.find_next_siblings('tr'):
-        courseDivs = nextRow.find_all('div', class_="heading")
-        if courseDivs is not []:
-            for courseDiv in courseDivs:
-                # print(nextRow)
-                cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
-                cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
-                course = {'cour_code': cour_code, 'cour_name': cour_name}
-                print(course)
-                courseList.append(course)
-
-        # stop when the horizontal ref separator is found.
-        # there is no separator after the last tr in the table, currently this is not an issue.
-        hRef = nextRow.find('hr')
-        if hRef is not None:
-            # print(hRef, hRef.attrs)
-            s = re.search('height:2px', hRef.attrs['style'])
-            # print("href match ", s)
-            if s is not None:
-                break
+    # t = heading.parent.parent.parent.parent
+    # # print(t)
+    #
+    # courseList = []
+    # for nextRow in t.find_next_siblings('tr'):
+    #     courseDivs = nextRow.find_all('div', class_="heading")
+    #     if courseDivs is not []:
+    #         for courseDiv in courseDivs:
+    #             # print(nextRow)
+    #             cour_code = courseDiv.find('td', attrs={'width': '15%'}).find('a').get_text().strip()
+    #             # remove 'or ' from alternate courses
+    #             cour_name = courseDiv.find('td', attrs={'width': '50%'}).find('a').get_text().strip()
+    #             course = {'cour_code': cour_code, 'cour_name': cour_name}
+    #             print(course)
+    #             courseList.append(course)
+    #
+    #     # stop when the horizontal ref separator is found.
+    #     # there is no separator after the last tr in the table, currently this is not an issue.
+    #     hRef = nextRow.find('hr')
+    #     if hRef is not None:
+    #         # print(hRef, hRef.attrs)
+    #         s = re.search('height:2px', hRef.attrs['style'])
+    #         # print("href match ", s)
+    #         if s is not None:
+    #             break
 
 
     # pp.pprint(courseList)
