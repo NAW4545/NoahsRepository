@@ -62,7 +62,7 @@ class PLOScraper():
         }
 
         Initializing with fetchPrograms=True (the default) will fetch the programs on
-        initailization. Then the pids can be obtained through getPrograms() to fetch the remaining data
+        initialization. Then the pids can be obtained through getPrograms() to fetch the remaining data
         for each pid separately using getPLOs().
 
         scraper = PLOScraper()
@@ -118,7 +118,7 @@ class PLOScraper():
         if self.cachePages is True:
             self.pageCache = { 'allProgramPage': '',
                                 'programPages': {}
-                              }
+                             }
 
         if fetchPrograms == True:
             self.parsePrograms()

@@ -22,10 +22,10 @@ class PLODB():
             self.close_on_del = False
         else:
             self.close_on_del = True
-            self.connection = pymysql.connect(host='localhost',
-                                             user='root',
-                                             password='',
-                                             db='slo_db_test',
+            self.connection = pymysql.connect(host='remotemysql.com',
+                                             user='WlH9s7G8vy',
+                                             password='uH0YWN3msY',
+                                             db='WlH9s7G8vy',
                                              cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
 
