@@ -14,8 +14,8 @@ please read our <a href="README.md" target="\_blank">README</a> file before prec
 download SLO_scraper files as zip:
 * download <a href="https://github.com/Mechami/slo_scraper/archive/master.zip">this file</a>
 * locate the file download location, right click and extract the file
+or visit the repository <a href="https://github.com/Mechami/slo_scraper">here</a>.
 
-or visit the repository <a href="https://github.com/Mechami/slo_scraper">here</a>
 for detailed information on file use please visit our <a href="User Guide.md" target="\_blank">user guide</a>.
 
 ## Run ScraperMain.py
