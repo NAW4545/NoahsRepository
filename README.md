@@ -1,4 +1,4 @@
-# SLOScraper 1.0
+# SLOScraper
 
 ## Context
 
@@ -8,7 +8,7 @@ Course instructor: April Browne
 
 ## Purpose
 
-The purpose of the SLOScraper 1.0 is to scrape the Butte College website's [list of academic programs](https://butte.edu/academicprograms) for data and store it in an authoritative database.
+The purpose of the SLOScraper is to scrape the Butte College website's [list of academic programs](https://butte.edu/academicprograms) for data and store it in an authoritative database.
 
 For each program, we will collect:
 * The program's name
@@ -39,15 +39,15 @@ The user base will consist mainly of department chairs and the PLO Coordinator.
 
 ### Expected Output
 
-SLOScraper 1.0 should collect changes to the programs and PLOs and send them to the database. The database should ignore duplicates. The python script should print status updates as it runs, and should count the number of programs it collects. At the time of publishing, that number should be 190.
+SLOScraper should collect changes to the programs and PLOs and send them to the database. The database should ignore duplicates. The python script should print status updates as it runs, and should count the number of programs it collects. At the time of publishing, that number should be 190.
 
-### How to Use SLOScraper 1.0
+### How to Use SLOScraper
 
 For detailed instructions on how to use the software, see our user guide [here](#).
 
 ## Authors and Acknowledgments
 
-The authors for SLOScraper 1.0, in no particular order, are:
+The authors for SLOScraper, in no particular order, are:
 * Isaac Vander Sluis (Project Manager)
 * Kaden Hurlimann (Testing Lead)
 * Philip Muzzall (Tech Lead)
@@ -60,7 +60,7 @@ Our instructor April Browne helped us apply development methodologies and best p
 
 ## Roadmap
 
-For future Programming Project classes, there is more to do to enhance the SLOScraper. Namely, the student learning outcomes (SLOs) for all Butte College courses should also be scraped and stored in the database. Also, as SLOScraper 1.0 is used and adopted, there will undoubtedly be bugs or usability issues that should be fixed.
+For future Programming Project classes, there is more to do to enhance the SLOScraper. Namely, the student learning outcomes (SLOs) for all Butte College courses should also be scraped and stored in the database. Also, as SLOScraper is used and adopted, there will undoubtedly be bugs or usability issues that should be fixed.
 
 ## Project Status
 
