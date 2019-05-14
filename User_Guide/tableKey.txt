@@ -1,0 +1,18 @@
+                              Table Key
+SLO: Student Learning outcome
+prog_id: Program Identification Number; tracks unique entries
+prog_name: Program Name; the common name of program
+prog_desc: Program Description; holds SLO information
+deg_id: Degree Identification Number; tracks degree type
+deg_type: Degree Type; differentiates different levels of a degree (i.e. CERT VS AS)
+sp_id: Super Program Identification Number; tracks parent of program
+dep_id: Department Identification; tracks unique department entries
+dep_name: Department Name; the common name of the department
+dep_chair: Department Chair; holds contact information to department chair
+
+        Degree Types of a specific program
+deg_id      deg_type          Name
+3           AA              Associate of Arts
+41          AA-T            Associate of Arts Transfer
+25          AS-T            Certificate of Achievement
+2           CERT            Certification
