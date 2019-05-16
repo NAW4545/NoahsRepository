@@ -66,9 +66,8 @@ class PLODB():
                                              db='WlH9s7G8vy',
                                              cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
-        return
 
-        cursor = self.cursor
+        '''cursor = self.cursor
         #cursor.execute("SET autocommit = OFF;")
         cursor.execute("SET foreign_key_checks = OFF;")
 
@@ -81,8 +80,7 @@ class PLODB():
         for alteration in tableAlterations:
                 cursor.execute(alteration)
         cursor.execute("COMMIT;")
-        cursor.execute("SET foreign_key_checks = ON;")
-
+        cursor.execute("SET foreign_key_checks = ON;")'''
 
     def __del__(self):
         "Close the database connection on destruction."
