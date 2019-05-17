@@ -100,6 +100,7 @@ class updatePLOs {
     // holds program details
     vector<programDetails> details;
     vector<programDetails> detailsHolder;
+    vector<programDetails> detailsAppender;
 
 };
 
@@ -159,7 +160,7 @@ void updatePLOs::changePLO() {
        << "Program: ";
     cin >> selection;
     cout << endl;
-    // If inputed name matches an item in vending machine, call for validation of selection
+    // if the inputted selection matches program(s), call for validation of selection
     std::function<auto(programDetails)->void> f2 = for_each(details.begin(), details.end(), [&selection,this] ( const programDetails& p) {
        if (p.prog_name == selection)  {
          this->detailsHolder.push_back(p);
@@ -168,10 +169,12 @@ void updatePLOs::changePLO() {
   cout << std::left << setw(8) << setfill(' ') << "prog_id" 
        << std::left << setw(30) << setfill(' ') << "prog_name"
        << std::left << setw(8) << setfill(' ') << "degreeType\n";
+  // output results
   for (auto i = 0; i < detailsHolder.size(); i++) {
      cout << std::left << setw(8) << setfill(' ') << detailsHolder.at(i).prog_id
           << std::left << setw(8) << setfill(' ') << detailsHolder.at(i).prog_name
           << std::right << setw(26) << setfill(' ');
+    // disply user-friednly degree types
     if (detailsHolder.at(i).deg_id == 3) 
       cout << "AA\n";
     else if (detailsHolder.at(i).deg_id == 41)
@@ -181,11 +184,28 @@ void updatePLOs::changePLO() {
     else if (detailsHolder.at(i).deg_id == 6)
       cout << "AS-T\n";
   }
+
   validateSelection();
 }
 
 void updatePLOs::validateSelection() {
-  
+  int option;
+    cout << "Select the prog_id of the program PLO you wish to edit\n"
+         << "Submit '0' to return to main menu\n"
+         << "Enter prog_id: ";
+    cin >> option;
+    if (option == 0) {
+      detailsHolder.clear();
+      cout << endl;
+      MainMenu();
+    }
+    else {
+      std::function<auto(programDetails)->void> f2 = for_each(detailsHolder.begin(), detailsHolder.end(), [&option,this] ( const programDetails& h) {
+        if (h.prog_id == option)  {
+          this->detailsAppender.push_back(h);
+        }
+      });
+    }
 }
 
 
