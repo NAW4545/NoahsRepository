@@ -2,7 +2,13 @@ To begin editing a PLO using the internal form:
 
 After completing the steps in the Installation guide
 
-1) Double click the userGuide folder
-2) Double click the userFormDriver.exe
+1) Navigate to the folder where you installed slo_scraper
+2) Navigate to "editPLOs" folder
+3) Run the "userFormDriver.exe" file by doubling clicking it
+4) In the window that appeared, navigate through the Menus based on objective
+    Notes: Follow the instructions exactly
+         * The "#" column holds the number corresponding to a specific selection, like a vending machine
+         * Do not enter any other numbers or characters than those listed in the column
+         * Enter the number when prompted and nothing else, i.e. "1", then hit enter
 
 
