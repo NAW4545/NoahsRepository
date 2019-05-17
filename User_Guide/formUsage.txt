@@ -1,2 +1,8 @@
 To begin editing a PLO using the internal form:
 
+After completing the steps in the Installation guide
+
+1) Double click the userGuide folder
+2) Double click the userFormDriver.exe
+
+
