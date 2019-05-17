@@ -9,6 +9,7 @@ Objective:
 */
 
 #include "userForm.h"
+#include "CinReader.h"
 
 void updatePLOs::MainMenu() {
   cout << "Welcome to our PLO editor\n\n";
@@ -117,7 +118,8 @@ void updatePLOs::editPLO() {
     cin >> option;
   if (option == 1) {
     cout << "\nEnter all PLOs to replace existing entries\n";
-      cin >> PLO;
+      CinReader cin;
+      PLO = cin.readString(false);
     detailsAppender.at(0).prog_desc = PLO;
     savePLO("userSubmittedChanges.txt");
   }
@@ -158,7 +160,7 @@ void updatePLOs::savePLO(string filename) {
           // Output/Append to move.txt
         if (fout.good()) {
           fout << "UPDATE programs" << "\n"
-               << "SET prog_desc = " << "'" << detailsAppender.at(0).prog_desc << "\n"
+               << "SET prog_desc = " << "'" << detailsAppender.at(0).prog_desc << "'" << "\n"
                << "WHERE prog_name = " << detailsAppender.at(0).prog_name << "\n"
                << "AND deg_id = " << detailsAppender.at(0).deg_id << "\n"
                << "\n";

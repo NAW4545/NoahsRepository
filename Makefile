@@ -1,5 +1,5 @@
 CC=g++
-FLAGS = -std=c++11 -Wall -Wextra -Werror -Wfatal-errors -Wpedantic
+FLAGS = -std=c++11 -Wall -Wextra -Werror -Wfatal-errors -Wpedantic -ggdb3 -Og
 # uncomment for Linux/Mac OS X
 RM = rm -f
 
@@ -8,8 +8,8 @@ RM = rm -f
 
 # compile and
 # links: takes seperate object files and links them into a single executable (doughnaughts.exe)
-userFormDriver.exe: userForm userFormDriver
-	$(CC) $(FLAGS) userForm.o userFormDriver.o -o userFormDriver.exe
+userFormDriver.exe: userForm userFormDriver CinReader
+	$(CC) $(FLAGS) userForm.o userFormDriver.o CinReader.o -o userFormDriver.exe
 
 userFormDriver:
 	$(CC) $(FLAGS) -c userFormDriver.cpp -o userFormDriver.o
@@ -18,6 +18,9 @@ userFormDriver:
 # -c means compile only switch
 userForm:
 	$(CC) $(FLAGS) -c userForm.cpp -o userForm.o
+
+CinReader:
+	$(CC) $(FLAGS) -c CinReader.cpp -o CinReader.o
 
 # Windows cleaning
 # clean:
