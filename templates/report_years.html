@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}Discussion Reports{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  <section>
+    {% for discussion in discussions %}
+      <a class="plain" href="{{ url_for('view_report', id=discussion['discussion_id']) }}">
+        <ul class="discuss_summary">
+          <li>{{ discussion['discussion_date'] }}</li>
+          <li>{{ discussion['discussion_completed_by'] }}</li>
+          <li>{{ discussion['program'] }}</li>
+          <li>{{ discussion['pout_desc'] }}</li>
+        </ul>
+      </a>
+    {% endfor  %}
+  </section>
+{% endblock %}
