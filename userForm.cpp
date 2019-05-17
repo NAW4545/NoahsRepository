@@ -37,7 +37,7 @@ struct programDetails {
 
   // Overlod operator <<
   // Allows convinient stream output of program details
-  friend ostream& operator<< (ostream& outs, const litskiDetails& pd) {
+  friend ostream& operator<< (ostream& outs, const programDetails& pd) {
     outs << std::left << setw(3) << setfill(' ') << pd.prog_id
          << std::left << setw(15) << setfill(' ')  << pd.prog_name
          << std::left << setw(50) << setfill(' ') << pd.prog_desc
@@ -76,7 +76,7 @@ class updatePLOs {
     programDetails tokenizePLO(string input);
     // holds program details
     vector<programDetails> details;
-}
+};
 
 int main() {
   updatePLOs pd;
