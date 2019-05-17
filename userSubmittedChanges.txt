@@ -1,0 +1,15 @@
+UPDATE programs
+SET prog_desc = 'asdfasfdsfasffdsd
+WHERE prog_name = Accounting
+AND deg_id = 4
+
+UPDATE programs
+SET prog_desc = 'hjgjfdgsfdfdfgdfg
+WHERE prog_name = Accounting
+AND deg_id = 6
+
+UPDATE programs
+SET prog_desc = 'This program meets the lower division major preparation for a similar major at CSU, Chico. Visit website for details www.assist.org Chemistry is the study of the properties, composition, and transformations of all material substances.  It supports and draws from biology, earth science, engineering, mathematics, medicine and physics.  Because Chemistry can help you to understand these other fields and how things work in general, it can be a very fascinating and rewarding subject to study. The Chemistry AS degree is appropriate for students planning to transfer to a university to major in chemistry or other closely related fields.  A different set of courses is offered for students in other majors such as agriculture or allied health science–including nursing, dental hygiene, physical therapy, or nutrition.Medical personnel, technicians, engineers, and scientists identify and solve problems by applying logic, scientific thinking, and knowledge of natural laws.  The study of chemistry is well suited to developing these skills, and many opportunities are available to those who have studied chemistry.  Chemistry majors are employed in many fields, including agronomy, biotechnology, energy production, environmental science, material science, medicine, patent law and teaching.  Note, however, that most careers associated with chemistry require a degree beyond the AS degree.ASDFADFFFFFFFFFFFFFFFFFFFF
+WHERE prog_name = Chemistry
+AND deg_id = 4
+

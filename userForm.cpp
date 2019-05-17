@@ -1,10 +1,10 @@
 /*
 Objective: 
             *UI to fill out a form to update PLOs
-            *Minimze user error by 2-step verification (user/admin)
+            *Minimize user error by 2-step verification (user/admin)
             *User can review the data prior to submission to admin
             *Admin can review chanes before pushin to live database
-            *Changes to DB are independently saved 
+            *Changes to DB are independently saved as an SQL statement
             *Saved changes should be able to be re-integratd on demand
 */
 
@@ -244,7 +244,58 @@ void updatePLOs::pushPLO() {
 }
 
 void updatePLOs::savePLO(string filename) {
-  
+   cout << "\nThe modified program looks like: \n"
+       << detailsAppender.at(0) << endl << endl;
+    
+  cout << std::left << setw(3) << setfill(' ') << "#" << "Options\n"
+       << std::left << setw(3) << setfill(' ') << "1" << "Confirm\n"
+       << std::left << setw(3) << setfill(' ') << "2" << "Edit\n"
+       << std::left << setw(3) << setfill(' ') << "3" << "Main Menu\n"
+       << std::left << setw(3) << setfill(' ') << "4" << "Exit\n"
+       << "Enter option: ";
+  cin >> option;
+    switch (option) {
+      case 1: {
+        cout << "\nOpening" << filename << "for appending..." << endl;
+        // Declare our Stream and open all at once
+        ofstream fout("userSubmittedChanges.txt", std::ios::app);
+          // Output/Append to move.txt
+        if (fout.good()) {
+          fout << "UPDATE programs" << "\n"
+               << "SET prog_desc = " << "'" << detailsAppender.at(0).prog_desc << "\n"
+               << "WHERE prog_name = " << detailsAppender.at(0).prog_name << "\n"
+               << "AND deg_id = " << detailsAppender.at(0).deg_id << "\n"
+               << "\n";
+        // Close out Streams
+          fout.close();
+            cout << "Successfully added " << detailsAppender.at(0).prog_desc << endl << endl;
+            // details.push_back(detailsAppender.at(0)); duplicate entries if filtering agan- fix later
+            detailsAppender.clear();
+            detailsHolder.clear();
+        }
+        else {
+          cout << "Failed to append\n";
+        }
+        MainMenu();
+        break;
+      }
+      case 2: {
+        detailsAppender.clear();
+        savePLO("userSubmittedChanges.txt");
+        break;
+      }
+      case 3: {
+        detailsHolder.clear();
+        detailsAppender.clear();
+        MainMenu();
+        break;
+      }
+      case 4: {
+        detailsAppender.clear();
+        Exit();
+        break;
+      }
+    }
 }
 
 bool updatePLOs::loadPLO(string filename) {
