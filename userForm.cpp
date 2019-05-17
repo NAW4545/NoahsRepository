@@ -81,8 +81,13 @@ class updatePLOs {
 
     // output PLOs
     string output(vector<programDetails> details);
+    
+    // Exit - non-commited changes discarded
+    void Exit();
 
   private:
+    string filename;
+    int option;
     // converts strings to usable datatypees
     programDetails tokenizePLO(string input);
     // holds program details
@@ -97,8 +102,45 @@ int main() {
 
 
 void updatePLOs::MainMenu() {
-  cout << "Welcome to our PLO editor";
-
+  cout << "Welcome to our PLO editor\n\n";
+  cout << std::left << setw(3) << setfill(' ') << "#" << "Main Menu" << endl
+       << std::left << setw(3) << setfill(' ') << "1" << "Edit PLO" << endl
+       << std::left << setw(3) << setfill(' ') << "2" << "Add program" << endl
+       << std::left << setw(3) << setfill(' ') << "3" << "Delete program" << endl
+       << std::left << setw(3) << setfill(' ') << "4" << "Load new file" << endl
+       << std::left << setw(3) << setfill(' ') << "5" << "Output current file" << endl
+       << std::left << setw(3) << setfill(' ') << "6" << "Exit" << endl
+       << "Enter Option: ";
+  cin >> option;
+    switch (option) {
+    case 1: {
+      changePLO();
+      break;
+    }
+    case 2: {
+      // add PLO
+      break;
+    }
+    case 3: {
+      // delete PLO
+      break;
+    }
+    case 4: {
+      // load new DB file
+      cout << "Enter filename: ";
+        cin >> filename;
+      loadPLO(filename);
+      break;
+    }
+    case 5: {
+     // cout << output(details);
+      break;
+    }
+    case 6: {
+      Exit();
+      break;
+    }
+  }
 }
 
 void updatePLOs::changePLO() {
@@ -118,10 +160,14 @@ bool updatePLOs::loadPLO(string filename) {
   return false;
 }
 
-string output(vector<programDetails> formula) {
+string output(vector<programDetails> details) {
 
 
   return "";
+}
+
+void updatePLOs::Exit() {
+  cout << "\nSuccesfully Exited Program\n";
 }
 
 programDetails updatePLOs::tokenizePLO(string input) {
