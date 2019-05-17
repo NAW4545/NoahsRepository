@@ -68,8 +68,11 @@ class updatePLOs {
     // Task Interface
     void MainMenu();
 
-    // Add, Edit, Remove PLOs of a program
+    // Select program PLO to change
     void changePLO();
+    
+    // Edit PLO of selected program
+    void editPLO();
     
     // Review PLO before adding
     void validateSelection();
@@ -94,7 +97,7 @@ class updatePLOs {
   private:
     string filename;
     int option;
-    string filter;
+    string filter, PLO;
     // converts strings to usable datatypees
     programDetails tokenizePLO(string input);
     // holds program details
@@ -205,7 +208,34 @@ void updatePLOs::validateSelection() {
           this->detailsAppender.push_back(h);
         }
       });
+      editPLO();
     }
+}
+
+void updatePLOs::editPLO() {
+  cout << std::left << setw(3) << setfill(' ') << "\n#" << "Options\n"
+       << std::left << setw(3) << setfill(' ') << "1" << "Remake PLO\n"
+       << std::left << setw(3) << setfill(' ') << "2" << "Add to existing PLO\n"
+       << std::left << setw(3) << setfill(' ') << "3" << "Main Menu\n"
+       << "Enter Option: ";
+    cin >> option;
+  if (option == 1) {
+    cout << "\nEnter all PLOs to replace existing entries\n";
+      cin >> PLO;
+    detailsAppender.at(0).prog_desc = PLO;
+    savePLO("userSubmittedChanges.txt");
+  }
+  if (option == 2) {
+    cout << "\nEnter a new PLO to add to existing entries\n";
+      cin >> PLO;
+    detailsAppender.at(0).prog_desc += PLO;
+    savePLO("userSubmittedChanges.txt");
+  }
+  if (option == 3) {
+    detailsAppender.clear();
+    detailsHolder.clear();
+    MainMenu();
+  }
 }
 
 
@@ -214,7 +244,7 @@ void updatePLOs::pushPLO() {
 }
 
 void updatePLOs::savePLO(string filename) {
-
+  
 }
 
 bool updatePLOs::loadPLO(string filename) {
