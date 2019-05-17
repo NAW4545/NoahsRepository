@@ -8,13 +8,15 @@ Objective:
             *Saved changes should be able to be re-integratd on demand
 */
 
-
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
 #include <iomanip>
 #include <fstream>
 #include <sstream>
+#include <iterator>
+#include <functional>
 using std::vector;
 using std::cout;
 using std::cin;
@@ -30,6 +32,7 @@ using std::stringstream;
 using std::ostringstream;
 using std::stringstream;
 using std::ostream;
+using std::for_each;
 
 struct programDetails {
   unsigned int prog_id;
@@ -67,7 +70,10 @@ class updatePLOs {
 
     // Add, Edit, Remove PLOs of a program
     void changePLO();
-
+    
+    // Review PLO before adding
+    void validateSelection();
+    
     // Push Changes to Main Database
     void pushPLO();
 
@@ -88,10 +94,13 @@ class updatePLOs {
   private:
     string filename;
     int option;
+    string filter;
     // converts strings to usable datatypees
     programDetails tokenizePLO(string input);
     // holds program details
     vector<programDetails> details;
+    vector<programDetails> detailsHolder;
+
 };
 
 int main() {
@@ -145,8 +154,40 @@ void updatePLOs::MainMenu() {
 }
 
 void updatePLOs::changePLO() {
-
+  string selection;
+  cout << "\nEnter the exact name of the program you wish to edit\n"
+       << "Program: ";
+    cin >> selection;
+    cout << endl;
+    // If inputed name matches an item in vending machine, call for validation of selection
+    std::function<auto(programDetails)->void> f2 = for_each(details.begin(), details.end(), [&selection,this] ( const programDetails& p) {
+       if (p.prog_name == selection)  {
+         this->detailsHolder.push_back(p);
+         }
+    });
+  cout << std::left << setw(8) << setfill(' ') << "prog_id" 
+       << std::left << setw(30) << setfill(' ') << "prog_name"
+       << std::left << setw(8) << setfill(' ') << "degreeType\n";
+  for (auto i = 0; i < detailsHolder.size(); i++) {
+     cout << std::left << setw(8) << setfill(' ') << detailsHolder.at(i).prog_id
+          << std::left << setw(8) << setfill(' ') << detailsHolder.at(i).prog_name
+          << std::right << setw(26) << setfill(' ');
+    if (detailsHolder.at(i).deg_id == 3) 
+      cout << "AA\n";
+    else if (detailsHolder.at(i).deg_id == 41)
+      cout << "AA-T\n";
+    else if (detailsHolder.at(i).deg_id == 4)
+      cout << "AS\n";
+    else if (detailsHolder.at(i).deg_id == 6)
+      cout << "AS-T\n";
+  }
+  validateSelection();
 }
+
+void updatePLOs::validateSelection() {
+  
+}
+
 
 void updatePLOs::pushPLO() {
 
@@ -191,7 +232,7 @@ string updatePLOs::output() {
         << endl;
   // output
   ostringstream outs;
-  for (auto i = 0; i <= details.size(); i++) {
+  for (auto i = 0; i < details.size(); i++) {
    // outs << *i << endl;
    cout << std::left << setw(8) << setfill(' ') << details.at(i).prog_id
         << std::left << setw(40) << setfill(' ')  << details.at(i).prog_name
