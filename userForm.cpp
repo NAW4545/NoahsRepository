@@ -96,7 +96,7 @@ class updatePLOs {
 
 int main() {
   updatePLOs pd;
-  pd.loadPLO("userSubmittedChanges.txt");
+  pd.loadPLO("programs.csv");
   pd.MainMenu();
 }
 
@@ -156,7 +156,26 @@ void updatePLOs::savePLO(string filename) {
 }
 
 bool updatePLOs::loadPLO(string filename) {
-
+  // open file
+  ifstream inputFile;
+  inputFile.open(filename);
+  // if open
+  if(inputFile.is_open()) {
+    string fileLine;
+    unsigned int i = 0;
+    // load fileline data into vector
+    while (getline(inputFile, fileLine)) {
+      // ignore comment lines with # in file
+      if ( fileLine[0] != '#') {
+        details.push_back(tokenizePLO(fileLine));
+        i++;
+      }
+    } 
+    inputFile.close();
+    cout << filename << " was loaded\n\n";
+    return true;
+  }
+  cout << filename << " was not loaded!";
   return false;
 }
 
@@ -171,7 +190,28 @@ void updatePLOs::Exit() {
 }
 
 programDetails updatePLOs::tokenizePLO(string input) {
-  programDetails pd;
-
+  programDetails pd;  
+  string convertProg_id, convertDeg_id, convertSp_id;
+  istringstream ss(input);
+  // convert to #
+  getline(ss, convertProg_id, ';');
+    stringstream ssCRN(convertProg_id); 
+    ssCRN >> pd.prog_id;
+    // clear string + buffer so it can be used again
+    ssCRN.str("");
+    ssCRN.clear();   
+  getline(ss, pd.prog_name, ';');
+  // convert segment into integer
+  getline(ss, pd.prog_desc, ';');
+  getline(ss, convertDeg_id, ';');
+  ssCRN << " " << convertDeg_id;
+    ssCRN >> pd.deg_id;
+    ssCRN.str("");
+    ssCRN.clear();
+    getline(ss, convertSp_id, ';');
+  ssCRN << " " << convertSp_id;
+    ssCRN >> pd.sp_id;
+    ssCRN.str("");
+    ssCRN.clear();
   return pd;
 }
