@@ -1,12 +1,3 @@
-/*
-Objective: 
-            *UI to fill out a form to update PLOs
-            *Minimize user error by 2-step verification (user/admin)
-            *User can review the data prior to submission to admin
-            *Admin can review chanes before pushin to live database
-            *Changes to DB are independently saved as an SQL statement
-            *Saved changes should be able to be re-integratd on demand
-*/
 
 #include "userForm.h"
 #include "CinReader.h"
@@ -45,6 +36,7 @@ void updatePLOs::MainMenu() {
     }
     case 5: {
       cout << output();
+      MainMenu();
       break;
     }
     case 6: {
