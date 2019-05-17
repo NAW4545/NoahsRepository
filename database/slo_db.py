@@ -1,3 +1,14 @@
+######
+# This file contains a the sql to create the table structure for the slo scraper
+# database.
+#
+# The list of statements can be imported into another script then looped over to
+# recreate all tables.
+#
+# This file can be run as a __main__ to output an sql file containing all statements
+#
+#####
+
 create_slo_db = []
 create_slo_db.append("DROP TABLE IF EXISTS programs_courses;")
 create_slo_db.append("DROP TABLE IF EXISTS courses;")
@@ -64,48 +75,66 @@ ON poutcomes(pout_desc(255), prog_id);""")
 
 create_slo_db.append("""
 	CREATE TABLE discussions(
-	discussion_id INT AUTO_INCREMENT NOT NULL,
-	discussion_completed_by VARCHAR(100) NOT NULL,
-	discussion_also_present TEXT,
-	discussion_looking_back TEXT,
-	discussion_findings TEXT,
-	discussion_courses_assessed TEXT,
-	discussion_programs_assessed TEXT,
-	discussion_gelos_assessed TEXT,
-	discussion_strategies TEXT,
-	discussion_resources TEXT,
-	discussion_date DATE NOT NULL,
-	PRIMARY KEY (discussion_id)
-);""")
+		discussion_id INT AUTO_INCREMENT NOT NULL,
+		discussion_completed_by VARCHAR(100) NOT NULL,
+		discussion_also_present TEXT,
+		discussion_looking_back TEXT,
+		discussion_findings TEXT,
+		discussion_courses_assessed TEXT,
+		discussion_programs_assessed TEXT,
+		discussion_gelos_assessed TEXT,
+		discussion_strategies TEXT,
+		discussion_resources TEXT,
+		discussion_date DATE NOT NULL,
+		PRIMARY KEY (discussion_id)
+	);
+""")
 
 create_slo_db.append("""
 	CREATE TABLE plo_assessments(
-	pout_id INT AUTO_INCREMENT NOT NULL,
-	discussion_id INT NOT NULL,
-	plo_assess_date DATE NOT NULL,
-	PRIMARY KEY (pout_id, discussion_id),
-	FOREIGN KEY (pout_id) REFERENCES poutcomes (pout_id),
-	FOREIGN KEY (discussion_id) REFERENCES discussions (discussion_id)
-);""")
+		pout_id INT AUTO_INCREMENT NOT NULL,
+		discussion_id INT NOT NULL,
+		plo_assess_date DATE NOT NULL,
+		PRIMARY KEY (pout_id, discussion_id),
+		FOREIGN KEY (pout_id) REFERENCES poutcomes (pout_id),
+		FOREIGN KEY (discussion_id) REFERENCES discussions (discussion_id)
+	);
+""")
 
 create_slo_db.append("""
 	CREATE TABLE courses(
-	cour_id INT AUTO_INCREMENT NOT NULL,
-	cour_code VARCHAR(50) NOT NULL,
-	cour_name VARCHAR(250),
-	cour_desc TEXT,
-	PRIMARY KEY (cour_id),
-	UNIQUE KEY (cour_code)
-);""")
+		cour_id INT AUTO_INCREMENT NOT NULL,
+		cour_code VARCHAR(50) NOT NULL,
+		cour_name VARCHAR(250),
+		cour_desc TEXT,
+		PRIMARY KEY (cour_id),
+		UNIQUE KEY (cour_code)
+	);
+""")
 
 create_slo_db.append("""
 	CREATE TABLE programs_courses(
-	prog_id INT NOT NULL,
-	cour_id INT NOT NULL,
-	PRIMARY KEY (prog_id, cour_id),
-	FOREIGN KEY (prog_id) REFERENCES programs (prog_id),
-	FOREIGN KEY (cour_id) REFERENCES courses (cour_id)
-);""")
+		prog_id INT NOT NULL,
+		cour_id INT NOT NULL,
+		PRIMARY KEY (prog_id, cour_id),
+		FOREIGN KEY (prog_id) REFERENCES programs (prog_id),
+		FOREIGN KEY (cour_id) REFERENCES courses (cour_id)
+	);
+""")
+
+create_slo_db.append("""
+	CREATE TABLE coutcomes(
+		cout_id INT AUTO_INCREMENT NOT NULL,
+		cout_desc TEXT NOT NULL,
+		cour_id INT,
+		PRIMARY KEY (cout_id),
+		FOREIGN KEY (cour_id) REFERENCES courses (cour_id)
+	);
+""")
+create_slo_db.append("""
+	CREATE UNIQUE INDEX unique_coutcome
+	ON coutcomes(cout_desc(255));
+""")
 
 if __name__ == '__main__':
 	with open('slo_db.sql', 'w', encoding="utf-8") as f:

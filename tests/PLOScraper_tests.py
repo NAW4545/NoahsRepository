@@ -139,6 +139,18 @@ class TestPLOScraper(unittest.TestCase):
         self.assertTrue(('Computer Programming', 'AS') in p_names)
 
     @patch('PLOScraper.PLOScraper.getPage')
+    def test_comp_as(self, mockGetPage):
+        "It should remove the work 'or' from alternative course names."
+        mockGetPage.side_effect = self.mock_page_return
+        pid = '737'
+        s = PLOScraper()
+        pgm_list = s.getPLOs(pid)
+        for pgm_dict in pgm_list:
+            for courseDict in pgm_dict['courses']:
+                # No course should have the work 'or' at the line start
+                self.assertFalse(courseDict['cour_code'].startswith('or '))
+
+    @patch('PLOScraper.PLOScraper.getPage')
     def test_last_item(self, mockGetPage):
         "The last item on a program page should have the expected values."
         mockGetPage.side_effect = self.mock_page_return
@@ -189,11 +201,13 @@ class TestPLOScraper(unittest.TestCase):
         self.assertTrue(('Noncredit Certificate of Completion in Occupational and Life Skills', 'Noncredit Certificate') in p_names)
 
     @patch('PLOScraper.grequests.map')
-    def test_no_duplicate_programs(self, mockGMap):
+    @patch('PLOScraper.PLOScraper.getPage')
+    def test_no_duplicate_programs(self, mockGetPage, mockGMap):
         "The scraper should not retrieve any degree more than once."
         mockResponses = [(type('',(object,),{'content': pages['programPages'][pid]})())
                          for pid in sorted(pages['programPages'].keys())]
         mockGMap.side_effect = [mockResponses]
+        mockGetPage.side_effect = self.mock_page_return
         s = PLOScraper()
         allPgmList = s.getAllPLOs()
         foundPrograms = []
