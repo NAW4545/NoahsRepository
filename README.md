@@ -27,7 +27,7 @@ Find our installation guide [here](Installation%20Guide.md).
 
 ## Code Documentation
 
-Find our code documentation [here](#).
+Find our code documentation [here](https://github.com/Mechami/slo_scraper/wiki/Documentation).
 
 ## Usage
 
@@ -43,7 +43,7 @@ SLOScraper should collect changes to the programs and PLOs and send them to the 
 
 ### How to Use SLOScraper
 
-For detailed instructions on how to use the software, see our user guide [here](#).
+For detailed instructions on how to use the software, see our user guide [here](User_Guide/).
 
 ## Authors and Acknowledgments
 
