@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env -S python3 -B -OO -q
 import pymysql
 # installed mysql python connector from https://dev.mysql.com/downloads/connector/python/
 # pip install pymysql
@@ -9,6 +9,44 @@ import pymysql
 # Database Name: WlH9s7G8vy
 # Server: remotemysql.com
 # Port: 3306
+
+# Tables that should comprise the database
+tables = [
+    "programs_courses",
+    "courses",
+    "coutcomes",
+    "programs",
+    "poutcomes",
+    "plo_assessments",
+    "discussions",
+    "degrees",
+    "super_programs",
+    "departments"
+]
+
+tableDescriptions = {
+    "programs_courses": "`programs_courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`COUR_ID`, `PROG_ID`)) ENGINE = InnoDB",
+    "courses": "`courses` ( `COUR_ID` BIGINT UNSIGNED NOT NULL , `COUR_CODE` VARCHAR(50) NOT NULL , `COUR_NAME` VARCHAR(250) NOT NULL , `COUR_DESC` LONGTEXT NULL , PRIMARY KEY (`COUR_ID`), UNIQUE (`COUR_CODE`)) ENGINE = InnoDB",
+    "coutcomes": "`coutcomes` ( `COUT_ID` BIGINT UNSIGNED NOT NULL , `COUT_DESC` TEXT NOT NULL , `COUR_ID` BIGINT UNSIGNED NULL , PRIMARY KEY (`COUT_ID`)) ENGINE = InnoDB",
+    "programs": "`programs` ( `PROG_ID` BIGINT UNSIGNED NOT NULL , `PROG_NAME` VARCHAR(250) NOT NULL , `PROG_DESC` TEXT NULL , `DEG_ID` BIGINT UNSIGNED NOT NULL , `SP_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`PROG_ID`), UNIQUE (`PROG_NAME`)) ENGINE = InnoDB",
+    "poutcomes": "`poutcomes` ( `POUT_ID` BIGINT UNSIGNED NOT NULL , `POUT_DESC` TEXT NOT NULL , `PROG_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`POUT_ID`)) ENGINE = InnoDB",
+    "plo_assessments": "`plo_assessments` ( `POUT_ID` BIGINT UNSIGNED NOT NULL , `DISCUSSION_ID` BIGINT UNSIGNED NOT NULL , `PLO_ASSESS_DATE` DATE NOT NULL , PRIMARY KEY (`POUT_ID`, `DISCUSSION_ID`)) ENGINE = InnoDB",
+    "discussions": "`discussions` ( `DISCUSSION_ID` BIGINT UNSIGNED NOT NULL , `DISCUSSION_COMPLETED_BY` VARCHAR(100) NOT NULL , `DISCUSSION_ALSO_PRESENT` TEXT NULL DEFAULT NULL , `DISCUSSION_LOOKING_BACK` TEXT NULL DEFAULT NULL , `DISCUSSION_FINDINGS` TEXT NULL DEFAULT NULL , `DISCUSSION_COURSES_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_PROGRAMS_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_GELOS_ASSESSED` TEXT NULL DEFAULT NULL , `DISCUSSION_STRATEGIES` TEXT NULL DEFAULT NULL , `DISCUSSION_RESOURCES` TEXT NULL DEFAULT NULL , `DISCUSSION_COMMENTS` TEXT NULL DEFAULT NULL , `DISCUSSION_DATE` DATE NOT NULL , PRIMARY KEY (`DISCUSSION_ID`)) ENGINE = InnoDB",
+    "degrees": "`degrees` ( `DEG_ID` BIGINT UNSIGNED NOT NULL , `DEG_TYPE` VARCHAR(250) NOT NULL , PRIMARY KEY (`DEG_ID`), UNIQUE (`DEG_TYPE`)) ENGINE = InnoDB",
+    "super_programs": "`super_programs` ( `SP_ID` BIGINT UNSIGNED NOT NULL , `SP_NAME` VARCHAR(250) NOT NULL , `DEP_ID` BIGINT UNSIGNED NOT NULL , PRIMARY KEY (`SP_ID`), UNIQUE (`SP_NAME`)) ENGINE = InnoDB",
+    "departments": "`departments` ( `DEP_ID` BIGINT UNSIGNED NOT NULL , `DEP_NAME` VARCHAR(250) NOT NULL , `DEP_CHAIR` VARCHAR(100) NOT NULL , PRIMARY KEY (`DEP_ID`), UNIQUE (`DEP_NAME`)) ENGINE = InnoDB"
+}
+
+tableAlterations = {
+    "ALTER TABLE `programs_courses` ADD CONSTRAINT `courses` FOREIGN KEY (`COUR_ID`) REFERENCES `courses`(`COUR_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `programs_courses` ADD CONSTRAINT `programs` FOREIGN KEY (`PROG_ID`) REFERENCES `programs`(`PROG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `coutcomes` ADD CONSTRAINT `Course ID` FOREIGN KEY (`COUR_ID`) REFERENCES `courses`(`COUR_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `programs` ADD CONSTRAINT `Degree ID` FOREIGN KEY (`DEG_ID`) REFERENCES `degrees`(`DEG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `programs` ADD CONSTRAINT `Super Program ID` FOREIGN KEY (`SP_ID`) REFERENCES `super_programs`(`SP_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `poutcomes` ADD CONSTRAINT `Program ID` FOREIGN KEY (`PROG_ID`) REFERENCES `programs`(`PROG_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+    "ALTER TABLE `plo_assessments` ADD CONSTRAINT `Program outcome ID` FOREIGN KEY (`POUT_ID`) REFERENCES `poutcomes`(`POUT_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT;",
+    "ALTER TABLE `plo_assessments` ADD CONSTRAINT `Discussion ID` FOREIGN KEY (`DISCUSSION_ID`) REFERENCES `discussions`(`DISCUSSION_ID`) ON DELETE RESTRICT ON UPDATE RESTRICT",
+}
 
 # To set the foreign keys when inserting data, the order should be
 # degree type&department > super_program > program > poutcomes & courses
@@ -28,6 +66,21 @@ class PLODB():
                                              db='WlH9s7G8vy',
                                              cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
+
+        '''cursor = self.cursor
+        #cursor.execute("SET autocommit = OFF;")
+        cursor.execute("SET foreign_key_checks = OFF;")
+
+        # Clear out database and rebuild table structure
+        cursor.execute("START TRANSACTION;")
+        for table in tables:
+            cursor.execute('DROP TABLE IF EXISTS %s CASCADE;' % table)
+            if tableDescriptions.__contains__(table):
+                cursor.execute('CREATE TABLE %s;' % tableDescriptions[table])
+        for alteration in tableAlterations:
+                cursor.execute(alteration)
+        cursor.execute("COMMIT;")
+        cursor.execute("SET foreign_key_checks = ON;")'''
 
     def __del__(self):
         "Close the database connection on destruction."
@@ -156,5 +209,5 @@ def main():
     print(ms_serv_cert['deg_type'])
     db.insert(ms_serv_cert)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

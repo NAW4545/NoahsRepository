@@ -20,11 +20,18 @@ class TestDatabase(unittest.TestCase):
         print('scraping pages: ')
         self.scraper = PLOScraper()
         allPgmList = self.scraper.getAllPLOs()
+<<<<<<< HEAD
 
         self.connection = pymysql.connect(host='localhost',
                                          user='root',
                                          password='',
                                          db='slo_db',
+=======
+        self.connection = pymysql.connect(host='remotemysql.com',
+                                         user='WlH9s7G8vy',
+                                         password='uH0YWN3msY',
+                                         db='WlH9s7G8vy',
+>>>>>>> master
                                          cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
         # scrape all programs and insert them into the database
@@ -35,7 +42,7 @@ class TestDatabase(unittest.TestCase):
             self.cursor.execute(statement)
 
         for pgmDict in allPgmList:
-            print("Inserting: ", f"{pgmDict['program']}")
+            print("Inserting: ", pgmDict['program'])
             db.insert(pgmDict)
 
     @classmethod

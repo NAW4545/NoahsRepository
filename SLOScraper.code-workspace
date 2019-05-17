@@ -1,5 +1,9 @@
 {
 	"folders": [
+        {
+            "name": "Database",
+            "path": "./database"
+        },
 		{
 			"name": "Scraper",
 			"path": "./scraper"
@@ -8,5 +12,8 @@
 			"name": "Web",
 			"path": "./web"
 		}
-	]
+	],
+	"settings": {
+		"editor.insertSpaces": false
+	}
 }

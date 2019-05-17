@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env -S python3 -B -OO -q
 from kivy.app import App
 from kivy.uix.button import Button
 
