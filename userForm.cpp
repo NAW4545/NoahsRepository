@@ -80,7 +80,7 @@ class updatePLOs {
     bool loadPLO(string filename);
 
     // output PLOs
-    string output(vector<programDetails> details);
+    string output();
     
     // Exit - non-commited changes discarded
     void Exit();
@@ -130,10 +130,11 @@ void updatePLOs::MainMenu() {
       cout << "Enter filename: ";
         cin >> filename;
       loadPLO(filename);
+      MainMenu();
       break;
     }
     case 5: {
-     // cout << output(details);
+      cout << output();
       break;
     }
     case 6: {
@@ -173,16 +174,27 @@ bool updatePLOs::loadPLO(string filename) {
     } 
     inputFile.close();
     cout << filename << " was loaded\n\n";
-    return true;
   }
+    return true;
+  
   cout << filename << " was not loaded!";
   return false;
 }
 
-string output(vector<programDetails> details) {
-
-
-  return "";
+string updatePLOs::output() {
+  // header
+  cout  << std::left << setw(3) << setfill(' ') << "prog_id"
+        << std::left << setw(15) << setfill(' ')  << "prog_name"
+        << std::left << setw(50) << setfill(' ') << "prog_desc"
+        << std::left << setw(3) << setfill(' ') << "deg_id"
+        << std::left << setw(3) << setfill(' ') << "sp_id"
+        << endl;
+  // output
+  ostringstream outs;
+  for (auto i = details.begin(); i != details.end(); i++) {
+    outs << *i << endl;
+  }
+  return outs.str(); 
 }
 
 void updatePLOs::Exit() {
