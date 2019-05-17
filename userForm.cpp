@@ -1,3 +1,14 @@
+/*
+Objective: 
+            *UI to fill out a form to update PLOs
+            *Minimze user error by 2-step verification (user/admin)
+            *User can review the data prior to submission to admin
+            *Admin can review chanes before pushin to live database
+            *Changes to DB are independently saved 
+            *Saved changes should be able to be re-integratd on demand
+*/
+
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -69,7 +80,7 @@ class updatePLOs {
     bool loadPLO(string filename);
 
     // output PLOs
-    string output(vector<programDetails> formula);
+    string output(vector<programDetails> details);
 
   private:
     // converts strings to usable datatypees
