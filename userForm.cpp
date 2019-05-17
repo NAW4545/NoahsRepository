@@ -49,11 +49,11 @@ struct programDetails {
   // Overlod operator <<
   // Allows convinient stream output of program details
   friend ostream& operator<< (ostream& outs, const programDetails& pd) {
-    outs << std::left << setw(3) << setfill(' ') << pd.prog_id
-         << std::left << setw(15) << setfill(' ')  << pd.prog_name
-         << std::left << setw(50) << setfill(' ') << pd.prog_desc
-         << std::left << setw(3) << setfill(' ') << pd.deg_id
-         << std::left << setw(3) << setfill(' ') << pd.sp_id;
+    outs << std::left << setw(8) << setfill(' ') << pd.prog_id
+         << std::left << setw(40) << setfill(' ')  << pd.prog_name
+         << std::left << setw(20) << setfill(' ') << pd.prog_desc
+         << std::left << setw(8) << setfill(' ') << pd.deg_id
+         << std::left << setw(8) << setfill(' ') << pd.sp_id;
     return outs;
   }
 };
@@ -183,16 +183,22 @@ bool updatePLOs::loadPLO(string filename) {
 
 string updatePLOs::output() {
   // header
-  cout  << std::left << setw(3) << setfill(' ') << "prog_id"
-        << std::left << setw(15) << setfill(' ')  << "prog_name"
-        << std::left << setw(50) << setfill(' ') << "prog_desc"
-        << std::left << setw(3) << setfill(' ') << "deg_id"
-        << std::left << setw(3) << setfill(' ') << "sp_id"
+  cout  << std::left << setw(15) << setfill(' ') << "prog_id"
+        << std::left << setw(37) << setfill(' ')  << "prog_name"
+        << std::left << setw(15) << setfill(' ') << "prog_desc"
+        << std::left << setw(8) << setfill(' ') << "deg_id"
+        << std::left << setw(4) << setfill(' ') << "sp_id"
         << endl;
   // output
   ostringstream outs;
-  for (auto i = details.begin(); i != details.end(); i++) {
-    outs << *i << endl;
+  for (auto i = 0; i <= details.size(); i++) {
+   // outs << *i << endl;
+   cout << std::left << setw(8) << setfill(' ') << details.at(i).prog_id
+        << std::left << setw(40) << setfill(' ')  << details.at(i).prog_name
+        << std::left << setw(20) << setfill(' ') << details.at(i).prog_desc.substr(0,17) 
+        << std::left << setw(8) << setfill(' ') << details.at(i).deg_id
+        << std::left << setw(8) << setfill(' ') << details.at(i).sp_id
+        << endl;
   }
   return outs.str(); 
 }
@@ -216,14 +222,14 @@ programDetails updatePLOs::tokenizePLO(string input) {
   // convert segment into integer
   getline(ss, pd.prog_desc, ';');
   getline(ss, convertDeg_id, ';');
-  ssCRN << " " << convertDeg_id;
-    ssCRN >> pd.deg_id;
-    ssCRN.str("");
-    ssCRN.clear();
-    getline(ss, convertSp_id, ';');
-  ssCRN << " " << convertSp_id;
-    ssCRN >> pd.sp_id;
-    ssCRN.str("");
-    ssCRN.clear();
+    ssCRN << " " << convertDeg_id;
+      ssCRN >> pd.deg_id;
+      ssCRN.str("");
+      ssCRN.clear();
+  getline(ss, convertSp_id, ';');
+    ssCRN << " " << convertSp_id;
+      ssCRN >> pd.sp_id;
+      ssCRN.str("");
+      ssCRN.clear();
   return pd;
 }
