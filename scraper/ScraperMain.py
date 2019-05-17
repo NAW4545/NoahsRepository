@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+#! /usr/bin/env python3
+DEBUG = False
+
+#install pips
+from os import system, name
+system('pip install -r requirements.txt')
+print("************PIPS INSTALLED**********")
+=======
 #! /usr/bin/env -S python3 -B -OO -q
 DEBUG = False
 
@@ -6,6 +15,7 @@ from os import system
 system('pip install -r requirements.txt')
 print("************PIPS INSTALLED**********")
 
+>>>>>>> master
 # Add subdirectories
 
 import sys

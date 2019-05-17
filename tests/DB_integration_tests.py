@@ -20,10 +20,18 @@ class TestDatabase(unittest.TestCase):
         print('scraping pages: ')
         self.scraper = PLOScraper()
         allPgmList = self.scraper.getAllPLOs()
+<<<<<<< HEAD
+
+        self.connection = pymysql.connect(host='localhost',
+                                         user='root',
+                                         password='',
+                                         db='slo_db',
+=======
         self.connection = pymysql.connect(host='remotemysql.com',
                                          user='WlH9s7G8vy',
                                          password='uH0YWN3msY',
                                          db='WlH9s7G8vy',
+>>>>>>> master
                                          cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.connection.cursor()
         # scrape all programs and insert them into the database
@@ -54,7 +62,6 @@ class TestDatabase(unittest.TestCase):
         "The database should have 190 programs in the programs table."
         self.cursor.execute("SELECT COUNT(prog_name) pCount FROM programs")
         self.assertEqual(self.cursor.fetchone()['pCount'], 190)
-
 
 
     # test whether a selection of programs have the expected data associated

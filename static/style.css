@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background: #9226ff;
+  color: #000000;
+}
+
+section {
+  background: #f4f4f4;
+  color: inherit;
+  margin: 10px auto;
+  padding: 5px 5px;
+  width: 550px;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  font-size: 0.9em;
+}
+
+input[type=submit] {
+  margin: 10px auto;
+  border-radius: 3px;
+  font-size: 1.2em;
+}
+
+select {
+  max-width: 90%;
+}
+
+.discuss_summary{
+  list-style-type: none;
+}
+
+.discuss_summary li:nth-child(even){
+  background-color: rgb(218, 218, 218);
+}
+
+a.plain, a.plain:hover, a.plain:visited {
+  text-decoration: none;
+  color:inherit;
+}
+
+#topnav {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+nav a, nav a:hover, nav a:visited {
+  background-color: white;
+  padding: 5px;
+  text-decoration: none;
+  color:inherit;
+}

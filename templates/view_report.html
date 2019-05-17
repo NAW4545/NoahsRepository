@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}Discussion Reports{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  <section>
+    <h2>Discussion Summary</h2>
+    <ul class="discuss_summary">
+    {% for key, val in discussion.items() %}
+        <li>{{ key }}: <p>{{ val }}</p></li>
+    {% endfor  %}
+    </ul>
+    <h2>Program Outcomes Assessed</h2>
+    {% for outcome in outcomes %}
+      <ul class="discuss_summary">
+        <li>{{ outcome['dep_name'] }}</li>
+        <li>{{ outcome['program'] }}</li>
+        <li>{{ outcome['pout_desc'] }}</li>
+      </ul>
+    {% endfor  %}
+  </section>
+{% endblock %}
