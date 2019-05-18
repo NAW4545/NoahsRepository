@@ -1,4 +1,4 @@
-To begin editing a PLO using the internal form:
+To begin editing a PLO using the internal form (in alpha - may not work as expected!):
 
 After completing the steps in the Installation guide
 
@@ -11,4 +11,18 @@ After completing the steps in the Installation guide
          * Do not enter any other numbers or characters than those listed in the column
          * Enter the number when prompted and nothing else, i.e. "1", then hit enter
 
+...after finishing the program executed in the previous step....
 
+5) a) Tell an admin! If you made any changes, they are now queued up in the file "userSubmittedChanges.txt". They can be manually added by       a developer or admin with access to the DB.
+       You're done here! 
+       
+...if you have permission to change DB...
+    b) Navigate back to editPLOs folder where we were earlier and double click "userSubmittedChanges.txt"
+
+6) Scroll to the bottom of "userSubmittedChanges.txt". Copy all the lines of your SQL command (I.e. UPDATE..Set..WHERE..AND...)
+
+7) Go back to the user_guide folder and open up the advanced guide. 
+
+8) Paste your SQL command copied from step 6 into the SQL tab
+
+9) Done! Database should be updated with your change.
