@@ -1,6 +1,6 @@
 #! /usr/bin/env -S python3 -B -OO -q
 DEBUG = False
-
+#test
 #install pips
 from os import system
 system('pip install -r requirements.txt')
